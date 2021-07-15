@@ -2,7 +2,7 @@
 
 ### Introduction
 
-PDI Templates the way our clientes keep partial or full for their vehicles stored in a remote repository. 
+PDI Templates the way our clients keep partial or full for their vehicles stored in a remote repository. 
 
 **Follow this handbook to upload your configurations.**
 
