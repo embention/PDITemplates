@@ -1,0 +1,21 @@
+<entry-xpcu8>
+    <id>325</id>
+    <filename>arb_xpcu8.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>4</producer>
+            <consumer>1</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>1</producer>
+            <consumer>4</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+    </data>
+</entry-xpcu8>

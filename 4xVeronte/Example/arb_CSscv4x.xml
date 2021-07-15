@@ -1,0 +1,12 @@
+<entry-cansuite-sc-v4x>
+    <id>292</id>
+    <filename>CSscv4x.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <serial-can/>
+    </data>
+</entry-cansuite-sc-v4x>

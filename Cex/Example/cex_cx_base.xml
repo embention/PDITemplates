@@ -1,0 +1,16 @@
+<entry-cex-base>
+    <id>299</id>
+    <filename>cx_base.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <jetiEnabled>0</jetiEnabled>
+        <txId>
+            <ext>0</ext>
+            <id>33</id>
+        </txId>
+    </data>
+</entry-cex-base>

@@ -1,0 +1,12 @@
+<entry-cansuite-in-v4x>
+    <id>254</id>
+    <filename>CSinv4x.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <can-in/>
+    </data>
+</entry-cansuite-in-v4x>

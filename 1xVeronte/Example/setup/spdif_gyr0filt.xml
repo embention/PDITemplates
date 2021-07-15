@@ -1,0 +1,13 @@
+<entry-gyr0filt>
+    <id>98</id>
+    <filename>gyr0filt.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <enable>1</enable>
+        <cutoff_freq>14.999998</cutoff_freq>
+    </data>
+</entry-gyr0filt>

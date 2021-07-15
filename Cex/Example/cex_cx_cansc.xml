@@ -1,0 +1,12 @@
+<entry-cex-cansuite-serialcan>
+    <id>317</id>
+    <filename>cx_cansc.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <serial-can/>
+    </data>
+</entry-cex-cansuite-serialcan>

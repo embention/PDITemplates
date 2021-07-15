@@ -1,0 +1,12 @@
+<entry-accsuite>
+    <id>2</id>
+    <filename>accsuite.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <selected>4</selected>
+    </data>
+</entry-accsuite>

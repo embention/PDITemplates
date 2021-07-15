@@ -1,0 +1,15 @@
+<entry-magneto>
+    <id>43</id>
+    <filename>magneto.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <mode>0</mode>
+        <e2dBb>1.0E-10</e2dBb>
+        <decimation>10</decimation>
+        <rpy>0</rpy>
+    </data>
+</entry-magneto>

@@ -1,0 +1,17 @@
+<entry-can-hs-tm>
+    <id>357</id>
+    <filename>canhstm.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <base_id>
+            <ext>0</ext>
+            <id>1024</id>
+        </base_id>
+        <decimation>9</decimation>
+        <rvars/>
+    </data>
+</entry-can-hs-tm>

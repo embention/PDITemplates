@@ -1,0 +1,17 @@
+<entry-arb-ap3>
+    <id>297</id>
+    <filename>arb_ap3.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <weights>
+            <str-tunarray-element>1.0</str-tunarray-element>
+            <str-tunarray-element>1.0</str-tunarray-element>
+            <str-tunarray-element>1.0</str-tunarray-element>
+        </weights>
+        <n_absolute_vars>0</n_absolute_vars>
+    </data>
+</entry-arb-ap3>

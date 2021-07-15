@@ -1,0 +1,21 @@
+<entry-attitude>
+    <id>45</id>
+    <filename>att.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <att_type>0</att_type>
+        <beta>0.025</beta>
+        <zeta>0.003</zeta>
+        <beta0>10.0</beta0>
+        <zeta0>0.0</zeta0>
+        <filt-steps>50</filt-steps>
+        <kfg>2.0</kfg>
+        <kfB>1.0</kfB>
+        <norm-filt>0.1</norm-filt>
+        <correct_inc>1</correct_inc>
+    </data>
+</entry-attitude>

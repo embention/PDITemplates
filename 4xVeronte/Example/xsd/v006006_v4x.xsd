@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v006006_v4x"
+   xmlns:v4x="http://www.embention.com/schema/v006006_v4x" xmlns:core="http://www.embention.com/schema/cfg006006">
+
+  <import namespace="http://www.embention.com/schema/cfg006006" schemaLocation="cfg006006.xsd"/>
+
+  <complexType name="entry-cansuite-in-v4x">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="254"></element>
+          <element name="filename" type="string"
+            fixed="CSinv4x.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="v4x:data-cansuite-in-v4x"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-arb-gpio">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="279"></element>
+          <element name="filename" type="string"
+            fixed="arb_gpio.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="v4x:data-arb-gpio"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cansuite-out-v4x">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="291"></element>
+          <element name="filename" type="string"
+            fixed="CSoutv4x.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="v4x:data-cansuite-out-v4x"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  <complexType name="entry-cansuite-sc-v4x">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="292"></element>
+          <element name="filename" type="string"
+            fixed="CSscv4x.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="v4x:data-cansuite-sc-v4x"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-arb-arbitration">
+    <sequence>
+      <element name="preferred" type="core:str-uinteger16"/>
+      <element name="method" type="core:str-uinteger16"/>
+      <element name="arb_tmin" type="core:str-realfloat32"/>
+      <element name="hysteresis" type="core:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <element name="cfg" type="v4x:cfg"></element>
+
+  <complexType name="cfg">
+    <all>
+      <element name="entry-xpccan" type="v4x:entry-arb-xpccan"></element>
+      <element name="entry-xpcu8" type="v4x:entry-arb-xpcu8"></element>
+      <element name="entry-scia" type="core:entry-scia"></element>
+      <element name="entry-scib" type="core:entry-scib"></element>
+      <element name="entry-scic" type="core:entry-scic"></element>
+      <element name="entry-cana" type="core:entry-cana"></element>
+      <element name="entry-canb" type="core:entry-canb"></element>
+      <element name="entry-ports" type="core:entry-ports"></element>
+      <element name="entry-cantm-p0" type="core:entry-cantm-p0"></element>
+      <element name="entry-cantm-c0" type="core:entry-cantm-c0"></element>
+      <element name="entry-fmset" type="core:entry-fmset"></element>
+      <element name="entry-cansuite-in-v4x" type="v4x:entry-cansuite-in-v4x"></element>
+      <element name="entry-cansuite-out-v4x" type="v4x:entry-cansuite-out-v4x"></element>
+      <element name="entry-cansuite-sc-v4x" type="v4x:entry-cansuite-sc-v4x"></element>
+      <element name="entry-arb-gpio" type="v4x:entry-arb-gpio"></element>
+      <element name="entry-arb-can" type="core:entry-arb-can"></element>
+      <element name="entry-arb-ap0" type="core:entry-arb-ap0"></element>
+      <element name="entry-arb-ap1" type="core:entry-arb-ap1"></element>
+      <element name="entry-arb-ap2" type="core:entry-arb-ap2"></element>
+      <element name="entry-arb-ap3" type="core:entry-arb-ap3"></element>
+      <element name="entry-arb-arbitration" type="core:entry-arb-arbitration"></element>
+	  <element name="entry-arb-initial-time" type="v4x:entry-arb-initial-time"></element>
+    </all>
+  </complexType>
+
+  <complexType name="entry-arb-xpcu8">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="325"></element>
+          <element name="filename" type="string"
+            fixed="arb_xpcu8.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="core:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-arb-xpccan">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="326"></element>
+          <element name="filename" type="string"
+            fixed="arb_xpccan.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="core:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="cansuite-in-v4x">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="10" maxOccurs="10" type="core:data-cansuite-in-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+
+  <complexType name="cansuite-out-v4x">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="10" maxOccurs="10" type="core:data-cansuite-out-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="serial-can-v4x">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="8" maxOccurs="8" type="core:data-serial-can-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cansuite-in-v4x">
+    <sequence>
+      <element name="can-in" type="v4x:cansuite-in-v4x"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-cansuite-out-v4x">
+    <sequence>
+      <element name="can-out" type="v4x:cansuite-out-v4x"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-cansuite-sc-v4x">
+    <sequence>
+      <element name="serial-can" type="v4x:serial-can-v4x"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-arb-gpio">
+    <sequence>
+      <element name="gpio-io01" type="core:data-gpio-entry"></element>
+      <element name="gpio-io02" type="core:data-gpio-entry"></element>
+      <element name="gpio-io03" type="core:data-gpio-entry"></element>
+      <element name="gpio-io04" type="core:data-gpio-entry"></element>
+      <element name="gpio-io05" type="core:data-gpio-entry"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="entry-arb-initial-time">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="327"></element>
+          <element name="filename" type="string"
+            fixed="arb_init.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="v4x:arb-initial-time"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="arb-initial-time">
+    <sequence>
+      <element name="max-vcc-wait-time" type="core:str-realfloat32"></element>
+    </sequence>
+  </complexType>
+</schema>

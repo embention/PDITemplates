@@ -1,0 +1,26 @@
+<entry-xpecap>
+    <id>100</id>
+    <filename>xpecap.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>3</producer>
+            <consumer>6</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>1</producer>
+            <consumer>1</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>0</producer>
+            <consumer>4</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+    </data>
+</entry-xpecap>
