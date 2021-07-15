@@ -1,0 +1,25 @@
+<entry-mcal>
+    <id>133</id>
+    <filename>mcal.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <map>
+            <type>9</type>
+            <tmeas>10.0</tmeas>
+            <know-ypr>
+                <known_ypr-y>
+                    <known_ypr>6</known_ypr>
+                    <yaw>0.0</yaw>
+                    <pitch>0.0</pitch>
+                    <roll>0.0</roll>
+                </known_ypr-y>
+            </know-ypr>
+            <calPabs>101325.0</calPabs>
+            <save_xcal>1</save_xcal>
+        </map>
+    </data>
+</entry-mcal>

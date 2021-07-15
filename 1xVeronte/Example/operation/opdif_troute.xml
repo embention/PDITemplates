@@ -1,0 +1,53 @@
+<entry-troute>
+    <id>67</id>
+    <filename>troute.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <first>0</first>
+        <points/>
+        <lines/>
+        <orthodromes/>
+        <arcs/>
+        <ellipses>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <f>45056</f>
+                    <turn>2</turn>
+                    <rotation>0.0</rotation>
+                    <a>750.8564</a>
+                    <b>750.8564</b>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <f>45057</f>
+                    <turn>2</turn>
+                    <rotation>-3.0405326</rotation>
+                    <a>762.5953</a>
+                    <b>781.3284</b>
+                </data>
+            </str-tunarray-element>
+        </ellipses>
+        <roses/>
+        <patches>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <next>65535</next>
+                    <type>4</type>
+                    <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <next>65535</next>
+                    <type>4</type>
+                    <elem>1</elem>
+                </data>
+            </str-tunarray-element>
+        </patches>
+    </data>
+</entry-troute>

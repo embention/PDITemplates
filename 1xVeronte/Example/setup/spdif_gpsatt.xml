@@ -1,0 +1,18 @@
+<entry-gpscompass>
+    <id>115</id>
+    <filename>gpsatt.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <gpscps-mask>0</gpscps-mask>
+        <gpscps-type>1</gpscps-type>
+        <gpscps-irover>0</gpscps-irover>
+        <gpscps-ibase>1</gpscps-ibase>
+        <gpscps-useexterr>0</gpscps-useexterr>
+        <gpscps-rposerr>20.0</gpscps-rposerr>
+        <gpscps-use3d>1</gpscps-use3d>
+    </data>
+</entry-gpscompass>

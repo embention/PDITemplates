@@ -1,0 +1,13 @@
+<entry-polymgr>
+    <id>21</id>
+    <filename>polymgr.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <polygons/>
+        <circles/>
+    </data>
+</entry-polymgr>

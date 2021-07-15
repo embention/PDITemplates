@@ -1,0 +1,12 @@
+<entry-velrefs>
+    <id>78</id>
+    <filename>velrefs.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <vel_user/>
+    </data>
+</entry-velrefs>

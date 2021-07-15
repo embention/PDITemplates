@@ -1,0 +1,21 @@
+<entry-xpccan>
+    <id>326</id>
+    <filename>arb_xpccan.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>9</producer>
+            <consumer>8</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>8</producer>
+            <consumer>9</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+    </data>
+</entry-xpccan>

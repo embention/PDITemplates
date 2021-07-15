@@ -1,0 +1,24 @@
+<entry-chklist>
+    <id>92</id>
+    <filename>chklist.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <other>
+                    <size>23</size>
+                    <task>0</task>
+                    <name>Calibrate APs Yaw</name>
+                    <phase>7</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-chklist>

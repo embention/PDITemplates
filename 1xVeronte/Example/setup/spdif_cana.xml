@@ -1,0 +1,13 @@
+<entry-cana>
+    <id>34</id>
+    <filename>cana.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <baudrate>1000000</baudrate>
+        <rx/>
+    </data>
+</entry-cana>

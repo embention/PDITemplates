@@ -1,0 +1,13 @@
+<entry-vmc-mangle-cal>
+    <id>282</id>
+    <filename>vmc_mang.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <invert>0</invert>
+        <angle_cal>0.0</angle_cal>
+    </data>
+</entry-vmc-mangle-cal>

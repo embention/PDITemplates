@@ -1,0 +1,15 @@
+<entry-dem>
+    <id>16</id>
+    <filename>dem.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <enable>1</enable>
+        <decimation>2</decimation>
+        <e2fine>400.0</e2fine>
+        <e2coarse>2500.0</e2coarse>
+    </data>
+</entry-dem>

@@ -1,0 +1,21 @@
+<entry-i2cdevs>
+    <id>117</id>
+    <filename>i2cdevs.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>4</minor>
+        <revision>21</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <type>1</type>
+                <address>98</address>
+                <iir_cfg>
+                    <enable>0</enable>
+                    <cutoff_freq>1.0</cutoff_freq>
+                </iir_cfg>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-i2cdevs>

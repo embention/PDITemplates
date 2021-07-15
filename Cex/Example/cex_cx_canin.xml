@@ -1,0 +1,12 @@
+<entry-cex-cansuite-in>
+    <id>315</id>
+    <filename>cx_canin.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>6</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <can-in/>
+    </data>
+</entry-cex-cansuite-in>
