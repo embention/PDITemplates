@@ -1,0 +1,17 @@
+<entry-arb-arbitration>
+    <id>298</id>
+    <filename>arb_arb.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>7</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <vars/>
+        <preferred>0</preferred>
+        <method>1</method>
+        <arb_tmin>0.2</arb_tmin>
+        <hysteresis>0.01</hysteresis>
+        <use_external_ap>0</use_external_ap>
+    </data>
+</entry-arb-arbitration>

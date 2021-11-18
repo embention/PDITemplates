@@ -1,0 +1,17 @@
+<entry-ports>
+    <id>64</id>
+    <filename>ports.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>7</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <msk-port>63</msk-port>
+                <data-ports-aux/>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-ports>

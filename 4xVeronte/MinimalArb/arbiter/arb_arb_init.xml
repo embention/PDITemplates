@@ -1,0 +1,12 @@
+<entry-arb-initial-time>
+    <id>327</id>
+    <filename>arb_init.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>7</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <max-vcc-wait-time>120.0</max-vcc-wait-time>
+    </data>
+</entry-arb-initial-time>
