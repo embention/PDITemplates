@@ -1,0 +1,22 @@
+<entry-obsense>
+    <id>69</id>
+    <filename>obsense.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <mode>65535</mode>
+        <cir2dnobs>64</cir2dnobs>
+        <obsType>0</obsType>
+        <obsRadio>0.0</obsRadio>
+        <ewrap>
+            <minEnabled>0</minEnabled>
+            <min>0.0</min>
+            <maxEnabled>0</maxEnabled>
+            <max>0.0</max>
+        </ewrap>
+        <tau>0.2</tau>
+    </data>
+</entry-obsense>

@@ -1,0 +1,18 @@
+<entry-mvxmap>
+    <id>132</id>
+    <filename>mvxmap.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <data-to-veronte-vref/>
+        <meta-mvxmap>
+            <map>
+                <data-veronte/>
+                <data-xplane/>
+            </map>
+        </meta-mvxmap>
+    </data>
+</entry-mvxmap>

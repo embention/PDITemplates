@@ -1,0 +1,34 @@
+<entry-canb>
+    <id>35</id>
+    <filename>canb.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <baudrate>1000000</baudrate>
+        <rx>
+            <str-tunarray-element>
+                <size>4</size>
+                <filter>
+                    <id>
+                        <ext>0</ext>
+                        <id>1302</id>
+                    </id>
+                    <mask>2047</mask>
+                </filter>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <size>4</size>
+                <filter>
+                    <id>
+                        <ext>0</ext>
+                        <id>1302</id>
+                    </id>
+                    <mask>2047</mask>
+                </filter>
+            </str-tunarray-element>
+        </rx>
+    </data>
+</entry-canb>
