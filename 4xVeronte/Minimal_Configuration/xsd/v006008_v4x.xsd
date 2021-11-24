@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v006007_v4x"
-   xmlns:v4x="http://www.embention.com/schema/v006007_v4x" xmlns:core="http://www.embention.com/schema/cfg006007">
-
-  <import namespace="http://www.embention.com/schema/cfg006007" schemaLocation="cfg006007.xsd"/>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v006008_v4x"
+   xmlns:v4x="http://www.embention.com/schema/v006008_v4x" xmlns:core="http://www.embention.com/schema/cfg006008">
+  <import namespace="http://www.embention.com/schema/cfg006008" schemaLocation="cfg006008.xsd"/>
 
   <complexType name="entry-cansuite-in-v4x">
     <complexContent>

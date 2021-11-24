@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/cfg006007"
-  xmlns:cfg="http://www.embention.com/schema/cfg006007">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/cfg006008"
+  xmlns:cfg="http://www.embention.com/schema/cfg006008">
   <simpleType name="str-uinteger16">
     <restriction base="unsignedShort"></restriction>
   </simpleType>
@@ -457,7 +457,6 @@
     <sequence>
       <element name="fields" type="cfg:data-fieldset-tm-array"/>
       <element name="endianness" type="cfg:data-enum-endianness"></element>
-      <element name="bitorder" type="cfg:data-enum-bitorder"/>
       <element name="time" type="cfg:str-realfloat32"/>
     </sequence>
   </complexType>
@@ -949,13 +948,16 @@
     </complexContent>
   </complexType>
 
-  <simpleType name="data-enum-bitorder">
-    <restriction base="cfg:data-enum-identifiable"/>
-  </simpleType>
-
   <simpleType name="data-enum-endianness">
     <restriction base="cfg:data-enum-identifiable"/>
   </simpleType>
+
+  <simpleType name="data-enum-crc_data_mode">
+    <restriction base="cfg:data-enum-identifiable">
+      <pattern value="0|1|2"/>
+    </restriction>
+  </simpleType>
+
 
   <!-- END COMMON -->
 
@@ -1315,19 +1317,40 @@
               </sequence>
             </complexType>
           </element>
-          <element name="real-bits">
+          <element name="real-ubits">
             <complexType>
               <sequence>
                 <element name="type">
                   <simpleType>
                     <restriction base="cfg:data-enum-field-type">
-                      <enumeration value="4"/>
+                      <enumeration value="5"/>
                     </restriction>
                   </simpleType>
                 </element>
                 <element name="id" type="cfg:str-uinteger16"/>
                 <element name="min" type="cfg:str-realfloat32"/>
                 <element name="max" type="cfg:str-realfloat32"/>
+                <element name="umin" type="cfg:str-uinteger32"/>
+                <element name="umax" type="cfg:str-uinteger32"/>
+                <element name="nbits" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="real-ibits">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="6"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="min" type="cfg:str-realfloat32"/>
+                <element name="max" type="cfg:str-realfloat32"/>
+                <element name="umin" type="cfg:str-integer32"/>
+                <element name="umax" type="cfg:str-integer32"/>
                 <element name="nbits" type="cfg:str-uinteger16"/>
               </sequence>
             </complexType>
@@ -1346,6 +1369,7 @@
                 <element name="bytes-back-from" type="cfg:str-uinteger16"/>
                 <element name="bytes-back-to" type="cfg:str-uinteger16"/>
                 <element name="endn" type="cfg:data-enum-endianness"/>
+                <element name="dmode" type="cfg:data-enum-crc_data_mode"/>
                 <element name="crc">
                   <complexType>
                     <sequence>
@@ -1478,7 +1502,6 @@
     <sequence>
       <element name="id" type="cfg:data-canid"></element>
       <element name="endian" type="cfg:data-enum-endianness"></element>
-      <element name="bitorder" type="cfg:data-enum-bitorder"></element>
       <element name="fields">
         <complexType>
           <complexContent>
