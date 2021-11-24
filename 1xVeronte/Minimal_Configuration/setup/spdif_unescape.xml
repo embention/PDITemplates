@@ -1,0 +1,13 @@
+<entry-unescape>
+    <id>96</id>
+    <filename>unescape.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <escape_byte>16</escape_byte>
+        <xor_value>0</xor_value>
+    </data>
+</entry-unescape>

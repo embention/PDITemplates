@@ -1,0 +1,28 @@
+<entry-kf>
+    <id>46</id>
+    <filename>kf.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <gpsok-time>5.0</gpsok-time>
+        <Qnfb>
+            <x>0.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </Qnfb>
+        <Qnwb>
+            <x>0.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </Qnwb>
+        <Qdwb>
+            <x>0.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </Qdwb>
+        <Qdem>1.0</Qdem>
+    </data>
+</entry-kf>
