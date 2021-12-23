@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v006008_vmcstp"
+  xmlns:vmcstp="http://www.embention.com/schema/v006008_vmcstp" xmlns:core="http://www.embention.com/schema/cfg006008">
+  <import namespace="http://www.embention.com/schema/cfg006008" schemaLocation="cfg006008.xsd"/>
+
+  <element name="cfg" type="vmcstp:cfg"></element>
+  <complexType name="entry-vmc-control-stepper">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="284"></element>
+          <element name="filename" type="string" fixed="vmc_cstp.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="vmcstp:vmc-control-stepper"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-stpcal">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="285"></element>
+          <element name="filename" type="string" fixed="vmc_scal.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="vmcstp:vmc-stpcal"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="cfg">
+    <all>
+      <element name="entry-cantm-p0" type="core:entry-cantm-p0"></element>
+      <element name="entry-fmset" type="core:entry-fmset"></element>
+      <element name="entry-scia" type="core:entry-scia"></element>
+      <element name="entry-vmc-mcan" type="core:entry-vmc-mcan"></element>
+      <element name="entry-vmc-mangle-cal" type="core:entry-vmc-mangle-cal"></element>
+      <element name="entry-vmc-control-stepper" type="vmcstp:entry-vmc-control-stepper"></element>
+      <element name="entry-vmc-stpcal" type="vmcstp:entry-vmc-stpcal"></element>
+      <element name="entry-vmc-bounds" type="core:entry-vmc-bounds"></element>
+    </all>
+  </complexType>
+
+  <complexType name="vmc-control-stepper">
+    <sequence>
+      <element name="pulse-freq-db" type="core:str-realfloat32"/>
+      <element name="speed-rl" type="core:data-ratelimiter"/>
+      <element name="pi-pos" type="core:control-pi"/>
+      <element name="speed" type="core:vmc-mangle-rate"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-stpcal">
+    <sequence>
+      <element name="ar2hz" type="core:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+</schema>
