@@ -1,0 +1,25 @@
+<entry-vmc-control-stepper>
+    <id>284</id>
+    <filename>vmc_cstp.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <pulse-freq-db>0.034</pulse-freq-db>
+        <speed-rl>
+            <lfalling>-5.0</lfalling>
+            <lrising>5.0</lrising>
+        </speed-rl>
+        <pi-pos>
+            <kp>0.6</kp>
+            <ti_1>0.0</ti_1>
+            <umin>-0.34</umin>
+            <umax>0.34</umax>
+        </pi-pos>
+        <speed>
+            <tau>0.001</tau>
+        </speed>
+    </data>
+</entry-vmc-control-stepper>

@@ -1,0 +1,12 @@
+<entry-vmc-stpcal>
+    <id>285</id>
+    <filename>vmc_scal.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <ar2hz>-16297.466</ar2hz>
+    </data>
+</entry-vmc-stpcal>
