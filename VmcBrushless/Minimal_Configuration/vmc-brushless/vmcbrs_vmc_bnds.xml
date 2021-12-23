@@ -1,0 +1,15 @@
+<entry-vmc-bounds>
+    <id>287</id>
+    <filename>vmc_bnds.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <rng-raw>
+            <center>0.0</center>
+            <delta>6.2831855</delta>
+        </rng-raw>
+    </data>
+</entry-vmc-bounds>

@@ -1,0 +1,13 @@
+<entry-vmc-eangle-cal>
+    <id>281</id>
+    <filename>vmc_eang.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <pole-pairs>7</pole-pairs>
+        <angle_cal>0.0</angle_cal>
+    </data>
+</entry-vmc-eangle-cal>

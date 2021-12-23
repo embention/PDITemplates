@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v006008_vmcbrs"
+   xmlns:vmcbrs="http://www.embention.com/schema/v006008_vmcbrs" xmlns:core="http://www.embention.com/schema/cfg006008">
+  <import namespace="http://www.embention.com/schema/cfg006008" schemaLocation="cfg006008.xsd"/>
+
+  <element name="cfg" type="vmcbrs:cfg"></element>
+  <complexType name="entry-vmc-eangle-cal">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="281"></element>
+          <element name="filename" type="string" fixed="vmc_eang.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="vmcbrs:vmc-eangle-cal"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-control-brushless">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="283"></element>
+          <element name="filename" type="string" fixed="vmc_cbl.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="vmcbrs:vmc-control-brushless"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="cfg">
+    <all>
+      <element name="entry-cantm-p0" type="core:entry-cantm-p0"></element>
+      <element name="entry-fmset" type="core:entry-fmset"></element>
+      <element name="entry-scia" type="core:entry-scia"></element>
+      <element name="entry-vmc-mcan" type="core:entry-vmc-mcan"></element>
+      <element name="entry-vmc-eangle-cal" type="vmcbrs:entry-vmc-eangle-cal"></element>
+      <element name="entry-vmc-mangle-cal" type="core:entry-vmc-mangle-cal"></element>
+      <element name="entry-vmc-control-brushless" type="vmcbrs:entry-vmc-control-brushless"></element>
+      <element name="entry-vmc-bounds" type="core:entry-vmc-bounds"></element>
+    </all>
+  </complexType>
+
+  <complexType name="vmc-control-brushless">
+    <sequence>
+      <element name="pi-iq" type="core:control-pi"/>
+      <element name="pi-id" type="core:control-pi"/>
+      <element name="pi-spd" type="core:control-pi"/>
+      <element name="speed-rl" type="core:data-ratelimiter"/>
+      <element name="pi-pos" type="core:control-pi"/>
+      <element name="speed" type="core:vmc-mangle-rate"/>
+      <element name="motor" type="core:vmc-motor"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-eangle-cal">
+    <sequence>
+      <element name="pole-pairs" type="core:str-uinteger16"/>
+      <element name="angle_cal" type="core:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+</schema>
