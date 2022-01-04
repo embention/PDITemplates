@@ -1,0 +1,35 @@
+<entry-cappps-cex>
+    <id>306</id>
+    <filename>cx_pps.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <c0>
+            <p2x_s>6.2831855</p2x_s>
+            <mean>5</mean>
+            <pmin_s>2.0E-4</pmin_s>
+            <toff_s>0.5</toff_s>
+        </c0>
+        <c1>
+            <p2x_s>6.2831855</p2x_s>
+            <mean>5</mean>
+            <pmin_s>2.0E-4</pmin_s>
+            <toff_s>0.5</toff_s>
+        </c1>
+        <c2>
+            <p2x_s>6.2831855</p2x_s>
+            <mean>5</mean>
+            <pmin_s>2.0E-4</pmin_s>
+            <toff_s>0.5</toff_s>
+        </c2>
+        <c3>
+            <p2x_s>6.2831855</p2x_s>
+            <mean>5</mean>
+            <pmin_s>2.0E-4</pmin_s>
+            <toff_s>0.5</toff_s>
+        </c3>
+    </data>
+</entry-cappps-cex>
