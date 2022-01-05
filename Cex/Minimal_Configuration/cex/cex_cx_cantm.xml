@@ -1,0 +1,13 @@
+<entry-can-fmset-p-cex>
+    <id>319</id>
+    <filename>cx_cantm.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>1</revision>
+    </version>
+    <data>
+        <data-fcan-producer-tx-ini/>
+        <data-fcan-producer-tx/>
+    </data>
+</entry-can-fmset-p-cex>
