@@ -95,50 +95,50 @@
         <gnss>
             <msgver>0</msgver>
             <numtrkchhw>0</numtrkchhw>
-            <numtrkchuse>0</numtrkchuse>
+            <numtrkchuse>255</numtrkchuse>
             <numcfgblks>6</numcfgblks>
             <cfgblocks>
                 <GPS>
                     <gnssid>0</gnssid>
-                    <restrkch>0</restrkch>
-                    <maxtrkch>0</maxtrkch>
+                    <restrkch>8</restrkch>
+                    <maxtrkch>16</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>0</flags>
+                    <flags>17891329</flags>
                 </GPS>
                 <QZSS>
-                    <gnssid>0</gnssid>
-                    <restrkch>0</restrkch>
-                    <maxtrkch>0</maxtrkch>
+                    <gnssid>1</gnssid>
+                    <restrkch>3</restrkch>
+                    <maxtrkch>3</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>0</flags>
+                    <flags>16842753</flags>
                 </QZSS>
                 <GLONASS>
-                    <gnssid>0</gnssid>
-                    <restrkch>0</restrkch>
-                    <maxtrkch>0</maxtrkch>
+                    <gnssid>2</gnssid>
+                    <restrkch>10</restrkch>
+                    <maxtrkch>18</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>0</flags>
+                    <flags>18939905</flags>
                 </GLONASS>
                 <BeiDou>
-                    <gnssid>0</gnssid>
-                    <restrkch>0</restrkch>
-                    <maxtrkch>0</maxtrkch>
+                    <gnssid>3</gnssid>
+                    <restrkch>2</restrkch>
+                    <maxtrkch>5</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>0</flags>
+                    <flags>17891329</flags>
                 </BeiDou>
                 <SBAS>
-                    <gnssid>0</gnssid>
+                    <gnssid>5</gnssid>
                     <restrkch>0</restrkch>
-                    <maxtrkch>0</maxtrkch>
+                    <maxtrkch>3</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>0</flags>
+                    <flags>17891329</flags>
                 </SBAS>
                 <Galileo>
-                    <gnssid>0</gnssid>
-                    <restrkch>0</restrkch>
-                    <maxtrkch>0</maxtrkch>
+                    <gnssid>6</gnssid>
+                    <restrkch>8</restrkch>
+                    <maxtrkch>14</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>0</flags>
+                    <flags>17891329</flags>
                 </Galileo>
             </cfgblocks>
         </gnss>
