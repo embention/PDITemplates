@@ -476,7 +476,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="64" type="cfg:data-fmset">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="104" type="cfg:data-fmset">
           </element>
         </sequence>
       </restriction>
@@ -1700,7 +1700,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="40" type="cfg:data-fmsgcanc"></element>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="80" type="cfg:data-fmsgcanc"></element>
         </sequence>
       </restriction>
     </complexContent>
