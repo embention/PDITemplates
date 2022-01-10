@@ -4424,6 +4424,7 @@
 
   <complexType name="data-unescape">
     <sequence>
+      <element name="mode" type="core:str-uinteger16"/>
       <element name="escape_byte" type="core:str-uinteger8"/>
       <element name="xor_value" type="core:str-uinteger8"/>
     </sequence>
