@@ -7,6 +7,6 @@
         <revision>1</revision>
     </version>
     <data>
-        <max-vcc-wait-time>120.0</max-vcc-wait-time>
+        <max-vcc-wait-time>0.0</max-vcc-wait-time>
     </data>
 </entry-arb-initial-time>
