@@ -1,0 +1,13 @@
+<entry-canb>
+    <id>35</id>
+    <filename>canb.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <baudrate>1000000</baudrate>
+        <rx/>
+    </data>
+</entry-canb>

@@ -1,0 +1,18 @@
+<entry-rtcm>
+    <id>144</id>
+    <filename>mrtcm.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <enabled>0</enabled>
+        <timeBetweeMsg>300.0</timeBetweeMsg>
+        <host/>
+        <port>0</port>
+        <user/>
+        <pass/>
+        <stream/>
+    </data>
+</entry-rtcm>

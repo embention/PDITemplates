@@ -1,0 +1,2951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/cfg006008"
+  xmlns:cfg="http://www.embention.com/schema/cfg006008">
+  <simpleType name="str-uinteger16">
+    <restriction base="unsignedShort"></restriction>
+  </simpleType>
+
+  <simpleType name="str-integer16">
+    <restriction base="short"></restriction>
+  </simpleType>
+
+  <simpleType name="str-uinteger8">
+    <restriction base="unsignedByte"></restriction>
+  </simpleType>
+
+  <simpleType name="str-uinteger32">
+    <restriction base="unsignedInt"></restriction>
+  </simpleType>
+
+  <simpleType name="str-integer32">
+    <restriction base="int"></restriction>
+  </simpleType>
+
+  <simpleType name="str-realfloat32">
+    <restriction base="float"></restriction>
+  </simpleType>
+
+  <simpleType name="str-realfloat64">
+    <restriction base="double"></restriction>
+  </simpleType>
+
+  <complexType name="str-align16"/>
+
+  <complexType name="str-matrix"/>
+
+  <complexType name="str-table3d"/>
+
+  <complexType name="str-tunarray-hdruarray"/>
+
+  <complexType name="str-tunarray-hdrmask"/>
+
+  <simpleType name="str-string">
+    <restriction base="string"></restriction>
+  </simpleType>
+
+  <simpleType name="str-string16">
+    <restriction base="string"></restriction>
+  </simpleType>
+
+  <simpleType name="str-boolean">
+    <restriction base="unsignedShort">
+      <pattern value="0|1"></pattern>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="str-bool16">
+    <restriction base="cfg:str-uinteger16">
+      <pattern value="0|1"></pattern>
+    </restriction>
+  </simpleType>
+
+  <!-- COMMON -->
+  <complexType name="entry-xpcu8">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="12"></element>
+          <element name="filename" type="string"
+            fixed="xpcu8.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-scib">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="31"></element>
+          <element name="filename" type="string"
+            fixed="scib.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-sci"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-scic">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="32"></element>
+          <element name="filename" type="string"
+            fixed="scic.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-sci"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cana">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="34"></element>
+          <element name="filename" type="string"
+            fixed="cana.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-can"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-canb">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="35"></element>
+          <element name="filename" type="string"
+            fixed="canb.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-can"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cantm-p0">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="36"></element>
+          <element name="filename" type="string"
+            fixed="cantmp0.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-fcan-producer"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cantm-c0">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="37"></element>
+          <element name="filename" type="string"
+            fixed="cantmc0.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-fcan-consumer"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-fmset">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="50"></element>
+          <element name="filename" type="string"
+            fixed="fmset.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-fmset-array"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-status">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="51"></element>
+          <element name="filename" type="string" fixed="status.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-status"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-fstr">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="61"></element>
+          <element name="filename" type="string" fixed="fstr.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-fstr"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-ports">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="64"></element>
+          <element name="filename" type="string"
+            fixed="ports.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-ports"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-tunnel">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="73"></element>
+          <element name="filename" type="string"
+            fixed="tunnel.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-tunnel"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-fmsg-p">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="74"></element>
+          <element name="filename" type="string" fixed="fmsg_p.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-fmsg"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-fmsg-c">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="75"></element>
+          <element name="filename" type="string" fixed="fmsg_c.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-fmsg"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-scia">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="81"></element>
+          <element name="filename" type="string"
+            fixed="scia.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-sci"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-xpccan">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="87"></element>
+          <element name="filename" type="string"
+            fixed="xpccan.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-arb-can">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="95"></element>
+          <element name="filename" type="string"
+                   fixed="arb_can.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-arb-can"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-mcan">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="280"></element>
+          <element name="filename" type="string" fixed="vmc_can.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-cancfg"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-mangle-cal">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="282"></element>
+          <element name="filename" type="string" fixed="vmc_mang.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-mangle-cal"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  <complexType name="entry-vmc-bounds">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="287"></element>
+          <element name="filename" type="string" fixed="vmc_bnds.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-bounds"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-arb-arbitration">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="298"></element>
+          <element name="filename" type="string"
+                   fixed="arb_arb.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-arb-arbitration"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-xpcu8">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="301"></element>
+          <element name="filename" type="string"
+            fixed="cx_pcu8.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-xpccan">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="302"></element>
+          <element name="filename" type="string"
+            fixed="cx_pccan.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  
+    <complexType name="entry-fmset-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="311"></element>
+          <element name="filename" type="string"
+            fixed="cx_fmset.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-fmset-array-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-fmsg_p-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="313"></element>
+          <element name="filename" type="string"
+            fixed="cx_fmsgp.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-fmsg-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-fmsg_c-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="314"></element>
+          <element name="filename" type="string"
+            fixed="cx_fmsgc.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-fmsg-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-cansuite-in">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="315"></element>
+          <element name="filename" type="string"
+            fixed="cx_canin.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-cansuite-in"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-cansuite-out">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="316"></element>
+          <element name="filename" type="string"
+            fixed="cx_canou.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-cansuite-out-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-cansuite-serialcan">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="317"></element>
+          <element name="filename" type="string"
+            fixed="cx_cansc.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-cansuite-sc-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-can-fmset-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="318"></element>
+          <element name="filename" type="string"
+            fixed="cx_can_fmset.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-fmset-can-array-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-can-fmset-p-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="319"></element>
+          <element name="filename" type="string"
+            fixed="cx_cantm.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-can-producer-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-vmotor">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="340"></element>
+          <element name="filename" type="string" fixed="vmc_vmotor.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-vmotor"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-motor">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="341"></element>
+          <element name="filename" type="string" fixed="vmc_motor.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-motor"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-smobserver">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="342"></element>
+          <element name="filename" type="string" fixed="vmc_smob.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-smobserver"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-sensor_sincos">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="349"></element>
+          <element name="filename" type="string" fixed="vmc_sincos.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-sincos"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-can-hs-tm">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="357"></element>
+          <element name="filename" type="string" fixed="canhstm.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:can-hs-tm"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-encoder">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="359"></element>
+          <element name="filename" type="string" fixed="encoder.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-encoder"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-arb-ap">
+    <sequence>
+      <element name="weights" type="cfg:data-farray"/>
+      <element name="n_absolute_vars" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fcan-producer">
+    <sequence>
+      <element name="data-fcan-producer-tx-ini" type="cfg:data-fmsgcan-producer"></element>
+      <element name="data-fcan-producer-tx" type="cfg:data-fmsgcan-producer"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fcan-consumer">
+    <sequence>
+      <element name="data-fcan-consumer-rx" type="cfg:data-fmsgcan-consumer"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fieldset">
+    <sequence>
+      <element name="data-fieldset" type="cfg:data-field-choice"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ports">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="4">
+            <complexType>
+              <complexContent>
+                <restriction base="cfg:str-tunarray-element">
+                  <sequence>
+                    <element name="data" type="cfg:data-ports-detail"></element>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-gpio-entry">
+    <sequence>
+      <element name="io" type="cfg:str-uinteger16"></element>
+      <element name="pu" type="cfg:str-uinteger16"></element>
+      <element name="mux" type="cfg:str-uinteger16"></element>
+      <element name="q" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmset">
+    <sequence>
+      <element name="fields" type="cfg:data-fieldset-tm-array"/>
+      <element name="endianness" type="cfg:data-enum-endianness"></element>
+      <element name="time" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fieldset-tm-array">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="150" type="cfg:data-fieldset">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmset-array">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="104" type="cfg:data-fmset">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  
+  <complexType name="data-ports-detail">
+    <sequence>
+      <element name="msk-port" type="cfg:str-uinteger32"/>
+      <element name="data-ports-aux" type="cfg:data-ports-aux"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ports-aux">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="20" type="cfg:data-ports-route"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-ports-route">
+    <sequence>
+      <element name="address" type="cfg:data-address"></element>
+      <element name="port" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-tunnel">
+    <sequence>
+      <element name="tunnel1" type="cfg:data-tunnel-entry"></element>
+      <element name="tunnel2" type="cfg:data-tunnel-entry"></element>
+      <element name="tunnel3" type="cfg:data-tunnel-entry"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-tunnel-entry">
+    <sequence>
+      <element name="address" type="cfg:data-address"/>
+      <element name="port" type="cfg:str-uinteger16"/>
+      <element name="dts" type="cfg:str-realfloat32"/>
+      <element name="dataBytes" type="cfg:str-uinteger16"/>
+      <element name="parsing" type="cfg:data-enum-tunnel-parsing"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ecap0">
+    <sequence>
+      <element name="enable" type="cfg:str-bool16"/>
+      <element name="gpio-id" type="cfg:str-uinteger16"/>
+      <element name="wrap" type="cfg:str-uinteger16"/>
+      <element name="trigger1" type="cfg:str-uinteger16"/>
+      <element name="trigger2" type="cfg:str-uinteger16"/>
+      <element name="trigger3" type="cfg:str-uinteger16"/>
+      <element name="trigger4" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ecap">
+    <sequence>
+      <element name="ecap1" type="cfg:data-ecap0"/>
+      <element name="ecap2" type="cfg:data-ecap0"/>
+      <element name="ecap3" type="cfg:data-ecap0"/>
+      <element name="ecap4" type="cfg:data-ecap0"/>
+      <element name="ecap5" type="cfg:data-ecap0"/>
+      <element name="ecap6" type="cfg:data-ecap0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-limit">
+    <sequence>
+      <element name="variable" type="cfg:data-vref"/>
+      <element name="type" type="cfg:data-enum-identifiable"/>
+      <element name="value" type="cfg:data-vref"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-vars">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="16" type="cfg:data-var"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-var">
+    <sequence>
+      <element name="destination" type="cfg:data-vref"/>
+      <element name="source" type="cfg:data-vref"/>
+    </sequence>
+  </complexType>
+
+  <simpleType name="data-enum-vref-type">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <complexType name="data-vref">
+    <complexContent>
+      <extension base="cfg:str-choice-match">
+        <choice>
+          <element name="vref-var">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-vref-type">
+                      <pattern value="0|1|2|65535"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="vref-kval">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-vref-type">
+                      <enumeration value="65534"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="kval" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+        </choice>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <simpleType name="data-enum-rvarid">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <complexType name="data-gpio">
+    <sequence>
+      <element name="gpio-pwm000" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm001" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm002" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm003" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm004" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm005" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm006" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm007" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm008" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm009" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm010" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm011" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm012" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm013" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm014" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-pwm015" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-io01" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-io02" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-io03" type="cfg:data-gpio-entry"></element>
+      <element name="gpio-io04" type="cfg:data-gpio-entry"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="control-pi">
+    <sequence>
+      <element name="kp" type="cfg:str-realfloat32"/>
+      <element name="ti_1" type="cfg:str-realfloat32"/>
+      <element name="umin" type="cfg:str-realfloat32"/>
+      <element name="umax" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ppm">
+    <sequence>
+      <element name="puls_pol" type="cfg:str-uinteger16"></element>
+      <element name="vguard" type="cfg:str-realfloat32"></element>
+      <element name="puls_min" type="cfg:str-realfloat32"></element>
+      <element name="puls_max" type="cfg:str-realfloat32"></element>
+      <element name="valid_min" type="cfg:str-realfloat32"></element>
+      <element name="valid_max" type="cfg:str-realfloat32"></element>
+      <element name="pos_min" type="cfg:str-realfloat32"></element>
+      <element name="pos_max" type="cfg:str-realfloat32"></element>
+      <element name="ch_num" type="cfg:str-uinteger16"></element>
+      <element name="chmsk" type="cfg:str-uinteger32"></element>
+      <element name="fmsk" type="cfg:str-uinteger32"></element>
+      <element name="fgl" type="cfg:data-fgl"></element>
+      <element name="tr" type="cfg:data-ppm-src-tr"></element>
+      <element name="stick_cap" type="cfg:data-stick-cap"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-stick-cap">
+    <sequence>
+      <element name="stick-cap-entry">
+        <complexType>
+          <complexContent>
+            <restriction base="cfg:str-tunarray">
+              <sequence>
+                <element name="str-tunarray-element" minOccurs="0" maxOccurs="2">
+                  <complexType>
+                    <complexContent>
+                      <restriction base="cfg:str-tunarray-element">
+                        <sequence>
+                          <element name="data" type="cfg:data-stick-cap-entry"></element>
+                        </sequence>
+                      </restriction>
+                    </complexContent>
+                  </complexType>
+                </element>
+              </sequence>
+            </restriction>
+          </complexContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-stick-cap-entry">
+    <sequence>
+      <element name="mode-choice" type="cfg:stick-cap-choice"></element>
+      <element name="src_port" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="stick-cap-choice">
+    <complexContent>
+      <extension base="cfg:str-choice-match">
+        <choice>
+          <element name="local">
+            <complexType>
+              <sequence>
+                <element name="mode">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-identifiable">
+                      <enumeration value="1"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="ich" type="cfg:str-uinteger16"></element>
+                <element name="address" type="cfg:data-address"></element>
+                <element name="period_low_s" type="cfg:str-realfloat32"></element>
+                <element name="period_hgh_s" type="cfg:str-realfloat32"></element>
+                <element name="period_delta" type="cfg:str-uinteger16"></element>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="other">
+            <complexType>
+              <sequence>
+                <element name="mode">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-identifiable">
+                      <pattern value="0|2"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="ich" type="cfg:str-uinteger16"></element>
+              </sequence>
+            </complexType>
+          </element>
+        </choice>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fgl">
+    <sequence>
+      <element name="delta_min" type="cfg:str-realfloat32"></element>
+      <element name="delta_max" type="cfg:str-realfloat32"></element>
+      <element name="delta_min_alpha" type="cfg:str-realfloat32"></element>
+      <element name="delta_max_alpha" type="cfg:str-realfloat32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmsg">
+    <sequence>
+      <element name="fmsg1" type="cfg:data-fmset-consumer-mset"></element>
+      <element name="fmsg2" type="cfg:data-fmset-consumer-mset"></element>
+      <element name="fmsg3" type="cfg:data-fmset-consumer-mset"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmset-consumer-mset">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fmset-consumer-mset-entry"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmset-consumer-mset-entry">
+    <sequence>
+      <element name="fmsg-id" type="cfg:str-uinteger16"></element>
+      <element name="time" type="cfg:str-realfloat32"></element>
+      <element name="type" type="cfg:str-uinteger16"></element>
+      <element name="bitid" type="cfg:str-integer16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmset-consumer">
+    <sequence>
+      <element name="mset-rx" type="cfg:data-fmset-consumer-mset"></element>
+      <element name="mset-tx" type="cfg:data-fmset-consumer-mset"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ppm-src-tr">
+    <sequence>
+      <element name="ch01" type="cfg:data-stk-src-tr"></element>
+      <element name="ch02" type="cfg:data-stk-src-tr"></element>
+      <element name="ch03" type="cfg:data-stk-src-tr"></element>
+      <element name="ch04" type="cfg:data-stk-src-tr"></element>
+      <element name="ch05" type="cfg:data-stk-src-tr"></element>
+      <element name="ch06" type="cfg:data-stk-src-tr"></element>
+      <element name="ch07" type="cfg:data-stk-src-tr"></element>
+      <element name="ch08" type="cfg:data-stk-src-tr"></element>
+      <element name="ch09" type="cfg:data-stk-src-tr"></element>
+      <element name="ch10" type="cfg:data-stk-src-tr"></element>
+      <element name="ch11" type="cfg:data-stk-src-tr"></element>
+      <element name="ch12" type="cfg:data-stk-src-tr"></element>
+      <element name="ch13" type="cfg:data-stk-src-tr"></element>
+      <element name="ch14" type="cfg:data-stk-src-tr"></element>
+      <element name="ch15" type="cfg:data-stk-src-tr"></element>
+      <element name="ch16" type="cfg:data-stk-src-tr"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-stk-src-tr">
+    <sequence>
+      <element name="trim" type="cfg:str-uinteger16"></element>
+      <element name="type-choice">
+        <complexType>
+          <complexContent>
+            <extension base="cfg:str-choice-match">
+              <choice>
+                <element name="direct">
+                  <complexType>
+                    <sequence>
+                      <element name="type">
+                        <simpleType>
+                          <restriction base="cfg:str-uinteger8">
+                            <enumeration value="0"/>
+                          </restriction>
+                        </simpleType>
+                      </element>
+                    </sequence>
+                  </complexType>
+                </element>
+                <element name="exponential">
+                  <complexType>
+                    <sequence>
+                      <element name="type">
+                        <simpleType>
+                          <restriction base="cfg:str-uinteger8">
+                            <pattern value="1|2|3"/>
+                          </restriction>
+                        </simpleType>
+                      </element>
+                      <element name="stk-src-k" type="cfg:str-uinteger8"/>
+                      <element name="stk-src-r" type="cfg:str-uinteger16"/>
+                    </sequence>
+                  </complexType>
+                </element>
+              </choice>
+            </extension>
+          </complexContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-rtable-1">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535">
+            <complexType>
+              <sequence>
+                <element name="x" type="cfg:str-realfloat32"/>
+                <element name="y1" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cap-pulse">
+    <sequence>
+      <element name="cap-pulse-1" type="cfg:data-cap-pulse0"/>
+      <element name="cap-pulse-2" type="cfg:data-cap-pulse0"/>
+      <element name="cap-pulse-3" type="cfg:data-cap-pulse0"/>
+      <element name="cap-pulse-4" type="cfg:data-cap-pulse0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-cap-pulse0">
+    <sequence>
+      <element name="type" type="cfg:str-uinteger16"/>
+      <element name="t2v" type="cfg:data-rtable-1"/>
+      <element name="tout" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-radrng">
+    <sequence>
+      <element name="center" type="cfg:str-realfloat32"/>
+      <element name="delta" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-address">
+    <sequence>
+      <element name="uav" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-arb-ap-cfgs">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="4" type="cfg:data-arb-ap-cfg"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-arbitration-cfg">
+    <sequence>
+      <element name="preferred" type="cfg:str-uinteger16"></element>
+      <element name="method" type="cfg:str-uinteger16"></element>
+      <element name="arb_tmin" type="cfg:str-realfloat32"></element>
+      <element name="arb_hysteresis" type="cfg:str-realfloat32"></element>
+      <element name="aps_cfg" type="cfg:data-arb-ap-cfgs"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-arb-ap-cfg">
+    <sequence>
+      <element name="weights" type="cfg:data-rvector"></element>
+      <element name="n_absolute_vars" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+
+  <complexType name="data-farray">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="cfg:str-realfloat32"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-rvector">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="256" type="cfg:str-realfloat32"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <simpleType name="data-enum-endianness">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <simpleType name="data-enum-crc_data_mode">
+    <restriction base="cfg:data-enum-identifiable">
+      <pattern value="0|1|2"/>
+    </restriction>
+  </simpleType>
+
+
+  <!-- END COMMON -->
+
+  <complexType name="str-meta">
+    <sequence>
+      <any minOccurs="0" maxOccurs="unbounded"></any>
+    </sequence>
+  </complexType>
+
+  <complexType name="str-metaext">
+  </complexType>
+
+  <complexType name="str-choice-match">
+  </complexType>
+
+  <complexType name="data-empty">
+    <sequence/>
+  </complexType>
+
+  <complexType name="data-u8array">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="cfg:str-uinteger8"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-uarray">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="cfg:str-uinteger16"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-version">
+    <sequence>
+      <element  name="major" type="cfg:str-uinteger16"/>
+      <element name="minor" type="cfg:str-uinteger16"/>
+      <element name="revision" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="entry">
+    <sequence>
+      <element name="id" type="short"></element>
+      <element name="filename" type="string"></element>
+      <element name="version" type="cfg:data-version"></element>
+      <element name="data" minOccurs="0"></element>
+    </sequence>
+  </complexType>
+
+  <element name="cfg" type="cfg:cfg"></element>
+
+  <complexType name="cfg">
+    <sequence>
+      <!-- <element name="entry-meta-op" type="cfg:entry-meta-op"></element>
+      <element minOccurs="0" name="entry-scia" type="cfg:entry-scia"></element>
+      <element minOccurs="0" name="entry-scib" type="cfg:entry-scib"></element>
+      <element minOccurs="0" name="entry-scic" type="cfg:entry-scic"></element>
+      <element minOccurs="0" name="entry-cana" type="cfg:entry-cana"></element>
+      <element minOccurs="0" name="entry-canb" type="cfg:entry-canb"></element>
+      <element minOccurs="0" name="entry-cantm-p0" type="cfg:entry-cantm-p0"></element>
+      <element minOccurs="0" name="entry-cantm-c0" type="cfg:entry-cantm-c0"></element>
+      <element minOccurs="0" name="entry-fmset" type="cfg:entry-fmset"></element>
+      <element minOccurs="0" name="entry-xpcu8" type="cfg:entry-xpcu8"></element>
+      <element minOccurs="0" name="entry-xpccan" type="cfg:entry-xpccan"></element>-->
+      <!--<element minOccurs="0" name="entry-ports" type="cfg:entry-ports"></element>
+      <element minOccurs="0" name="entry-tunnel" type="cfg:entry-tunnel"></element>-->
+
+      <!-- <element minOccurs="0" name="entry-canarb-v4x" type="cfg:entry-canarb-v4x"></element>
+       <element minOccurs="0" name="entry-arb-ap0" type="cfg:entry-arb-ap0"></element>
+       <element minOccurs="0" name="entry-arb-ap1" type="cfg:entry-arb-ap1"></element>
+       <element minOccurs="0" name="entry-arb-ap2" type="cfg:entry-arb-ap2"></element>
+       <element minOccurs="0" name="entry-arb-ap3" type="cfg:entry-arb-ap3"></element>
+       <element minOccurs="0" name="entry-arb-arbitration" type="cfg:entry-arb-arbitration"></element>-->
+
+    </sequence>
+  </complexType>
+
+  <simpleType name="data-enum-identifiable">
+    <restriction base="cfg:str-uinteger16"/>
+  </simpleType>
+
+  <simpleType name="data-enum-configid">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <simpleType name="data-enum-vdstid">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <simpleType name="data-enum-field-type">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <simpleType name="data-enum-baudrate">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <simpleType name="data-enum-action-type">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <simpleType name="data-enum-tunnel-parsing">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <simpleType name="data-enum-controller-type">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+
+  <simpleType name="data-enum-patchset-prjtype">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <simpleType name="data-enum-turn-direction">
+    <restriction base="cfg:data-enum-identifiable">
+      <pattern value="0|1|2"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="data-enum-fpid">
+    <restriction base="cfg:data-enum-identifiable"/>
+  </simpleType>
+
+  <complexType name="str-tunarray-element">
+    <sequence>
+      <any></any>
+    </sequence>
+    <attribute name="str-tunarray-key" use="required">
+      <simpleType>
+        <restriction base="unsignedShort">
+          <minInclusive value="0"></minInclusive>
+          <maxInclusive value="65535"></maxInclusive>
+        </restriction>
+      </simpleType>
+    </attribute>
+  </complexType>
+
+  <complexType name="str-array-s16"/>
+  <complexType name="str-tunarray">
+    <sequence>
+      <element minOccurs="0" maxOccurs="65535" name="str-tunarray-element"/>
+    </sequence>
+  </complexType>
+  <complexType name="str-htunarray"/>
+  <complexType name="str-tunbigarray"/>
+  <complexType name="data-limits-tunarray">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element"
+            minOccurs="0" maxOccurs="256">
+            <complexType>
+              <complexContent>
+                <restriction base="cfg:str-tunarray-element">
+                  <sequence>
+                    <element name="data"
+                      type="cfg:data-limit">
+                    </element>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <simpleType xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    name="str-rawb64">
+    <restriction base="xsd:base64Binary"/>
+  </simpleType>
+
+  <complexType name="data-rvector2">
+    <sequence>
+      <element name="x" type="cfg:str-realfloat32"></element>
+      <element name="y" type="cfg:str-realfloat32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ecef">
+    <sequence>
+      <element name="x" type="cfg:str-integer32"></element>
+      <element name="y" type="cfg:str-integer32"></element>
+      <element name="z" type="cfg:str-integer32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-rmatrix">
+    <complexContent>
+      <extension base="cfg:str-matrix">
+        <sequence>
+          <element name="rmat-column" minOccurs="0" maxOccurs="65535">
+            <complexType>
+              <sequence>
+                <element name="rmat-element" type="cfg:str-realfloat32" minOccurs="0" maxOccurs="65535"/>
+              </sequence>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-rawpcfg">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="cfg:str-uinteger16"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+
+  <complexType name="data-uvector-16">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="256" type="cfg:str-uinteger16"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-bvector">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="256" type="cfg:str-bool16"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-relay">
+    <sequence>
+      <element name="d" type="cfg:str-realfloat32"/>
+      <element name="flag-respect">
+        <complexType>
+          <complexContent>
+            <extension base="cfg:str-choice-match">
+              <choice>
+                <element name="flag-false-var">
+                  <complexType>
+                    <sequence>
+                      <element name="flag-respect">
+                        <simpleType>
+                          <restriction base="cfg:str-bool16">
+                            <enumeration value="0"></enumeration>
+                          </restriction>
+                        </simpleType>
+                      </element>
+                      <element name="uf" type="cfg:str-realfloat32"/>
+                    </sequence>
+                  </complexType>
+                </element>
+                <element name="flag-true-var">
+                  <complexType>
+                    <sequence>
+                      <element name="flag-respect">
+                        <simpleType>
+                          <restriction base="cfg:str-bool16">
+                            <enumeration value="1"></enumeration>
+                          </restriction>
+                        </simpleType>
+                      </element>
+                    </sequence>
+                  </complexType>
+                </element>
+              </choice>
+            </extension>
+          </complexContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-canid">
+    <sequence>
+      <element name="ext" type="cfg:str-boolean"/>
+      <element name="id" type="cfg:str-uinteger32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-field-choice">
+    <complexContent>
+      <extension base="cfg:str-choice-match">
+        <choice>
+          <element name="real-float32">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="0"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="scale" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="real-fixed">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="1"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="min" type="cfg:str-realfloat32"/>
+                <element name="max" type="cfg:str-realfloat32"/>
+                <element name="ndec" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="uinteger16">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="2"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="min" type="cfg:str-realfloat32"/>
+                <element name="max" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="bit">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="3"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="real-ubits">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="5"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="min" type="cfg:str-realfloat32"/>
+                <element name="max" type="cfg:str-realfloat32"/>
+                <element name="umin" type="cfg:str-uinteger32"/>
+                <element name="umax" type="cfg:str-uinteger32"/>
+                <element name="nbits" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="real-ibits">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="6"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="min" type="cfg:str-realfloat32"/>
+                <element name="max" type="cfg:str-realfloat32"/>
+                <element name="umin" type="cfg:str-integer32"/>
+                <element name="umax" type="cfg:str-integer32"/>
+                <element name="nbits" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="checksum">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="7"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="bytes-back-from" type="cfg:str-uinteger16"/>
+                <element name="bytes-back-to" type="cfg:str-uinteger16"/>
+                <element name="endn" type="cfg:data-enum-endianness"/>
+                <element name="dmode" type="cfg:data-enum-crc_data_mode"/>
+                <element name="crc">
+                  <complexType>
+                    <sequence>
+                      <element name="nbits" type="cfg:str-uinteger16"/>
+                      <element name="polynomial" type="cfg:str-integer32"/>
+                      <element name="start-value" type="cfg:str-integer32"/>
+                      <element name="final-xor" type="cfg:str-integer32"/>
+                      <element name="reflect-in" type="cfg:str-boolean"/>
+                      <element name="reflect-out" type="cfg:str-boolean"/>
+                    </sequence>
+                  </complexType>
+                </element>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="matcher">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="8"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="nbits" type="cfg:str-uinteger16"/>
+                <element name="value" type="cfg:str-uinteger32"/>
+                <element name="mask" type="cfg:str-uinteger32"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="skip">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="9"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="nbits" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="pos_abs">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="10"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="pos_feature">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="11"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="strchar_real">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="12"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="nintpart" type="cfg:str-uinteger8"/>
+                <element name="ndecpart" type="cfg:str-uinteger8"/>
+                <element name="chardiv" type="cfg:str-uinteger8"/>
+                <element name="enchardiv" type="cfg:str-boolean"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="pos_abs_llh">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="13"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="scale" type="cfg:str-realfloat64"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="real-float64">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="14"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="scale" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+        </choice>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-canmsg">
+    <sequence>
+      <element name="id" type="cfg:data-canid"></element>
+      <element name="endian" type="cfg:data-enum-endianness"></element>
+      <element name="fields">
+        <complexType>
+          <complexContent>
+            <restriction base="cfg:str-tunarray">
+              <sequence>
+                <element name="str-tunarray-element" minOccurs="0" maxOccurs="4">
+                  <complexType>
+                    <complexContent>
+                      <restriction base="cfg:str-tunarray-element">
+                        <sequence>
+                          <element name="data" type="cfg:data-field-choice"></element>
+                        </sequence>
+                      </restriction>
+                    </complexContent>
+                  </complexType>
+                </element>
+              </sequence>
+            </restriction>
+          </complexContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-rxtelemetry">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="4" type="cfg:data-canid"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cantxmsg">
+    <complexContent>
+      <extension base="cfg:data-canmsg">
+        <sequence>
+          <element name="decimate" type="cfg:str-uinteger16"/>
+          <element name="offset" type="cfg:str-uinteger16"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-canrxmsg">
+    <complexContent>
+      <extension base="cfg:data-canmsg">
+        <sequence>
+          <element name="filter">
+            <complexType>
+              <sequence>
+                <element name="mask0" type="cfg:str-uinteger8"/>
+                <element name="mask1" type="cfg:str-uinteger8"/>
+                <element name="mask2" type="cfg:str-uinteger8"/>
+                <element name="mask3" type="cfg:str-uinteger8"/>
+                <element name="mask4" type="cfg:str-uinteger8"/>
+                <element name="mask5" type="cfg:str-uinteger8"/>
+                <element name="mask6" type="cfg:str-uinteger8"/>
+                <element name="mask7" type="cfg:str-uinteger8"/>
+                <element name="value0" type="cfg:str-uinteger8"/>
+                <element name="value1" type="cfg:str-uinteger8"/>
+                <element name="value2" type="cfg:str-uinteger8"/>
+                <element name="value3" type="cfg:str-uinteger8"/>
+                <element name="value4" type="cfg:str-uinteger8"/>
+                <element name="value5" type="cfg:str-uinteger8"/>
+                <element name="value6" type="cfg:str-uinteger8"/>
+                <element name="value7" type="cfg:str-uinteger8"/>
+              </sequence>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cantm">
+    <sequence>
+      <element name="dts" type="cfg:str-realfloat32"></element>
+      <element name="tx">
+        <complexType>
+          <complexContent>
+            <restriction base="cfg:str-tunarray">
+              <sequence>
+                <element name="str-tunarray-element" minOccurs="0" maxOccurs="40">
+                  <complexType>
+                    <complexContent>
+                      <restriction base="cfg:str-tunarray-element">
+                        <sequence>
+                          <element name="data" type="cfg:data-cantxmsg"></element>
+                        </sequence>
+                      </restriction>
+                    </complexContent>
+                  </complexType>
+                </element>
+              </sequence>
+            </restriction>
+          </complexContent>
+        </complexType>
+      </element>
+      <element name="rx">
+        <complexType>
+          <complexContent>
+            <restriction base="cfg:str-tunarray">
+              <sequence>
+                <element name="str-tunarray-element" minOccurs="0" maxOccurs="40">
+                  <complexType>
+                    <complexContent>
+                      <restriction base="cfg:str-tunarray-element">
+                        <sequence>
+                          <element name="data" type="cfg:data-canrxmsg"></element>
+                        </sequence>
+                      </restriction>
+                    </complexContent>
+                  </complexType>
+                </element>
+              </sequence>
+            </restriction>
+          </complexContent>
+        </complexType>
+      </element>
+      <element name="ini">
+        <complexType>
+          <complexContent>
+            <restriction base="cfg:str-tunarray">
+              <sequence>
+                <element name="str-tunarray-element" minOccurs="0" maxOccurs="40">
+                  <complexType>
+                    <complexContent>
+                      <restriction base="cfg:str-tunarray-element">
+                        <sequence>
+                          <element name="data" type="cfg:data-cantxmsg"></element>
+                        </sequence>
+                      </restriction>
+                    </complexContent>
+                  </complexType>
+                </element>
+              </sequence>
+            </restriction>
+          </complexContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-rtable-2">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535">
+            <complexType>
+              <sequence>
+                <element name="x" type="cfg:str-realfloat32"/>
+                <element name="y1" type="cfg:str-realfloat32"/>
+                <element name="y2" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-rate-limiter">
+    <sequence>
+      <element name="lfalling" type="cfg:str-realfloat32"/>
+      <element name="lrising" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-calibration1D">
+    <sequence>
+      <element name="temp_hyst" type="cfg:str-realfloat32"></element>
+      <element name="cal_data" type="cfg:data-rtable-2"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-sci">
+    <sequence>
+      <element name="baudrate" type="cfg:str-uinteger32"/>
+      <element name="length" type="cfg:data-enum-identifiable"/>
+      <element name="parity" type="cfg:data-enum-identifiable"/>
+      <element name="stop" type="cfg:data-enum-identifiable"/>
+      <element name="use-addr-mode" type="cfg:str-boolean"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-can">
+    <sequence>
+      <element name="baudrate" type="cfg:str-uinteger32"/>
+      <element name="rx" type="cfg:data-rxcfg"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmsgcan-consumer">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="80" type="cfg:data-fmsgcanc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmsgcan-producer">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="40"
+            type="cfg:data-fmsgcanp"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmsgcanc">
+    <sequence>
+      <element name="id" type="cfg:data-can-id"></element>
+      <element name="msgid" type="cfg:str-uinteger16"></element>
+      <element name="bitid" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmsgcanp">
+    <sequence>
+      <element name="id" type="cfg:data-can-id"></element>
+      <element name="msgid" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-rxcfg">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="16" type="cfg:data-rxcfg-entry"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-rxcfg-entry">
+    <sequence>
+      <element name="size" type="cfg:str-uinteger16"></element>
+      <element name="filter" type="cfg:data-can-filter"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-can-filter">
+    <sequence>
+      <element name="id" type="cfg:data-can-id"></element>
+      <element name="mask" type="cfg:str-uinteger32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-can_p-filter">
+    <sequence>
+      <element name="filter" type="cfg:data-can-filter"></element>
+      <element name="both_ids" type="cfg:str-boolean"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-can-id">
+    <sequence>
+      <element name="ext" type="cfg:str-boolean"></element>
+      <element name="id" type="cfg:str-uinteger32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-xpctr">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="4">
+            <complexType>
+              <complexContent>
+                <restriction base="cfg:str-tunarray-element">
+                  <sequence>
+                    <element name="data" type="cfg:data-u8array"></element>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmsg-consumer">
+    <sequence>
+      <element name="rx" type="cfg:data-fmsg-msgset"/>
+      <element name="tx" type="cfg:data-fmsg-msgset"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmsg-msgset">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="16">
+            <complexType>
+              <sequence>
+                <element name="msgid" type="cfg:str-uinteger16"/>
+                <element name="time" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-watchdog">
+    <sequence>
+      <element name="prescaler" type="cfg:str-uinteger16"/>
+      <element name="enabled" type="cfg:str-boolean"/>
+      <element name="timeouts">
+        <complexType>
+          <complexContent>
+            <restriction base="cfg:str-tunarray">
+              <sequence>
+                <element name="str-tunarray-element" minOccurs="4" maxOccurs="4" type="cfg:str-realfloat32"></element>
+              </sequence>
+            </restriction>
+          </complexContent>
+        </complexType>
+      </element>
+      <element name="reset_on_wd">
+        <complexType>
+          <complexContent>
+            <restriction base="cfg:str-tunarray">
+              <sequence>
+                <element name="str-tunarray-element" minOccurs="4" maxOccurs="4" type="cfg:str-uinteger16"></element>
+              </sequence>
+            </restriction>
+          </complexContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-accel-ioport">
+    <sequence>
+      <element name="port" type="cfg:str-uinteger16"/>
+      <element name="init" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <simpleType name="data-enum-att-type">
+    <restriction base="cfg:data-enum-identifiable">
+      <pattern value="0|1|2"/>
+    </restriction>
+  </simpleType>
+
+  <complexType name="data-cansuite-in-item">
+    <sequence>
+      <element name="port" type="cfg:str-uinteger16"/>
+      <element name="filter_p" type="cfg:data-can_p-filter"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-cansuite-out-item">
+    <sequence>
+      <element name="port" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-serial-can-item">
+    <sequence>
+      <element name="can-id" type="cfg:data-can-id"/>
+      <element name="timeout" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-can-gpio-ids">
+    <sequence>
+      <element name="el_0" type="cfg:str-uinteger8"></element>
+      <element name="el_1" type="cfg:str-uinteger8"></element>
+      <element name="el_2" type="cfg:str-uinteger8"></element>
+      <element name="el_3" type="cfg:str-uinteger8"></element>
+      <element name="el_4" type="cfg:str-uinteger8"></element>
+      <element name="el_5" type="cfg:str-uinteger8"></element>
+      <element name="el_6" type="cfg:str-uinteger8"></element>
+      <element name="el_7" type="cfg:str-uinteger8"></element>
+      <element name="el_8" type="cfg:str-uinteger8"></element>
+      <element name="el_9" type="cfg:str-uinteger8"></element>
+      <element name="el_10" type="cfg:str-uinteger8"></element>
+      <element name="el_11" type="cfg:str-uinteger8"></element>
+      <element name="el_12" type="cfg:str-uinteger8"></element>
+      <element name="el_13" type="cfg:str-uinteger8"></element>
+      <element name="el_14" type="cfg:str-uinteger8"></element>
+      <element name="el_15" type="cfg:str-uinteger8"></element>
+      <element name="el_16" type="cfg:str-uinteger8"></element>
+      <element name="el_17" type="cfg:str-uinteger8"></element>
+      <element name="el_18" type="cfg:str-uinteger8"></element>
+      <element name="el_19" type="cfg:str-uinteger8"></element>
+      <element name="el_20" type="cfg:str-uinteger8"></element>
+      <element name="el_21" type="cfg:str-uinteger8"></element>
+      <element name="el_22" type="cfg:str-uinteger8"></element>
+      <element name="el_23" type="cfg:str-uinteger8"></element>
+      <element name="el_24" type="cfg:str-uinteger8"></element>
+      <element name="el_25" type="cfg:str-uinteger8"></element>
+      <element name="el_26" type="cfg:str-uinteger8"></element>
+      <element name="el_27" type="cfg:str-uinteger8"></element>
+      <element name="el_28" type="cfg:str-uinteger8"></element>
+      <element name="el_29" type="cfg:str-uinteger8"></element>
+      <element name="el_30" type="cfg:str-uinteger8"></element>
+      <element name="el_31" type="cfg:str-uinteger8"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-can-gpio-item">
+    <sequence>
+      <element name="period" type="cfg:str-realfloat32"/>
+      <element name="id" type="cfg:data-can-id"/>
+      <element name="virtual_ids" type="cfg:data-can-gpio-ids"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-pk0">
+    <sequence>
+      <element name="pk0">
+        <complexType>
+          <complexContent>
+            <extension base="cfg:data-rmatrix"></extension>
+          </complexContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-realfloat32">
+    <sequence>
+      <element name="value" type="cfg:str-realfloat32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-rrefs">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32">
+            <complexType>
+              <complexContent>
+                <restriction base="cfg:str-tunarray-element">
+                  <sequence>
+                    <element name="data" type="cfg:str-realfloat32"/>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fieldset-tm">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="150">
+            <complexType>
+              <complexContent>
+                <restriction base="cfg:str-tunarray-element">
+                  <sequence>
+                    <element name="data" type="cfg:data-field-choice"></element>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-optional-integer">
+    <complexContent>
+      <extension base="cfg:str-choice-match">
+        <choice>
+          <element name="present">
+            <complexType>
+              <sequence>
+                <element name="is-present">
+                  <simpleType>
+                    <restriction base="cfg:str-boolean">
+                      <enumeration value="0"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="no-present">
+            <complexType>
+              <sequence>
+                <element name="is-present">
+                  <simpleType>
+                    <restriction base="cfg:str-boolean">
+                      <enumeration value="1"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="value" type="cfg:str-uinteger16"/>
+              </sequence>
+            </complexType>
+          </element>
+        </choice>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-rpm-entry">
+    <sequence>
+      <element name="p2x_s" type="cfg:str-realfloat32"></element>
+      <element name="mean" type="cfg:str-uinteger16"></element>
+      <element name="pmin_s" type="cfg:str-realfloat32"></element>
+      <element name="toff_s" type="cfg:str-realfloat32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-rpm">
+    <sequence>
+      <element name="cap-pps1" type="cfg:data-rpm-entry"></element>
+      <element name="cap-pps2" type="cfg:data-rpm-entry"></element>
+      <element name="cap-pps3" type="cfg:data-rpm-entry"></element>
+      <element name="cap-pps4" type="cfg:data-rpm-entry"></element>
+      <element name="cap-pps5" type="cfg:data-rpm-entry"></element>
+      <element name="cap-pps6" type="cfg:data-rpm-entry"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-imu-bmi088">
+    <sequence>
+      <element name="accRange" type="cfg:str-uinteger16"></element>
+      <element name="accODR" type="cfg:str-uinteger16"></element>
+      <element name="accBWP" type="cfg:str-uinteger16"></element>
+      <element name="accMaxNvSamples" type="cfg:str-uinteger16"></element>
+      <element name="gyrRange" type="cfg:str-uinteger16"></element>
+      <element name="gyrOdrBw" type="cfg:str-uinteger16"></element>
+      <element name="gyrMaxNvSamples" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-imu-adis16505-3">
+    <sequence>
+      <element name="accMaxNvSamples" type="cfg:str-uinteger16"></element>
+      <element name="gyrMaxNvSamples" type="cfg:str-uinteger16"></element>
+      <element name="mode_32bit"      type="cfg:str-bool16"></element>
+      <element name="filter_stages"   type="cfg:str-uinteger16"></element>
+      <element name="bandwidth_370hz" type="cfg:str-bool16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-xpc-entry">
+    <sequence>
+      <element name="producer" type="cfg:str-uinteger16"/>
+      <element name="consumer" type="cfg:str-uinteger16"/>
+      <element name="group" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-xpc">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="cfg:data-xpc-entry"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-parameter-cal">
+    <sequence>
+      <element name="bias" type="cfg:str-realfloat32"/>
+      <element name="scale-factor" type="cfg:str-realfloat32"/>
+      <element name="variance" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-parameter-cal-3D">
+    <sequence>
+      <element name="x" type="cfg:data-parameter-cal"/>
+      <element name="y" type="cfg:data-parameter-cal"/>
+      <element name="z" type="cfg:data-parameter-cal"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-parameter-cal-3D-8x">
+    <sequence>
+      <element name="c0" type="cfg:data-parameter-cal-3D"/>
+      <element name="c1" type="cfg:data-parameter-cal-3D"/>
+      <element name="c2" type="cfg:data-parameter-cal-3D"/>
+      <element name="c3" type="cfg:data-parameter-cal-3D"/>
+      <element name="c4" type="cfg:data-parameter-cal-3D"/>
+      <element name="c5" type="cfg:data-parameter-cal-3D"/>
+      <element name="c6" type="cfg:data-parameter-cal-3D"/>
+      <element name="c7" type="cfg:data-parameter-cal-3D"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-parameter-cal-3D-12x">
+    <sequence>
+      <element name="c0" type="cfg:data-parameter-cal-3D"/>
+      <element name="c1" type="cfg:data-parameter-cal-3D"/>
+      <element name="c2" type="cfg:data-parameter-cal-3D"/>
+      <element name="c3" type="cfg:data-parameter-cal-3D"/>
+      <element name="c4" type="cfg:data-parameter-cal-3D"/>
+      <element name="c5" type="cfg:data-parameter-cal-3D"/>
+      <element name="c6" type="cfg:data-parameter-cal-3D"/>
+      <element name="c7" type="cfg:data-parameter-cal-3D"/>
+      <element name="c8" type="cfg:data-parameter-cal-3D"/>
+      <element name="c9" type="cfg:data-parameter-cal-3D"/>
+      <element name="c10" type="cfg:data-parameter-cal-3D"/>
+      <element name="c11" type="cfg:data-parameter-cal-3D"/>
+      <element name="c12" type="cfg:data-parameter-cal-3D"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-parameter-cal-1D-5x">
+    <sequence>
+      <element name="c0" type="cfg:data-parameter-cal"/>
+      <element name="c1" type="cfg:data-parameter-cal"/>
+      <element name="c2" type="cfg:data-parameter-cal"/>
+      <element name="c3" type="cfg:data-parameter-cal"/>
+      <element name="c4" type="cfg:data-parameter-cal"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-parameter-cal-1D-7x">
+    <sequence>
+      <element name="c0" type="cfg:data-parameter-cal"/>
+      <element name="c1" type="cfg:data-parameter-cal"/>
+      <element name="c2" type="cfg:data-parameter-cal"/>
+      <element name="c3" type="cfg:data-parameter-cal"/>
+      <element name="c4" type="cfg:data-parameter-cal"/>
+      <element name="c5" type="cfg:data-parameter-cal"/>
+      <element name="c6" type="cfg:data-parameter-cal"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-output">
+    <sequence>
+      <element name="id" type="cfg:str-uinteger16"></element>
+      <element name="idx" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ratelimiter">
+    <sequence>
+      <element name="lfalling" type="cfg:str-realfloat32"></element>
+      <element name="lrising" type="cfg:str-realfloat32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-points-trim">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="8" type="cfg:data-points-trim-entry"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-points-trim-entry">
+    <sequence>
+      <element name="angle" type="cfg:str-realfloat32"></element>
+      <element name="pulse" type="cfg:str-realfloat32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-pwmsuite-entry">
+    <sequence>
+      <element name="frequency" type="cfg:str-uinteger16"></element>
+      <element name="pwmA" type="cfg:data-pwm"></element>
+      <element name="pwmB" type="cfg:data-pwm"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-pwm">
+    <sequence>
+      <element name="activeHigh" type="cfg:str-bool16"></element>
+      <element name="rangeMode" type="cfg:str-uinteger16"></element>
+      <element name="min" type="cfg:str-realfloat32"></element>
+      <element name="max" type="cfg:str-realfloat32"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-map-16">
+    <sequence>
+      <element name="key" type="cfg:str-uinteger16"></element>
+      <element name="value" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-ubx-cfg">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="cfg:data-ubx-cfg-entry"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-ubx-cfg-entry">
+    <sequence>
+      <element name="cfg" type="cfg:str-uinteger8"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-choice-unit">
+    <complexContent>
+      <extension base="cfg:str-choice-match">
+        <choice>
+          <element name="exist-unit">
+            <complexType>
+              <sequence>
+                <element name="exist">
+                  <simpleType>
+                    <restriction base="cfg:str-boolean">
+                      <pattern value="1"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"></element>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="no-exist-unit">
+            <complexType>
+              <sequence>
+                <element name="exist">
+                  <simpleType>
+                    <restriction base="cfg:str-boolean">
+                      <enumeration value="0"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+              </sequence>
+            </complexType>
+          </element>
+        </choice>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-tx">
+    <sequence>
+      <element name="producer" type="cfg:str-uinteger16"/>
+      <element name="custom-message" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-gpio-cmd">
+    <sequence>
+      <element name="id" type="cfg:str-uinteger16"/>
+      <element name="command-choice" type="cfg:data-gpio-choice"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-gpio-choice">
+    <complexContent>
+      <extension base="cfg:str-choice-match">
+        <choice>
+          <element name="pulse0">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-identifiable">
+                      <enumeration value="2"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="pulse" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="pulse1">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-identifiable">
+                      <enumeration value="3"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="pulse" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="on">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-identifiable">
+                      <enumeration value="1"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="off">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-identifiable">
+                      <enumeration value="0"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+              </sequence>
+            </complexType>
+          </element>
+        </choice>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-servo-cmd">
+    <sequence>
+      <element name="idx" type="cfg:str-uinteger16"></element>
+      <element name="interpolate" type="cfg:str-uinteger16"></element>
+      <element name="table-values" type="cfg:data-rtable-1"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-obstacle-cmd">
+    <sequence>
+      <element name="designated-on-map" type="cfg:str-boolean"></element>
+      <element name="range-sensor" type="cfg:str-boolean"></element>
+      <element name="detection-sensor" type="cfg:str-boolean"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-meta-operation">
+    <complexContent>
+      <restriction base="cfg:str-meta">
+        <sequence>
+          <element name="map" type="cfg:data-op-group-array"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  <complexType name="data-op-group-array">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="group" minOccurs="0" maxOccurs="65535" type="cfg:data-operation-group"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-operation-group">
+    <sequence>
+      <element name="name" type="cfg:str-string16"/>
+      <element name="expanded" type="cfg:str-bool16"/>
+      <element name="editable" type="cfg:str-bool16"/>
+      <element name="vardata" type="cfg:data-var-array"/>
+      <element name="subgroups" type="cfg:data-subgroup-array"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-var-array">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="var" minOccurs="0" maxOccurs="65535" type="cfg:data-operation-var-attributes"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-subgroup-array">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="var" minOccurs="0" maxOccurs="65535" type="cfg:data-operation-subgroup"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  <complexType name="data-operation-var-attributes">
+    <sequence>
+      <element name="type-id" type="cfg:str-uinteger16"/>
+      <element name="var-id" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+  <complexType name="data-operation-subgroup">
+    <sequence>
+      <element name="title" type="cfg:str-string16"/>
+      <element name="position" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-canarb-v4x">
+    <sequence>
+      <element name="rx-telemetry" type="cfg:data-rxtelemetry"></element>
+      <element name="tx-telemetry" type="cfg:data-canid"></element>
+      <element name="status_p" type="cfg:str-realfloat32"></element>
+      <element name="score_p" type="cfg:str-realfloat32"></element>
+      <element name="status_enabled" type="cfg:str-bool16"></element>
+      <element name="score_enabled" type="cfg:str-bool16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-arbvarref">
+    <complexContent>
+      <extension base="cfg:str-choice-match">
+        <choice>
+          <element name="absolute">
+            <complexType>
+              <sequence>
+                <element name="is-relative">
+                  <simpleType>
+                    <restriction base="cfg:str-bool16">
+                      <enumeration value="0"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="abs-ref" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="relative">
+            <complexType>
+              <sequence>
+                <element name="is-relative">
+                  <simpleType>
+                    <restriction base="cfg:str-bool16">
+                      <enumeration value="1"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+              </sequence>
+            </complexType>
+          </element>
+        </choice>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-arbvar">
+    <sequence>
+      <element name="max_error" type="cfg:str-realfloat32"/>
+      <element name="ref" type="cfg:data-arbvarref"/>
+      <element name="weight" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-arbvars">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-arbvar"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-arb-arbitration">
+    <sequence>
+      <element name="vars" type="cfg:data-arbvars"/>
+      <element name="preferred" type="cfg:str-uinteger16"/>
+      <element name="method" type="cfg:str-uinteger16"/>
+      <element name="arb_tmin" type="cfg:str-realfloat32"/>
+      <element name="hysteresis" type="cfg:str-realfloat32"/>
+      <element name="use_external_ap" type="cfg:str-bool16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-arb-can">
+    <sequence>
+      <element name="rx-telemetry" type="cfg:data-rxtelemetry"></element>
+      <element name="tx-telemetry" type="cfg:data-canid"></element>
+      <element name="status_p" type="cfg:str-realfloat32"></element>
+      <element name="score_p" type="cfg:str-realfloat32"></element>
+      <element name="status_enabled" type="cfg:str-bool16"></element>
+      <element name="score_enabled" type="cfg:str-bool16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-cancfg">
+    <sequence>
+      <element name="baudrate" type="cfg:str-uinteger32"/>
+      <element name="scia" type="cfg:vmc-can-sccfg"/>
+      <element name="com" type="cfg:vmc-can-sccfg"/>
+      <element name="mcmd-rx-id" type="cfg:data-can-id"/>
+      <element name="mcmd-rx-size" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-can-sccfg">
+    <sequence>
+      <element name="tx" type="cfg:data-serial-can-item"/>
+      <element name="rx-id" type="cfg:data-can-id"/>
+      <element name="rx-size" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-bounds">
+    <sequence>
+      <element name="rng-raw" type="cfg:data-radrng"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-mangle-cal">
+    <sequence>
+      <element name="invert" type="cfg:str-bool16"/>
+      <element name="angle_cal" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-mangle-rate">
+    <sequence>
+      <element name="tau" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-vmotor">
+    <sequence>
+      <element name="spd_frac" type="cfg:str-realfloat32"/>
+      <element name="startup_acc" type="cfg:str-realfloat32"/>
+      <element name="max_spd" type="cfg:str-realfloat32"/>
+      <element name="invert" type="cfg:str-bool16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-motor">
+    <sequence>
+      <element name="rs" type="cfg:str-realfloat32"/>
+      <element name="lq" type="cfg:str-realfloat32"/>
+      <element name="ld" type="cfg:str-realfloat32"/>
+      <element name="pole_pairs" type="cfg:str-uinteger16"/>
+      <element name="max_rpm" type="cfg:str-uinteger32"/>
+      <element name="start_iq" type="cfg:str-realfloat32"/>
+      <element name="max_iq" type="cfg:str-realfloat32"/>
+      <element name="t_max_iq" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-smobserver">
+    <sequence>
+      <element name="kslide" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="vmc-sincos">
+    <sequence>
+      <element name="v_min" type="cfg:str-realfloat32"/>
+      <element name="v_max" type="cfg:str-realfloat32"/>
+      <element name="adc_factor" type="cfg:str-realfloat32"/>
+      <element name="invert" type="cfg:str-bool16"/>
+      <element name="sin_ch" type="cfg:str-uinteger8"/>
+      <element name="cos_ch" type="cfg:str-uinteger8"/>
+    </sequence>
+  </complexType>
+
+  <simpleType name="data-vmc-encoder-nbits">
+    <restriction base="cfg:str-uinteger16">
+      <pattern value="10|11|12|13|14|15|16|17|18|19|20|21|22"/>
+    </restriction>
+  </simpleType>
+
+  <complexType name="vmc-encoder">
+    <sequence>
+      <element name="nbits" type="cfg:data-vmc-encoder-nbits"/>
+    </sequence>
+  </complexType>
+
+  <simpleType name="data-enum-vmc-control-mode">
+    <restriction base="cfg:data-enum-identifiable">
+      <pattern value="1|2|3"/>
+    </restriction>
+  </simpleType>
+
+  <complexType name="vmc-control-input-mgr">
+    <sequence>
+      <element name="mode" type="cfg:data-enum-vmc-control-mode"/>
+      <element name="use_failsafe" type="cfg:str-bool16"/>
+      <element name="can_tout" type="cfg:str-realfloat32"/>
+      <element name="fail_safe_value" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="can-hs-rvars">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="8" type="cfg:str-uinteger16"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="can-hs-tm">
+    <sequence>
+      <element name="base_id" type="cfg:data-can-id"/>
+      <element name="decimation" type="cfg:str-uinteger16"/>
+      <element name="rvars" type="cfg:can-hs-rvars"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fstr">
+    <sequence>
+      <element name="period" type="cfg:str-realfloat32"/>
+      <element name="fields" type="cfg:data-fieldset-tm-array"/>
+    </sequence>
+  </complexType>
+  
+<complexType name="data-fmset-can-array-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="24" type="cfg:data-fmset-can-cex">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmset-can-cex">
+    <sequence>
+      <element name="fields" type="cfg:data-fieldset-array-can-cex"/>
+      <element name="endianness" type="cfg:data-enum-endianness"></element>
+      <element name="time" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fieldset-array-can-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="6" type="cfg:data-fieldset">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  
+  <complexType name="data-fmset-array-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="18" type="cfg:data-fmset-cex">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmset-cex">
+    <sequence>
+      <element name="fields" type="cfg:data-fieldset-array-cex"/>
+      <element name="endianness" type="cfg:data-enum-endianness"></element>
+      <element name="time" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fieldset-array-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="20" type="cfg:data-fieldset">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmset-consumer-mset-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="10" type="cfg:data-fmset-consumer-mset-entry"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmsg-cex">
+    <sequence>
+      <element name="fmsg1" type="cfg:data-fmset-consumer-mset-cex"></element>
+      <element name="fmsg2" type="cfg:data-fmset-consumer-mset-cex"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-cansuite-in">
+    <sequence>
+      <element name="can-in" type="cfg:cansuite-in"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="cansuite-in">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="6" maxOccurs="6" type="cfg:data-cansuite-in-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cansuite-out-cex">
+    <sequence>
+      <element name="can-out" type="cfg:cansuite-out-cex"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="cansuite-out-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="6" maxOccurs="6" type="cfg:data-cansuite-out-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cansuite-sc-cex">
+    <sequence>
+      <element name="serial-can" type="cfg:serial-can-cex"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="serial-can-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="2" maxOccurs="2" type="cfg:data-serial-can-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-can-producer-cex">
+    <sequence>
+      <element name="data-fcan-producer-tx-ini" type="cfg:data-fmsgcan-producer-cex-1"></element>
+      <element name="data-fcan-producer-tx" type="cfg:data-fmsgcan-producer-cex"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmsgcan-producer-cex-1">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="1"
+            type="cfg:data-fmsgcanp"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmsgcan-producer-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="8"
+            type="cfg:data-fmsgcanp"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-status">
+    <sequence>
+      <element name="vcp_tx_enabled" type="cfg:str-bool16"></element>
+      <element name="period" type="cfg:str-realfloat32"></element>
+
+    </sequence>
+  </complexType>
+
+</schema>

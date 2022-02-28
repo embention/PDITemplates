@@ -1,0 +1,33 @@
+<entry-arctrim2>
+    <id>352</id>
+    <filename>arctrim2.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <u0>
+            <str-tunarray-element>0.520635</str-tunarray-element>
+            <str-tunarray-element>0.49890113</str-tunarray-element>
+            <str-tunarray-element>0.52820504</str-tunarray-element>
+            <str-tunarray-element>0.52649575</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+            <str-tunarray-element>0.0</str-tunarray-element>
+        </u0>
+    </data>
+</entry-arctrim2>
