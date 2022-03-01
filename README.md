@@ -68,7 +68,8 @@ In the example above `1xVeronte` is the **product** particle of the tag, right n
 - Cex
 - VmcBrushless
 - VmcStepper
-- Mc25
+- Mc110
+- CanIsolator
 
 Also in the example, `M400` is the **folder** name but also the configuration name, this particle **must match de folder's name**.
 
