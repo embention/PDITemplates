@@ -1,0 +1,13 @@
+<entry-gyr1filt>
+    <id>108</id>
+    <filename>gyr1filt.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <enable>0</enable>
+        <cutoff_freq>1.0</cutoff_freq>
+    </data>
+</entry-gyr1filt>

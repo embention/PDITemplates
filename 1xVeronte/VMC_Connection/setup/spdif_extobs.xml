@@ -1,0 +1,15 @@
+<entry-external-obstacles>
+    <id>152</id>
+    <filename>extobs.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <map>
+            <enable>0</enable>
+            <time>2.0</time>
+        </map>
+    </data>
+</entry-external-obstacles>

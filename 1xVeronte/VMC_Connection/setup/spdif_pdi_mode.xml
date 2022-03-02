@@ -1,0 +1,12 @@
+<entry-pdi_mode>
+    <id>354</id>
+    <filename>pdi_mode.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <pdi_mode>0</pdi_mode>
+    </data>
+</entry-pdi_mode>

@@ -1,0 +1,141 @@
+<entry-chklist>
+    <id>92</id>
+    <filename>chklist.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <other>
+                    <size>18</size>
+                    <task>0</task>
+                    <name>Actuators OK</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="1">
+            <data>
+                <other>
+                    <size>20</size>
+                    <task>0</task>
+                    <name>CG Position OK</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data>
+                <other>
+                    <size>16</size>
+                    <task>0</task>
+                    <name>Mission OK</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="3">
+            <data>
+                <other>
+                    <size>21</size>
+                    <task>0</task>
+                    <name>Terrain Mesh OK</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="4">
+            <data>
+                <other>
+                    <size>20</size>
+                    <task>0</task>
+                    <name>Automations OK</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="5">
+            <data>
+                <other>
+                    <size>16</size>
+                    <task>0</task>
+                    <name>Sensors OK</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="6">
+            <data>
+                <other>
+                    <size>20</size>
+                    <task>0</task>
+                    <name>Batery/Fuel OK</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="7">
+            <data>
+                <other>
+                    <size>14</size>
+                    <task>0</task>
+                    <name>Stick OK</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="8">
+            <data>
+                <other>
+                    <size>18</size>
+                    <task>0</task>
+                    <name>Link Quality</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="9">
+            <data>
+                <other>
+                    <size>26</size>
+                    <task>7</task>
+                    <name>Calibrate Atmosphere</name>
+                    <phase>0</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-chklist>

@@ -1,0 +1,14 @@
+<entry-cbitcfg>
+    <id>270</id>
+    <filename>cbitcfg.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <bits_0/>
+        <bits_1/>
+        <bits_2/>
+    </data>
+</entry-cbitcfg>
