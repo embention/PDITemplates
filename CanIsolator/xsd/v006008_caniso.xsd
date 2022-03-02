@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v006008_caniso"
+  elementFormDefault="qualified" xmlns:caniso="http://www.embention.com/schema/v006008_caniso" xmlns:core="http://www.embention.com/schema/cfg006008">
+  <import namespace="http://www.embention.com/schema/cfg006008" schemaLocation="cfg006008.xsd"/>
+
+  <element name="cfg" type="caniso:cfg"></element>
+  <complexType name="cfg">
+    <all>
+      <element name="entry-cana" type="core:entry-cana"></element>
+      <element name="entry-canb" type="core:entry-canb"></element>
+      <element name="entry-ports" type="core:entry-ports"></element>
+      <element name="entry-status" type="core:entry-status"></element>
+      <element name="entry-cex-xpcu8" type="caniso:entry-caniso-xpcu8"></element>
+      <element name="entry-cex-xpccan" type="core:entry-cex-xpccan"></element>
+      <element name="entry-fmset-cex" type="core:entry-fmset-cex"></element>
+      <element name="entry-fmsg_p-cex" type="core:entry-fmsg_p-cex"></element>
+      <element name="entry-fmsg_c-cex" type="core:entry-fmsg_c-cex"></element>
+      <element name="entry-cex-cansuite-in" type="core:entry-cex-cansuite-in"></element>
+      <element name="entry-cex-cansuite-out" type="core:entry-cex-cansuite-out"></element>
+      <element name="entry-cex-cansuite-serialcan" type="core:entry-cex-cansuite-serialcan"></element>
+      <element name="entry-cex-can-fmset" type="core:entry-can-fmset-cex"></element>
+      <element name="entry-can-fmset-p-cex" type="core:entry-can-fmset-p-cex"></element>
+    </all>
+  </complexType>
+
+  <complexType name="entry-caniso-xpcu8">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="397"></element>
+          <element name="filename" type="string"
+            fixed="cx_pcu8.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="core:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+</schema>

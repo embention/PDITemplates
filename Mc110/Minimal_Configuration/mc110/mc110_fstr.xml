@@ -1,0 +1,13 @@
+<entry-fstr>
+    <id>61</id>
+    <filename>fstr.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <period>0.1</period>
+        <fields/>
+    </data>
+</entry-fstr>

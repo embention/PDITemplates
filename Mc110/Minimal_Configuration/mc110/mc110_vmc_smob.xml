@@ -1,0 +1,12 @@
+<entry-vmc-smobserver>
+    <id>342</id>
+    <filename>vmc_smob.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <kslide>0.0</kslide>
+    </data>
+</entry-vmc-smobserver>
