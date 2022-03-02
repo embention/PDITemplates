@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v006008_mc110"
+   xmlns:mc110="http://www.embention.com/schema/v006008_mc110" xmlns:core="http://www.embention.com/schema/cfg006008">
+  <import namespace="http://www.embention.com/schema/cfg006008" schemaLocation="cfg006008.xsd"/>
+
+  <element name="cfg" type="mc110:cfg"></element>
+  <complexType name="entry-mc110-control">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="343"></element>
+          <element name="filename" type="string" fixed="mc110ctr.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="mc110:mc110-control"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-mc110-xpcu8">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="344"></element>
+          <element name="filename" type="string" fixed="mc110pcu8.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="core:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-mc110-xpccan">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="345"></element>
+          <element name="filename" type="string" fixed="mc110pccan.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="core:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-mc110-cansuite-in">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="346"></element>
+          <element name="filename" type="string" fixed="mc110canin.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="mc110:data-cansuite-in"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-mc110-cansuite-out">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="347"></element>
+          <element name="filename" type="string" fixed="mc110canout.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="mc110:data-cansuite-out"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-mc110-cansuite-serialcan">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="348"></element>
+          <element name="filename" type="string" fixed="mc110cansc.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" minOccurs="0" type="mc110:data-cansuite-sc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="cfg">
+    <all>
+      <element name="entry-vmc-mcan"          type="core:entry-vmc-mcan"></element>
+      <element name="entry-vmc-vmotor"        type="core:entry-vmc-vmotor"></element>
+      <element name="entry-vmc-smobserver"    type="core:entry-vmc-smobserver"></element>
+      <element name="entry-mc110-control"      type="mc110:entry-mc110-control"></element>
+      <element name="entry-mc110_xpcu8"        type="mc110:entry-mc110-xpcu8"></element>
+      <element name="entry-mc110-xpccan"       type="mc110:entry-mc110-xpccan"></element>
+      <element name="entry-vmc-sensor_sincos" type="core:entry-vmc-sensor_sincos"></element>
+      <element name="entry-mc110-cansuite-in"  type="mc110:entry-mc110-cansuite-in"></element>
+      <element name="entry-mc110-cansuite-out" type="mc110:entry-mc110-cansuite-out"></element>
+      <element name="entry-mc110-cansuite-serialcan"  type="mc110:entry-mc110-cansuite-serialcan"></element>
+      <element name="entry-fmset"     type="core:entry-fmset"></element>
+      <element name="entry-cantm-p0"  type="core:entry-cantm-p0"></element>
+      <element name="entry-fmsg0"     type="core:entry-fmsg-p"></element>
+      <element name="entry-scia"      type="core:entry-scia"></element>
+      <element name="entry-scib"      type="core:entry-scib"></element>
+      <element name="entry-scic"      type="core:entry-scic"></element>
+      <element name="entry-cana"      type="core:entry-cana"></element>
+      <element name="entry-canb"      type="core:entry-canb"></element>
+      <element name="entry-can-hs-tm" type="core:entry-can-hs-tm"></element>
+      <element name="entry-fstr"      type="core:entry-fstr"></element>
+      <element name="entry-status" type="core:entry-status"></element>
+    </all>
+  </complexType>
+
+  <complexType name="mc110-control">
+    <sequence>
+      <element name="pi-iq" type="core:control-pi"/>
+      <element name="pi-id" type="core:control-pi"/>
+      <element name="pi-spd" type="core:control-pi"/>
+      <element name="speed-rl" type="core:data-ratelimiter"/>
+      <element name="vmotor" type="core:vmc-vmotor"/>
+      <element name="motor" type="core:vmc-motor"/>
+      <element name="regenerating" type="core:str-bool16"/>
+      <element name="stk_deadband" type="core:str-realfloat32"/>
+      <element name="speed_filter_cutoff" type="core:str-realfloat32"/>
+      <element name="input_mgr" type="core:vmc-control-input-mgr"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-cansuite-in">
+    <sequence>
+      <element name="can-in" type="mc110:cansuite-in"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="cansuite-in">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="3" maxOccurs="3" type="core:data-cansuite-in-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cansuite-out">
+    <sequence>
+      <element name="can-out" type="mc110:cansuite-out"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="cansuite-out">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="3" maxOccurs="3" type="core:data-cansuite-out-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cansuite-sc">
+    <sequence>
+      <element name="serial-can" type="mc110:serial-can"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="serial-can">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="2" maxOccurs="2" type="core:data-serial-can-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+</schema>

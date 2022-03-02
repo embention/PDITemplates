@@ -1,0 +1,22 @@
+<entry-mc110-cansuite-out>
+    <id>347</id>
+    <filename>mc110canout.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <can-out>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+        </can-out>
+    </data>
+</entry-mc110-cansuite-out>

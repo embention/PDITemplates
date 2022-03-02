@@ -366,6 +366,7 @@
       <element minOccurs="0" name="entry-blklib30" type="ver:entry-blklib30"></element>
       <element minOccurs="0" name="entry-blklib31" type="ver:entry-blklib31"></element>
       <element minOccurs="0" name="entry-blocks" type="ver:entry-blocks"></element>
+      <element minOccurs="0" name="entry-status" type="core:entry-status"></element>
     </all>
   </complexType>
 
@@ -1708,11 +1709,12 @@
           <element name="filename" type="string"
             fixed="mchannel.bin"></element>
           <element name="version" type="core:data-version"></element>
-          <element name="data" type="ver:data-str-meta-channel"></element>
+          <element name="data" type="ver:data-mmetaname"></element>
         </sequence>
       </restriction>
     </complexContent>
   </complexType>
+
   <complexType name="entry-mvxmap">
     <complexContent>
       <restriction base="core:entry">
@@ -10799,27 +10801,6 @@
       <restriction base="core:str-meta">
         <sequence>
           <element name="map" type="ver:data-meta-overwrite-u"/>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
-  <complexType name="data-meta-channel">
-    <complexContent>
-      <restriction base="core:str-tunarray">
-        <sequence>
-          <element name="str-tunarray-element" minOccurs="0" type="core:str-string">
-          </element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
-  <complexType name="data-str-meta-channel">
-    <complexContent>
-      <restriction base="core:str-meta">
-        <sequence>
-          <element name="map" type="ver:data-meta-channel"/>
         </sequence>
       </restriction>
     </complexContent>

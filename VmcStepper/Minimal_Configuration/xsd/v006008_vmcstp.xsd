@@ -35,11 +35,13 @@
       <element name="entry-cantm-p0" type="core:entry-cantm-p0"></element>
       <element name="entry-fmset" type="core:entry-fmset"></element>
       <element name="entry-scia" type="core:entry-scia"></element>
+      <element name="entry-status" type="core:entry-status"></element>
       <element name="entry-vmc-mcan" type="core:entry-vmc-mcan"></element>
       <element name="entry-vmc-mangle-cal" type="core:entry-vmc-mangle-cal"></element>
       <element name="entry-vmc-control-stepper" type="vmcstp:entry-vmc-control-stepper"></element>
       <element name="entry-vmc-stpcal" type="vmcstp:entry-vmc-stpcal"></element>
       <element name="entry-vmc-bounds" type="core:entry-vmc-bounds"></element>
+      <element name="entry-vmc-encoder" type="core:entry-vmc-encoder"></element>
     </all>
   </complexType>
 

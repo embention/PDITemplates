@@ -172,6 +172,19 @@
     </complexContent>
   </complexType>
 
+  <complexType name="entry-status">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="51"></element>
+          <element name="filename" type="string" fixed="status.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-status"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
   <complexType name="entry-fstr">
     <complexContent>
       <restriction base="cfg:entry">
@@ -333,6 +346,146 @@
     </complexContent>
   </complexType>
 
+  <complexType name="entry-cex-xpcu8">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="301"></element>
+          <element name="filename" type="string"
+            fixed="cx_pcu8.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-xpccan">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="302"></element>
+          <element name="filename" type="string"
+            fixed="cx_pccan.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-xpc"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  
+    <complexType name="entry-fmset-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="311"></element>
+          <element name="filename" type="string"
+            fixed="cx_fmset.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-fmset-array-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-fmsg_p-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="313"></element>
+          <element name="filename" type="string"
+            fixed="cx_fmsgp.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-fmsg-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-fmsg_c-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="314"></element>
+          <element name="filename" type="string"
+            fixed="cx_fmsgc.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-fmsg-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-cansuite-in">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="315"></element>
+          <element name="filename" type="string"
+            fixed="cx_canin.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-cansuite-in"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-cansuite-out">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="316"></element>
+          <element name="filename" type="string"
+            fixed="cx_canou.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-cansuite-out-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-cex-cansuite-serialcan">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="317"></element>
+          <element name="filename" type="string"
+            fixed="cx_cansc.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-cansuite-sc-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-can-fmset-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="318"></element>
+          <element name="filename" type="string"
+            fixed="cx_can_fmset.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-fmset-can-array-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-can-fmset-p-cex">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="319"></element>
+          <element name="filename" type="string"
+            fixed="cx_cantm.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" minOccurs="0" type="cfg:data-can-producer-cex"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
   <complexType name="entry-vmc-vmotor">
     <complexContent>
       <restriction base="cfg:entry">
@@ -393,6 +546,19 @@
           <element name="filename" type="string" fixed="canhstm.bin"></element>
           <element name="version" type="cfg:data-version"></element>
           <element name="data" type="cfg:can-hs-tm"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-vmc-encoder">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="359"></element>
+          <element name="filename" type="string" fixed="encoder.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:vmc-encoder"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -482,7 +648,7 @@
       </restriction>
     </complexContent>
   </complexType>
-
+  
   <complexType name="data-ports-detail">
     <sequence>
       <element name="msk-port" type="cfg:str-uinteger32"/>
@@ -2568,6 +2734,18 @@
     </sequence>
   </complexType>
 
+  <simpleType name="data-vmc-encoder-nbits">
+    <restriction base="cfg:str-uinteger16">
+      <pattern value="10|11|12|13|14|15|16|17|18|19|20|21|22"/>
+    </restriction>
+  </simpleType>
+
+  <complexType name="vmc-encoder">
+    <sequence>
+      <element name="nbits" type="cfg:data-vmc-encoder-nbits"/>
+    </sequence>
+  </complexType>
+
   <simpleType name="data-enum-vmc-control-mode">
     <restriction base="cfg:data-enum-identifiable">
       <pattern value="1|2|3"/>
@@ -2607,4 +2785,167 @@
       <element name="fields" type="cfg:data-fieldset-tm-array"/>
     </sequence>
   </complexType>
+  
+<complexType name="data-fmset-can-array-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="24" type="cfg:data-fmset-can-cex">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmset-can-cex">
+    <sequence>
+      <element name="fields" type="cfg:data-fieldset-array-can-cex"/>
+      <element name="endianness" type="cfg:data-enum-endianness"></element>
+      <element name="time" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fieldset-array-can-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="6" type="cfg:data-fieldset">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+  
+  <complexType name="data-fmset-array-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="18" type="cfg:data-fmset-cex">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmset-cex">
+    <sequence>
+      <element name="fields" type="cfg:data-fieldset-array-cex"/>
+      <element name="endianness" type="cfg:data-enum-endianness"></element>
+      <element name="time" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fieldset-array-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="20" type="cfg:data-fieldset">
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmset-consumer-mset-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="10" type="cfg:data-fmset-consumer-mset-entry"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmsg-cex">
+    <sequence>
+      <element name="fmsg1" type="cfg:data-fmset-consumer-mset-cex"></element>
+      <element name="fmsg2" type="cfg:data-fmset-consumer-mset-cex"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-cansuite-in">
+    <sequence>
+      <element name="can-in" type="cfg:cansuite-in"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="cansuite-in">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="6" maxOccurs="6" type="cfg:data-cansuite-in-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cansuite-out-cex">
+    <sequence>
+      <element name="can-out" type="cfg:cansuite-out-cex"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="cansuite-out-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="6" maxOccurs="6" type="cfg:data-cansuite-out-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-cansuite-sc-cex">
+    <sequence>
+      <element name="serial-can" type="cfg:serial-can-cex"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="serial-can-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="2" maxOccurs="2" type="cfg:data-serial-can-item"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-can-producer-cex">
+    <sequence>
+      <element name="data-fcan-producer-tx-ini" type="cfg:data-fmsgcan-producer-cex-1"></element>
+      <element name="data-fcan-producer-tx" type="cfg:data-fmsgcan-producer-cex"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-fmsgcan-producer-cex-1">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="1"
+            type="cfg:data-fmsgcanp"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fmsgcan-producer-cex">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="8"
+            type="cfg:data-fmsgcanp"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-status">
+    <sequence>
+      <element name="vcp_tx_enabled" type="cfg:str-bool16"></element>
+      <element name="period" type="cfg:str-realfloat32"></element>
+
+    </sequence>
+  </complexType>
+
 </schema>

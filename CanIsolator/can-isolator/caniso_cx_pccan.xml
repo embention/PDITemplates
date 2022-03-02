@@ -1,0 +1,31 @@
+<entry-cex-xpccan>
+    <id>302</id>
+    <filename>cx_pccan.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>9</producer>
+            <consumer>1</consumer>
+            <group>1</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>1</producer>
+            <consumer>11</consumer>
+            <group>1</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>5</producer>
+            <consumer>5</consumer>
+            <group>1</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>6</producer>
+            <consumer>6</consumer>
+            <group>1</group>
+        </str-tunarray-element>
+    </data>
+</entry-cex-xpccan>

@@ -1,0 +1,12 @@
+<entry-vmc-encoder>
+    <id>359</id>
+    <filename>encoder.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>5</revision>
+    </version>
+    <data>
+        <nbits>17</nbits>
+    </data>
+</entry-vmc-encoder>

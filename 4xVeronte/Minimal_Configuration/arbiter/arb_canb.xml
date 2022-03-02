@@ -4,47 +4,17 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>1</revision>
+        <revision>5</revision>
     </version>
     <data>
-        <baudrate>1000000</baudrate>
+        <baudrate>500000</baudrate>
         <rx>
             <str-tunarray-element>
-                <size>6</size>
+                <size>4</size>
                 <filter>
                     <id>
                         <ext>0</ext>
-                        <id>8</id>
-                    </id>
-                    <mask>2047</mask>
-                </filter>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <size>6</size>
-                <filter>
-                    <id>
-                        <ext>0</ext>
-                        <id>9</id>
-                    </id>
-                    <mask>2047</mask>
-                </filter>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <size>6</size>
-                <filter>
-                    <id>
-                        <ext>0</ext>
-                        <id>10</id>
-                    </id>
-                    <mask>2047</mask>
-                </filter>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <size>6</size>
-                <filter>
-                    <id>
-                        <ext>0</ext>
-                        <id>11</id>
+                        <id>1302</id>
                     </id>
                     <mask>2047</mask>
                 </filter>
@@ -54,17 +24,27 @@
                 <filter>
                     <id>
                         <ext>0</ext>
-                        <id>2002</id>
+                        <id>8</id>
                     </id>
                     <mask>2047</mask>
                 </filter>
             </str-tunarray-element>
             <str-tunarray-element>
-                <size>1</size>
+                <size>4</size>
                 <filter>
                     <id>
                         <ext>0</ext>
-                        <id>20</id>
+                        <id>9</id>
+                    </id>
+                    <mask>2047</mask>
+                </filter>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <size>4</size>
+                <filter>
+                    <id>
+                        <ext>0</ext>
+                        <id>10</id>
                     </id>
                     <mask>2047</mask>
                 </filter>

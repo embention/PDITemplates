@@ -88,7 +88,8 @@
       <element name="entry-arb-gpio" type="v4x:entry-arb-gpio"></element>
       <element name="entry-arb-can" type="core:entry-arb-can"></element>
       <element name="entry-arb-arbitration" type="core:entry-arb-arbitration"></element>
-	  <element name="entry-arb-initial-time" type="v4x:entry-arb-initial-time"></element>
+      <element name="entry-arb-initial-time" type="v4x:entry-arb-initial-time"></element>
+      <element name="entry-status" type="core:entry-status"></element>
     </all>
   </complexType>
 

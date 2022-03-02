@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>1</revision>
+        <revision>5</revision>
     </version>
     <data>
         <can-in>
@@ -14,9 +14,9 @@
                     <filter>
                         <id>
                             <ext>0</ext>
-                            <id>8</id>
+                            <id>1302</id>
                         </id>
-                        <mask>2044</mask>
+                        <mask>2047</mask>
                     </filter>
                     <both_ids>1</both_ids>
                 </filter_p>
@@ -27,7 +27,7 @@
                     <filter>
                         <id>
                             <ext>0</ext>
-                            <id>2002</id>
+                            <id>8</id>
                         </id>
                         <mask>2047</mask>
                     </filter>
