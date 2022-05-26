@@ -280,6 +280,7 @@
       <element minOccurs="0" name="entry-mvxmap" type="ver:entry-mvxmap"></element>
       <element minOccurs="0" name="entry-mcal" type="ver:entry-mcal"></element>
       <element minOccurs="0" name="entry-mstick" type="ver:entry-mstick"></element>
+      <element minOccurs="0" name="entry-mvars" type="ver:entry-mvars"></element>
       <element minOccurs="0" name="entry-mgeoref" type="ver:entry-mgeoref"></element>
       <element minOccurs="0" name="entry-mrvar" type="ver:entry-mrvar"></element>
       <element minOccurs="0" name="entry-muvar" type="ver:entry-muvar"></element>
@@ -315,7 +316,6 @@
       <element minOccurs="0" name="entry-acclps" type="ver:entry-acclps"></element>
       <element minOccurs="0" name="entry-gyrlps" type="ver:entry-gyrlps"></element>
       <element minOccurs="0" name="entry-maglps" type="ver:entry-maglps"></element>
-      <element minOccurs="0" name="entry-mpoly" type="ver:entry-mpoly"></element>
       <element minOccurs="0" name="entry-acclbu" type="ver:entry-acclbu"></element>
       <element minOccurs="0" name="entry-nmea" type="ver:entry-nmea"></element>
       <element minOccurs="0" name="entry-arctrim0" type="ver:entry-arctrim0"></element>
@@ -1687,20 +1687,6 @@
     </complexContent>
   </complexType>
 
-  <complexType name="entry-mpoly">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="278"></element>
-          <element name="filename" type="string"
-                   fixed="mpolygon.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="ver:data-mpolygon"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
   <complexType name="entry-meta-channel">
     <complexContent>
       <restriction base="core:entry">
@@ -1805,6 +1791,67 @@
             fixed="mbit.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-mvar"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-mvars">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="278"></element>
+          <element name="filename" type="string"
+            fixed="mvars.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="ver:data-mvars"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-mvars">
+    <complexContent>
+      <restriction base="core:str-meta">
+        <sequence>
+          <element name="map" type="ver:data-array-vars"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-array-vars">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="ver:data-mvars-map-entry"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-mvars-map-entry">
+    <sequence>
+      <element name="idType" type="core:str-uinteger16"></element>
+      <element name="var-name-array" type="ver:data-mvars-entry"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-mvars-entry">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="512">
+            <complexType>
+              <complexContent>
+                <restriction base="core:str-tunarray-element">
+                  <sequence>
+                    <element name="data" type="ver:data-meta-name"/>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
         </sequence>
       </restriction>
     </complexContent>
@@ -3254,7 +3301,7 @@
     <complexContent>
       <restriction base="core:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="330" maxOccurs="360">
+          <element name="str-tunarray-element" minOccurs="330" maxOccurs="433">
             <complexType>
               <sequence>
                 <element name="mode" type="ver:data-enum-modes-type"></element>
@@ -11081,37 +11128,4 @@
       <element name="tau" type="core:str-realfloat32"/>
     </sequence>
   </complexType>
-
-  <complexType name="data-mpolygon">
-    <complexContent>
-      <restriction base="core:str-meta">
-        <sequence>
-          <element name="map" type="ver:data-meta-polygon"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
-  <complexType name="data-meta-polygon">
-    <complexContent>
-      <restriction base="core:str-tunarray">
-        <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="56" type="ver:data-meta-polygon-entry"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
-  <complexType name="data-meta-polygon-entry">
-    <sequence>
-      <element name="type" type="core:str-uinteger16"></element>
-      <element name="index" type="core:str-uinteger16"></element>
-      <element name="is-visible" type="core:str-bool16"></element>
-      <element name="is-clickable" type="core:str-bool16"></element>
-      <element name="layer-name" type="core:str-string16"></element>
-      <element name="opacity" type="core:str-realfloat32"></element>
-      <element name="color" type="core:str-string16"></element>
-    </sequence>
-  </complexType>
-
 </schema>
