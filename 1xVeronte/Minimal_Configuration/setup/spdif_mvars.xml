@@ -1,31 +1,37 @@
-<entry-can-suite-out>
-    <id>289</id>
-    <filename>can_out.bin</filename>
+<entry-mvars>
+    <id>278</id>
+    <filename>mvars.bin</filename>
     <version>
         <major>6</major>
         <minor>8</minor>
         <revision>19</revision>
     </version>
     <data>
-        <can-out>
+        <map>
             <str-tunarray-element>
-                <port>2</port>
+                <idType>0</idType>
+                <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <idType>1</idType>
+                <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <idType>2</idType>
+                <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <idType>3</idType>
+                <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <idType>4</idType>
+                <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <idType>5</idType>
+                <var-name-array/>
             </str-tunarray-element>
-        </can-out>
+        </map>
     </data>
-</entry-can-suite-out>
+</entry-mvars>

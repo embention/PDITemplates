@@ -2714,6 +2714,7 @@
       <element name="start_iq" type="cfg:str-realfloat32"/>
       <element name="max_iq" type="cfg:str-realfloat32"/>
       <element name="t_max_iq" type="cfg:str-realfloat32"/>
+      <element name="vb" type="cfg:str-uinteger16"/>
     </sequence>
   </complexType>
 
