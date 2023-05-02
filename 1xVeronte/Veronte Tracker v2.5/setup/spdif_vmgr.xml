@@ -1,0 +1,21 @@
+<entry-vmgr>
+    <id>80</id>
+    <filename>vmgr.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>61</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <vtype>0</vtype>
+            <id>651</id>
+            <val0>90.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>0</vtype>
+            <id>3119</id>
+            <val0>0.0</val0>
+        </str-tunarray-element>
+    </data>
+</entry-vmgr>

@@ -1,0 +1,24 @@
+<entry-ussa76ex>
+    <id>40</id>
+    <filename>us76ex.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>61</revision>
+    </version>
+    <data>
+        <enable>0</enable>
+        <addr>
+            <uav>998</uav>
+        </addr>
+        <period>60.0</period>
+        <ext-alt>0</ext-alt>
+        <alt>
+            <vref-kval>
+                <type>65534</type>
+                <kval>0.0</kval>
+            </vref-kval>
+        </alt>
+        <T1>288.15</T1>
+    </data>
+</entry-ussa76ex>

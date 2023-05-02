@@ -1,0 +1,31 @@
+<entry-mbit>
+    <id>138</id>
+    <filename>mbit.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>61</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <id>1219</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1467</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1200</id>
+                <description>
+                    <name>Target Position Fix</name>
+                </description>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mbit>
