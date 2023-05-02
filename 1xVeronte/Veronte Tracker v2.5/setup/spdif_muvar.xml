@@ -1,0 +1,31 @@
+<entry-muvar>
+    <id>137</id>
+    <filename>muvar.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>61</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <id>1005</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1027</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1028</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-muvar>

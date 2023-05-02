@@ -1,0 +1,14 @@
+<entry-rrefs>
+    <id>4</id>
+    <filename>rrefs.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>61</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>1000.0</data>
+        </str-tunarray-element>
+    </data>
+</entry-rrefs>
