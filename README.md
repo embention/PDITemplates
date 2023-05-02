@@ -36,7 +36,7 @@ This guide is divided in steps, follow all the steps to successfully upload a co
       }
        ```
     
-      > You can convert an image into a base64 string on this <a href ="https://base64.guru/converter/encode/image/jpg">site</a>.
+      > You can convert an image into a base64 string on this <a href ="https://base64.guru/converter/encode/image/jpg">site</a>. Preferred width is 370px.
 
  3. <a href="">Create a Pull Request</a> and our team will check if your petition fulfills our requirements to be included in the repository. **If your pull request is accepted you'll be able to use your configuration from the PDI Builder of the correspondant product.**
 
