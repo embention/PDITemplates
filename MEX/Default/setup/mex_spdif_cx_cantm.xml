@@ -1,0 +1,28 @@
+<entry-can-fmset-p-mex>
+    <id>319</id>
+    <filename>cx_cantm.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>10</minor>
+        <revision>7</revision>
+    </version>
+    <data>
+        <data-fcan-producer-tx-ini/>
+        <data-fcan-producer-tx>
+            <str-tunarray-element>
+                <id>
+                    <ext>0</ext>
+                    <id>381</id>
+                </id>
+                <msgid>0</msgid>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>
+                    <ext>0</ext>
+                    <id>382</id>
+                </id>
+                <msgid>1</msgid>
+            </str-tunarray-element>
+        </data-fcan-producer-tx>
+    </data>
+</entry-can-fmset-p-mex>

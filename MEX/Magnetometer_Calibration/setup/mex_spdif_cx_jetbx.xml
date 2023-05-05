@@ -1,0 +1,14 @@
+<entry-jetibox-c>
+    <id>312</id>
+    <filename>cx_jetbx.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>10</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <enabled>0</enabled>
+        <sciId>0</sciId>
+        <jetibox_fmset/>
+    </data>
+</entry-jetibox-c>

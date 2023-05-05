@@ -1,0 +1,13 @@
+<entry-can-terminators>
+    <id>321</id>
+    <filename>can-terminators.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>10</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <can_a_terminator_enabled>0</can_a_terminator_enabled>
+        <can_b_terminator_enabled>0</can_b_terminator_enabled>
+    </data>
+</entry-can-terminators>

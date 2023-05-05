@@ -1,0 +1,29 @@
+<entry-ecaps-mex>
+    <id>322</id>
+    <filename>cx_ecaps.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>10</minor>
+        <revision>3</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <enable>0</enable>
+            <gpio-id>24</gpio-id>
+            <wrap>1</wrap>
+            <trigger1>0</trigger1>
+            <trigger2>1</trigger2>
+            <trigger3>0</trigger3>
+            <trigger4>1</trigger4>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <enable>0</enable>
+            <gpio-id>25</gpio-id>
+            <wrap>1</wrap>
+            <trigger1>0</trigger1>
+            <trigger2>1</trigger2>
+            <trigger3>0</trigger3>
+            <trigger4>1</trigger4>
+        </str-tunarray-element>
+    </data>
+</entry-ecaps-mex>

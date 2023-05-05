@@ -1,0 +1,13 @@
+<entry-fmsg-trigger>
+    <id>78</id>
+    <filename>fmsg_trigger.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>10</minor>
+        <revision>7</revision>
+    </version>
+    <data>
+        <can_ids/>
+        <u8_ids/>
+    </data>
+</entry-fmsg-trigger>

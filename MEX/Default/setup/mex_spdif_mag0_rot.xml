@@ -1,0 +1,20 @@
+<entry-mag0_rot>
+    <id>320</id>
+    <filename>mag0_rot.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>10</minor>
+        <revision>7</revision>
+    </version>
+    <data>
+        <a00>0.0</a00>
+        <a10>0.0</a10>
+        <a20>0.0</a20>
+        <a01>0.0</a01>
+        <a11>0.0</a11>
+        <a21>0.0</a21>
+        <a02>0.0</a02>
+        <a12>0.0</a12>
+        <a22>0.0</a22>
+    </data>
+</entry-mag0_rot>
