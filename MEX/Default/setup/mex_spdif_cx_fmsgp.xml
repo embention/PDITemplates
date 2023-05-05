@@ -1,0 +1,20 @@
+<entry-fmsg_p-mex>
+    <id>313</id>
+    <filename>cx_fmsgp.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>10</minor>
+        <revision>7</revision>
+    </version>
+    <data>
+        <fmsg1>
+            <str-tunarray-element>
+                <fmsg-id>0</fmsg-id>
+                <time>0.0</time>
+                <type>0</type>
+                <bitid>0</bitid>
+            </str-tunarray-element>
+        </fmsg1>
+        <fmsg2/>
+    </data>
+</entry-fmsg_p-mex>

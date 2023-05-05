@@ -1,0 +1,31 @@
+<entry-mex-cansuite-out>
+    <id>316</id>
+    <filename>cx_canou.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>10</minor>
+        <revision>7</revision>
+    </version>
+    <data>
+        <can-out>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+            </str-tunarray-element>
+        </can-out>
+    </data>
+</entry-mex-cansuite-out>
