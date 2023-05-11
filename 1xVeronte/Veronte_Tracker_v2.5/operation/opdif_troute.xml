@@ -7,12 +7,90 @@
         <revision>67</revision>
     </version>
     <data>
-        <first>65535</first>
-        <points/>
-        <lines/>
+        <first>1</first>
+        <points>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <p1>45060</p1>
+                </data>
+            </str-tunarray-element>
+        </points>
+        <lines>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <p0>45056</p0>
+                    <p1>45057</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <p0>45058</p0>
+                    <p1>45059</p1>
+                </data>
+            </str-tunarray-element>
+        </lines>
         <orthodromes/>
-        <arcs/>
+        <arcs>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <f0>45057</f0>
+                    <f1>45058</f1>
+                    <rk>
+                        <x>-97.04245</x>
+                        <y>378.59506</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <f0>45059</f0>
+                    <f1>45056</f1>
+                    <rk>
+                        <x>53.698338</x>
+                        <y>-368.49664</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+        </arcs>
         <ellipses/>
-        <patches/>
+        <patches>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <next>1</next>
+                    <type>1</type>
+                    <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <next>2</next>
+                    <type>3</type>
+                    <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <next>3</next>
+                    <type>1</type>
+                    <elem>1</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <next>0</next>
+                    <type>3</type>
+                    <elem>1</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <next>65535</next>
+                    <type>0</type>
+                    <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+        </patches>
     </data>
 </entry-troute>

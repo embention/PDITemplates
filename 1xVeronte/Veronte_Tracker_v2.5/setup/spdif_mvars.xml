@@ -14,7 +14,13 @@
             </str-tunarray-element>
             <str-tunarray-element>
                 <idType>1</idType>
-                <var-name-array/>
+                <var-name-array>
+                    <str-tunarray-element str-tunarray-key="0">
+                        <data>
+                            <name>Unnamed Circle 1</name>
+                        </data>
+                    </str-tunarray-element>
+                </var-name-array>
             </str-tunarray-element>
             <str-tunarray-element>
                 <idType>2</idType>

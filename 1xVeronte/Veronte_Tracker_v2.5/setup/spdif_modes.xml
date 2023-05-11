@@ -6,5 +6,9 @@
         <minor>8</minor>
         <revision>67</revision>
     </version>
-    <data/>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data/>
+        </str-tunarray-element>
+    </data>
 </entry-modes>

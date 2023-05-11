@@ -8,6 +8,6 @@
     </version>
     <data>
         <vcp_tx_enabled>1</vcp_tx_enabled>
-        <period>1.0</period>
+        <period>2.0</period>
     </data>
 </entry-status>

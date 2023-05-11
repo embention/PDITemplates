@@ -9,7 +9,7 @@
     <data>
         <rx_auto>1</rx_auto>
         <rx_address>
-            <uav>2</uav>
+            <uav>998</uav>
         </rx_address>
         <tx_period>1.0</tx_period>
         <tx_address>

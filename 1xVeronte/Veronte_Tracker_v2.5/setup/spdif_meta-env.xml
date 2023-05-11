@@ -7,6 +7,12 @@
         <revision>67</revision>
     </version>
     <data>
-        <map/>
+        <map>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <string>Envelope 1</string>
+                </data>
+            </str-tunarray-element>
+        </map>
     </data>
 </entry-meta-env>

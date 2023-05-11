@@ -9,14 +9,14 @@
     <data>
         <feature>
             <wrt-choice>
-                <wrt-choice-abs>
-                    <wrt>65535</wrt>
-                    <pos>
-                        <lon>0</lon>
-                        <lat>0</lat>
-                        <alt>0</alt>
-                    </pos>
-                </wrt-choice-abs>
+                <wrt-choice-rel>
+                    <wrt>8192</wrt>
+                    <rn>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                    </rn>
+                </wrt-choice-rel>
             </wrt-choice>
         </feature>
     </data>

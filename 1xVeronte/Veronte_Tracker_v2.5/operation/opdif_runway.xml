@@ -7,7 +7,69 @@
         <revision>67</revision>
     </version>
     <data>
-        <runways/>
+        <runways>
+            <str-tunarray-element str-tunarray-key="0">
+                <runway>
+                    <loides>
+                        <ref-kval>
+                            <type>65534</type>
+                            <kval>
+                                <wrt-choice>
+                                    <wrt-choice-abs>
+                                        <wrt>65535</wrt>
+                                        <pos>
+                                            <lon>-5574008</lon>
+                                            <lat>382873903</lat>
+                                            <alt>109380</alt>
+                                        </pos>
+                                    </wrt-choice-abs>
+                                </wrt-choice>
+                            </kval>
+                        </ref-kval>
+                    </loides>
+                    <alarms_cfg>
+                        <str-tunarray-element>1200</str-tunarray-element>
+                    </alarms_cfg>
+                    <fstart>
+                        <ref-kval>
+                            <type>65534</type>
+                            <kval>
+                                <wrt-choice>
+                                    <wrt-choice-abs>
+                                        <wrt>65535</wrt>
+                                        <pos>
+                                            <lon>-5751722</lon>
+                                            <lat>382845533</lat>
+                                            <alt>110380</alt>
+                                        </pos>
+                                    </wrt-choice-abs>
+                                </wrt-choice>
+                            </kval>
+                        </ref-kval>
+                    </fstart>
+                    <fend>
+                        <ref-kval>
+                            <type>65534</type>
+                            <kval>
+                                <wrt-choice>
+                                    <wrt-choice-abs>
+                                        <wrt>65535</wrt>
+                                        <pos>
+                                            <lon>-5534053</lon>
+                                            <lat>382815151</lat>
+                                            <alt>90370</alt>
+                                        </pos>
+                                    </wrt-choice-abs>
+                                </wrt-choice>
+                            </kval>
+                        </ref-kval>
+                    </fend>
+                    <preferred>0</preferred>
+                    <margin-ratio>0.1</margin-ratio>
+                    <margin-reverse-ratio>0.1</margin-reverse-ratio>
+                </runway>
+            </str-tunarray-element>
+        </runways>
         <spots/>
     </data>
 </entry-oprwy>

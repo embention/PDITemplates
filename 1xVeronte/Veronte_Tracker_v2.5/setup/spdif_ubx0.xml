@@ -39,8 +39,8 @@
             <fixedAltVar>1</fixedAltVar>
             <minElev>5</minElev>
             <reserved0>0</reserved0>
-            <pDop>2500</pDop>
-            <tDop>10000</tDop>
+            <pDop>250</pDop>
+            <tDop>1000</tDop>
             <pAcc>100</pAcc>
             <tAcc>100</tAcc>
             <staticHoldThresh>0</staticHoldThresh>
@@ -173,11 +173,11 @@
             <scanMode1>0</scanMode1>
         </sbas>
         <itfm>
-            <config>0</config>
-            <config2>0</config2>
+            <config>2908925171</config>
+            <config2>1126039552</config2>
         </itfm>
         <cfg_rate>
-            <measRate>500</measRate>
+            <measRate>250</measRate>
             <navRate>1</navRate>
             <timeRef>1</timeRef>
         </cfg_rate>
@@ -188,7 +188,7 @@
             <uart1>0</uart1>
             <uart2>0</uart2>
             <usb>0</usb>
-            <rate>1</rate>
+            <rate>0</rate>
             <port5>0</port5>
         </msg_status>
         <msg_pvt>
@@ -248,7 +248,7 @@
             <uart1>0</uart1>
             <uart2>0</uart2>
             <usb>0</usb>
-            <rate>0</rate>
+            <rate>1</rate>
             <port5>0</port5>
         </msg_monhw>
         <msg_rtcminst>

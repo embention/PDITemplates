@@ -10,55 +10,55 @@
         <gpio-pwm000>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm000>
         <gpio-pwm001>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm001>
         <gpio-pwm002>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm002>
         <gpio-pwm003>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm003>
         <gpio-pwm004>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm004>
         <gpio-pwm005>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm005>
         <gpio-pwm006>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm006>
         <gpio-pwm007>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm007>
         <gpio-pwm008>
             <io>1</io>
             <pu>0</pu>
-            <mux>0</mux>
+            <mux>1</mux>
             <q>0</q>
         </gpio-pwm008>
         <gpio-pwm009>
@@ -104,28 +104,28 @@
             <q>0</q>
         </gpio-pwm015>
         <gpio-io01>
-            <io>1</io>
+            <io>0</io>
             <pu>0</pu>
             <mux>0</mux>
-            <q>0</q>
+            <q>3</q>
         </gpio-io01>
         <gpio-io02>
-            <io>1</io>
+            <io>0</io>
             <pu>0</pu>
             <mux>0</mux>
-            <q>0</q>
+            <q>3</q>
         </gpio-io02>
         <gpio-io03>
-            <io>1</io>
+            <io>0</io>
             <pu>0</pu>
             <mux>0</mux>
-            <q>0</q>
+            <q>3</q>
         </gpio-io03>
         <gpio-io04>
-            <io>1</io>
+            <io>0</io>
             <pu>0</pu>
             <mux>0</mux>
-            <q>0</q>
+            <q>3</q>
         </gpio-io04>
     </data>
 </entry-gpio>

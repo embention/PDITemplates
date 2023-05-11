@@ -22,7 +22,7 @@
             <str-tunarray-element>19200</str-tunarray-element>
             <str-tunarray-element>25600</str-tunarray-element>
             <str-tunarray-element>256</str-tunarray-element>
-            <str-tunarray-element>42561</str-tunarray-element>
+            <str-tunarray-element>43841</str-tunarray-element>
             <str-tunarray-element>21542</str-tunarray-element>
             <str-tunarray-element>19248</str-tunarray-element>
             <str-tunarray-element>15147</str-tunarray-element>
@@ -67,54 +67,56 @@
             <str-tunarray-element>16719</str-tunarray-element>
             <str-tunarray-element>15667</str-tunarray-element>
             <str-tunarray-element>11298</str-tunarray-element>
-            <str-tunarray-element>29300</str-tunarray-element>
-            <str-tunarray-element>11893</str-tunarray-element>
-            <str-tunarray-element>29805</str-tunarray-element>
-            <str-tunarray-element>11891</str-tunarray-element>
-            <str-tunarray-element>31091</str-tunarray-element>
-            <str-tunarray-element>29797</str-tunarray-element>
-            <str-tunarray-element>28019</str-tunarray-element>
-            <str-tunarray-element>8763</str-tunarray-element>
-            <str-tunarray-element>11093</str-tunarray-element>
-            <str-tunarray-element>21327</str-tunarray-element>
-            <str-tunarray-element>16719</str-tunarray-element>
-            <str-tunarray-element>15668</str-tunarray-element>
-            <str-tunarray-element>11315</str-tunarray-element>
-            <str-tunarray-element>12593</str-tunarray-element>
-            <str-tunarray-element>13371</str-tunarray-element>
-            <str-tunarray-element>11093</str-tunarray-element>
-            <str-tunarray-element>21327</str-tunarray-element>
-            <str-tunarray-element>16719</str-tunarray-element>
-            <str-tunarray-element>15669</str-tunarray-element>
-            <str-tunarray-element>11318</str-tunarray-element>
+            <str-tunarray-element>25452</str-tunarray-element>
+            <str-tunarray-element>28533</str-tunarray-element>
+            <str-tunarray-element>25646</str-tunarray-element>
+            <str-tunarray-element>25965</str-tunarray-element>
+            <str-tunarray-element>25189</str-tunarray-element>
+            <str-tunarray-element>28276</str-tunarray-element>
+            <str-tunarray-element>26991</str-tunarray-element>
+            <str-tunarray-element>28206</str-tunarray-element>
+            <str-tunarray-element>25455</str-tunarray-element>
+            <str-tunarray-element>27938</str-tunarray-element>
             <str-tunarray-element>15147</str-tunarray-element>
             <str-tunarray-element>21843</str-tunarray-element>
             <str-tunarray-element>20289</str-tunarray-element>
             <str-tunarray-element>20285</str-tunarray-element>
-            <str-tunarray-element>12332</str-tunarray-element>
-            <str-tunarray-element>12603</str-tunarray-element>
-            <str-tunarray-element>11093</str-tunarray-element>
-            <str-tunarray-element>20563</str-tunarray-element>
-            <str-tunarray-element>17473</str-tunarray-element>
-            <str-tunarray-element>15664</str-tunarray-element>
-            <str-tunarray-element>11313</str-tunarray-element>
-            <str-tunarray-element>15142</str-tunarray-element>
-            <str-tunarray-element>22320</str-tunarray-element>
+            <str-tunarray-element>13356</str-tunarray-element>
+            <str-tunarray-element>13105</str-tunarray-element>
+            <str-tunarray-element>12596</str-tunarray-element>
             <str-tunarray-element>15147</str-tunarray-element>
-            <str-tunarray-element>17222</str-tunarray-element>
-            <str-tunarray-element>21838</str-tunarray-element>
-            <str-tunarray-element>15665</str-tunarray-element>
-            <str-tunarray-element>13837</str-tunarray-element>
-            <str-tunarray-element>2560</str-tunarray-element>
-            <str-tunarray-element>768</str-tunarray-element>
-            <str-tunarray-element>0</str-tunarray-element>
-            <str-tunarray-element>191</str-tunarray-element>
-            <str-tunarray-element>32768</str-tunarray-element>
-            <str-tunarray-element>2091</str-tunarray-element>
-            <str-tunarray-element>21845</str-tunarray-element>
+            <str-tunarray-element>21843</str-tunarray-element>
+            <str-tunarray-element>20289</str-tunarray-element>
+            <str-tunarray-element>20285</str-tunarray-element>
+            <str-tunarray-element>13612</str-tunarray-element>
+            <str-tunarray-element>13883</str-tunarray-element>
+            <str-tunarray-element>11093</str-tunarray-element>
             <str-tunarray-element>21327</str-tunarray-element>
             <str-tunarray-element>16719</str-tunarray-element>
-            <str-tunarray-element>17152</str-tunarray-element>
+            <str-tunarray-element>15664</str-tunarray-element>
+            <str-tunarray-element>11313</str-tunarray-element>
+            <str-tunarray-element>15147</str-tunarray-element>
+            <str-tunarray-element>21840</str-tunarray-element>
+            <str-tunarray-element>21316</str-tunarray-element>
+            <str-tunarray-element>16701</str-tunarray-element>
+            <str-tunarray-element>12332</str-tunarray-element>
+            <str-tunarray-element>12603</str-tunarray-element>
+            <str-tunarray-element>9815</str-tunarray-element>
+            <str-tunarray-element>12347</str-tunarray-element>
+            <str-tunarray-element>11075</str-tunarray-element>
+            <str-tunarray-element>18005</str-tunarray-element>
+            <str-tunarray-element>20029</str-tunarray-element>
+            <str-tunarray-element>12598</str-tunarray-element>
+            <str-tunarray-element>3338</str-tunarray-element>
+            <str-tunarray-element>3</str-tunarray-element>
+            <str-tunarray-element>0</str-tunarray-element>
+            <str-tunarray-element>0</str-tunarray-element>
+            <str-tunarray-element>49024</str-tunarray-element>
+            <str-tunarray-element>8</str-tunarray-element>
+            <str-tunarray-element>11093</str-tunarray-element>
+            <str-tunarray-element>21843</str-tunarray-element>
+            <str-tunarray-element>20289</str-tunarray-element>
+            <str-tunarray-element>20291</str-tunarray-element>
         </rawpcfg>
     </data>
 </entry-sara>

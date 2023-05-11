@@ -10,7 +10,7 @@
         <accelRange>4</accelRange>
         <accelSampleRate>160</accelSampleRate>
         <accelbw>0</accelbw>
-        <enOutDr>1</enOutDr>
+        <enOutDr>0</enOutDr>
         <linear_lpf2>0</linear_lpf2>
         <accel_dso_lpf2_en>0</accel_dso_lpf2_en>
         <accel_dso_lpf2_fc>0</accel_dso_lpf2_fc>

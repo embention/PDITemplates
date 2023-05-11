@@ -7,6 +7,31 @@
         <revision>67</revision>
     </version>
     <data>
-        <map/>
+        <map>
+            <str-tunarray-element>
+                <id>1219</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1467</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1200</id>
+                <description>
+                    <name>Target Position Fix</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1201</id>
+                <description>
+                    <name>Test Enable</name>
+                </description>
+            </str-tunarray-element>
+        </map>
     </data>
 </entry-mbit>

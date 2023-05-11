@@ -10,7 +10,7 @@
         <accMaxNvSamples>10</accMaxNvSamples>
         <gyrMaxNvSamples>10</gyrMaxNvSamples>
         <mode_32bit>1</mode_32bit>
-        <filter_stages>4</filter_stages>
+        <filter_stages>0</filter_stages>
         <bandwidth_370hz>0</bandwidth_370hz>
     </data>
 </entry-imu3>

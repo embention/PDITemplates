@@ -8,7 +8,7 @@
     </version>
     <data>
         <size>4</size>
-        <isAutoGeoref>1</isAutoGeoref>
+        <isAutoGeoref>0</isAutoGeoref>
         <marginGeoref>0.2</marginGeoref>
         <isAutoMagfield>1</isAutoMagfield>
     </data>

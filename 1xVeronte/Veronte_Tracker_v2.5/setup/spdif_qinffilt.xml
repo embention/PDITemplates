@@ -7,7 +7,7 @@
         <revision>67</revision>
     </version>
     <data>
-        <enable>0</enable>
-        <cutoff_freq>1.0</cutoff_freq>
+        <enable>1</enable>
+        <cutoff_freq>1.4999999</cutoff_freq>
     </data>
 </entry-qinffilt>

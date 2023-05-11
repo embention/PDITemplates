@@ -6,5 +6,16 @@
         <minor>8</minor>
         <revision>67</revision>
     </version>
-    <data/>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <map>
+                    <abbreviation>65</abbreviation>
+                    <name>
+                        <name>Auto</name>
+                    </name>
+                </map>
+            </data>
+        </str-tunarray-element>
+    </data>
 </entry-mmodes>

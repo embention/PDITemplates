@@ -8,6 +8,6 @@
     </version>
     <data>
         <period_acq>9.90099E-4</period_acq>
-        <period_gnc>0.01</period_gnc>
+        <period_gnc>0.0025</period_gnc>
     </data>
 </entry-freqmgr>

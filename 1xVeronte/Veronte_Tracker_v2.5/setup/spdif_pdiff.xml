@@ -7,9 +7,9 @@
         <revision>67</revision>
     </version>
     <data>
-        <mode>0</mode>
-        <e2dBb>0.0</e2dBb>
-        <decimation>0</decimation>
+        <mode>1</mode>
+        <e2dBb>100.0</e2dBb>
+        <decimation>10</decimation>
         <qmin>1.0</qmin>
         <ub>
             <x>1.0</x>

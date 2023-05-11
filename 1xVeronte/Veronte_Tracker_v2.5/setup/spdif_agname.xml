@@ -7,6 +7,37 @@
         <revision>67</revision>
     </version>
     <data>
-        <map/>
+        <map>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <string>Buttons</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <string>TILT Enable</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <string>Initialize</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <string>Trim</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <string>Indicators</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <string>Failsafe</string>
+                </data>
+            </str-tunarray-element>
+        </map>
     </data>
 </entry-automations-gname>

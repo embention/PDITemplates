@@ -9,7 +9,7 @@
     <data>
         <can-in>
             <str-tunarray-element>
-                <port>2</port>
+                <port>0</port>
                 <filter_p>
                     <filter>
                         <id>
@@ -18,11 +18,11 @@
                         </id>
                         <mask>2047</mask>
                     </filter>
-                    <both_ids>1</both_ids>
+                    <both_ids>0</both_ids>
                 </filter_p>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <port>1</port>
                 <filter_p>
                     <filter>
                         <id>
@@ -31,11 +31,37 @@
                         </id>
                         <mask>2047</mask>
                     </filter>
-                    <both_ids>1</both_ids>
+                    <both_ids>0</both_ids>
                 </filter_p>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <port>0</port>
+                <filter_p>
+                    <filter>
+                        <id>
+                            <ext>0</ext>
+                            <id>0</id>
+                        </id>
+                        <mask>0</mask>
+                    </filter>
+                    <both_ids>0</both_ids>
+                </filter_p>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>1</port>
+                <filter_p>
+                    <filter>
+                        <id>
+                            <ext>0</ext>
+                            <id>0</id>
+                        </id>
+                        <mask>0</mask>
+                    </filter>
+                    <both_ids>0</both_ids>
+                </filter_p>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>0</port>
                 <filter_p>
                     <filter>
                         <id>
@@ -44,11 +70,11 @@
                         </id>
                         <mask>2047</mask>
                     </filter>
-                    <both_ids>1</both_ids>
+                    <both_ids>0</both_ids>
                 </filter_p>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <port>0</port>
                 <filter_p>
                     <filter>
                         <id>
@@ -57,33 +83,7 @@
                         </id>
                         <mask>2047</mask>
                     </filter>
-                    <both_ids>1</both_ids>
-                </filter_p>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <port>2</port>
-                <filter_p>
-                    <filter>
-                        <id>
-                            <ext>0</ext>
-                            <id>0</id>
-                        </id>
-                        <mask>2047</mask>
-                    </filter>
-                    <both_ids>1</both_ids>
-                </filter_p>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <port>2</port>
-                <filter_p>
-                    <filter>
-                        <id>
-                            <ext>0</ext>
-                            <id>0</id>
-                        </id>
-                        <mask>2047</mask>
-                    </filter>
-                    <both_ids>1</both_ids>
+                    <both_ids>0</both_ids>
                 </filter_p>
             </str-tunarray-element>
         </can-in>

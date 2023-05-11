@@ -12,7 +12,7 @@
                 <data>
                     <wstall>
                         <minEnabled>0</minEnabled>
-                        <min>0.0</min>
+                        <min>11.0</min>
                         <maxEnabled>0</maxEnabled>
                         <max>0.0</max>
                     </wstall>
@@ -25,20 +25,20 @@
                     <vtol>0</vtol>
                     <wvdown>
                         <minEnabled>0</minEnabled>
-                        <min>0.0</min>
+                        <min>-2.0</min>
                         <maxEnabled>0</maxEnabled>
-                        <max>0.0</max>
+                        <max>2.0</max>
                     </wvdown>
                     <wfpa>
                         <minEnabled>0</minEnabled>
-                        <min>0.0</min>
+                        <min>-0.34</min>
                         <maxEnabled>0</maxEnabled>
-                        <max>0.0</max>
+                        <max>0.34</max>
                     </wfpa>
                     <isLimitAcc>0</isLimitAcc>
                     <accenv>
-                        <acc-limit-type>0</acc-limit-type>
-                        <acc-falling-x>156.9064</acc-falling-x>
+                        <acc-limit-type>1</acc-limit-type>
+                        <acc-falling-x>0.5</acc-falling-x>
                         <acc-rising-x>156.9064</acc-rising-x>
                         <acc-falling-y>156.9064</acc-falling-y>
                         <acc-rising-y>156.9064</acc-rising-y>
@@ -47,12 +47,12 @@
                     </accenv>
                     <isLimitJerk>0</isLimitJerk>
                     <jerkenv>
-                        <jerk-falling-x>156.9064</jerk-falling-x>
-                        <jerk-rising-x>156.9064</jerk-rising-x>
-                        <jerk-falling-y>156.9064</jerk-falling-y>
-                        <jerk-rising-y>156.9064</jerk-rising-y>
-                        <jerk-falling-z>156.9064</jerk-falling-z>
-                        <jerk-rising-z>156.9064</jerk-rising-z>
+                        <jerk-falling-x>3.0</jerk-falling-x>
+                        <jerk-rising-x>3.0</jerk-rising-x>
+                        <jerk-falling-y>3.0</jerk-falling-y>
+                        <jerk-rising-y>3.0</jerk-rising-y>
+                        <jerk-falling-z>0.8</jerk-falling-z>
+                        <jerk-rising-z>0.8</jerk-rising-z>
                     </jerkenv>
                     <limangrate>0</limangrate>
                 </data>

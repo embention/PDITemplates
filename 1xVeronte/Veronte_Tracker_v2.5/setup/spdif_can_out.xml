@@ -9,22 +9,22 @@
     <data>
         <can-out>
             <str-tunarray-element>
-                <port>2</port>
+                <port>0</port>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <port>1</port>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <port>0</port>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <port>1</port>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <port>0</port>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>2</port>
+                <port>0</port>
             </str-tunarray-element>
         </can-out>
     </data>

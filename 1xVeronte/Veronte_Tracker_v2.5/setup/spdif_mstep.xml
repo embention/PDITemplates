@@ -7,6 +7,37 @@
         <revision>67</revision>
     </version>
     <data>
-        <map/>
+        <map>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <string>Trim Step</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <string>Battery</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <string>SENSORS</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <string>Objects of interest</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <string>Joints</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="21">
+                <data>
+                    <string>Navigation</string>
+                </data>
+            </str-tunarray-element>
+        </map>
     </data>
 </entry-mstep>

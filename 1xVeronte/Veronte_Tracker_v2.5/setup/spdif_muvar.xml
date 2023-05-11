@@ -7,6 +7,25 @@
         <revision>67</revision>
     </version>
     <data>
-        <map/>
+        <map>
+            <str-tunarray-element>
+                <id>1005</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1027</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1028</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+        </map>
     </data>
 </entry-muvar>

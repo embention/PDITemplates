@@ -9,10 +9,10 @@
     <data>
         <accRange>2</accRange>
         <accODR>12</accODR>
-        <accBWP>160</accBWP>
+        <accBWP>128</accBWP>
         <accMaxNvSamples>30</accMaxNvSamples>
         <gyrRange>0</gyrRange>
-        <gyrOdrBw>2</gyrOdrBw>
+        <gyrOdrBw>0</gyrOdrBw>
         <gyrMaxNvSamples>30</gyrMaxNvSamples>
     </data>
 </entry-imu2>

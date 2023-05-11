@@ -12,20 +12,5 @@
             <consumer>0</consumer>
             <group>0</group>
         </str-tunarray-element>
-        <str-tunarray-element>
-            <producer>1</producer>
-            <consumer>4</consumer>
-            <group>0</group>
-        </str-tunarray-element>
-        <str-tunarray-element>
-            <producer>2</producer>
-            <consumer>5</consumer>
-            <group>0</group>
-        </str-tunarray-element>
-        <str-tunarray-element>
-            <producer>3</producer>
-            <consumer>6</consumer>
-            <group>0</group>
-        </str-tunarray-element>
     </data>
 </entry-xpecap>

@@ -12,26 +12,17 @@
             <vs0>
                 <is_signed>0</is_signed>
                 <uvar_id>2001</uvar_id>
-                <polycoef>
-                    <str-tunarray-element>0.0</str-tunarray-element>
-                    <str-tunarray-element>1.0</str-tunarray-element>
-                </polycoef>
+                <polycoef/>
             </vs0>
             <vs1>
                 <is_signed>0</is_signed>
                 <uvar_id>2001</uvar_id>
-                <polycoef>
-                    <str-tunarray-element>0.0</str-tunarray-element>
-                    <str-tunarray-element>1.0</str-tunarray-element>
-                </polycoef>
+                <polycoef/>
             </vs1>
             <vs2>
                 <is_signed>0</is_signed>
                 <uvar_id>2001</uvar_id>
-                <polycoef>
-                    <str-tunarray-element>0.0</str-tunarray-element>
-                    <str-tunarray-element>1.0</str-tunarray-element>
-                </polycoef>
+                <polycoef/>
             </vs2>
         </uvar0>
         <uvar1>
@@ -39,30 +30,21 @@
             <vs0>
                 <is_signed>0</is_signed>
                 <uvar_id>2001</uvar_id>
-                <polycoef>
-                    <str-tunarray-element>0.0</str-tunarray-element>
-                    <str-tunarray-element>1.0</str-tunarray-element>
-                </polycoef>
+                <polycoef/>
             </vs0>
             <vs1>
                 <is_signed>0</is_signed>
                 <uvar_id>2001</uvar_id>
-                <polycoef>
-                    <str-tunarray-element>0.0</str-tunarray-element>
-                    <str-tunarray-element>1.0</str-tunarray-element>
-                </polycoef>
+                <polycoef/>
             </vs1>
             <vs2>
                 <is_signed>0</is_signed>
                 <uvar_id>2001</uvar_id>
-                <polycoef>
-                    <str-tunarray-element>0.0</str-tunarray-element>
-                    <str-tunarray-element>1.0</str-tunarray-element>
-                </polycoef>
+                <polycoef/>
             </vs2>
         </uvar1>
         <rvar0>
-            <enable>0</enable>
+            <enable>1</enable>
             <vs0>
                 <rvar_id>4100</rvar_id>
             </vs0>
@@ -70,11 +52,11 @@
                 <rvar_id>4100</rvar_id>
             </vs1>
             <vs2>
-                <rvar_id>4100</rvar_id>
+                <rvar_id>3127</rvar_id>
             </vs2>
         </rvar0>
         <rvar1>
-            <enable>0</enable>
+            <enable>1</enable>
             <vs0>
                 <rvar_id>4100</rvar_id>
             </vs0>
