@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <map>
@@ -125,6 +125,13 @@
                     <name>Charging Indicator</name>
                     <group>4</group>
                     <order>3</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <name>Test Button</name>
+                    <group>0</group>
+                    <order>5</order>
                 </data>
             </str-tunarray-element>
         </map>

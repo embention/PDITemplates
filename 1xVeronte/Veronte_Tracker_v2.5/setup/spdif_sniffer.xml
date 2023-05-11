@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -45,7 +45,7 @@
                     </data>
                 </str-tunarray-element>
             </map>
-            <accept_all>0</accept_all>
+            <accept_all>1</accept_all>
             <timeout>0.0</timeout>
         </str-tunarray-element>
     </data>

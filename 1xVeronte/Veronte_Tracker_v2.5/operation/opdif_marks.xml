@@ -4,7 +4,24 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
-    <data/>
+    <data>
+        <str-tunarray-element str-tunarray-key="1">
+            <data>
+                <t>0</t>
+                <psid>0</psid>
+                <id>4</id>
+                <s>100.0</s>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data>
+                <t>0</t>
+                <psid>2</psid>
+                <id>5</id>
+                <s>0.0</s>
+            </data>
+        </str-tunarray-element>
+    </data>
 </entry-rmark>

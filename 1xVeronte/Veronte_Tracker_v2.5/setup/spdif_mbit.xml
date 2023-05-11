@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <map>
@@ -24,6 +24,12 @@
                 <id>1200</id>
                 <description>
                     <name>Target Position Fix</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1201</id>
+                <description>
+                    <name>Test Enable</name>
                 </description>
             </str-tunarray-element>
         </map>

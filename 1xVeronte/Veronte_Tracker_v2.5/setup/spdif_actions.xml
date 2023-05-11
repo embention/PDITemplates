@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <action-array>
@@ -294,6 +294,17 @@
                         <idCfg>222</idCfg>
                         <str>
                             <phase-cmd>1</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="12">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>2</phase-cmd>
                         </str>
                     </acset-phase>
                 </data>

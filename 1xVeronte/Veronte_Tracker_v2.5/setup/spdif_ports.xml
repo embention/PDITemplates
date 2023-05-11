@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -16,6 +16,18 @@
                             <uav>2</uav>
                         </address>
                         <port>3</port>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <address>
+                            <uav>30274</uav>
+                        </address>
+                        <port>4</port>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <address>
+                            <uav>30273</uav>
+                        </address>
+                        <port>4</port>
                     </str-tunarray-element>
                 </data-ports-aux>
             </data>
