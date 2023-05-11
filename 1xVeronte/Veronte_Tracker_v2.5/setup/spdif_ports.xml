@@ -4,20 +4,13 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
             <data>
-                <msk-port>103</msk-port>
-                <data-ports-aux>
-                    <str-tunarray-element>
-                        <address>
-                            <uav>2</uav>
-                        </address>
-                        <port>3</port>
-                    </str-tunarray-element>
-                </data-ports-aux>
+                <msk-port>63</msk-port>
+                <data-ports-aux/>
             </data>
         </str-tunarray-element>
     </data>

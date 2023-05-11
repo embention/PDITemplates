@@ -4,11 +4,11 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <size>4</size>
-        <isAutoGeoref>0</isAutoGeoref>
+        <isAutoGeoref>1</isAutoGeoref>
         <marginGeoref>0.2</marginGeoref>
         <isAutoMagfield>1</isAutoMagfield>
     </data>

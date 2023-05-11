@@ -4,9 +4,9 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
-        <selected>0</selected>
+        <selected>65535</selected>
     </data>
 </entry-qinfsuite>

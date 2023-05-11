@@ -4,13 +4,13 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <accelRange>4</accelRange>
         <accelSampleRate>160</accelSampleRate>
         <accelbw>0</accelbw>
-        <enOutDr>0</enOutDr>
+        <enOutDr>1</enOutDr>
         <linear_lpf2>0</linear_lpf2>
         <accel_dso_lpf2_en>0</accel_dso_lpf2_en>
         <accel_dso_lpf2_fc>0</accel_dso_lpf2_fc>

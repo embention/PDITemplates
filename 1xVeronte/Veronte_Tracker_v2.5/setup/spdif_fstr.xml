@@ -4,47 +4,10 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <periode>0.1</periode>
-        <fields>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3103</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3104</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3105</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>300</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-        </fields>
+        <fields/>
     </data>
 </entry-fstr>

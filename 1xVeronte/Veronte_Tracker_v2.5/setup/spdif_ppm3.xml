@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <puls_pol>0</puls_pol>
@@ -15,9 +15,9 @@
         <valid_max>0.0022</valid_max>
         <pos_min>9.0E-4</pos_min>
         <pos_max>0.0021</pos_max>
-        <ch_num>8</ch_num>
-        <chmsk>255</chmsk>
-        <fmsk>255</fmsk>
+        <ch_num>16</ch_num>
+        <chmsk>4095</chmsk>
+        <fmsk>4294967295</fmsk>
         <fgl>
             <delta_min>0.0</delta_min>
             <delta_max>1000.0</delta_max>

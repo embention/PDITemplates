@@ -4,18 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
-    <data>
-        <str-tunarray-element str-tunarray-key="0">
-            <data>
-                <map>
-                    <abbreviation>65</abbreviation>
-                    <name>
-                        <name>Auto</name>
-                    </name>
-                </map>
-            </data>
-        </str-tunarray-element>
-    </data>
+    <data/>
 </entry-mmodes>

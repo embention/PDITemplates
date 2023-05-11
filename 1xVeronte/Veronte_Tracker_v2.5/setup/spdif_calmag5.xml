@@ -4,13 +4,13 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
-        <temp_hyst>1.0</temp_hyst>
+        <temp_hyst>0.5</temp_hyst>
         <cal_data>
             <str-tunarray-element>
-                <x>1.0</x>
+                <x>0.0</x>
                 <y1>0.0</y1>
                 <y2>0.0</y2>
                 <y3>0.0</y3>

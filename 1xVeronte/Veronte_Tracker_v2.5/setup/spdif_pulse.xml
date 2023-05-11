@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <cap-pulse-1>
@@ -31,7 +31,7 @@
                     <y1>0.0</y1>
                 </str-tunarray-element>
             </t2v>
-            <tout>0.0</tout>
+            <tout>1.0</tout>
         </cap-pulse-1>
         <cap-pulse-2>
             <type>0</type>
@@ -57,7 +57,7 @@
                     <y1>0.0</y1>
                 </str-tunarray-element>
             </t2v>
-            <tout>0.0</tout>
+            <tout>1.0</tout>
         </cap-pulse-2>
         <cap-pulse-3>
             <type>0</type>
@@ -83,7 +83,7 @@
                     <y1>0.0</y1>
                 </str-tunarray-element>
             </t2v>
-            <tout>0.0</tout>
+            <tout>1.0</tout>
         </cap-pulse-3>
         <cap-pulse-4>
             <type>0</type>
@@ -109,7 +109,7 @@
                     <y1>0.0</y1>
                 </str-tunarray-element>
             </t2v>
-            <tout>0.0</tout>
+            <tout>1.0</tout>
         </cap-pulse-4>
     </data>
 </entry-cap-pulse>

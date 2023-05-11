@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <serial-can>
@@ -18,35 +18,35 @@
             <str-tunarray-element>
                 <can-id>
                     <ext>0</ext>
-                    <id>100</id>
+                    <id>1302</id>
                 </can-id>
                 <timeout>6.7E-4</timeout>
             </str-tunarray-element>
             <str-tunarray-element>
                 <can-id>
                     <ext>0</ext>
-                    <id>2047</id>
+                    <id>1302</id>
                 </can-id>
                 <timeout>6.7E-4</timeout>
             </str-tunarray-element>
             <str-tunarray-element>
                 <can-id>
                     <ext>0</ext>
-                    <id>0</id>
+                    <id>1302</id>
                 </can-id>
                 <timeout>6.7E-4</timeout>
             </str-tunarray-element>
             <str-tunarray-element>
                 <can-id>
                     <ext>0</ext>
-                    <id>0</id>
+                    <id>1302</id>
                 </can-id>
                 <timeout>6.7E-4</timeout>
             </str-tunarray-element>
             <str-tunarray-element>
                 <can-id>
                     <ext>0</ext>
-                    <id>0</id>
+                    <id>1302</id>
                 </can-id>
                 <timeout>6.7E-4</timeout>
             </str-tunarray-element>

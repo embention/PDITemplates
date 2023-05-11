@@ -4,10 +4,21 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
-        <baudrate>1000000</baudrate>
-        <rx/>
+        <baudrate>500000</baudrate>
+        <rx>
+            <str-tunarray-element>
+                <size>4</size>
+                <filter>
+                    <id>
+                        <ext>0</ext>
+                        <id>1301</id>
+                    </id>
+                    <mask>2047</mask>
+                </filter>
+            </str-tunarray-element>
+        </rx>
     </data>
 </entry-canb>

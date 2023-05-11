@@ -4,12 +4,12 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <map>
             <enable>0</enable>
-            <time>2.0</time>
+            <time>1.0</time>
         </map>
     </data>
 </entry-external-obstacles>

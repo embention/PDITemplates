@@ -4,12 +4,12 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
         <tunnel1>
             <address>
-                <uav>999</uav>
+                <uav>2</uav>
             </address>
             <port>0</port>
             <dts>0.01</dts>
@@ -18,7 +18,7 @@
         </tunnel1>
         <tunnel2>
             <address>
-                <uav>999</uav>
+                <uav>2</uav>
             </address>
             <port>0</port>
             <dts>0.01</dts>
@@ -27,7 +27,7 @@
         </tunnel2>
         <tunnel3>
             <address>
-                <uav>999</uav>
+                <uav>2</uav>
             </address>
             <port>0</port>
             <dts>0.01</dts>

@@ -4,20 +4,9 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>61</revision>
+        <revision>67</revision>
     </version>
     <data>
-        <map>
-            <str-tunarray-element str-tunarray-key="8192">
-                <data>
-                    <string>UAV position</string>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="45056">
-                <data>
-                    <string>Test point</string>
-                </data>
-            </str-tunarray-element>
-        </map>
+        <map/>
     </data>
 </entry-mfmgr>
