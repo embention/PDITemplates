@@ -1,0 +1,13 @@
+<entry-status>
+    <id>51</id>
+    <filename>status.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <vcp_tx_enabled>1</vcp_tx_enabled>
+        <period>2.0</period>
+    </data>
+</entry-status>

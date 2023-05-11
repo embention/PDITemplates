@@ -1,0 +1,34 @@
+<entry-mevact>
+    <id>129</id>
+    <filename>mevact.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <name>Define Yaw</name>
+                    <group>0</group>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <name>Battery Indicator</name>
+                    <group>1</group>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <name>Charging Indicator</name>
+                    <group>1</group>
+                    <order>1</order>
+                </data>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mevact>
