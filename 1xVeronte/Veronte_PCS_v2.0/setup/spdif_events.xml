@@ -1,0 +1,37 @@
+<entry-events>
+    <id>82</id>
+    <filename>events.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="5">
+            <data>
+                <type>4</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>1</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="15">
+            <data>
+                <type>9</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="18">
+            <data>
+                <type>9</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-events>
