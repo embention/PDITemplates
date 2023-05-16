@@ -13,7 +13,7 @@
                     <data-fieldset>
                         <real-float32>
                             <type>0</type>
-                            <id>322</id>
+                            <id>313</id>
                             <scale>1.0</scale>
                         </real-float32>
                     </data-fieldset>
@@ -22,7 +22,7 @@
                     <data-fieldset>
                         <real-float32>
                             <type>0</type>
-                            <id>323</id>
+                            <id>314</id>
                             <scale>1.0</scale>
                         </real-float32>
                     </data-fieldset>
@@ -37,7 +37,7 @@
                     <data-fieldset>
                         <real-float32>
                             <type>0</type>
-                            <id>324</id>
+                            <id>315</id>
                             <scale>1.0</scale>
                         </real-float32>
                     </data-fieldset>
