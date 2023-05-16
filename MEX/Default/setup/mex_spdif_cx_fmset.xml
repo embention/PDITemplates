@@ -4,9 +4,65 @@
     <version>
         <major>6</major>
         <minor>10</minor>
-        <revision>7</revision>
+        <revision>11</revision>
     </version>
     <data>
+        <str-tunarray-element>
+            <fields>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-ibits>
+                            <type>6</type>
+                            <id>322</id>
+                            <min>-2.1845334E-4</min>
+                            <max>2.1844667E-4</max>
+                            <umin>-32768</umin>
+                            <umax>32767</umax>
+                            <nbits>16</nbits>
+                        </real-ibits>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-ibits>
+                            <type>6</type>
+                            <id>323</id>
+                            <min>-2.1845334E-4</min>
+                            <max>2.1844667E-4</max>
+                            <umin>-32768</umin>
+                            <umax>32767</umax>
+                            <nbits>16</nbits>
+                        </real-ibits>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-ibits>
+                            <type>6</type>
+                            <id>324</id>
+                            <min>-2.1845334E-4</min>
+                            <max>2.1844667E-4</max>
+                            <umin>-32768</umin>
+                            <umax>32767</umax>
+                            <nbits>16</nbits>
+                        </real-ibits>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <matcher>
+                            <type>8</type>
+                            <id>0</id>
+                            <nbits>8</nbits>
+                            <value>13</value>
+                            <mask>255</mask>
+                        </matcher>
+                    </data-fieldset>
+                </str-tunarray-element>
+            </fields>
+            <endianness>2</endianness>
+            <time>0.02</time>
+        </str-tunarray-element>
         <str-tunarray-element>
             <fields>
                 <str-tunarray-element>

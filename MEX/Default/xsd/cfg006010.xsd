@@ -2791,7 +2791,6 @@
       <element name="spd_frac" type="cfg:str-realfloat32"/>
       <element name="startup_acc" type="cfg:str-realfloat32"/>
       <element name="max_spd" type="cfg:str-realfloat32"/>
-      <element name="invert" type="cfg:str-bool16"/>
     </sequence>
   </complexType>
 
@@ -2806,16 +2805,14 @@
       <element name="max_iq" type="cfg:str-realfloat32"/>
       <element name="t_max_iq" type="cfg:str-realfloat32"/>
       <element name="vb" type="cfg:str-uinteger16"/>
+      <element name="lambda" type="cfg:str-realfloat32"/>
     </sequence>
   </complexType>
 
   <complexType name="vmc-smobserver">
     <sequence>
       <element name="kslide" type="cfg:str-realfloat32"/>
-      <element name="auto_offset" type="cfg:str-bool16"/>
-      <element name="offset" type="cfg:str-realfloat32"/>
       <element name="k_sigm" type="cfg:str-realfloat32"/>
-      <element name="tau" type="cfg:str-realfloat32"/>
     </sequence>
   </complexType>
 
