@@ -1081,7 +1081,7 @@
                                                 <const-real>
                                                     <block-type>25</block-type>
                                                     <value>
-                                                        <str-tunarray-element>0.03</str-tunarray-element>
+                                                        <str-tunarray-element>0.02</str-tunarray-element>
                                                     </value>
                                                 </const-real>
                                             </str-tunarray-element>
