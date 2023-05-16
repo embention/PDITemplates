@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>10</minor>
-        <revision>7</revision>
+        <revision>11</revision>
     </version>
     <data>
         <data-fcan-producer-tx-ini/>

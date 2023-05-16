@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>10</minor>
-        <revision>7</revision>
+        <revision>11</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -32,13 +32,7 @@
             <enable-bvar>1</enable-bvar>
         </str-tunarray-element>
         <str-tunarray-element>
-            <producer>2</producer>
-            <consumer>14</consumer>
-            <group>0</group>
-            <enable-bvar>1</enable-bvar>
-        </str-tunarray-element>
-        <str-tunarray-element>
-            <producer>9</producer>
+            <producer>18</producer>
             <consumer>2</consumer>
             <group>0</group>
             <enable-bvar>1</enable-bvar>
