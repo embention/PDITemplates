@@ -1,0 +1,23 @@
+<entry-mfmgr>
+    <id>148</id>
+    <filename>mfmgr.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>71</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element str-tunarray-key="8192">
+                <data>
+                    <string>UAV position</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8194">
+                <data>
+                    <string>Desired position</string>
+                </data>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mfmgr>
