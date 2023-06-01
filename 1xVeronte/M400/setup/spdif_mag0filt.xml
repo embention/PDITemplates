@@ -1,0 +1,13 @@
+<entry-mag0filt>
+    <id>99</id>
+    <filename>mag0filt.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>71</revision>
+    </version>
+    <data>
+        <enable>1</enable>
+        <cutoff_freq>2.0</cutoff_freq>
+    </data>
+</entry-mag0filt>

@@ -1,0 +1,12 @@
+<entry-cantm-c1>
+    <id>39</id>
+    <filename>cantmc1.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>71</revision>
+    </version>
+    <data>
+        <data-fcan-consumer-rx/>
+    </data>
+</entry-cantm-c1>
