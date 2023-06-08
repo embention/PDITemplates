@@ -1,0 +1,21 @@
+<entry-mmodes>
+    <id>127</id>
+    <filename>mmodes.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <map>
+                    <abbreviation>65</abbreviation>
+                    <name>
+                        <name>Auto</name>
+                    </name>
+                </map>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-mmodes>
