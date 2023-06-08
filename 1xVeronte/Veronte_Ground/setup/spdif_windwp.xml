@@ -1,0 +1,27 @@
+<entry-windwp>
+    <id>77</id>
+    <filename>windwp.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <ak>
+            <x>0.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </ak>
+        <Pk>
+            <a00>1.0</a00>
+            <a10>0.0</a10>
+            <a20>0.0</a20>
+            <a01>0.0</a01>
+            <a11>1.0</a11>
+            <a21>0.0</a21>
+            <a02>0.0</a02>
+            <a12>0.0</a12>
+            <a22>1.0</a22>
+        </Pk>
+    </data>
+</entry-windwp>

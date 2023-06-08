@@ -1,0 +1,37 @@
+<entry-mvars>
+    <id>278</id>
+    <filename>mvars.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <idType>0</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>1</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>2</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>3</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>4</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>5</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mvars>

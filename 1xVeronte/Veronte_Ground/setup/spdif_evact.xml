@@ -1,0 +1,42 @@
+<entry-evact>
+    <id>84</id>
+    <filename>evact.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <enabled>1</enabled>
+                <delay>0.0</delay>
+                <delay_max>0</delay_max>
+                <xclk>
+                    <period>
+                        <fixed-any>
+                            <mode>2</mode>
+                            <period_s>5.0</period_s>
+                        </fixed-any>
+                    </period>
+                    <type>
+                        <type-no-vector>
+                            <type>0</type>
+                        </type-no-vector>
+                    </type>
+                </xclk>
+                <node>
+                    <map>
+                        <event>
+                            <type>2</type>
+                            <param>0</param>
+                        </event>
+                    </map>
+                </node>
+                <actions>
+                    <str-tunarray-element>0</str-tunarray-element>
+                </actions>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-evact>
