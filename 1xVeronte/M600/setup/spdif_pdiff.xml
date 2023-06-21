@@ -1,0 +1,20 @@
+<entry-pdiff>
+    <id>42</id>
+    <filename>pdiff.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <mode>0</mode>
+        <e2dBb>100.0</e2dBb>
+        <decimation>10</decimation>
+        <qmin>1.0</qmin>
+        <ub>
+            <x>1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </ub>
+    </data>
+</entry-pdiff>

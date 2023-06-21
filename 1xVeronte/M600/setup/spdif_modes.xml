@@ -1,0 +1,59 @@
+<entry-modes>
+    <id>27</id>
+    <filename>modes.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <str-tunarray-element str-tunarray-key="0">
+                    <type>3</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="1">
+                    <type>3</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="2">
+                    <type>3</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="3">
+                    <type>3</type>
+                </str-tunarray-element>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="1">
+            <data>
+                <str-tunarray-element str-tunarray-key="0">
+                    <type>5</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="1">
+                    <type>5</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="2">
+                    <type>5</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="3">
+                    <type>5</type>
+                </str-tunarray-element>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data>
+                <str-tunarray-element str-tunarray-key="0">
+                    <type>5</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="1">
+                    <type>0</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="2">
+                    <type>5</type>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="3">
+                    <type>5</type>
+                </str-tunarray-element>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-modes>

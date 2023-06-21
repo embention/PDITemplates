@@ -1,0 +1,37 @@
+<entry-mdevice>
+    <id>147</id>
+    <filename>mdev.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <map>
+            <cameras>
+                <str-tunarray-element str-tunarray-key="0">
+                    <data>
+                        <name>Default camera</name>
+                        <sensor-width>0.036</sensor-width>
+                        <sensor-height>0.024</sensor-height>
+                        <resolution-width>5784</resolution-width>
+                        <resolution-height>3856</resolution-height>
+                        <focal-length>0.035</focal-length>
+                        <photo-actions>
+                            <action-array/>
+                        </photo-actions>
+                        <type>1</type>
+                        <url>rtsp://192.168.1.137:554</url>
+                        <device>device://1</device>
+                        <gimbal>1</gimbal>
+                        <exist>1</exist>
+                        <vlcCache>1.0</vlcCache>
+                    </data>
+                </str-tunarray-element>
+            </cameras>
+            <drops>
+                <drop-system-array/>
+            </drops>
+        </map>
+    </data>
+</entry-mdevice>

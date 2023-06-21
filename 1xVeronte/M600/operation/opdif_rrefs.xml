@@ -1,0 +1,32 @@
+<entry-rrefs>
+    <id>4</id>
+    <filename>rrefs.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>15.433333</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="1">
+            <data>10.288889</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data>10.288889</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="3">
+            <data>5.1444445</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="4">
+            <data>20.0</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="5">
+            <data>21.0</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="6">
+            <data>100.0</data>
+        </str-tunarray-element>
+    </data>
+</entry-rrefs>
