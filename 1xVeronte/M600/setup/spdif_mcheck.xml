@@ -1,0 +1,23 @@
+<entry-mcheck>
+    <id>141</id>
+    <filename>mcheck.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element str-tunarray-key="0">
+                <check>
+                    <data>
+                        <icon>46</icon>
+                        <timeControl>0.0</timeControl>
+                        <check>0</check>
+                        <checkTime>0</checkTime>
+                    </data>
+                </check>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mcheck>

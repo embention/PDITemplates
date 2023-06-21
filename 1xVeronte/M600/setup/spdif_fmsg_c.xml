@@ -1,0 +1,27 @@
+<entry-fmsg-c>
+    <id>75</id>
+    <filename>fmsg_c.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <fmsg1>
+            <str-tunarray-element>
+                <fmsg-id>0</fmsg-id>
+                <time>0.002</time>
+                <type>0</type>
+                <bitid>0</bitid>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <fmsg-id>1</fmsg-id>
+                <time>0.002</time>
+                <type>0</type>
+                <bitid>1</bitid>
+            </str-tunarray-element>
+        </fmsg1>
+        <fmsg2/>
+        <fmsg3/>
+    </data>
+</entry-fmsg-c>

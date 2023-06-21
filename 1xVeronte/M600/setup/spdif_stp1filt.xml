@@ -1,0 +1,13 @@
+<entry-stp1filt>
+    <id>106</id>
+    <filename>stp1filt.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>8</minor>
+        <revision>67</revision>
+    </version>
+    <data>
+        <enable>0</enable>
+        <cutoff_freq>2.0</cutoff_freq>
+    </data>
+</entry-stp1filt>
