@@ -1,0 +1,14 @@
+<entry-obstacle>
+    <id>68</id>
+    <filename>obstacle.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>31</revision>
+    </version>
+    <data>
+        <polygons/>
+        <cylinders/>
+        <spheres/>
+    </data>
+</entry-obstacle>

@@ -1,0 +1,24 @@
+<entry-internest>
+    <id>93</id>
+    <filename>intnest.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>31</revision>
+    </version>
+    <data>
+        <inst_version>1</inst_version>
+        <inst_range>8.0</inst_range>
+        <inst_baserot>
+            <a00>1.0</a00>
+            <a10>0.0</a10>
+            <a20>0.0</a20>
+            <a01>0.0</a01>
+            <a11>1.0</a11>
+            <a21>0.0</a21>
+            <a02>0.0</a02>
+            <a12>0.0</a12>
+            <a22>-1.0</a22>
+        </inst_baserot>
+    </data>
+</entry-internest>

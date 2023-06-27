@@ -1,0 +1,13 @@
+<entry-magResfilt>
+    <id>368</id>
+    <filename>magResfilt.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>31</revision>
+    </version>
+    <data>
+        <enable>0</enable>
+        <cutoff_freq>1.0</cutoff_freq>
+    </data>
+</entry-magResfilt>

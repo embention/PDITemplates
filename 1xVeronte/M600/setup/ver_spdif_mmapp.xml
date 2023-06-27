@@ -1,0 +1,14 @@
+<entry-mmapping>
+    <id>146</id>
+    <filename>mmapp.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>31</revision>
+    </version>
+    <data>
+        <map>
+            <mapping-tunarray/>
+        </map>
+    </data>
+</entry-mmapping>
