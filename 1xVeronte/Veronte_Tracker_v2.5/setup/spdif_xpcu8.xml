@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>69</revision>
+        <revision>73</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -60,6 +60,16 @@
         <str-tunarray-element>
             <producer>4</producer>
             <consumer>8</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>3</producer>
+            <consumer>10</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>10</producer>
+            <consumer>3</consumer>
             <group>0</group>
         </str-tunarray-element>
     </data>

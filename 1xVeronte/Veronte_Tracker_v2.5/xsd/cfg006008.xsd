@@ -2968,7 +2968,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="2" maxOccurs="2" type="cfg:data-serial-can-item"></element>
+          <element name="str-tunarray-element" minOccurs="3" maxOccurs="3" type="cfg:data-serial-can-item"></element>
         </sequence>
       </restriction>
     </complexContent>
