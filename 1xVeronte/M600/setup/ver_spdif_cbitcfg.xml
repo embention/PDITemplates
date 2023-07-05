@@ -1,0 +1,20 @@
+<entry-cbitcfg>
+    <id>270</id>
+    <filename>cbitcfg.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>31</revision>
+    </version>
+    <data>
+        <bits_0>
+            <str-tunarray-element>50</str-tunarray-element>
+        </bits_0>
+        <bits_1>
+            <str-tunarray-element>50</str-tunarray-element>
+        </bits_1>
+        <bits_2>
+            <str-tunarray-element>50</str-tunarray-element>
+        </bits_2>
+    </data>
+</entry-cbitcfg>

@@ -1,0 +1,27 @@
+<entry-adsb-static>
+    <id>295</id>
+    <filename>adsbst.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>31</revision>
+    </version>
+    <data>
+        <model>0</model>
+        <init_mode>0</init_mode>
+        <cm_id>-1</cm_id>
+        <icao>0</icao>
+        <emitter>0</emitter>
+        <ascii-array>
+            <char0>0</char0>
+            <char1>0</char1>
+            <char2>0</char2>
+            <char3>0</char3>
+            <char4>0</char4>
+            <char5>0</char5>
+            <char6>0</char6>
+            <char7>0</char7>
+        </ascii-array>
+        <custom>65535</custom>
+    </data>
+</entry-adsb-static>

@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>8</minor>
-        <revision>67</revision>
+        <revision>73</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -35,6 +35,26 @@
         <str-tunarray-element>
             <producer>6</producer>
             <consumer>1</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>3</producer>
+            <consumer>8</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>8</producer>
+            <consumer>3</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>4</producer>
+            <consumer>9</consumer>
+            <group>0</group>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>9</producer>
+            <consumer>4</consumer>
             <group>0</group>
         </str-tunarray-element>
     </data>

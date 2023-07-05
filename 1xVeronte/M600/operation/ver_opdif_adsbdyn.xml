@@ -1,0 +1,15 @@
+<entry-adsb-dynamic>
+    <id>296</id>
+    <filename>adsbdyn.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>31</revision>
+    </version>
+    <data>
+        <ctl_mode>0</ctl_mode>
+        <squawk>0</squawk>
+        <intent>0</intent>
+        <custom>65535</custom>
+    </data>
+</entry-adsb-dynamic>
