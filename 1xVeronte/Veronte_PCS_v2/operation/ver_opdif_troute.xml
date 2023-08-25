@@ -1,0 +1,555 @@
+<entry-troute>
+    <id>67</id>
+    <filename>troute.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>37</revision>
+    </version>
+    <data>
+        <first>0</first>
+        <points>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <p1>45093</p1>
+                </data>
+            </str-tunarray-element>
+        </points>
+        <lines>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <p0>45058</p0>
+                    <p1>45059</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <p0>45064</p0>
+                    <p1>45065</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <p0>45056</p0>
+                    <p1>45057</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <p0>45066</p0>
+                    <p1>45067</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <p0>45068</p0>
+                    <p1>45069</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <p0>45070</p0>
+                    <p1>45071</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <p0>45072</p0>
+                    <p1>45073</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <p0>45074</p0>
+                    <p1>45075</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <p0>45076</p0>
+                    <p1>45077</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="9">
+                <data>
+                    <p0>45078</p0>
+                    <p1>45079</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10">
+                <data>
+                    <p0>45080</p0>
+                    <p1>45081</p1>
+                </data>
+            </str-tunarray-element>
+        </lines>
+        <orthodromes/>
+        <arcs>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <f0>45082</f0>
+                    <f1>45083</f1>
+                    <rk>
+                        <x>-0.0028709853</x>
+                        <y>-50.062496</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <f0>45059</f0>
+                    <f1>45056</f1>
+                    <rk>
+                        <x>-61.966534</x>
+                        <y>301.4845</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <f0>45065</f0>
+                    <f1>45066</f1>
+                    <rk>
+                        <x>-6.093285</x>
+                        <y>49.62733</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <f0>45067</f0>
+                    <f1>45068</f1>
+                    <rk>
+                        <x>6.093285</x>
+                        <y>-49.62733</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <f0>45069</f0>
+                    <f1>45070</f1>
+                    <rk>
+                        <x>-6.093285</x>
+                        <y>49.62733</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <f0>45071</f0>
+                    <f1>45072</f1>
+                    <rk>
+                        <x>6.093285</x>
+                        <y>-49.62733</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <f0>45073</f0>
+                    <f1>45074</f1>
+                    <rk>
+                        <x>-6.093285</x>
+                        <y>49.62733</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <f0>45075</f0>
+                    <f1>45076</f1>
+                    <rk>
+                        <x>6.093285</x>
+                        <y>-49.62733</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <f0>45077</f0>
+                    <f1>45078</f1>
+                    <rk>
+                        <x>-6.093285</x>
+                        <y>49.62733</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="9">
+                <data>
+                    <f0>45079</f0>
+                    <f1>45080</f1>
+                    <rk>
+                        <x>6.093285</x>
+                        <y>-49.62733</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10">
+                <data>
+                    <f0>45057</f0>
+                    <f1>45058</f1>
+                    <rk>
+                        <x>67.97698</x>
+                        <y>-350.27393</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="11">
+                <data>
+                    <f0>45083</f0>
+                    <f1>45084</f1>
+                    <rk>
+                        <x>-4.5422028E-4</x>
+                        <y>100.12509</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="12">
+                <data>
+                    <f0>45084</f0>
+                    <f1>45085</f1>
+                    <rk>
+                        <x>-0.0024792217</x>
+                        <y>-150.19759</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="13">
+                <data>
+                    <f0>45085</f0>
+                    <f1>45086</f1>
+                    <rk>
+                        <x>0.005350154</x>
+                        <y>200.26009</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <f0>45086</f0>
+                    <f1>45087</f1>
+                    <rk>
+                        <x>-0.002024997</x>
+                        <y>-250.32268</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <f0>45087</f0>
+                    <f1>45088</f1>
+                    <rk>
+                        <x>0.004895934</x>
+                        <y>300.3852</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <f0>45088</f0>
+                    <f1>45089</f1>
+                    <rk>
+                        <x>0.0046254233</x>
+                        <y>-350.44788</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <f0>45089</f0>
+                    <f1>45090</f1>
+                    <rk>
+                        <x>0.0027890243</x>
+                        <y>400.51016</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <f0>45090</f0>
+                    <f1>45091</f1>
+                    <rk>
+                        <x>-0.0028315876</x>
+                        <y>-450.58298</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <f0>45091</f0>
+                    <f1>45092</f1>
+                    <rk>
+                        <x>0.0023972646</x>
+                        <y>500.64526</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="20">
+                <data>
+                    <f0>45092</f0>
+                    <f1>45091</f1>
+                    <rk>
+                        <x>0.006689625</x>
+                        <y>-500.64566</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+        </arcs>
+        <ellipses/>
+        <patches>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <next>5</next>
+                    <type>1</type>
+                    <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <next>65535</next>
+                    <type>0</type>
+                    <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <next>24</next>
+                    <type>3</type>
+                    <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <next>15</next>
+                    <type>1</type>
+                    <elem>1</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <next>23</next>
+                    <type>1</type>
+                    <elem>2</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <next>4</next>
+                    <type>3</type>
+                    <elem>1</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <next>16</next>
+                    <type>1</type>
+                    <elem>3</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <next>17</next>
+                    <type>1</type>
+                    <elem>4</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="9">
+                <data>
+                    <next>18</next>
+                    <type>1</type>
+                    <elem>5</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10">
+                <data>
+                    <next>19</next>
+                    <type>1</type>
+                    <elem>6</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="11">
+                <data>
+                    <next>20</next>
+                    <type>1</type>
+                    <elem>7</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="12">
+                <data>
+                    <next>21</next>
+                    <type>1</type>
+                    <elem>8</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="13">
+                <data>
+                    <next>22</next>
+                    <type>1</type>
+                    <elem>9</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <next>65535</next>
+                    <type>1</type>
+                    <elem>10</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <next>7</next>
+                    <type>3</type>
+                    <elem>2</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <next>8</next>
+                    <type>3</type>
+                    <elem>3</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <next>9</next>
+                    <type>3</type>
+                    <elem>4</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <next>10</next>
+                    <type>3</type>
+                    <elem>5</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <next>11</next>
+                    <type>3</type>
+                    <elem>6</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="20">
+                <data>
+                    <next>12</next>
+                    <type>3</type>
+                    <elem>7</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="21">
+                <data>
+                    <next>13</next>
+                    <type>3</type>
+                    <elem>8</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="22">
+                <data>
+                    <next>14</next>
+                    <type>3</type>
+                    <elem>9</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="23">
+                <data>
+                    <next>0</next>
+                    <type>3</type>
+                    <elem>10</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="24">
+                <data>
+                    <next>25</next>
+                    <type>3</type>
+                    <elem>11</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="25">
+                <data>
+                    <next>26</next>
+                    <type>3</type>
+                    <elem>12</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="26">
+                <data>
+                    <next>27</next>
+                    <type>3</type>
+                    <elem>13</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="27">
+                <data>
+                    <next>28</next>
+                    <type>3</type>
+                    <elem>14</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="28">
+                <data>
+                    <next>29</next>
+                    <type>3</type>
+                    <elem>15</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="29">
+                <data>
+                    <next>30</next>
+                    <type>3</type>
+                    <elem>16</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="30">
+                <data>
+                    <next>31</next>
+                    <type>3</type>
+                    <elem>17</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="31">
+                <data>
+                    <next>32</next>
+                    <type>3</type>
+                    <elem>18</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="32">
+                <data>
+                    <next>33</next>
+                    <type>3</type>
+                    <elem>19</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="33">
+                <data>
+                    <next>32</next>
+                    <type>3</type>
+                    <elem>20</elem>
+                </data>
+            </str-tunarray-element>
+        </patches>
+    </data>
+</entry-troute>
