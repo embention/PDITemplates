@@ -1,0 +1,23 @@
+<entry-automations-gname>
+    <id>150</id>
+    <filename>agname.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>37</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <string>Initialize</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <string>Indicators</string>
+                </data>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-automations-gname>

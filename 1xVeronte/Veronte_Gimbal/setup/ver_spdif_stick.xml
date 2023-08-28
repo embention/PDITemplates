@@ -1,0 +1,43 @@
+<entry-stick>
+    <id>56</id>
+    <filename>stick.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>37</revision>
+    </version>
+    <data>
+        <tunSource>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <local>1</local>
+                    <id>
+                        <uav>0</uav>
+                    </id>
+                    <port>0</port>
+                    <tsafe>0.2</tsafe>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <local>0</local>
+                    <id>
+                        <uav>2</uav>
+                    </id>
+                    <port>0</port>
+                    <tsafe>0.3</tsafe>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <local>0</local>
+                    <id>
+                        <uav>1</uav>
+                    </id>
+                    <port>1</port>
+                    <tsafe>1.0</tsafe>
+                </data>
+            </str-tunarray-element>
+        </tunSource>
+    </data>
+</entry-stick>

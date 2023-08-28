@@ -1,0 +1,23 @@
+<entry-blklib03>
+    <id>403</id>
+    <filename>blklib03.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>37</revision>
+    </version>
+    <data>
+        <nins>1</nins>
+        <blocks/>
+        <outs>
+            <str-tunarray-element>
+                <block-addr>65535</block-addr>
+                <out-addr>0</out-addr>
+            </str-tunarray-element>
+        </outs>
+        <name>Node
+ 
+ </name>
+        <map/>
+    </data>
+</entry-blklib03>
