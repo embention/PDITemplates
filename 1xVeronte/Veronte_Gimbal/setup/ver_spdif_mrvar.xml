@@ -530,6 +530,32 @@
                     </unit>
                 </value>
             </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3145</id>
+                <value>
+                    <description>
+                        <name>Gimbal Track - X Resolution</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3146</id>
+                <value>
+                    <description>
+                        <name>Gimbal Track - Y resolution</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
         </map>
     </data>
 </entry-mrvar>

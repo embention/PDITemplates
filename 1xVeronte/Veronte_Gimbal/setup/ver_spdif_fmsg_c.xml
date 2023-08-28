@@ -22,6 +22,12 @@
                 <type>0</type>
                 <bitid>25</bitid>
             </str-tunarray-element>
+            <str-tunarray-element>
+                <fmsg-id>6</fmsg-id>
+                <time>0.0</time>
+                <type>0</type>
+                <bitid>26</bitid>
+            </str-tunarray-element>
         </fmsg3>
     </data>
 </entry-fmsg-c>

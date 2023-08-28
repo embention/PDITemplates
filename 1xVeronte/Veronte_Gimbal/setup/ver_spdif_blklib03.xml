@@ -7,10 +7,17 @@
         <revision>37</revision>
     </version>
     <data>
-        <nins>0</nins>
+        <nins>1</nins>
         <blocks/>
-        <outs/>
-        <name/>
+        <outs>
+            <str-tunarray-element>
+                <block-addr>65535</block-addr>
+                <out-addr>0</out-addr>
+            </str-tunarray-element>
+        </outs>
+        <name>Node
+ 
+ </name>
         <map/>
     </data>
 </entry-blklib03>
