@@ -104,10 +104,10 @@
             <q>0</q>
         </gpio-pwm015>
         <gpio-io01>
-            <io>0</io>
+            <io>1</io>
             <pu>0</pu>
             <mux>0</mux>
-            <q>3</q>
+            <q>0</q>
         </gpio-io01>
         <gpio-io02>
             <io>0</io>

@@ -309,6 +309,42 @@
                     </acset-phase>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="13">
+                <data>
+                    <acset-gpio>
+                        <type>0</type>
+                        <idCfg>221</idCfg>
+                        <str>
+                            <gpio>
+                                <id>16</id>
+                                <command-choice>
+                                    <on>
+                                        <type>1</type>
+                                    </on>
+                                </command-choice>
+                            </gpio>
+                        </str>
+                    </acset-gpio>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <acset-gpio>
+                        <type>0</type>
+                        <idCfg>221</idCfg>
+                        <str>
+                            <gpio>
+                                <id>16</id>
+                                <command-choice>
+                                    <off>
+                                        <type>0</type>
+                                    </off>
+                                </command-choice>
+                            </gpio>
+                        </str>
+                    </acset-gpio>
+                </data>
+            </str-tunarray-element>
         </action-array>
     </data>
 </entry-actions>
