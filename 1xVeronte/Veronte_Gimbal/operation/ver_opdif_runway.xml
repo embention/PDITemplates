@@ -4,10 +4,55 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>44</revision>
     </version>
     <data>
-        <runways/>
+        <runways>
+            <str-tunarray-element str-tunarray-key="0">
+                <runway>
+                    <loides>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-6990837</lon>
+                                    <lat>383833764</lat>
+                                    <alt>362570</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </loides>
+                    <alarms_cfg/>
+                    <fstart>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-6981206</lon>
+                                    <lat>383825535</lat>
+                                    <alt>328560</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </fstart>
+                    <fend>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-6978869</lon>
+                                    <lat>383834231</lat>
+                                    <alt>331570</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </fend>
+                    <preferred>0</preferred>
+                    <margin-ratio>0.0</margin-ratio>
+                    <margin-reverse-ratio>0.0</margin-reverse-ratio>
+                </runway>
+            </str-tunarray-element>
+        </runways>
         <spots/>
     </data>
 </entry-oprwy>

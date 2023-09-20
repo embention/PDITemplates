@@ -4,19 +4,61 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>44</revision>
     </version>
     <data>
         <genericOp>
-            <str-tunarray-element str-tunarray-key="0">
+            <str-tunarray-element str-tunarray-key="3">
                 <data>
                     <wrt-choice>
                         <wrt-choice-abs>
                             <wrt>65535</wrt>
                             <pos>
-                                <lon>500592041</lon>
-                                <lat>503840052</lat>
-                                <alt>18310</alt>
+                                <lon>-7013463</lon>
+                                <lat>383848145</lat>
+                                <alt>352570</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-6985713</lon>
+                                <lat>383845979</lat>
+                                <alt>361570</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-6986452</lon>
+                                <lat>383822656</lat>
+                                <alt>363560</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="9">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-7012459</lon>
+                                <lat>383825599</lat>
+                                <alt>354570</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>

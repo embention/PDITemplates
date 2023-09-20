@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>44</revision>
     </version>
     <data>
         <fmsg1/>
@@ -27,6 +27,12 @@
                 <time>0.0</time>
                 <type>0</type>
                 <bitid>26</bitid>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <fmsg-id>8</fmsg-id>
+                <time>0.0</time>
+                <type>0</type>
+                <bitid>27</bitid>
             </str-tunarray-element>
         </fmsg3>
     </data>

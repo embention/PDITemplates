@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>44</revision>
     </version>
     <data>
         <map>
@@ -495,7 +495,7 @@
                 <id>3142</id>
                 <value>
                     <description>
-                        <name>Gimbal Track - Zoom</name>
+                        <name>Gimbal Track - Digital Zoom</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -508,7 +508,7 @@
                 <id>3143</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Gimbal Track - Optical Zoom</name>
                     </description>
                     <unit>
                         <no-exist-unit>
