@@ -4,12 +4,12 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>44</revision>
     </version>
     <data>
         <sel>
-            <use>4</use>
-            <def-sen>2</def-sen>
+            <use>64</use>
+            <def-sen>6</def-sen>
         </sel>
         <tau_v>2.0</tau_v>
         <tau_s2>20.0</tau_s2>
