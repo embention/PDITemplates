@@ -3,8 +3,8 @@
     <filename>cx_canin.bin</filename>
     <version>
         <major>6</major>
-        <minor>10</minor>
-        <revision>11</revision>
+        <minor>12</minor>
+        <revision>46</revision>
     </version>
     <data>
         <can-in>
@@ -31,7 +31,7 @@
                         </id>
                         <mask>2047</mask>
                     </filter>
-                    <both_ids>1</both_ids>
+                    <both_ids>0</both_ids>
                 </filter_p>
             </str-tunarray-element>
             <str-tunarray-element>

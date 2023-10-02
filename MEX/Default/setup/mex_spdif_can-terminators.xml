@@ -3,8 +3,8 @@
     <filename>can-terminators.bin</filename>
     <version>
         <major>6</major>
-        <minor>10</minor>
-        <revision>11</revision>
+        <minor>12</minor>
+        <revision>46</revision>
     </version>
     <data>
         <can_a_terminator_enabled>0</can_a_terminator_enabled>

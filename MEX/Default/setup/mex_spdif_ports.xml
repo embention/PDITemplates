@@ -3,8 +3,8 @@
     <filename>ports.bin</filename>
     <version>
         <major>6</major>
-        <minor>10</minor>
-        <revision>11</revision>
+        <minor>12</minor>
+        <revision>46</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
