@@ -3,8 +3,8 @@
     <filename>cx_cansc.bin</filename>
     <version>
         <major>6</major>
-        <minor>10</minor>
-        <revision>11</revision>
+        <minor>12</minor>
+        <revision>46</revision>
     </version>
     <data>
         <serial-can>
@@ -18,7 +18,7 @@
             <str-tunarray-element>
                 <can-id>
                     <ext>0</ext>
-                    <id>1301</id>
+                    <id>100</id>
                 </can-id>
                 <timeout>6.7E-4</timeout>
             </str-tunarray-element>

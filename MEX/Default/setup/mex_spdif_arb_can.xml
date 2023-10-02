@@ -3,8 +3,8 @@
     <filename>arb_can.bin</filename>
     <version>
         <major>6</major>
-        <minor>10</minor>
-        <revision>11</revision>
+        <minor>12</minor>
+        <revision>46</revision>
     </version>
     <data>
         <rx-telemetry>
@@ -29,7 +29,7 @@
             <ext>0</ext>
             <id>255</id>
         </tx-telemetry>
-        <status_p>0.25</status_p>
+        <status_p>0.2</status_p>
         <score_p>3.0</score_p>
         <status_enabled>0</status_enabled>
         <score_enabled>0</score_enabled>
