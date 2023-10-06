@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>31</revision>
+        <revision>44</revision>
     </version>
     <data>
         <map>
@@ -185,7 +185,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">
                 <data>
-                    <name>No name</name>
+                    <name>HLD or HVR</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -385,7 +385,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="15">
                 <data>
-                    <name>TX Error</name>
+                    <name>Stick r3 &lt; 0.1</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -410,7 +410,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="16">
                 <data>
-                    <name>RX Error</name>
+                    <name>Arcade Modes</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -435,7 +435,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="17">
                 <data>
-                    <name>tx error</name>
+                    <name>Phases to RTH</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -610,7 +610,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="24">
                 <data>
-                    <name>Power Input &lt; Min Voltage</name>
+                    <name>Power Input &lt; 22V</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -660,7 +660,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="26">
                 <data>
-                    <name>rx error</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -710,7 +710,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="28">
                 <data>
-                    <name>TKO or HLD</name>
+                    <name>Position Fixed</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -735,7 +735,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="29">
                 <data>
-                    <name>Control output u2 &gt; 0.4</name>
+                    <name>GNSS 1 Accuracy &lt; 2m</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -760,7 +760,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="30">
                 <data>
-                    <name>Link Off</name>
+                    <name>Link Off &gt; 2s</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -785,7 +785,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="31">
                 <data>
-                    <name>LDN</name>
+                    <name>LDN Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -835,7 +835,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="33">
                 <data>
-                    <name>TKO</name>
+                    <name>TKO Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -910,7 +910,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="36">
                 <data>
-                    <name>RTH phase</name>
+                    <name>Phases to HLD</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -960,7 +960,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="38">
                 <data>
-                    <name>AGL &lt; 3 m</name>
+                    <name>Phases to RTH</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -985,7 +985,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="39">
                 <data>
-                    <name>SBY</name>
+                    <name>SBY Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1135,7 +1135,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="45">
                 <data>
-                    <name>AGL &lt; 1 m</name>
+                    <name>Phases to HLD NO GPS</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1185,7 +1185,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="47">
                 <data>
-                    <name>Link Off</name>
+                    <name>Link OK COPY</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1210,7 +1210,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="48">
                 <data>
-                    <name>Link Off &gt; 120 s</name>
+                    <name>Link Off &gt; 60 s</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1260,7 +1260,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="50">
                 <data>
-                    <name>DGV&lt;0.2</name>
+                    <name>INI Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1285,7 +1285,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="51">
                 <data>
-                    <name>G-Arcade Mode</name>
+                    <name>Arcade Mode</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1360,7 +1360,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="54">
                 <data>
-                    <name>DV&lt;0.08</name>
+                    <name>Link Off &gt; 120 s COPY</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1385,7 +1385,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="55">
                 <data>
-                    <name>V&lt;0.08</name>
+                    <name>Play Button</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1400,7 +1400,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>10</icon>
+                            <icon>28</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -1410,7 +1410,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="56">
                 <data>
-                    <name>No name</name>
+                    <name>Pause Button</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1425,7 +1425,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>10</icon>
+                            <icon>27</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -1460,7 +1460,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="58">
                 <data>
-                    <name>RTH compliance</name>
+                    <name>CRU Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1485,7 +1485,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="59">
                 <data>
-                    <name>Flight Phases</name>
+                    <name>Curve Length Pending &lt; 0.</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1510,7 +1510,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="60">
                 <data>
-                    <name>RTH</name>
+                    <name>RTH Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1535,7 +1535,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="61">
                 <data>
-                    <name>Inside LND Area</name>
+                    <name>Land Mark Achieved</name>
                     <dataTypeColor>
                         <cmpType2>
                             <typeColor>0</typeColor>
@@ -1549,7 +1549,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>18</icon>
+                            <icon>1730</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -1559,7 +1559,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="62">
                 <data>
-                    <name>HLD (HVR) Button</name>
+                    <name>Current section = 2</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1584,7 +1584,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="63">
                 <data>
-                    <name>HLD (HVR) Phases</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1609,7 +1609,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="64">
                 <data>
-                    <name>Inside Cylinder</name>
+                    <name>In Home = 1</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1634,7 +1634,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="65">
                 <data>
-                    <name>No name</name>
+                    <name>Power Input &lt; 21V</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1659,7 +1659,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="66">
                 <data>
-                    <name>No name</name>
+                    <name>Link OK</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1684,7 +1684,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="67">
                 <data>
-                    <name>Outside Cylinder</name>
+                    <name>user bit 30 = 0 &gt; 120s</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1709,7 +1709,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="68">
                 <data>
-                    <name>No name</name>
+                    <name>RTH allowed</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1759,7 +1759,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="70">
                 <data>
-                    <name>HOVER Phase</name>
+                    <name>Link Ok &gt; 20 s</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1784,7 +1784,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="71">
                 <data>
-                    <name>RDZ Button</name>
+                    <name>In Home = 1</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1809,7 +1809,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="72">
                 <data>
-                    <name>GE Button</name>
+                    <name>Link Off &gt; 60 s COPY</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1824,7 +1824,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>16</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -1834,7 +1834,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="73">
                 <data>
-                    <name>No name</name>
+                    <name>Link Ok &gt; 20 s COPY</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1884,7 +1884,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="75">
                 <data>
-                    <name>HVR</name>
+                    <name>HVR Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>

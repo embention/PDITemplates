@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>31</revision>
+        <revision>44</revision>
     </version>
     <data>
         <map>
@@ -17,7 +17,7 @@
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>46</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -132,7 +132,7 @@
                 <id>3100</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Distance to home</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -145,7 +145,7 @@
                 <id>3101</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Desired Roll Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -158,7 +158,7 @@
                 <id>3102</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Desired Pitch Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -171,12 +171,12 @@
                 <id>3103</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Desired Yaw Rate</name>
                     </description>
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -185,12 +185,12 @@
                 <id>3104</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Vertical Speed Limit</name>
                     </description>
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -199,7 +199,7 @@
                 <id>3105</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Vertical Speed Limit</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -217,7 +217,7 @@
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -226,12 +226,12 @@
                 <id>3107</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Ground Speed Limit</name>
                     </description>
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -240,7 +240,7 @@
                 <id>3108</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Motor 1 XPlane</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -253,7 +253,7 @@
                 <id>3109</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Motor 2 XPlane</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -266,7 +266,7 @@
                 <id>3110</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Motor 3 XPlane</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -279,7 +279,7 @@
                 <id>3111</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Motor 4 XPlane</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -336,7 +336,7 @@
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -350,7 +350,7 @@
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -364,7 +364,7 @@
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -378,7 +378,7 @@
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -392,7 +392,7 @@
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -406,7 +406,7 @@
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>16</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -467,12 +467,12 @@
                 <id>2700</id>
                 <value>
                     <description>
-                        <name>Minimum Voltage</name>
+                        <name/>
                     </description>
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>24</id>
+                            <id>56</id>
                         </exist-unit>
                     </unit>
                 </value>
@@ -521,6 +521,32 @@
                 <value>
                     <description>
                         <name>Arc - Yaw</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3112</id>
+                <value>
+                    <description>
+                        <name>Motor 5 XPlane</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3113</id>
+                <value>
+                    <description>
+                        <name>Motor 6 XPlane</name>
                     </description>
                     <unit>
                         <no-exist-unit>
