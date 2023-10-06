@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>31</revision>
+        <revision>44</revision>
     </version>
     <data>
         <data-to-veronte-vref/>
@@ -14,54 +14,54 @@
                 <data-xplane>
                     <str-tunarray-element>
                         <type>0</type>
-                        <id>1700</id>
+                        <id>3108</id>
                         <entry>
-                            <xvar>throttleCommand1</xvar>
+                            <xvar>propRPM1</xvar>
                             <v2xScale>1.0</v2xScale>
                             <v2xOffset>0.0</v2xOffset>
                         </entry>
                     </str-tunarray-element>
                     <str-tunarray-element>
                         <type>0</type>
-                        <id>1701</id>
+                        <id>3109</id>
                         <entry>
-                            <xvar>throttleCommand2</xvar>
+                            <xvar>propRPM2</xvar>
                             <v2xScale>1.0</v2xScale>
                             <v2xOffset>0.0</v2xOffset>
                         </entry>
                     </str-tunarray-element>
                     <str-tunarray-element>
                         <type>0</type>
-                        <id>1702</id>
+                        <id>3110</id>
                         <entry>
-                            <xvar>throttleCommand3</xvar>
+                            <xvar>propRPM3</xvar>
                             <v2xScale>1.0</v2xScale>
                             <v2xOffset>0.0</v2xOffset>
                         </entry>
                     </str-tunarray-element>
                     <str-tunarray-element>
                         <type>0</type>
-                        <id>1703</id>
+                        <id>3111</id>
                         <entry>
-                            <xvar>throttleCommand4</xvar>
+                            <xvar>propRPM4</xvar>
                             <v2xScale>1.0</v2xScale>
                             <v2xOffset>0.0</v2xOffset>
                         </entry>
                     </str-tunarray-element>
                     <str-tunarray-element>
                         <type>0</type>
-                        <id>1704</id>
+                        <id>3112</id>
                         <entry>
-                            <xvar>throttleCommand5</xvar>
+                            <xvar>propRPM5</xvar>
                             <v2xScale>1.0</v2xScale>
                             <v2xOffset>0.0</v2xOffset>
                         </entry>
                     </str-tunarray-element>
                     <str-tunarray-element>
                         <type>0</type>
-                        <id>1705</id>
+                        <id>3113</id>
                         <entry>
-                            <xvar>throttleCommand6</xvar>
+                            <xvar>propRPM6</xvar>
                             <v2xScale>1.0</v2xScale>
                             <v2xOffset>0.0</v2xOffset>
                         </entry>
