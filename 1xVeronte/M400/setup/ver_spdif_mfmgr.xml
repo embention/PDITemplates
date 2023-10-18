@@ -1,0 +1,48 @@
+<entry-mfmgr>
+    <id>148</id>
+    <filename>mfmgr.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>47</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element str-tunarray-key="8192">
+                <data>
+                    <string>UAV position</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8194">
+                <data>
+                    <string>Desired position</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10240">
+                <data>
+                    <string>TKO Point</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10241">
+                <data>
+                    <string>Selected RTH</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="45056">
+                <data>
+                    <string>Home 1</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="45057">
+                <data>
+                    <string>Home 2</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="45058">
+                <data>
+                    <string>Home 3</string>
+                </data>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mfmgr>

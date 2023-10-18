@@ -1,0 +1,13 @@
+<entry-oprwy>
+    <id>29</id>
+    <filename>runway.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>47</revision>
+    </version>
+    <data>
+        <runways/>
+        <spots/>
+    </data>
+</entry-oprwy>

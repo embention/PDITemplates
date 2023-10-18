@@ -1,0 +1,13 @@
+<entry-stp2filt>
+    <id>261</id>
+    <filename>stp2filt.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>47</revision>
+    </version>
+    <data>
+        <enable>0</enable>
+        <cutoff_freq>1.0</cutoff_freq>
+    </data>
+</entry-stp2filt>

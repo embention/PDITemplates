@@ -1,0 +1,16 @@
+<entry-varini>
+    <id>6</id>
+    <filename>varini.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>47</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <vtype>3</vtype>
+            <id>1203</id>
+            <val0>1.0</val0>
+        </str-tunarray-element>
+    </data>
+</entry-varini>

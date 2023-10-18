@@ -1,0 +1,231 @@
+<entry-chklist>
+    <id>92</id>
+    <filename>chklist.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>47</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <other>
+                    <size>15</size>
+                    <task>0</task>
+                    <name>IMU Check</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="1">
+            <data>
+                <other>
+                    <size>30</size>
+                    <task>0</task>
+                    <name>Magnetometer Calibration</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data>
+                <other>
+                    <size>18</size>
+                    <task>0</task>
+                    <name>GPS Accuracy</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="3">
+            <data>
+                <other>
+                    <size>29</size>
+                    <task>0</task>
+                    <name>Center of Gravity Check</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="4">
+            <data>
+                <other>
+                    <size>22</size>
+                    <task>0</task>
+                    <name>Propellers Check</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="5">
+            <data>
+                <automatic>
+                    <size>23</size>
+                    <task>12</task>
+                    <name>Stick Ok</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <autocheck>1</autocheck>
+                    <params>
+                        <str-tunarray-element>110.0</str-tunarray-element>
+                        <str-tunarray-element>3.0</str-tunarray-element>
+                        <str-tunarray-element>0.9</str-tunarray-element>
+                        <str-tunarray-element>1.1</str-tunarray-element>
+                    </params>
+                </automatic>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="6">
+            <data>
+                <automatic>
+                    <size>28</size>
+                    <task>12</task>
+                    <name>Battery Level</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <autocheck>1</autocheck>
+                    <params>
+                        <str-tunarray-element>400.0</str-tunarray-element>
+                        <str-tunarray-element>0.0</str-tunarray-element>
+                        <str-tunarray-element>23.8</str-tunarray-element>
+                        <str-tunarray-element>26.0</str-tunarray-element>
+                    </params>
+                </automatic>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="7">
+            <data>
+                <other>
+                    <size>22</size>
+                    <task>0</task>
+                    <name>Trim Stick Check</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="8">
+            <data>
+                <other>
+                    <size>38</size>
+                    <task>0</task>
+                    <name>Automatic Atmosphere Calibration</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="9">
+            <data>
+                <other>
+                    <size>22</size>
+                    <task>0</task>
+                    <name>Review EKF State</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="10">
+            <data>
+                <other>
+                    <size>28</size>
+                    <task>0</task>
+                    <name>Check mission Altitude</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="11">
+            <data>
+                <other>
+                    <size>25</size>
+                    <task>0</task>
+                    <name>Check home waypoint</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="12">
+            <data>
+                <other>
+                    <size>21</size>
+                    <task>0</task>
+                    <name>Check Telemetry</name>
+                    <phase>20</phase>
+                    <obliged>1</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="13">
+            <data>
+                <other>
+                    <size>27</size>
+                    <task>0</task>
+                    <name>Add MEX in Navigation</name>
+                    <phase>20</phase>
+                    <obliged>1</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="14">
+            <data>
+                <other>
+                    <size>24</size>
+                    <task>0</task>
+                    <name>Enable Automations</name>
+                    <phase>20</phase>
+                    <obliged>1</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="15">
+            <data>
+                <other>
+                    <size>22</size>
+                    <task>0</task>
+                    <name>Videos recording</name>
+                    <phase>20</phase>
+                    <obliged>1</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-chklist>

@@ -1,0 +1,23 @@
+<entry-oppos>
+    <id>118</id>
+    <filename>oppos.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>47</revision>
+    </version>
+    <data>
+        <feature>
+            <wrt-choice>
+                <wrt-choice-rel>
+                    <wrt>46080</wrt>
+                    <rn>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>0.0</z>
+                    </rn>
+                </wrt-choice-rel>
+            </wrt-choice>
+        </feature>
+    </data>
+</entry-oppos>

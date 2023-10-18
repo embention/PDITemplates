@@ -1,0 +1,16 @@
+<entry-blklib03>
+    <id>403</id>
+    <filename>blklib03.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>47</revision>
+    </version>
+    <data>
+        <nins>0</nins>
+        <blocks/>
+        <outs/>
+        <name/>
+        <map/>
+    </data>
+</entry-blklib03>
