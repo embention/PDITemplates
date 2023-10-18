@@ -4,23 +4,10 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>47</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
-            <data>
-                <other>
-                    <size>26</size>
-                    <task>7</task>
-                    <name>Calibrate Atmosphere</name>
-                    <phase>0</phase>
-                    <obliged>1</obliged>
-                    <showonlyfirst>0</showonlyfirst>
-                    <params/>
-                </other>
-            </data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="1">
             <data>
                 <other>
                     <size>15</size>
@@ -33,7 +20,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="2">
+        <str-tunarray-element str-tunarray-key="1">
             <data>
                 <other>
                     <size>30</size>
@@ -46,7 +33,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="3">
+        <str-tunarray-element str-tunarray-key="2">
             <data>
                 <other>
                     <size>18</size>
@@ -59,7 +46,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="4">
+        <str-tunarray-element str-tunarray-key="3">
             <data>
                 <other>
                     <size>29</size>
@@ -72,7 +59,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="5">
+        <str-tunarray-element str-tunarray-key="4">
             <data>
                 <other>
                     <size>22</size>
@@ -85,7 +72,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="6">
+        <str-tunarray-element str-tunarray-key="5">
             <data>
                 <automatic>
                     <size>23</size>
@@ -104,7 +91,7 @@
                 </automatic>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="7">
+        <str-tunarray-element str-tunarray-key="6">
             <data>
                 <automatic>
                     <size>28</size>
@@ -123,7 +110,7 @@
                 </automatic>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="8">
+        <str-tunarray-element str-tunarray-key="7">
             <data>
                 <other>
                     <size>22</size>
@@ -136,7 +123,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="9">
+        <str-tunarray-element str-tunarray-key="8">
             <data>
                 <other>
                     <size>38</size>
@@ -149,7 +136,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="10">
+        <str-tunarray-element str-tunarray-key="9">
             <data>
                 <other>
                     <size>22</size>
@@ -162,7 +149,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="11">
+        <str-tunarray-element str-tunarray-key="10">
             <data>
                 <other>
                     <size>28</size>
@@ -175,7 +162,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="12">
+        <str-tunarray-element str-tunarray-key="11">
             <data>
                 <other>
                     <size>25</size>
@@ -188,7 +175,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="13">
+        <str-tunarray-element str-tunarray-key="12">
             <data>
                 <other>
                     <size>21</size>
@@ -201,7 +188,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="14">
+        <str-tunarray-element str-tunarray-key="13">
             <data>
                 <other>
                     <size>27</size>
@@ -214,7 +201,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="15">
+        <str-tunarray-element str-tunarray-key="14">
             <data>
                 <other>
                     <size>24</size>
@@ -227,7 +214,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="16">
+        <str-tunarray-element str-tunarray-key="15">
             <data>
                 <other>
                     <size>22</size>
