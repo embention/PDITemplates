@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>47</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -14,15 +14,6 @@
                         <real-float32>
                             <type>0</type>
                             <id>511</id>
-                            <scale>1.0</scale>
-                        </real-float32>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <real-float32>
-                            <type>0</type>
-                            <id>513</id>
                             <scale>1.0</scale>
                         </real-float32>
                     </data-fieldset>
