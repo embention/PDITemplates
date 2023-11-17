@@ -1,0 +1,17 @@
+<entry-xpecap>
+    <id>100</id>
+    <filename>xpecap.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>0</producer>
+            <consumer>0</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+    </data>
+</entry-xpecap>

@@ -1,0 +1,19 @@
+<entry-comstats>
+    <id>58</id>
+    <filename>comstats.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <rx_auto>1</rx_auto>
+        <rx_address>
+            <uav>998</uav>
+        </rx_address>
+        <tx_period>1.0</tx_period>
+        <tx_address>
+            <uav>998</uav>
+        </tx_address>
+    </data>
+</entry-comstats>
