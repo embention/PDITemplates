@@ -1,0 +1,34 @@
+<entry-cana>
+    <id>34</id>
+    <filename>cana.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <baudrate>1000000</baudrate>
+        <rx>
+            <str-tunarray-element>
+                <size>3</size>
+                <filter>
+                    <id>
+                        <ext>0</ext>
+                        <id>100</id>
+                    </id>
+                    <mask>2047</mask>
+                </filter>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <size>4</size>
+                <filter>
+                    <id>
+                        <ext>0</ext>
+                        <id>1301</id>
+                    </id>
+                    <mask>2047</mask>
+                </filter>
+            </str-tunarray-element>
+        </rx>
+    </data>
+</entry-cana>

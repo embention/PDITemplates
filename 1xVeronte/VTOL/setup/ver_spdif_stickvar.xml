@@ -1,0 +1,22 @@
+<entry-stickvar>
+    <id>55</id>
+    <filename>stickvar.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <data-stickvar>
+            <is-enabled>
+                <enabled>1</enabled>
+                <ok>1</ok>
+                <ts>0.1</ts>
+                <list-rvar/>
+                <stick-cap>
+                    <stick-cap-entry/>
+                </stick-cap>
+            </is-enabled>
+        </data-stickvar>
+    </data>
+</entry-stickvar>

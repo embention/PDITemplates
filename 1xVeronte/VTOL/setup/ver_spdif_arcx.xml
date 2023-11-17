@@ -1,0 +1,19 @@
+<entry-arcx>
+    <id>23</id>
+    <filename>arcx.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <ref>
+                    <ref>0</ref>
+                    <offset>0.0</offset>
+                </ref>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-arcx>

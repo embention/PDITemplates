@@ -1,0 +1,12 @@
+<entry-nav>
+    <id>104</id>
+    <filename>nav.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <nav>1</nav>
+    </data>
+</entry-nav>

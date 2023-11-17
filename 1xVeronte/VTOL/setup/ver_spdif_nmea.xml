@@ -1,0 +1,15 @@
+<entry-nmea>
+    <id>293</id>
+    <filename>nmea.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <id_pos>28681</id_pos>
+        <id_time>3109</id_time>
+        <id_fix>1209</id_fix>
+        <timeout>2.0</timeout>
+    </data>
+</entry-nmea>

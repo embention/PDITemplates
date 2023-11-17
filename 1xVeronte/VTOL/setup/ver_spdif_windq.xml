@@ -1,0 +1,23 @@
+<entry-windq>
+    <id>76</id>
+    <filename>windq.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <enable>1</enable>
+        <Q>
+            <a00>1.0E-4</a00>
+            <a10>0.0</a10>
+            <a20>0.0</a20>
+            <a01>0.0</a01>
+            <a11>1.0E-4</a11>
+            <a21>0.0</a21>
+            <a02>0.0</a02>
+            <a12>0.0</a12>
+            <a22>1.0E-4</a22>
+        </Q>
+    </data>
+</entry-windq>

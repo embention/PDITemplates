@@ -1,0 +1,205 @@
+<entry-mbit>
+    <id>138</id>
+    <filename>mbit.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>49</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <id>1200</id>
+                <description>
+                    <name>Aux: Pitch</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1499</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1201</id>
+                <description>
+                    <name>Aux: Roll</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1202</id>
+                <description>
+                    <name>Respect VTOL guidance</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1203</id>
+                <description>
+                    <name>Respect FW</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1204</id>
+                <description>
+                    <name>Aux: Throttle</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1205</id>
+                <description>
+                    <name>Aux: Thrust</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1206</id>
+                <description>
+                    <name>Respect VTOL control</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1207</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1208</id>
+                <description>
+                    <name>FW Envelope</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1209</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1210</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1211</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1212</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1213</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1214</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1215</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1216</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1217</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1218</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1219</id>
+                <description>
+                    <name>Enable mission</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1220</id>
+                <description>
+                    <name>RTH allowed</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1221</id>
+                <description>
+                    <name>Imbalance Pitch (Q)</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1222</id>
+                <description>
+                    <name>Imbalance Roll (Q)</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1223</id>
+                <description>
+                    <name>Imbalance Yaw (Q)</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1224</id>
+                <description>
+                    <name>Imbalance Pitch (P)</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1225</id>
+                <description>
+                    <name>Imbalance Roll (P)</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1226</id>
+                <description>
+                    <name>Simulation Enable</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1227</id>
+                <description>
+                    <name>Integral Enable</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1228</id>
+                <description>
+                    <name>RTH distance OK</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1229</id>
+                <description>
+                    <name>In Home</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1230</id>
+                <description>
+                    <name>Link Status</name>
+                </description>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mbit>
