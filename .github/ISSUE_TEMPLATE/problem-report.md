@@ -22,6 +22,7 @@ assignees: ''
 - [ ] 3 (Major)
 - [ ] 4 (Minor)
 - [ ] 5 (No effect)
+- [ ] 6 (Not detected)
 
 ## Priority:
 - [ ] 1 (High)
