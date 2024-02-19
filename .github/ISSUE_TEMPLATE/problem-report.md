@@ -2,7 +2,7 @@
 name: Problem Report
 about: Describe a PR
 title: ''
-labels: Analysis, Comment, PR
+labels: Analysis, Comment, PR, Quality
 assignees: ''
 
 ---
