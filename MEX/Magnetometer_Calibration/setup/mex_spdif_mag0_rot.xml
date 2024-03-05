@@ -3,18 +3,18 @@
     <filename>mag0_rot.bin</filename>
     <version>
         <major>6</major>
-        <minor>10</minor>
-        <revision>3</revision>
+        <minor>12</minor>
+        <revision>46</revision>
     </version>
     <data>
-        <a00>0.0</a00>
+        <a00>1.0</a00>
         <a10>0.0</a10>
         <a20>0.0</a20>
         <a01>0.0</a01>
-        <a11>0.0</a11>
+        <a11>1.0</a11>
         <a21>0.0</a21>
         <a02>0.0</a02>
         <a12>0.0</a12>
-        <a22>0.0</a22>
+        <a22>1.0</a22>
     </data>
 </entry-mag0_rot>
