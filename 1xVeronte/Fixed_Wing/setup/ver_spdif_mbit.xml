@@ -1,0 +1,139 @@
+<entry-mbit>
+    <id>138</id>
+    <filename>mbit.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <id>1299</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1309</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1312</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1400</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1219</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1210</id>
+                <description>
+                    <name>LND HDG OK</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1211</id>
+                <description>
+                    <name>LND POS OK</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1212</id>
+                <description>
+                    <name>Imbalance Pitch</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1213</id>
+                <description>
+                    <name>Imbalance Thrust</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1200</id>
+                <description>
+                    <name>Integrals Enabled</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1209</id>
+                <description>
+                    <name>LND MSL OK</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1201</id>
+                <description>
+                    <name>Link Status</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1202</id>
+                <description>
+                    <name>Pitch Respect</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1203</id>
+                <description>
+                    <name>Thrust Respect</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1204</id>
+                <description>
+                    <name>Roll Respect</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1205</id>
+                <description>
+                    <name>Yaw Respect</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1206</id>
+                <description>
+                    <name>CW Turns</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1207</id>
+                <description>
+                    <name>Knobs MSL mode</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1208</id>
+                <description>
+                    <name>LND OK</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1214</id>
+                <description>
+                    <name>Imbalance Roll</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1215</id>
+                <description>
+                    <name>Imbalance Yaw</name>
+                </description>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mbit>

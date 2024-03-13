@@ -1,0 +1,16 @@
+<entry-scid>
+    <id>33</id>
+    <filename>scid.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <baudrate>115200</baudrate>
+        <length>4</length>
+        <parity>2</parity>
+        <stop>0</stop>
+        <use-addr-mode>0</use-addr-mode>
+    </data>
+</entry-scid>

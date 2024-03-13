@@ -1,0 +1,13 @@
+<entry-mag2filt>
+    <id>124</id>
+    <filename>mag2filt.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <enable>1</enable>
+        <cutoff_freq>14.9939995</cutoff_freq>
+    </data>
+</entry-mag2filt>

@@ -1,0 +1,35 @@
+<entry-xpccan>
+    <id>87</id>
+    <filename>xpccan.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>11</producer>
+            <consumer>6</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>12</producer>
+            <consumer>7</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>6</producer>
+            <consumer>11</consumer>
+            <group>1</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>7</producer>
+            <consumer>12</consumer>
+            <group>1</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+    </data>
+</entry-xpccan>

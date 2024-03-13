@@ -1,0 +1,13 @@
+<entry-freqmgr>
+    <id>25</id>
+    <filename>freqmgr.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <period_acq>9.90099E-4</period_acq>
+        <period_gnc>0.0040032025</period_gnc>
+    </data>
+</entry-freqmgr>
