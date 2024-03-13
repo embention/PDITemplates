@@ -1,0 +1,15 @@
+<entry-mgeoref>
+    <id>135</id>
+    <filename>mgeoref.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <size>4</size>
+        <isAutoGeoref>0</isAutoGeoref>
+        <marginGeoref>0.2</marginGeoref>
+        <isAutoMagfield>0</isAutoMagfield>
+    </data>
+</entry-mgeoref>

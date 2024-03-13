@@ -1,0 +1,21 @@
+<entry-init-pos>
+    <id>11</id>
+    <filename>init_pos.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <wrt-choice>
+            <wrt-choice-abs>
+                <wrt>65535</wrt>
+                <pos>
+                    <lon>0</lon>
+                    <lat>0</lat>
+                    <alt>0</alt>
+                </pos>
+            </wrt-choice-abs>
+        </wrt-choice>
+    </data>
+</entry-init-pos>
