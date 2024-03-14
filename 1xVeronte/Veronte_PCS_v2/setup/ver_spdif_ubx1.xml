@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>54</revision>
     </version>
     <data>
         <port_spi>
@@ -33,7 +33,7 @@
         </port_sci>
         <nav5>
             <mask>1463</mask>
-            <dynmodel>8</dynmodel>
+            <dynmodel>2</dynmodel>
             <fixmode>2</fixmode>
             <fixedAlt>0</fixedAlt>
             <fixedAltVar>1</fixedAltVar>

@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>54</revision>
     </version>
     <data>
         <map>
@@ -234,7 +234,7 @@
                 <id>3119</id>
                 <value>
                     <description>
-                        <name>MAG X</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -444,6 +444,45 @@
                 <value>
                     <description>
                         <name>Position acquired</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3108</id>
+                <value>
+                    <description>
+                        <name>MAG X</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3109</id>
+                <value>
+                    <description>
+                        <name>MAG Y</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3110</id>
+                <value>
+                    <description>
+                        <name>MAG Z</name>
                     </description>
                     <unit>
                         <no-exist-unit>

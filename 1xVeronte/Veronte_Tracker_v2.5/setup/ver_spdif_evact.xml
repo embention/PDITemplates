@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>54</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -35,7 +35,6 @@
                 </node>
                 <actions>
                     <str-tunarray-element>2</str-tunarray-element>
-                    <str-tunarray-element>13</str-tunarray-element>
                 </actions>
             </data>
         </str-tunarray-element>
@@ -67,7 +66,6 @@
                 </node>
                 <actions>
                     <str-tunarray-element>1</str-tunarray-element>
-                    <str-tunarray-element>14</str-tunarray-element>
                 </actions>
             </data>
         </str-tunarray-element>
@@ -796,6 +794,37 @@
                 </node>
                 <actions>
                     <str-tunarray-element>12</str-tunarray-element>
+                </actions>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="18">
+            <data>
+                <enabled>1</enabled>
+                <delay>0.0</delay>
+                <delay_max>0</delay_max>
+                <xclk>
+                    <period>
+                        <fixed-any>
+                            <mode>2</mode>
+                            <period_s>5.0</period_s>
+                        </fixed-any>
+                    </period>
+                    <type>
+                        <type-no-vector>
+                            <type>0</type>
+                        </type-no-vector>
+                    </type>
+                </xclk>
+                <node>
+                    <map>
+                        <event>
+                            <type>2</type>
+                            <param>22</param>
+                        </event>
+                    </map>
+                </node>
+                <actions>
+                    <str-tunarray-element>13</str-tunarray-element>
                 </actions>
             </data>
         </str-tunarray-element>
