@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>54</revision>
     </version>
     <data>
         <action-array>
@@ -311,38 +311,34 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="13">
                 <data>
-                    <acset-gpio>
+                    <acset-fmem>
                         <type>0</type>
-                        <idCfg>221</idCfg>
+                        <idCfg>189</idCfg>
                         <str>
-                            <gpio>
-                                <id>16</id>
-                                <command-choice>
-                                    <on>
-                                        <type>1</type>
-                                    </on>
-                                </command-choice>
-                            </gpio>
+                            <fmem>
+                                <mem-idx>0</mem-idx>
+                                <value>
+                                    <ref-kval>
+                                        <type>65534</type>
+                                        <kval>
+                                            <wrt-choice>
+                                                <wrt-choice-rel>
+                                                    <wrt>8192</wrt>
+                                                    <rn>
+                                                        <x>0.0</x>
+                                                        <y>0.0</y>
+                                                        <z>0.0</z>
+                                                    </rn>
+                                                </wrt-choice-rel>
+                                            </wrt-choice>
+                                        </kval>
+                                    </ref-kval>
+                                </value>
+                                <respect-wrt>0</respect-wrt>
+                                <wrt>65535</wrt>
+                            </fmem>
                         </str>
-                    </acset-gpio>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="14">
-                <data>
-                    <acset-gpio>
-                        <type>0</type>
-                        <idCfg>221</idCfg>
-                        <str>
-                            <gpio>
-                                <id>16</id>
-                                <command-choice>
-                                    <off>
-                                        <type>0</type>
-                                    </off>
-                                </command-choice>
-                            </gpio>
-                        </str>
-                    </acset-gpio>
+                    </acset-fmem>
                 </data>
             </str-tunarray-element>
         </action-array>

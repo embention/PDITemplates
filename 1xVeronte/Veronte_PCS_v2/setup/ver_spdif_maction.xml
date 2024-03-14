@@ -4,14 +4,14 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>54</revision>
     </version>
     <data>
         <map>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
                     <name>
-                        <name>READY</name>
+                        <name>Save current position</name>
                     </name>
                     <has-icon>
                         <has-icon-n>

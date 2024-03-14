@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>54</revision>
     </version>
     <data>
         <map>
@@ -132,6 +132,13 @@
                     <name>Test Button</name>
                     <group>0</group>
                     <order>5</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <name>Define Home</name>
+                    <group>2</group>
+                    <order>1</order>
                 </data>
             </str-tunarray-element>
         </map>

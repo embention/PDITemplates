@@ -4,13 +4,13 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>54</revision>
     </version>
     <data>
         <map>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
-                    <name>RDY Button</name>
+                    <name>Position fix</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -454,7 +454,7 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data>
-                                        <entry>0.15</entry>
+                                        <entry>0.2</entry>
                                         <color>
                                             <r>255</r>
                                             <g>102</g>
@@ -465,7 +465,7 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data>
-                                        <entry>0.15</entry>
+                                        <entry>0.2</entry>
                                         <color>
                                             <r>255</r>
                                             <g>255</g>
@@ -498,7 +498,7 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data>
-                                        <entry>0.7</entry>
+                                        <entry>0.95</entry>
                                         <color>
                                             <r>255</r>
                                             <g>255</g>
@@ -509,7 +509,7 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data>
-                                        <entry>0.7</entry>
+                                        <entry>0.95</entry>
                                         <color>
                                             <r>255</r>
                                             <g>255</g>

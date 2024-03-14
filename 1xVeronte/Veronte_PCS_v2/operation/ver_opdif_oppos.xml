@@ -4,13 +4,13 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>37</revision>
+        <revision>54</revision>
     </version>
     <data>
         <feature>
             <wrt-choice>
                 <wrt-choice-rel>
-                    <wrt>46080</wrt>
+                    <wrt>10240</wrt>
                     <rn>
                         <x>0.0</x>
                         <y>0.0</y>
