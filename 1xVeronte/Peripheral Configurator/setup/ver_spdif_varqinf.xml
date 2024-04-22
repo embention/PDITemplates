@@ -26,7 +26,7 @@
             </polycoef>
         </uvar1>
         <rvar0>
-            <enable>0</enable>
+            <enable>1</enable>
             <rvar_id>4100</rvar_id>
         </rvar0>
         <rvar1>

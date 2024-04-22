@@ -8,8 +8,8 @@
     </version>
     <data>
         <sel>
-            <use>1</use>
-            <def-sen>0</def-sen>
+            <use>64</use>
+            <def-sen>6</def-sen>
         </sel>
         <tau_v>2.0</tau_v>
         <tau_s2>20.0</tau_s2>
