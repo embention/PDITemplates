@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>54</revision>
     </version>
     <data>
         <map>
@@ -485,7 +485,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="19">
                 <data>
-                    <name>Flight Phases</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -660,7 +660,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="26">
                 <data>
-                    <name>No name</name>
+                    <name>Auto mode</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>

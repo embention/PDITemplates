@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>54</revision>
     </version>
     <data>
         <port_spi>
@@ -41,7 +41,7 @@
             <reserved0>0</reserved0>
             <pDop>250</pDop>
             <tDop>1000</tDop>
-            <pAcc>100</pAcc>
+            <pAcc>5</pAcc>
             <tAcc>100</tAcc>
             <staticHoldThresh>0</staticHoldThresh>
             <dgnssTimeout>60</dgnssTimeout>
@@ -63,7 +63,7 @@
             <mask2>0</mask2>
             <reserved0>0</reserved0>
             <reserved1>0</reserved1>
-            <minSVs>4</minSVs>
+            <minSVs>6</minSVs>
             <maxSVs>20</maxSVs>
             <minCNO>6</minCNO>
             <reserved2>0</reserved2>

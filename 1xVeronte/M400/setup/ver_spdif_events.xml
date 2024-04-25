@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>54</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -209,6 +209,14 @@
                 </indexes>
             </data>
         </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="19">
+            <data>
+                <type>1</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
+            </data>
+        </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="20">
             <data>
                 <type>5</type>
@@ -270,6 +278,16 @@
                 <duration>0.0</duration>
                 <idx>0</idx>
                 <indexes/>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="26">
+            <data>
+                <type>6</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>0</str-tunarray-element>
+                </indexes>
             </data>
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="27">
