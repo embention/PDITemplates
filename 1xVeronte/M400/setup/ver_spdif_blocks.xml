@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>47</revision>
+        <revision>54</revision>
     </version>
     <data>
         <programs>
@@ -1131,10 +1131,10 @@
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
                                                             <pid>
-                                                                <Kp>0.190739</Kp>
-                                                                <Kd>0.006364803</Kd>
+                                                                <Kp>0.187</Kp>
+                                                                <Kd>0.006171</Kd>
                                                                 <taud>0.008</taud>
-                                                                <Ki>0.3536709</Ki>
+                                                                <Ki>0.3366</Ki>
                                                                 <Ta_1>1.0</Ta_1>
                                                                 <uf>0.0</uf>
                                                                 <imax>0.2</imax>
@@ -1222,10 +1222,10 @@
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
                                                             <pid>
-                                                                <Kp>0.091936</Kp>
-                                                                <Kd>0.002949024</Kd>
+                                                                <Kp>0.08</Kp>
+                                                                <Kd>0.0023999999</Kd>
                                                                 <taud>0.008</taud>
-                                                                <Ki>0.198016</Ki>
+                                                                <Ki>0.16</Ki>
                                                                 <Ta_1>1.0</Ta_1>
                                                                 <uf>0.0</uf>
                                                                 <imax>0.2</imax>
@@ -2149,7 +2149,7 @@
                                             <str-tunarray-element>
                                                 <rvarget>
                                                     <block-type>9</block-type>
-                                                    <rvarid>2503</rvarid>
+                                                    <rvarid>2603</rvarid>
                                                 </rvarget>
                                             </str-tunarray-element>
                                             <str-tunarray-element>
@@ -2346,8 +2346,8 @@
                                                             </is-connected>
                                                         </uthrust_sat>
                                                         <respect>1</respect>
-                                                        <kph>0.2</kph>
-                                                        <kih>0.02</kih>
+                                                        <kph>0.1</kph>
+                                                        <kih>0.01</kih>
                                                         <kdh>0.01</kdh>
                                                         <kpv>0.11</kpv>
                                                         <kiv>0.05</kiv>
@@ -3604,7 +3604,7 @@
                             <block-type>82</block-type>
                             <data>
                                 <selected>2</selected>
-                                <e2>2000.0</e2>
+                                <e2>1000.0</e2>
                             </data>
                         </senstp>
                     </str-tunarray-element>
@@ -3862,6 +3862,12 @@
                                                                     <str-tunarray-element>
                                                                         <rvarget>
                                                                             <block-type>9</block-type>
+                                                                            <rvarid>2</rvarid>
+                                                                        </rvarget>
+                                                                    </str-tunarray-element>
+                                                                    <str-tunarray-element>
+                                                                        <rvarget>
+                                                                            <block-type>9</block-type>
                                                                             <rvarid>2602</rvarid>
                                                                         </rvarget>
                                                                     </str-tunarray-element>
@@ -3882,7 +3888,7 @@
                                                                             <block-type>66</block-type>
                                                                             <data>
                                                                                 <stick>
-                                                                                    <block-addr>2</block-addr>
+                                                                                    <block-addr>3</block-addr>
                                                                                     <out-addr>0</out-addr>
                                                                                 </stick>
                                                                                 <auto>
@@ -3913,7 +3919,7 @@
                                                                             <block-type>66</block-type>
                                                                             <data>
                                                                                 <stick>
-                                                                                    <block-addr>1</block-addr>
+                                                                                    <block-addr>2</block-addr>
                                                                                     <out-addr>0</out-addr>
                                                                                 </stick>
                                                                                 <auto>
@@ -3944,7 +3950,7 @@
                                                                             <block-type>66</block-type>
                                                                             <data>
                                                                                 <stick>
-                                                                                    <block-addr>0</block-addr>
+                                                                                    <block-addr>1</block-addr>
                                                                                     <out-addr>0</out-addr>
                                                                                 </stick>
                                                                                 <auto>
@@ -3979,7 +3985,7 @@
                                                                                         <is-connected>
                                                                                             <connected>1</connected>
                                                                                             <pin>
-                                                                                                <block-addr>3</block-addr>
+                                                                                                <block-addr>4</block-addr>
                                                                                                 <out-addr>1</out-addr>
                                                                                             </pin>
                                                                                         </is-connected>
@@ -3988,7 +3994,7 @@
                                                                                         <is-connected>
                                                                                             <connected>1</connected>
                                                                                             <pin>
-                                                                                                <block-addr>4</block-addr>
+                                                                                                <block-addr>5</block-addr>
                                                                                                 <out-addr>1</out-addr>
                                                                                             </pin>
                                                                                         </is-connected>
@@ -3997,7 +4003,7 @@
                                                                                         <is-connected>
                                                                                             <connected>1</connected>
                                                                                             <pin>
-                                                                                                <block-addr>5</block-addr>
+                                                                                                <block-addr>6</block-addr>
                                                                                                 <out-addr>1</out-addr>
                                                                                             </pin>
                                                                                         </is-connected>
@@ -4008,14 +4014,22 @@
                                                                                         </is-not-connected>
                                                                                     </spd>
                                                                                     <hvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </hvar>
                                                                                     <vvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </vvar>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
@@ -4045,26 +4059,55 @@
                                                                                     </arclim>
                                                                                     <hpid>
                                                                                         <speed-guid-pid-choice>
-                                                                                            <pid-selection>
-                                                                                                <type>0</type>
-                                                                                                <pid>
-                                                                                                    <Kp>0.06</Kp>
-                                                                                                    <Kd>0.0</Kd>
-                                                                                                    <taud>0.0</taud>
-                                                                                                    <Ki>5.9999997E-4</Ki>
-                                                                                                    <Ta_1>1.0</Ta_1>
-                                                                                                    <uf>0.0</uf>
-                                                                                                    <imax>-1.0</imax>
-                                                                                                    <betap>1.0</betap>
-                                                                                                    <betad>1.0</betad>
+                                                                                            <tsched-selection>
+                                                                                                <type>1</type>
+                                                                                                <tsched>
+                                                                                                    <rtable>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>5.0</x>
+                                                                                                            <y1>0.02</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>15.0</x>
+                                                                                                            <y1>0.015</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>30.0</x>
+                                                                                                            <y1>0.01</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                    </rtable>
                                                                                                     <integral>
                                                                                                         <enable>0</enable>
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
                                                                                                     </integral>
-                                                                                                </pid>
-                                                                                            </pid-selection>
+                                                                                                </tsched>
+                                                                                            </tsched-selection>
                                                                                         </speed-guid-pid-choice>
                                                                                         <limits>
                                                                                             <min>
@@ -4086,10 +4129,10 @@
                                                                                             <pid-selection>
                                                                                                 <type>0</type>
                                                                                                 <pid>
-                                                                                                    <Kp>0.06</Kp>
+                                                                                                    <Kp>0.01</Kp>
                                                                                                     <Kd>0.0</Kd>
                                                                                                     <taud>0.0</taud>
-                                                                                                    <Ki>0.024</Ki>
+                                                                                                    <Ki>0.0</Ki>
                                                                                                     <Ta_1>1.0</Ta_1>
                                                                                                     <uf>0.0</uf>
                                                                                                     <imax>-1.0</imax>
@@ -4119,7 +4162,7 @@
                                                                                             </max>
                                                                                         </limits>
                                                                                     </vpid>
-                                                                                    <prj>1</prj>
+                                                                                    <prj>0</prj>
                                                                                 </gcfg>
                                                                             </data>
                                                                         </cruise>
@@ -4141,6 +4184,12 @@
                                                                     </str-tunarray-element>
                                                                 </str-tunarray-element>
                                                                 <str-tunarray-element>
+                                                                    <str-tunarray-element>
+                                                                        <rvarget>
+                                                                            <block-type>9</block-type>
+                                                                            <rvarid>2</rvarid>
+                                                                        </rvarget>
+                                                                    </str-tunarray-element>
                                                                     <str-tunarray-element>
                                                                         <vtol>
                                                                             <block-type>78</block-type>
@@ -4167,14 +4216,22 @@
                                                                                         </is-not-connected>
                                                                                     </spd>
                                                                                     <hvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </hvar>
                                                                                     <vvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </vvar>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
@@ -4210,26 +4267,55 @@
                                                                                     </arclim>
                                                                                     <hpid>
                                                                                         <speed-guid-pid-choice>
-                                                                                            <pid-selection>
-                                                                                                <type>0</type>
-                                                                                                <pid>
-                                                                                                    <Kp>0.005</Kp>
-                                                                                                    <Kd>0.0</Kd>
-                                                                                                    <taud>0.0</taud>
-                                                                                                    <Ki>0.0</Ki>
-                                                                                                    <Ta_1>0.0</Ta_1>
-                                                                                                    <uf>0.0</uf>
-                                                                                                    <imax>-1.0</imax>
-                                                                                                    <betap>1.0</betap>
-                                                                                                    <betad>1.0</betad>
+                                                                                            <tsched-selection>
+                                                                                                <type>1</type>
+                                                                                                <tsched>
+                                                                                                    <rtable>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>5.0</x>
+                                                                                                            <y1>0.02</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>15.0</x>
+                                                                                                            <y1>0.015</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>30.0</x>
+                                                                                                            <y1>0.01</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                    </rtable>
                                                                                                     <integral>
                                                                                                         <enable>0</enable>
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
                                                                                                     </integral>
-                                                                                                </pid>
-                                                                                            </pid-selection>
+                                                                                                </tsched>
+                                                                                            </tsched-selection>
                                                                                         </speed-guid-pid-choice>
                                                                                         <limits>
                                                                                             <min>
@@ -4331,6 +4417,12 @@
                                                                 </str-tunarray-element>
                                                                 <str-tunarray-element>
                                                                     <str-tunarray-element>
+                                                                        <rvarget>
+                                                                            <block-type>9</block-type>
+                                                                            <rvarid>2</rvarid>
+                                                                        </rvarget>
+                                                                    </str-tunarray-element>
+                                                                    <str-tunarray-element>
                                                                         <vtol>
                                                                             <block-type>78</block-type>
                                                                             <data>
@@ -4356,14 +4448,22 @@
                                                                                         </is-not-connected>
                                                                                     </spd>
                                                                                     <hvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </hvar>
                                                                                     <vvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </vvar>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
@@ -4399,26 +4499,55 @@
                                                                                     </arclim>
                                                                                     <hpid>
                                                                                         <speed-guid-pid-choice>
-                                                                                            <pid-selection>
-                                                                                                <type>0</type>
-                                                                                                <pid>
-                                                                                                    <Kp>0.03</Kp>
-                                                                                                    <Kd>0.0</Kd>
-                                                                                                    <taud>0.0</taud>
-                                                                                                    <Ki>0.0</Ki>
-                                                                                                    <Ta_1>0.0</Ta_1>
-                                                                                                    <uf>0.0</uf>
-                                                                                                    <imax>-1.0</imax>
-                                                                                                    <betap>1.0</betap>
-                                                                                                    <betad>1.0</betad>
+                                                                                            <tsched-selection>
+                                                                                                <type>1</type>
+                                                                                                <tsched>
+                                                                                                    <rtable>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>5.0</x>
+                                                                                                            <y1>0.02</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>15.0</x>
+                                                                                                            <y1>0.015</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>30.0</x>
+                                                                                                            <y1>0.01</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                    </rtable>
                                                                                                     <integral>
                                                                                                         <enable>0</enable>
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
                                                                                                     </integral>
-                                                                                                </pid>
-                                                                                            </pid-selection>
+                                                                                                </tsched>
+                                                                                            </tsched-selection>
                                                                                         </speed-guid-pid-choice>
                                                                                         <limits>
                                                                                             <min>
@@ -4440,7 +4569,7 @@
                                                                                             <pid-selection>
                                                                                                 <type>0</type>
                                                                                                 <pid>
-                                                                                                    <Kp>0.03</Kp>
+                                                                                                    <Kp>0.01</Kp>
                                                                                                     <Kd>0.0</Kd>
                                                                                                     <taud>0.0</taud>
                                                                                                     <Ki>0.0</Ki>
@@ -4517,6 +4646,12 @@
                                                                 </str-tunarray-element>
                                                                 <str-tunarray-element>
                                                                     <str-tunarray-element>
+                                                                        <rvarget>
+                                                                            <block-type>9</block-type>
+                                                                            <rvarid>2</rvarid>
+                                                                        </rvarget>
+                                                                    </str-tunarray-element>
+                                                                    <str-tunarray-element>
                                                                         <cruise>
                                                                             <block-type>75</block-type>
                                                                             <data>
@@ -4542,14 +4677,22 @@
                                                                                         </is-not-connected>
                                                                                     </spd>
                                                                                     <hvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </hvar>
                                                                                     <vvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </vvar>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
@@ -4565,10 +4708,10 @@
                                                                                                 <mode>1</mode>
                                                                                                 <tcmd_speed_vtype>1</tcmd_speed_vtype>
                                                                                                 <tcmd_speed_vlink>
-                                                                                                    <vref-kval>
-                                                                                                        <type>65534</type>
-                                                                                                        <kval>5.0</kval>
-                                                                                                    </vref-kval>
+                                                                                                    <vref-var>
+                                                                                                        <type>0</type>
+                                                                                                        <id>2700</id>
+                                                                                                    </vref-var>
                                                                                                 </tcmd_speed_vlink>
                                                                                                 <tcmd_speed_vpoint>
                                                                                                     <vref-kval>
@@ -4585,26 +4728,55 @@
                                                                                     </arclim>
                                                                                     <hpid>
                                                                                         <speed-guid-pid-choice>
-                                                                                            <pid-selection>
-                                                                                                <type>0</type>
-                                                                                                <pid>
-                                                                                                    <Kp>0.03</Kp>
-                                                                                                    <Kd>0.0</Kd>
-                                                                                                    <taud>0.0</taud>
-                                                                                                    <Ki>0.0</Ki>
-                                                                                                    <Ta_1>0.0</Ta_1>
-                                                                                                    <uf>0.0</uf>
-                                                                                                    <imax>-1.0</imax>
-                                                                                                    <betap>1.0</betap>
-                                                                                                    <betad>1.0</betad>
+                                                                                            <tsched-selection>
+                                                                                                <type>1</type>
+                                                                                                <tsched>
+                                                                                                    <rtable>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>5.0</x>
+                                                                                                            <y1>0.02</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>15.0</x>
+                                                                                                            <y1>0.015</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>30.0</x>
+                                                                                                            <y1>0.01</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                    </rtable>
                                                                                                     <integral>
                                                                                                         <enable>0</enable>
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
                                                                                                     </integral>
-                                                                                                </pid>
-                                                                                            </pid-selection>
+                                                                                                </tsched>
+                                                                                            </tsched-selection>
                                                                                         </speed-guid-pid-choice>
                                                                                         <limits>
                                                                                             <min>
@@ -4626,10 +4798,10 @@
                                                                                             <pid-selection>
                                                                                                 <type>0</type>
                                                                                                 <pid>
-                                                                                                    <Kp>0.05</Kp>
+                                                                                                    <Kp>0.01</Kp>
                                                                                                     <Kd>0.0</Kd>
                                                                                                     <taud>0.0</taud>
-                                                                                                    <Ki>0.0050000004</Ki>
+                                                                                                    <Ki>0.0</Ki>
                                                                                                     <Ta_1>0.1</Ta_1>
                                                                                                     <uf>0.0</uf>
                                                                                                     <imax>-1.0</imax>
@@ -4682,6 +4854,12 @@
                                                                 </str-tunarray-element>
                                                                 <str-tunarray-element>
                                                                     <str-tunarray-element>
+                                                                        <rvarget>
+                                                                            <block-type>9</block-type>
+                                                                            <rvarid>2</rvarid>
+                                                                        </rvarget>
+                                                                    </str-tunarray-element>
+                                                                    <str-tunarray-element>
                                                                         <yawing>
                                                                             <block-type>79</block-type>
                                                                             <data>
@@ -4722,14 +4900,22 @@
                                                                                         </is-not-connected>
                                                                                     </spd>
                                                                                     <hvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </hvar>
                                                                                     <vvar>
-                                                                                        <is-not-connected>
-                                                                                            <connected>0</connected>
-                                                                                        </is-not-connected>
+                                                                                        <is-connected>
+                                                                                            <connected>1</connected>
+                                                                                            <pin>
+                                                                                                <block-addr>0</block-addr>
+                                                                                                <out-addr>0</out-addr>
+                                                                                            </pin>
+                                                                                        </is-connected>
                                                                                     </vvar>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
@@ -4765,26 +4951,55 @@
                                                                                     </arclim>
                                                                                     <hpid>
                                                                                         <speed-guid-pid-choice>
-                                                                                            <pid-selection>
-                                                                                                <type>0</type>
-                                                                                                <pid>
-                                                                                                    <Kp>0.04</Kp>
-                                                                                                    <Kd>0.0</Kd>
-                                                                                                    <taud>0.0</taud>
-                                                                                                    <Ki>0.0</Ki>
-                                                                                                    <Ta_1>0.0</Ta_1>
-                                                                                                    <uf>0.0</uf>
-                                                                                                    <imax>-1.0</imax>
-                                                                                                    <betap>1.0</betap>
-                                                                                                    <betad>1.0</betad>
+                                                                                            <tsched-selection>
+                                                                                                <type>1</type>
+                                                                                                <tsched>
+                                                                                                    <rtable>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>5.0</x>
+                                                                                                            <y1>0.02</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>15.0</x>
+                                                                                                            <y1>0.015</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                        <str-tunarray-element>
+                                                                                                            <x>30.0</x>
+                                                                                                            <y1>0.01</y1>
+                                                                                                            <y2>0.0</y2>
+                                                                                                            <y3>0.0</y3>
+                                                                                                            <y4>0.0</y4>
+                                                                                                            <y5>0.0</y5>
+                                                                                                            <y6>0.0</y6>
+                                                                                                            <y7>-1.0</y7>
+                                                                                                            <y8>1.0</y8>
+                                                                                                            <y9>1.0</y9>
+                                                                                                        </str-tunarray-element>
+                                                                                                    </rtable>
                                                                                                     <integral>
                                                                                                         <enable>0</enable>
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
                                                                                                     </integral>
-                                                                                                </pid>
-                                                                                            </pid-selection>
+                                                                                                </tsched>
+                                                                                            </tsched-selection>
                                                                                         </speed-guid-pid-choice>
                                                                                         <limits>
                                                                                             <min>
@@ -4806,7 +5021,7 @@
                                                                                             <pid-selection>
                                                                                                 <type>0</type>
                                                                                                 <pid>
-                                                                                                    <Kp>0.05</Kp>
+                                                                                                    <Kp>0.01</Kp>
                                                                                                     <Kd>0.0</Kd>
                                                                                                     <taud>0.0</taud>
                                                                                                     <Ki>0.0</Ki>
@@ -4887,23 +5102,23 @@
                                                             <outs>
                                                                 <str-tunarray-element>
                                                                     <str-tunarray-element>
-                                                                        <block-addr>6</block-addr>
-                                                                        <out-addr>0</out-addr>
-                                                                    </str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <block-addr>0</block-addr>
-                                                                        <out-addr>0</out-addr>
-                                                                    </str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <block-addr>0</block-addr>
-                                                                        <out-addr>0</out-addr>
-                                                                    </str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <block-addr>0</block-addr>
+                                                                        <block-addr>7</block-addr>
                                                                         <out-addr>0</out-addr>
                                                                     </str-tunarray-element>
                                                                     <str-tunarray-element>
                                                                         <block-addr>1</block-addr>
+                                                                        <out-addr>0</out-addr>
+                                                                    </str-tunarray-element>
+                                                                    <str-tunarray-element>
+                                                                        <block-addr>1</block-addr>
+                                                                        <out-addr>0</out-addr>
+                                                                    </str-tunarray-element>
+                                                                    <str-tunarray-element>
+                                                                        <block-addr>1</block-addr>
+                                                                        <out-addr>0</out-addr>
+                                                                    </str-tunarray-element>
+                                                                    <str-tunarray-element>
+                                                                        <block-addr>2</block-addr>
                                                                         <out-addr>0</out-addr>
                                                                     </str-tunarray-element>
                                                                 </str-tunarray-element>

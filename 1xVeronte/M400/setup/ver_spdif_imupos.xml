@@ -4,11 +4,11 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>47</revision>
+        <revision>54</revision>
     </version>
     <data>
         <GIb>
-            <x>0.0</x>
+            <x>-0.07</x>
             <y>0.0</y>
             <z>0.0</z>
         </GIb>
