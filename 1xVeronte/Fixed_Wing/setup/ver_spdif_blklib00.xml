@@ -12,6 +12,12 @@
             <str-tunarray-element>
                 <rvarget>
                     <block-type>9</block-type>
+                    <rvarid>3116</rvarid>
+                </rvarget>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <rvarget>
+                    <block-type>9</block-type>
                     <rvarid>3109</rvarid>
                 </rvarget>
             </str-tunarray-element>
@@ -22,23 +28,15 @@
                 </rvarget>
             </str-tunarray-element>
             <str-tunarray-element>
-                <const-real>
-                    <block-type>25</block-type>
-                    <value>
-                        <str-tunarray-element>15.0</str-tunarray-element>
-                    </value>
-                </const-real>
-            </str-tunarray-element>
-            <str-tunarray-element>
                 <func-r2xr1>
                     <block-type>28</block-type>
                     <data>
                         <input0>
-                            <block-addr>1</block-addr>
+                            <block-addr>2</block-addr>
                             <out-addr>0</out-addr>
                         </input0>
                         <input1>
-                            <block-addr>0</block-addr>
+                            <block-addr>1</block-addr>
                             <out-addr>0</out-addr>
                         </input1>
                         <type>8</type>
@@ -50,7 +48,7 @@
                     <block-type>28</block-type>
                     <data>
                         <input0>
-                            <block-addr>2</block-addr>
+                            <block-addr>0</block-addr>
                             <out-addr>0</out-addr>
                         </input0>
                         <input1>
@@ -89,24 +87,24 @@
  </name>
         <map>
             <str-tunarray-element>
-                <x-pos>66</x-pos>
-                <y-pos>32</y-pos>
+                <x-pos>166</x-pos>
+                <y-pos>0</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>43</x-pos>
+                <y-pos>34</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>257</x-pos>
-                <y-pos>0</y-pos>
+                <x-pos>170</x-pos>
+                <y-pos>31</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>176</x-pos>
-                <y-pos>10</y-pos>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <x-pos>327</x-pos>
-                <y-pos>11</y-pos>
+                <x-pos>356</x-pos>
+                <y-pos>8</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>412</x-pos>

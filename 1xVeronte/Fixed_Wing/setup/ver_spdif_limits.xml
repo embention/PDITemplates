@@ -619,5 +619,22 @@
                 </value>
             </data>
         </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="36">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1510</id>
+                    </vref-var>
+                </variable>
+                <type>1</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>4.0</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
     </data>
 </entry-limits>

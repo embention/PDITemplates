@@ -410,12 +410,13 @@
                 <id>3119</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Roll</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -879,13 +880,152 @@
                 <id>3116</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Nominal Cruise Speed</name>
                     </description>
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>56</id>
+                            <id>0</id>
                         </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3117</id>
+                <value>
+                    <description>
+                        <name>Min Pitch</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3118</id>
+                <value>
+                    <description>
+                        <name>Max Pitch</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3120</id>
+                <value>
+                    <description>
+                        <name>Max Roll</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3121</id>
+                <value>
+                    <description>
+                        <name>Min Pitch Rate</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>42</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3122</id>
+                <value>
+                    <description>
+                        <name>Max Pitch Rate</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>42</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3123</id>
+                <value>
+                    <description>
+                        <name>Min Roll Rate</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>42</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3124</id>
+                <value>
+                    <description>
+                        <name>Max Roll Rate</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>42</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3125</id>
+                <value>
+                    <description>
+                        <name>Min Yaw Rate</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>42</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3126</id>
+                <value>
+                    <description>
+                        <name>Max Yaw Rate</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>42</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3127</id>
+                <value>
+                    <description>
+                        <name>Corrected Curvature</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>

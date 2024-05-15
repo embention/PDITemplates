@@ -848,6 +848,22 @@
                         </real-float32>
                     </data-fieldset>
                 </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1206</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1216</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
             </fields>
             <periode>0.2</periode>
             <address>

@@ -323,31 +323,19 @@
             <str-tunarray-element str-tunarray-key="25">
                 <data>
                     <name>
-                        <name>Start of the Route</name>
+                        <name>Enable Atm Cal</name>
                     </name>
                     <has-icon>
-                        <has-icon-y>
-                            <hasIcon>1</hasIcon>
-                            <color>
-                                <cmpType2>
-                                    <typeColor>0</typeColor>
-                                    <color>
-                                        <r>255</r>
-                                        <g>255</g>
-                                        <b>255</b>
-                                        <a>255</a>
-                                    </color>
-                                </cmpType2>
-                            </color>
-                            <icon>22</icon>
-                        </has-icon-y>
+                        <has-icon-n>
+                            <hasIcon>0</hasIcon>
+                        </has-icon-n>
                     </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="26">
                 <data>
                     <name>
-                        <name>Flap to mid</name>
+                        <name>Disable Atm Cal</name>
                     </name>
                     <has-icon>
                         <has-icon-n>

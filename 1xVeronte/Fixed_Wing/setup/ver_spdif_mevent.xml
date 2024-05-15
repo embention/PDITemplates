@@ -900,7 +900,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="32">
                 <data>
-                    <name>Arc Phases</name>
+                    <name>Route finished</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1255,11 +1255,56 @@
                             <typeColor>1</typeColor>
                             <var>
                                 <vref-var>
-                                    <type>0</type>
-                                    <id>4101</id>
+                                    <type>2</type>
+                                    <id>1206</id>
                                 </vref-var>
                             </var>
-                            <arrayColores/>
+                            <arrayColores>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>-0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>230</r>
+                                            <g>230</g>
+                                            <b>230</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>2.0</entry>
+                                        <color>
+                                            <r>0</r>
+                                            <g>255</g>
+                                            <b>0</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                            </arrayColores>
                         </cmpType3>
                     </dataTypeColor>
                     <check>
@@ -1280,11 +1325,56 @@
                             <typeColor>1</typeColor>
                             <var>
                                 <vref-var>
-                                    <type>0</type>
-                                    <id>4101</id>
+                                    <type>2</type>
+                                    <id>1206</id>
                                 </vref-var>
                             </var>
-                            <arrayColores/>
+                            <arrayColores>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>-0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>0</r>
+                                            <g>255</g>
+                                            <b>0</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>2.0</entry>
+                                        <color>
+                                            <r>230</r>
+                                            <g>230</g>
+                                            <b>230</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                            </arrayColores>
                         </cmpType3>
                     </dataTypeColor>
                     <check>
@@ -1424,7 +1514,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="53">
                 <data>
-                    <name>No name</name>
+                    <name>GNSS1 Accuracy &lt; 4 m</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1474,7 +1564,77 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="55">
                 <data>
-                    <name>Allowed Arcade COPY</name>
+                    <name>Calibrate Atm button</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>2</type>
+                                    <id>1216</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>-0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>230</r>
+                                            <g>230</g>
+                                            <b>230</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>2.0</entry>
+                                        <color>
+                                            <r>0</r>
+                                            <g>255</g>
+                                            <b>0</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                            </arrayColores>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>631</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="56">
+                <data>
+                    <name>Atm Cal Enabled</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1490,31 +1650,6 @@
                     <check>
                         <data>
                             <icon>10</icon>
-                            <timeControl>0.0</timeControl>
-                            <check>0</check>
-                            <checkTime>0</checkTime>
-                        </data>
-                    </check>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="56">
-                <data>
-                    <name>Change stick priority</name>
-                    <dataTypeColor>
-                        <cmpType3>
-                            <typeColor>1</typeColor>
-                            <var>
-                                <vref-var>
-                                    <type>0</type>
-                                    <id>4101</id>
-                                </vref-var>
-                            </var>
-                            <arrayColores/>
-                        </cmpType3>
-                    </dataTypeColor>
-                    <check>
-                        <data>
-                            <icon>1320</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>

@@ -18,6 +18,18 @@
                 </const-real>
             </str-tunarray-element>
             <str-tunarray-element>
+                <func-r1xr1>
+                    <block-type>27</block-type>
+                    <data>
+                        <input>
+                            <block-addr>65535</block-addr>
+                            <out-addr>0</out-addr>
+                        </input>
+                        <type>0</type>
+                    </data>
+                </func-r1xr1>
+            </str-tunarray-element>
+            <str-tunarray-element>
                 <bound>
                     <block-type>32</block-type>
                     <data>
@@ -27,7 +39,7 @@
                             </is-not-connected>
                         </min>
                         <input>
-                            <block-addr>65535</block-addr>
+                            <block-addr>1</block-addr>
                             <out-addr>0</out-addr>
                         </input>
                         <max>
@@ -45,7 +57,7 @@
         </blocks>
         <outs>
             <str-tunarray-element>
-                <block-addr>1</block-addr>
+                <block-addr>2</block-addr>
                 <out-addr>1</out-addr>
             </str-tunarray-element>
         </outs>
@@ -54,8 +66,12 @@
  </name>
         <map>
             <str-tunarray-element>
-                <x-pos>2</x-pos>
-                <y-pos>47</y-pos>
+                <x-pos>5</x-pos>
+                <y-pos>60</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>7</x-pos>
+                <y-pos>24</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>90</x-pos>

@@ -451,6 +451,68 @@
                     </acset-ussa76-cmd>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="25">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1216</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>1.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="26">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1216</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>0.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
         </action-array>
     </data>
 </entry-actions>

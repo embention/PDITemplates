@@ -345,13 +345,11 @@
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="32">
             <data>
-                <type>1</type>
-                <duration>0.0</duration>
+                <type>4</type>
+                <duration>0.1</duration>
                 <idx>65535</idx>
                 <indexes>
-                    <str-tunarray-element>4</str-tunarray-element>
-                    <str-tunarray-element>8</str-tunarray-element>
-                    <str-tunarray-element>9</str-tunarray-element>
+                    <str-tunarray-element>132</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -559,6 +557,16 @@
                 </indexes>
             </data>
         </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="53">
+            <data>
+                <type>2</type>
+                <duration>2.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>36</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="54">
             <data>
                 <type>4</type>
@@ -566,6 +574,24 @@
                 <idx>65535</idx>
                 <indexes>
                     <str-tunarray-element>100</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="55">
+            <data>
+                <type>9</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="56">
+            <data>
+                <type>4</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>1216</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
