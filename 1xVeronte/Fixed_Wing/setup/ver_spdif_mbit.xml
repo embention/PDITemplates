@@ -134,6 +134,12 @@
                     <name>Imbalance Yaw</name>
                 </description>
             </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1216</id>
+                <description>
+                    <name>Atm Calibration Allowed</name>
+                </description>
+            </str-tunarray-element>
         </map>
     </data>
 </entry-mbit>

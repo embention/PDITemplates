@@ -28,6 +28,12 @@
                     <p1>45057</p1>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <p0>45060</p0>
+                    <p1>45061</p1>
+                </data>
+            </str-tunarray-element>
         </lines>
         <orthodromes/>
         <arcs>
@@ -61,6 +67,13 @@
                     <next>9</next>
                     <type>3</type>
                     <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <next>65535</next>
+                    <type>1</type>
+                    <elem>2</elem>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">

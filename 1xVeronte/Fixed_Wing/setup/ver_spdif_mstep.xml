@@ -108,6 +108,11 @@
                     <string>Guidance</string>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="20">
+                <data>
+                    <string>Corrected curvature</string>
+                </data>
+            </str-tunarray-element>
         </map>
     </data>
 </entry-mstep>
