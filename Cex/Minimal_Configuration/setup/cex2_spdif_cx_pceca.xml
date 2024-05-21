@@ -1,0 +1,17 @@
+<entry-cex-xpcecap>
+    <id>308</id>
+    <filename>cx_pceca.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>45</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>0</producer>
+            <consumer>10</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+    </data>
+</entry-cex-xpcecap>
