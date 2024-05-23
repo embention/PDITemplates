@@ -1,0 +1,16 @@
+<entry-hi-3210-tx>
+    <id>155</id>
+    <filename>hi_3210_tx.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>45</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <low_speed>0</low_speed>
+            <even>0</even>
+            <parity>0</parity>
+        </str-tunarray-element>
+    </data>
+</entry-hi-3210-tx>

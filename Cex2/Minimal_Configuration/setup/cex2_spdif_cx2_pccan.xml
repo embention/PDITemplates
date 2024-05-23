@@ -1,0 +1,35 @@
+<entry-cex2-xpccan>
+    <id>449</id>
+    <filename>cx2_pccan.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>45</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>0</producer>
+            <consumer>1</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>1</producer>
+            <consumer>0</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>2</producer>
+            <consumer>17</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>15</producer>
+            <consumer>2</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+    </data>
+</entry-cex2-xpccan>
