@@ -1,0 +1,13 @@
+<entry-cantm-p2-cex2>
+    <id>456</id>
+    <filename>cx2_cantm_p2.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>45</revision>
+    </version>
+    <data>
+        <data-fcan-producer-tx-ini/>
+        <data-fcan-producer-tx/>
+    </data>
+</entry-cantm-p2-cex2>

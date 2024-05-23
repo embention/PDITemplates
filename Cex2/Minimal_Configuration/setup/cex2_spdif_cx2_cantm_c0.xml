@@ -1,0 +1,12 @@
+<entry-cantm-c0-cex2>
+    <id>457</id>
+    <filename>cx2_cantm_c0.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>45</revision>
+    </version>
+    <data>
+        <data-fcan-consumer-rx/>
+    </data>
+</entry-cantm-c0-cex2>
