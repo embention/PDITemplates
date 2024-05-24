@@ -6,32 +6,32 @@
 # Changelog
 <!-- Items del changelog públicos -->
 * Added:
-  - Description of content added 1
-  - Description of content added 2
+<!--  - Description of content added 1 -->
+<!--  - Description of content added 2 -->
 * Removed:
-  - Description of content removed 1
-  - Description of content removed 2
+<!--  - Description of content removed 1 -->
+<!--  - Description of content removed 2 -->
 * Changed:
-  - Description of content changed 1
-  - Description of content changed 2
+<!--  - Description of content changed 1 -->
+<!--  - Description of content changed 2 -->
 * Fixed:
-  - Description of content fixed 1
-  - Description of content fixed 2
+<!--  - Description of content fixed 1 -->
+<!--  - Description of content fixed 2 -->
 
 <!-- Items del changelog privados -->
 
 >* Added: 
->>* Description of content added 1
->>* Description of content added 2
+<!-- >>* Description of content added 1 -->
+<!-- >>* Description of content added 2 -->
 >* Removed:
->>* Description of content removed 1
->>* Description of content removed 2
+<!-- >>* Description of content removed 1 -->
+<!-- >>* Description of content removed 2 -->
 >* Changed:
->>* Description of content changed 1
->>* Description of content changed 2
+<!-- >>* Description of content changed 1 -->
+<!-- >>* Description of content changed 2 -->
 >* Fixed:
->>* Description of content fixed 1
->>* Description of content fixed 2
+<!-- >>* Description of content fixed 1 -->
+<!-- >>* Description of content fixed 2 -->
 
 # Description
 <!-- Describir con el fin de evitar preguntas las acciones realizadas, problemas encontrados, configuración necesaria, pruebas realizadas, etc... -->
