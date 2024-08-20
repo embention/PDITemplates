@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>62</revision>
     </version>
     <data>
         <map>
@@ -35,7 +35,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">
                 <data>
-                    <string>Control to servo</string>
+                    <string>Actuator Mix</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="8">

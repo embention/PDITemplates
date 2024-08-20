@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>54</revision>
+        <revision>62</revision>
     </version>
     <data>
         <runways>
@@ -28,9 +28,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6975272</lon>
-                                    <lat>383825894</lat>
-                                    <alt>316500</alt>
+                                    <lon>-6978778</lon>
+                                    <lat>383826300</lat>
+                                    <alt>302560</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -40,9 +40,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6976291</lon>
-                                    <lat>383833168</lat>
-                                    <alt>316400</alt>
+                                    <lon>-6979467</lon>
+                                    <lat>383833432</lat>
+                                    <alt>301560</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>

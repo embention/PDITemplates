@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>49</revision>
+        <revision>62</revision>
     </version>
     <data>
         <action-array>
@@ -382,6 +382,41 @@
                             <mode>2</mode>
                         </str>
                     </acset-mode>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="24">
+                <data>
+                    <acset-uclk>
+                        <type>0</type>
+                        <idCfg>224</idCfg>
+                        <str>
+                            <uclk>
+                                <ntimer>0</ntimer>
+                                <flags-choice>
+                                    <all>
+                                        <type>15</type>
+                                        <run>1</run>
+                                        <period>
+                                            <fixed-any>
+                                                <mode>1</mode>
+                                                <period_s>20.0</period_s>
+                                            </fixed-any>
+                                        </period>
+                                        <xclk-type>
+                                            <type-vector>
+                                                <type>2</type>
+                                                <uh>
+                                                    <x>0.0</x>
+                                                    <y>0.0</y>
+                                                    <z>-1.0</z>
+                                                </uh>
+                                            </type-vector>
+                                        </xclk-type>
+                                    </all>
+                                </flags-choice>
+                            </uclk>
+                        </str>
+                    </acset-uclk>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="26">

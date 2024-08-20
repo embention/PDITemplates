@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>62</revision>
     </version>
     <data>
         <programs>
@@ -930,6 +930,70 @@
                                                             <out-addr>0</out-addr>
                                                         </input>
                                                         <bvarid>1209</bvarid>
+                                                    </data>
+                                                </bvarset>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                    </cases>
+                                    <outs/>
+                                </blk-switch-common>
+                            </data>
+                        </phase>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <phase>
+                            <block-type>5</block-type>
+                            <data>
+                                <blk-switch-map>
+                                    <str-tunarray-element>
+                                        <in>0</in>
+                                        <out>0</out>
+                                    </str-tunarray-element>
+                                </blk-switch-map>
+                                <blk-switch-defcase>0</blk-switch-defcase>
+                                <blk-switch-common>
+                                    <inputs/>
+                                    <cases>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarget>
+                                                    <block-type>13</block-type>
+                                                    <bvarid>1210</bvarid>
+                                                </bvarget>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarget>
+                                                    <block-type>13</block-type>
+                                                    <bvarid>1211</bvarid>
+                                                </bvarget>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <func-bnxb1>
+                                                    <block-type>29</block-type>
+                                                    <data>
+                                                        <inputs>
+                                                            <str-tunarray-element>
+                                                                <block-addr>0</block-addr>
+                                                                <out-addr>0</out-addr>
+                                                            </str-tunarray-element>
+                                                            <str-tunarray-element>
+                                                                <block-addr>1</block-addr>
+                                                                <out-addr>0</out-addr>
+                                                            </str-tunarray-element>
+                                                        </inputs>
+                                                        <mode>0</mode>
+                                                    </data>
+                                                </func-bnxb1>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarset>
+                                                    <block-type>14</block-type>
+                                                    <data>
+                                                        <input>
+                                                            <block-addr>2</block-addr>
+                                                            <out-addr>0</out-addr>
+                                                        </input>
+                                                        <bvarid>1212</bvarid>
                                                     </data>
                                                 </bvarset>
                                             </str-tunarray-element>
@@ -2259,7 +2323,7 @@
                                             <str-tunarray-element>
                                                 <rvarget>
                                                     <block-type>9</block-type>
-                                                    <rvarid>2503</rvarid>
+                                                    <rvarid>2603</rvarid>
                                                 </rvarget>
                                             </str-tunarray-element>
                                             <str-tunarray-element>
@@ -4223,7 +4287,7 @@
                                                                                                     <Kp>0.06</Kp>
                                                                                                     <Kd>0.0</Kd>
                                                                                                     <taud>0.0</taud>
-                                                                                                    <Ki>5.9999997E-4</Ki>
+                                                                                                    <Ki>0.0</Ki>
                                                                                                     <Ta_1>1.0</Ta_1>
                                                                                                     <uf>0.0</uf>
                                                                                                     <imax>-1.0</imax>
@@ -4261,7 +4325,7 @@
                                                                                                     <Kp>0.06</Kp>
                                                                                                     <Kd>0.0</Kd>
                                                                                                     <taud>0.0</taud>
-                                                                                                    <Ki>0.024</Ki>
+                                                                                                    <Ki>0.0</Ki>
                                                                                                     <Ta_1>1.0</Ta_1>
                                                                                                     <uf>0.0</uf>
                                                                                                     <imax>-1.0</imax>
@@ -4291,7 +4355,7 @@
                                                                                             </max>
                                                                                         </limits>
                                                                                     </vpid>
-                                                                                    <prj>1</prj>
+                                                                                    <prj>0</prj>
                                                                                 </gcfg>
                                                                             </data>
                                                                         </cruise>
@@ -4801,7 +4865,7 @@
                                                                                                     <Kp>0.05</Kp>
                                                                                                     <Kd>0.0</Kd>
                                                                                                     <taud>0.0</taud>
-                                                                                                    <Ki>0.0050000004</Ki>
+                                                                                                    <Ki>0.0</Ki>
                                                                                                     <Ta_1>0.1</Ta_1>
                                                                                                     <uf>0.0</uf>
                                                                                                     <imax>-1.0</imax>
@@ -5151,25 +5215,25 @@
                                                             <max-x-falling>
                                                                 <vref-kval>
                                                                     <type>65534</type>
-                                                                    <kval>2.0</kval>
+                                                                    <kval>1.0</kval>
                                                                 </vref-kval>
                                                             </max-x-falling>
                                                             <max-x-rising>
                                                                 <vref-kval>
                                                                     <type>65534</type>
-                                                                    <kval>2.0</kval>
+                                                                    <kval>1.0</kval>
                                                                 </vref-kval>
                                                             </max-x-rising>
                                                             <max-y-falling>
                                                                 <vref-kval>
                                                                     <type>65534</type>
-                                                                    <kval>2.0</kval>
+                                                                    <kval>1.0</kval>
                                                                 </vref-kval>
                                                             </max-y-falling>
                                                             <max-y-rising>
                                                                 <vref-kval>
                                                                     <type>65534</type>
-                                                                    <kval>2.0</kval>
+                                                                    <kval>1.0</kval>
                                                                 </vref-kval>
                                                             </max-y-rising>
                                                             <max-z-falling>
@@ -5185,7 +5249,7 @@
                                                                 </vref-kval>
                                                             </max-z-rising>
                                                         </acc>
-                                                        <isLimitJerk>0</isLimitJerk>
+                                                        <isLimitJerk>1</isLimitJerk>
                                                         <jrk>
                                                             <max-x-falling>
                                                                 <vref-kval>

@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>49</revision>
+        <revision>62</revision>
     </version>
     <data>
         <map>
@@ -1959,7 +1959,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="78">
                 <data>
-                    <name>Ground Speed &lt; 0.5 m/s CO</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1984,7 +1984,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="79">
                 <data>
-                    <name>Relay On</name>
+                    <name>Timer 1</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>

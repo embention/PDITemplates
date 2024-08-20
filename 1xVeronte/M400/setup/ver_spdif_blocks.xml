@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>54</revision>
+        <revision>62</revision>
     </version>
     <data>
         <programs>
@@ -930,6 +930,70 @@
                                                             <out-addr>0</out-addr>
                                                         </input>
                                                         <bvarid>1209</bvarid>
+                                                    </data>
+                                                </bvarset>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                    </cases>
+                                    <outs/>
+                                </blk-switch-common>
+                            </data>
+                        </phase>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <phase>
+                            <block-type>5</block-type>
+                            <data>
+                                <blk-switch-map>
+                                    <str-tunarray-element>
+                                        <in>0</in>
+                                        <out>0</out>
+                                    </str-tunarray-element>
+                                </blk-switch-map>
+                                <blk-switch-defcase>0</blk-switch-defcase>
+                                <blk-switch-common>
+                                    <inputs/>
+                                    <cases>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarget>
+                                                    <block-type>13</block-type>
+                                                    <bvarid>1210</bvarid>
+                                                </bvarget>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarget>
+                                                    <block-type>13</block-type>
+                                                    <bvarid>1211</bvarid>
+                                                </bvarget>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <func-bnxb1>
+                                                    <block-type>29</block-type>
+                                                    <data>
+                                                        <inputs>
+                                                            <str-tunarray-element>
+                                                                <block-addr>0</block-addr>
+                                                                <out-addr>0</out-addr>
+                                                            </str-tunarray-element>
+                                                            <str-tunarray-element>
+                                                                <block-addr>1</block-addr>
+                                                                <out-addr>0</out-addr>
+                                                            </str-tunarray-element>
+                                                        </inputs>
+                                                        <mode>0</mode>
+                                                    </data>
+                                                </func-bnxb1>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarset>
+                                                    <block-type>14</block-type>
+                                                    <data>
+                                                        <input>
+                                                            <block-addr>2</block-addr>
+                                                            <out-addr>0</out-addr>
+                                                        </input>
+                                                        <bvarid>1212</bvarid>
                                                     </data>
                                                 </bvarset>
                                             </str-tunarray-element>

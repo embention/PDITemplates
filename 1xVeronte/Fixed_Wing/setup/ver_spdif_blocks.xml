@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>54</revision>
+        <revision>62</revision>
     </version>
     <data>
         <programs>
@@ -1340,10 +1340,10 @@
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
                                                             <pid>
-                                                                <Kp>0.3</Kp>
+                                                                <Kp>0.24</Kp>
                                                                 <Kd>0.0</Kd>
                                                                 <taud>0.0</taud>
-                                                                <Ki>0.066</Ki>
+                                                                <Ki>0.052799996</Ki>
                                                                 <Ta_1>3.0</Ta_1>
                                                                 <uf>0.0</uf>
                                                                 <imax>0.2</imax>
@@ -2984,8 +2984,8 @@
                                                                                         <Kp>0.25</Kp>
                                                                                         <Kd>0.0</Kd>
                                                                                         <taud>0.0</taud>
-                                                                                        <Ki>0.03</Ki>
-                                                                                        <Ta_1>6.0</Ta_1>
+                                                                                        <Ki>0.1</Ki>
+                                                                                        <Ta_1>1.0</Ta_1>
                                                                                         <uf>0.0</uf>
                                                                                         <imax>0.2</imax>
                                                                                         <betap>1.0</betap>
@@ -5608,10 +5608,10 @@
                                 <ias_mode>1</ias_mode>
                                 <kv>0.1</kv>
                                 <stall>
-                                    <vref-kval>
-                                        <type>65534</type>
-                                        <kval>20.0</kval>
-                                    </vref-kval>
+                                    <vref-var>
+                                        <type>0</type>
+                                        <id>3109</id>
+                                    </vref-var>
                                 </stall>
                             </data>
                         </enctrl>
@@ -5986,15 +5986,15 @@
                                         <points>
                                             <str-tunarray-element>
                                                 <angle>-25.0</angle>
-                                                <pulse>0.241687</pulse>
+                                                <pulse>0.295</pulse>
                                             </str-tunarray-element>
                                             <str-tunarray-element>
                                                 <angle>0.0</angle>
-                                                <pulse>0.51668704</pulse>
+                                                <pulse>0.5</pulse>
                                             </str-tunarray-element>
                                             <str-tunarray-element>
                                                 <angle>25.0</angle>
-                                                <pulse>0.879273</pulse>
+                                                <pulse>0.745</pulse>
                                             </str-tunarray-element>
                                         </points>
                                         <rate_limiter>
@@ -6024,91 +6024,91 @@
                                         <points>
                                             <str-tunarray-element>
                                                 <angle>-20.0</angle>
+                                                <pulse>0.32</pulse>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <angle>0.0</angle>
+                                                <pulse>0.5</pulse>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <angle>20.0</angle>
+                                                <pulse>0.67</pulse>
+                                            </str-tunarray-element>
+                                        </points>
+                                        <rate_limiter>
+                                            <lfalling>1.0</lfalling>
+                                            <lrising>-1.0</lrising>
+                                        </rate_limiter>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <def_angle>0.0</def_angle>
+                                        <points>
+                                            <str-tunarray-element>
+                                                <angle>-20.0</angle>
+                                                <pulse>0.635</pulse>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <angle>0.0</angle>
+                                                <pulse>0.5</pulse>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <angle>20.0</angle>
+                                                <pulse>0.325</pulse>
+                                            </str-tunarray-element>
+                                        </points>
+                                        <rate_limiter>
+                                            <lfalling>1.0</lfalling>
+                                            <lrising>-1.0</lrising>
+                                        </rate_limiter>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <def_angle>0.0</def_angle>
+                                        <points>
+                                            <str-tunarray-element>
+                                                <angle>-20.0</angle>
+                                                <pulse>0.68</pulse>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <angle>0.0</angle>
+                                                <pulse>0.5</pulse>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <angle>20.0</angle>
+                                                <pulse>0.31</pulse>
+                                            </str-tunarray-element>
+                                        </points>
+                                        <rate_limiter>
+                                            <lfalling>1.0</lfalling>
+                                            <lrising>-1.0</lrising>
+                                        </rate_limiter>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <def_angle>0.0</def_angle>
+                                        <points>
+                                            <str-tunarray-element>
+                                                <angle>-20.0</angle>
+                                                <pulse>0.865</pulse>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <angle>0.0</angle>
+                                                <pulse>1.0</pulse>
+                                            </str-tunarray-element>
+                                        </points>
+                                        <rate_limiter>
+                                            <lfalling>1.0</lfalling>
+                                            <lrising>-1.0</lrising>
+                                        </rate_limiter>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <def_angle>0.0</def_angle>
+                                        <points>
+                                            <str-tunarray-element>
+                                                <angle>-20.0</angle>
+                                                <pulse>0.195</pulse>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <angle>0.0</angle>
                                                 <pulse>0.0</pulse>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <angle>0.0</angle>
-                                                <pulse>0.48</pulse>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <angle>20.0</angle>
-                                                <pulse>0.83842105</pulse>
-                                            </str-tunarray-element>
-                                        </points>
-                                        <rate_limiter>
-                                            <lfalling>1.0</lfalling>
-                                            <lrising>-1.0</lrising>
-                                        </rate_limiter>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <def_angle>0.0</def_angle>
-                                        <points>
-                                            <str-tunarray-element>
-                                                <angle>-20.0</angle>
-                                                <pulse>0.591034</pulse>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <angle>0.0</angle>
-                                                <pulse>0.515</pulse>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <angle>20.0</angle>
-                                                <pulse>0.312758</pulse>
-                                            </str-tunarray-element>
-                                        </points>
-                                        <rate_limiter>
-                                            <lfalling>1.0</lfalling>
-                                            <lrising>-1.0</lrising>
-                                        </rate_limiter>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <def_angle>0.0</def_angle>
-                                        <points>
-                                            <str-tunarray-element>
-                                                <angle>-20.0</angle>
-                                                <pulse>0.765</pulse>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <angle>0.0</angle>
-                                                <pulse>0.535</pulse>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <angle>20.0</angle>
-                                                <pulse>0.335</pulse>
-                                            </str-tunarray-element>
-                                        </points>
-                                        <rate_limiter>
-                                            <lfalling>1.0</lfalling>
-                                            <lrising>-1.0</lrising>
-                                        </rate_limiter>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <def_angle>0.0</def_angle>
-                                        <points>
-                                            <str-tunarray-element>
-                                                <angle>-20.0</angle>
-                                                <pulse>0.74</pulse>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <angle>0.0</angle>
-                                                <pulse>0.925</pulse>
-                                            </str-tunarray-element>
-                                        </points>
-                                        <rate_limiter>
-                                            <lfalling>1.0</lfalling>
-                                            <lrising>-1.0</lrising>
-                                        </rate_limiter>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <def_angle>0.0</def_angle>
-                                        <points>
-                                            <str-tunarray-element>
-                                                <angle>-20.0</angle>
-                                                <pulse>0.0</pulse>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <angle>0.0</angle>
-                                                <pulse>0.11</pulse>
                                             </str-tunarray-element>
                                         </points>
                                         <rate_limiter>
@@ -6293,7 +6293,7 @@
                                         <rmat-element>0.0</rmat-element>
                                         <rmat-element>2.0</rmat-element>
                                         <rmat-element>0.0</rmat-element>
-                                        <rmat-element>1.0</rmat-element>
+                                        <rmat-element>0.0</rmat-element>
                                         <rmat-element>0.0</rmat-element>
                                         <rmat-element>0.0</rmat-element>
                                     </rmat-column>
@@ -6541,7 +6541,7 @@
                                 <selected>0</selected>
                                 <rb>
                                     <x>0.0</x>
-                                    <y>-0.82</y>
+                                    <y>0.82</y>
                                     <z>-0.15</z>
                                 </rb>
                                 <hpe2>
@@ -6766,7 +6766,7 @@
                                 <selected>1</selected>
                                 <rb>
                                     <x>0.0</x>
-                                    <y>0.82</y>
+                                    <y>-0.82</y>
                                     <z>-0.15</z>
                                 </rb>
                                 <hpe2>

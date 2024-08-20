@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>62</revision>
     </version>
     <data>
         <map>
@@ -259,6 +259,26 @@
             <str-tunarray-element>
                 <x-pos>366</x-pos>
                 <y-pos>78</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>889</x-pos>
+                <y-pos>15</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>0</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>33</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>178</x-pos>
+                <y-pos>0</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>243</x-pos>
+                <y-pos>19</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>147</x-pos>
@@ -921,7 +941,7 @@
                 <y-pos>153</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>270</x-pos>
+                <x-pos>271</x-pos>
                 <y-pos>8</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>

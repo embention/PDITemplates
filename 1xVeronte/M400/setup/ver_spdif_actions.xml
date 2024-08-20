@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>54</revision>
+        <revision>62</revision>
     </version>
     <data>
         <action-array>
@@ -227,6 +227,37 @@
                     </acset-var>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1210</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>1.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="15">
                 <data>
                     <acset-phase>
@@ -271,6 +302,48 @@
                             </uclk>
                         </str>
                     </acset-uclk>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>65535</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1211</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>1.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="19">
@@ -326,6 +399,37 @@
                     </acset-phase>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="22">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1210</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>0.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="23">
                 <data>
                     <acset-phase>
@@ -366,6 +470,62 @@
                             </var>
                         </str>
                     </acset-var>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="25">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1211</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>0.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="26">
+                <data>
+                    <acset-ussa76-cmd>
+                        <type>0</type>
+                        <idCfg>181</idCfg>
+                        <str>
+                            <ussa76>
+                                <height>
+                                    <vref-var>
+                                        <type>0</type>
+                                        <id>513</id>
+                                    </vref-var>
+                                </height>
+                                <current-pressure>
+                                    <use_current_pressure>
+                                        <type>1</type>
+                                        <time>3.0</time>
+                                    </use_current_pressure>
+                                </current-pressure>
+                                <calibration-temperature>288.16</calibration-temperature>
+                            </ussa76>
+                        </str>
+                    </acset-ussa76-cmd>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="44">
