@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>49</revision>
+        <revision>62</revision>
     </version>
     <data>
         <programs>
@@ -981,14 +981,14 @@
                                                                                             <str-tunarray-element>
                                                                                                 <rvarget>
                                                                                                     <block-type>9</block-type>
-                                                                                                    <rvarid>2206</rvarid>
+                                                                                                    <rvarid>3116</rvarid>
                                                                                                 </rvarget>
                                                                                             </str-tunarray-element>
                                                                                             <str-tunarray-element>
                                                                                                 <const-real>
                                                                                                     <block-type>25</block-type>
                                                                                                     <value>
-                                                                                                        <str-tunarray-element>0.1</str-tunarray-element>
+                                                                                                        <str-tunarray-element>0.09</str-tunarray-element>
                                                                                                     </value>
                                                                                                 </const-real>
                                                                                             </str-tunarray-element>
@@ -5334,6 +5334,12 @@
                     <str-tunarray-element>
                         <rvarget>
                             <block-type>9</block-type>
+                            <rvarid>2206</rvarid>
+                        </rvarget>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarget>
+                            <block-type>9</block-type>
                             <rvarid>100</rvarid>
                         </rvarget>
                     </str-tunarray-element>
@@ -5406,7 +5412,7 @@
                             <block-type>47</block-type>
                             <data>
                                 <input>
-                                    <block-addr>8</block-addr>
+                                    <block-addr>9</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <filter>
@@ -5427,7 +5433,7 @@
                             <block-type>47</block-type>
                             <data>
                                 <input>
-                                    <block-addr>0</block-addr>
+                                    <block-addr>1</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <filter>
@@ -5448,11 +5454,11 @@
                             <block-type>28</block-type>
                             <data>
                                 <input0>
-                                    <block-addr>11</block-addr>
+                                    <block-addr>12</block-addr>
                                     <out-addr>0</out-addr>
                                 </input0>
                                 <input1>
-                                    <block-addr>12</block-addr>
+                                    <block-addr>13</block-addr>
                                     <out-addr>0</out-addr>
                                 </input1>
                                 <type>7</type>
@@ -5465,15 +5471,15 @@
                             <data>
                                 <inputs>
                                     <str-tunarray-element>
-                                        <block-addr>9</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <block-addr>13</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
                                         <block-addr>10</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>14</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>11</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                 </inputs>
@@ -5503,15 +5509,15 @@
                             <data>
                                 <inputs>
                                     <str-tunarray-element>
-                                        <block-addr>15</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <block-addr>13</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
                                         <block-addr>16</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>14</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>17</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                 </inputs>
@@ -5523,7 +5529,7 @@
                         <const-real>
                             <block-type>25</block-type>
                             <value>
-                                <str-tunarray-element>0.5</str-tunarray-element>
+                                <str-tunarray-element>1.05</str-tunarray-element>
                             </value>
                         </const-real>
                     </str-tunarray-element>
@@ -5532,11 +5538,11 @@
                             <block-type>28</block-type>
                             <data>
                                 <input0>
-                                    <block-addr>7</block-addr>
+                                    <block-addr>8</block-addr>
                                     <out-addr>0</out-addr>
                                 </input0>
                                 <input1>
-                                    <block-addr>6</block-addr>
+                                    <block-addr>7</block-addr>
                                     <out-addr>0</out-addr>
                                 </input1>
                                 <type>1</type>
@@ -5548,7 +5554,7 @@
                             <block-type>27</block-type>
                             <data>
                                 <input>
-                                    <block-addr>19</block-addr>
+                                    <block-addr>20</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <type>12</type>
@@ -5560,7 +5566,7 @@
                             <block-type>27</block-type>
                             <data>
                                 <input>
-                                    <block-addr>20</block-addr>
+                                    <block-addr>21</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <type>0</type>
@@ -5571,7 +5577,7 @@
                         <const-real>
                             <block-type>25</block-type>
                             <value>
-                                <str-tunarray-element>0.3</str-tunarray-element>
+                                <str-tunarray-element>0.7</str-tunarray-element>
                             </value>
                         </const-real>
                     </str-tunarray-element>
@@ -5581,15 +5587,15 @@
                             <data>
                                 <inputs>
                                     <str-tunarray-element>
-                                        <block-addr>18</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <block-addr>21</block-addr>
+                                        <block-addr>19</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
                                         <block-addr>22</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>23</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                 </inputs>
@@ -5602,11 +5608,11 @@
                             <block-type>28</block-type>
                             <data>
                                 <input0>
-                                    <block-addr>14</block-addr>
+                                    <block-addr>15</block-addr>
                                     <out-addr>0</out-addr>
                                 </input0>
                                 <input1>
-                                    <block-addr>23</block-addr>
+                                    <block-addr>24</block-addr>
                                     <out-addr>0</out-addr>
                                 </input1>
                                 <type>2</type>
@@ -5618,11 +5624,11 @@
                             <block-type>28</block-type>
                             <data>
                                 <input0>
-                                    <block-addr>23</block-addr>
+                                    <block-addr>24</block-addr>
                                     <out-addr>0</out-addr>
                                 </input0>
                                 <input1>
-                                    <block-addr>17</block-addr>
+                                    <block-addr>18</block-addr>
                                     <out-addr>0</out-addr>
                                 </input1>
                                 <type>2</type>
@@ -5647,11 +5653,11 @@
                                 <blk-switch-common>
                                     <inputs>
                                         <str-tunarray-element>
-                                            <block-addr>24</block-addr>
+                                            <block-addr>25</block-addr>
                                             <out-addr>0</out-addr>
                                         </str-tunarray-element>
                                         <str-tunarray-element>
-                                            <block-addr>25</block-addr>
+                                            <block-addr>26</block-addr>
                                             <out-addr>0</out-addr>
                                         </str-tunarray-element>
                                     </inputs>
@@ -5699,7 +5705,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>26</block-addr>
+                                    <block-addr>27</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <rvarid>3118</rvarid>
@@ -5711,7 +5717,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>26</block-addr>
+                                    <block-addr>27</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <rvarid>3175</rvarid>
@@ -5734,13 +5740,13 @@
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>29</block-addr>
+                                            <block-addr>30</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
                                 </min>
                                 <input>
-                                    <block-addr>5</block-addr>
+                                    <block-addr>6</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <max>
@@ -5756,7 +5762,7 @@
                             <block-type>14</block-type>
                             <data>
                                 <input>
-                                    <block-addr>30</block-addr>
+                                    <block-addr>31</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <bvarid>1202</bvarid>
@@ -5781,14 +5787,14 @@
                                     </is-not-connected>
                                 </min>
                                 <input>
-                                    <block-addr>4</block-addr>
+                                    <block-addr>5</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <max>
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>32</block-addr>
+                                            <block-addr>33</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
@@ -5801,7 +5807,7 @@
                             <block-type>14</block-type>
                             <data>
                                 <input>
-                                    <block-addr>33</block-addr>
+                                    <block-addr>34</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <bvarid>1203</bvarid>
@@ -5813,7 +5819,7 @@
                             <block-type>37</block-type>
                             <data>
                                 <in>
-                                    <block-addr>23</block-addr>
+                                    <block-addr>24</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <type>0</type>
@@ -5836,7 +5842,7 @@
                         <btor>
                             <block-type>22</block-type>
                             <input>
-                                <block-addr>3</block-addr>
+                                <block-addr>4</block-addr>
                                 <out-addr>0</out-addr>
                             </input>
                         </btor>
@@ -5854,18 +5860,18 @@
                             <block-type>34</block-type>
                             <data>
                                 <init>
-                                    <block-addr>36</block-addr>
+                                    <block-addr>37</block-addr>
                                     <out-addr>0</out-addr>
                                 </init>
                                 <in>
-                                    <block-addr>36</block-addr>
+                                    <block-addr>37</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <up_limit>
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>37</block-addr>
+                                            <block-addr>38</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
@@ -5874,7 +5880,7 @@
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>37</block-addr>
+                                            <block-addr>38</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
@@ -5888,11 +5894,11 @@
                             <block-type>28</block-type>
                             <data>
                                 <input0>
-                                    <block-addr>35</block-addr>
+                                    <block-addr>36</block-addr>
                                     <out-addr>0</out-addr>
                                 </input0>
                                 <input1>
-                                    <block-addr>38</block-addr>
+                                    <block-addr>39</block-addr>
                                     <out-addr>0</out-addr>
                                 </input1>
                                 <type>2</type>
@@ -5900,44 +5906,11 @@
                         </func-r2xr1>
                     </str-tunarray-element>
                     <str-tunarray-element>
-                        <const-real>
-                            <block-type>25</block-type>
-                            <value>
-                                <str-tunarray-element>0.01</str-tunarray-element>
-                            </value>
-                        </const-real>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <bound>
-                            <block-type>32</block-type>
-                            <data>
-                                <min>
-                                    <is-connected>
-                                        <connected>1</connected>
-                                        <pin>
-                                            <block-addr>40</block-addr>
-                                            <out-addr>0</out-addr>
-                                        </pin>
-                                    </is-connected>
-                                </min>
-                                <input>
-                                    <block-addr>39</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input>
-                                <max>
-                                    <is-not-connected>
-                                        <connected>0</connected>
-                                    </is-not-connected>
-                                </max>
-                            </data>
-                        </bound>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
                         <rvarset>
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>41</block-addr>
+                                    <block-addr>40</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <rvarid>3109</rvarid>
@@ -5952,13 +5925,13 @@
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>29</block-addr>
+                                            <block-addr>30</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
                                 </min>
                                 <input>
-                                    <block-addr>4</block-addr>
+                                    <block-addr>5</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <max>
@@ -5974,7 +5947,7 @@
                             <block-type>14</block-type>
                             <data>
                                 <input>
-                                    <block-addr>43</block-addr>
+                                    <block-addr>42</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <bvarid>1206</bvarid>
@@ -5982,23 +5955,102 @@
                         </bvarset>
                     </str-tunarray-element>
                     <str-tunarray-element>
-                        <const-real>
-                            <block-type>25</block-type>
-                            <value>
-                                <str-tunarray-element>30.0</str-tunarray-element>
-                            </value>
-                        </const-real>
+                        <vec-interp>
+                            <block-type>37</block-type>
+                            <data>
+                                <in>
+                                    <block-addr>0</block-addr>
+                                    <out-addr>0</out-addr>
+                                </in>
+                                <type>0</type>
+                                <tables>
+                                    <str-tunarray-element>
+                                        <x>
+                                            <str-tunarray-element>0.0</str-tunarray-element>
+                                            <str-tunarray-element>0.005</str-tunarray-element>
+                                            <str-tunarray-element>0.02</str-tunarray-element>
+                                        </x>
+                                        <y>
+                                            <str-tunarray-element>30.0</str-tunarray-element>
+                                            <str-tunarray-element>30.0</str-tunarray-element>
+                                            <str-tunarray-element>18.0</str-tunarray-element>
+                                        </y>
+                                    </str-tunarray-element>
+                                </tables>
+                            </data>
+                        </vec-interp>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <mult_rvarget>
+                            <block-type>19</block-type>
+                            <data>
+                                <rvarid>250</rvarid>
+                                <n>2</n>
+                            </data>
+                        </mult_rvarget>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-rnxr1>
+                            <block-type>31</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>45</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <type>2</type>
+                            </data>
+                        </func-rnxr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <vec-interp>
+                            <block-type>37</block-type>
+                            <data>
+                                <in>
+                                    <block-addr>46</block-addr>
+                                    <out-addr>0</out-addr>
+                                </in>
+                                <type>0</type>
+                                <tables>
+                                    <str-tunarray-element>
+                                        <x>
+                                            <str-tunarray-element>0.0</str-tunarray-element>
+                                            <str-tunarray-element>100.0</str-tunarray-element>
+                                        </x>
+                                        <y>
+                                            <str-tunarray-element>30.0</str-tunarray-element>
+                                            <str-tunarray-element>18.0</str-tunarray-element>
+                                        </y>
+                                    </str-tunarray-element>
+                                </tables>
+                            </data>
+                        </vec-interp>
                     </str-tunarray-element>
                     <str-tunarray-element>
                         <func-r2xr1>
                             <block-type>28</block-type>
                             <data>
                                 <input0>
-                                    <block-addr>38</block-addr>
+                                    <block-addr>44</block-addr>
                                     <out-addr>0</out-addr>
                                 </input0>
                                 <input1>
-                                    <block-addr>45</block-addr>
+                                    <block-addr>47</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input1>
+                                <type>7</type>
+                            </data>
+                        </func-r2xr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-r2xr1>
+                            <block-type>28</block-type>
+                            <data>
+                                <input0>
+                                    <block-addr>39</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input0>
+                                <input1>
+                                    <block-addr>48</block-addr>
                                     <out-addr>0</out-addr>
                                 </input1>
                                 <type>2</type>
@@ -6006,36 +6058,11 @@
                         </func-r2xr1>
                     </str-tunarray-element>
                     <str-tunarray-element>
-                        <bound>
-                            <block-type>32</block-type>
-                            <data>
-                                <min>
-                                    <is-connected>
-                                        <connected>1</connected>
-                                        <pin>
-                                            <block-addr>40</block-addr>
-                                            <out-addr>0</out-addr>
-                                        </pin>
-                                    </is-connected>
-                                </min>
-                                <input>
-                                    <block-addr>46</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input>
-                                <max>
-                                    <is-not-connected>
-                                        <connected>0</connected>
-                                    </is-not-connected>
-                                </max>
-                            </data>
-                        </bound>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
                         <rvarset>
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>47</block-addr>
+                                    <block-addr>49</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <rvarid>3129</rvarid>
@@ -6064,15 +6091,15 @@
                             <data>
                                 <inputs>
                                     <str-tunarray-element>
-                                        <block-addr>49</block-addr>
+                                        <block-addr>51</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
-                                        <block-addr>2</block-addr>
+                                        <block-addr>3</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
-                                        <block-addr>50</block-addr>
+                                        <block-addr>52</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                 </inputs>
@@ -6085,7 +6112,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>51</block-addr>
+                                    <block-addr>53</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <rvarid>3176</rvarid>
@@ -6097,7 +6124,7 @@
                             <block-type>37</block-type>
                             <data>
                                 <in>
-                                    <block-addr>1</block-addr>
+                                    <block-addr>2</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <type>0</type>
@@ -6121,7 +6148,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>53</block-addr>
+                                    <block-addr>55</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <rvarid>3115</rvarid>
@@ -6133,10 +6160,82 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>11</block-addr>
+                                    <block-addr>12</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <rvarid>3130</rvarid>
+                            </data>
+                        </rvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <const-real>
+                            <block-type>25</block-type>
+                            <value>
+                                <str-tunarray-element>-1.75</str-tunarray-element>
+                            </value>
+                        </const-real>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-r2xr1>
+                            <block-type>28</block-type>
+                            <data>
+                                <input0>
+                                    <block-addr>39</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input0>
+                                <input1>
+                                    <block-addr>58</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input1>
+                                <type>2</type>
+                            </data>
+                        </func-r2xr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <const-real>
+                            <block-type>25</block-type>
+                            <value>
+                                <str-tunarray-element>2.0</str-tunarray-element>
+                            </value>
+                        </const-real>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-r2xr1>
+                            <block-type>28</block-type>
+                            <data>
+                                <input0>
+                                    <block-addr>39</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input0>
+                                <input1>
+                                    <block-addr>60</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input1>
+                                <type>2</type>
+                            </data>
+                        </func-r2xr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>59</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <rvarid>3107</rvarid>
+                            </data>
+                        </rvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>61</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <rvarid>3108</rvarid>
                             </data>
                         </rvarset>
                     </str-tunarray-element>
@@ -6146,6 +6245,24 @@
                 <mask>0</mask>
                 <slot>0</slot>
                 <blocks>
+                    <str-tunarray-element>
+                        <rvarget>
+                            <block-type>9</block-type>
+                            <rvarid>2</rvarid>
+                        </rvarget>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarget>
+                            <block-type>9</block-type>
+                            <rvarid>103</rvarid>
+                        </rvarget>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarget>
+                            <block-type>9</block-type>
+                            <rvarid>2206</rvarid>
+                        </rvarget>
+                    </str-tunarray-element>
                     <str-tunarray-element>
                         <phase>
                             <block-type>5</block-type>
@@ -6314,7 +6431,7 @@
                             <block-type>14</block-type>
                             <data>
                                 <input>
-                                    <block-addr>0</block-addr>
+                                    <block-addr>3</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <bvarid>1229</bvarid>
@@ -6512,6 +6629,211 @@
                                 </blk-switch-common>
                             </data>
                         </phase>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <const-real>
+                            <block-type>25</block-type>
+                            <value>
+                                <str-tunarray-element>5.0E-4</str-tunarray-element>
+                            </value>
+                        </const-real>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-r1xr1>
+                            <block-type>27</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>6</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <type>18</type>
+                            </data>
+                        </func-r1xr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <bound>
+                            <block-type>32</block-type>
+                            <data>
+                                <min>
+                                    <is-connected>
+                                        <connected>1</connected>
+                                        <pin>
+                                            <block-addr>7</block-addr>
+                                            <out-addr>0</out-addr>
+                                        </pin>
+                                    </is-connected>
+                                </min>
+                                <input>
+                                    <block-addr>2</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <max>
+                                    <is-connected>
+                                        <connected>1</connected>
+                                        <pin>
+                                            <block-addr>6</block-addr>
+                                            <out-addr>0</out-addr>
+                                        </pin>
+                                    </is-connected>
+                                </max>
+                            </data>
+                        </bound>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <const-real>
+                            <block-type>25</block-type>
+                            <value>
+                                <str-tunarray-element>0.0</str-tunarray-element>
+                            </value>
+                        </const-real>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <derivative>
+                            <block-type>104</block-type>
+                            <data>
+                                <init>
+                                    <is-connected>
+                                        <connected>1</connected>
+                                        <pin>
+                                            <block-addr>9</block-addr>
+                                            <out-addr>0</out-addr>
+                                        </pin>
+                                    </is-connected>
+                                </init>
+                                <signal>
+                                    <block-addr>1</block-addr>
+                                    <out-addr>0</out-addr>
+                                </signal>
+                                <angleWrap>1</angleWrap>
+                                <filter>1</filter>
+                                <tau>0.5</tau>
+                            </data>
+                        </derivative>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-r2xr1>
+                            <block-type>28</block-type>
+                            <data>
+                                <input0>
+                                    <block-addr>10</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input0>
+                                <input1>
+                                    <block-addr>0</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input1>
+                                <type>3</type>
+                            </data>
+                        </func-r2xr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <ifelse>
+                            <block-type>3</block-type>
+                            <data>
+                                <selector>
+                                    <block-addr>8</block-addr>
+                                    <out-addr>1</out-addr>
+                                </selector>
+                                <blk-switch-common>
+                                    <inputs>
+                                        <str-tunarray-element>
+                                            <block-addr>2</block-addr>
+                                            <out-addr>0</out-addr>
+                                        </str-tunarray-element>
+                                        <str-tunarray-element>
+                                            <block-addr>11</block-addr>
+                                            <out-addr>0</out-addr>
+                                        </str-tunarray-element>
+                                    </inputs>
+                                    <cases>
+                                        <str-tunarray-element/>
+                                        <str-tunarray-element/>
+                                    </cases>
+                                    <outs>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>65535</block-addr>
+                                                <out-addr>0</out-addr>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>65535</block-addr>
+                                                <out-addr>1</out-addr>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                    </outs>
+                                </blk-switch-common>
+                            </data>
+                        </ifelse>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <vec-interp>
+                            <block-type>37</block-type>
+                            <data>
+                                <in>
+                                    <block-addr>12</block-addr>
+                                    <out-addr>0</out-addr>
+                                </in>
+                                <type>0</type>
+                                <tables>
+                                    <str-tunarray-element>
+                                        <x>
+                                            <str-tunarray-element>-1.0</str-tunarray-element>
+                                            <str-tunarray-element>-5.0E-4</str-tunarray-element>
+                                            <str-tunarray-element>-4.9E-4</str-tunarray-element>
+                                            <str-tunarray-element>0.0</str-tunarray-element>
+                                            <str-tunarray-element>4.9E-4</str-tunarray-element>
+                                            <str-tunarray-element>5.0E-4</str-tunarray-element>
+                                            <str-tunarray-element>1.0</str-tunarray-element>
+                                        </x>
+                                        <y>
+                                            <str-tunarray-element>-1.0</str-tunarray-element>
+                                            <str-tunarray-element>-5.0E-4</str-tunarray-element>
+                                            <str-tunarray-element>0.0</str-tunarray-element>
+                                            <str-tunarray-element>0.0</str-tunarray-element>
+                                            <str-tunarray-element>0.0</str-tunarray-element>
+                                            <str-tunarray-element>5.0E-4</str-tunarray-element>
+                                            <str-tunarray-element>1.0</str-tunarray-element>
+                                        </y>
+                                    </str-tunarray-element>
+                                </tables>
+                            </data>
+                        </vec-interp>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <const-real>
+                            <block-type>25</block-type>
+                            <value>
+                                <str-tunarray-element>0.8</str-tunarray-element>
+                            </value>
+                        </const-real>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-r2xr1>
+                            <block-type>28</block-type>
+                            <data>
+                                <input0>
+                                    <block-addr>13</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input0>
+                                <input1>
+                                    <block-addr>14</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input1>
+                                <type>2</type>
+                            </data>
+                        </func-r2xr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>15</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <rvarid>3116</rvarid>
+                            </data>
+                        </rvarset>
                     </str-tunarray-element>
                 </blocks>
             </str-tunarray-element>
@@ -7860,7 +8182,7 @@
                                 <decimation>10</decimation>
                                 <use3d>0</use3d>
                                 <minnorm>5.0E-7</minnorm>
-                                <ndthr>1.0</ndthr>
+                                <ndthr>0.1</ndthr>
                                 <norm-filt>0.1</norm-filt>
                             </data>
                         </ekfmis>
@@ -10570,16 +10892,16 @@
                                                                                 <vtol>1</vtol>
                                                                                 <vdown>
                                                                                     <min>
-                                                                                        <vref-kval>
-                                                                                            <type>65534</type>
-                                                                                            <kval>-1.75</kval>
-                                                                                        </vref-kval>
+                                                                                        <vref-var>
+                                                                                            <type>0</type>
+                                                                                            <id>3107</id>
+                                                                                        </vref-var>
                                                                                     </min>
                                                                                     <max>
-                                                                                        <vref-kval>
-                                                                                            <type>65534</type>
-                                                                                            <kval>2.0</kval>
-                                                                                        </vref-kval>
+                                                                                        <vref-var>
+                                                                                            <type>0</type>
+                                                                                            <id>3108</id>
+                                                                                        </vref-var>
                                                                                     </max>
                                                                                 </vdown>
                                                                                 <fpa>

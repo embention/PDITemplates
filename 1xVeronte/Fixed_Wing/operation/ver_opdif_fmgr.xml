@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>54</revision>
+        <revision>62</revision>
     </version>
     <data>
         <genericOp>
@@ -30,7 +30,7 @@
                             <pos>
                                 <lon>-7009827</lon>
                                 <lat>383825468</lat>
-                                <alt>390570</alt>
+                                <alt>370570</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>
@@ -44,7 +44,7 @@
                             <pos>
                                 <lon>-6984360</lon>
                                 <lat>383823526</lat>
-                                <alt>390560</alt>
+                                <alt>370560</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>
@@ -70,7 +70,7 @@
                         <wrt-choice-abs>
                             <wrt>65535</wrt>
                             <pos>
-                                <lon>-6996678</lon>
+                                <lon>-6996677</lon>
                                 <lat>383821335</lat>
                                 <alt>384090</alt>
                             </pos>

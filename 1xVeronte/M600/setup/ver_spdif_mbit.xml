@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>44</revision>
+        <revision>62</revision>
     </version>
     <data>
         <map>
@@ -78,6 +78,24 @@
                 <id>1208</id>
                 <description>
                     <name>Imbalance Thrust FF</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1210</id>
+                <description>
+                    <name>Atm Calib GNSS1 Ready</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1211</id>
+                <description>
+                    <name>Atm Calib GNSS2 Ready</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1212</id>
+                <description>
+                    <name>Calibration button</name>
                 </description>
             </str-tunarray-element>
         </map>

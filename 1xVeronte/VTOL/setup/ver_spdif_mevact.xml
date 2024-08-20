@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>49</revision>
+        <revision>62</revision>
     </version>
     <data>
         <map>
@@ -117,7 +117,7 @@
                 <data>
                     <name>APP to HOV</name>
                     <group>1</group>
-                    <order>4</order>
+                    <order>5</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="16">
@@ -173,7 +173,7 @@
                 <data>
                     <name>Loiter HERE</name>
                     <group>1</group>
-                    <order>2</order>
+                    <order>3</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="24">
@@ -194,7 +194,7 @@
                 <data>
                     <name>Hover HERE</name>
                     <group>1</group>
-                    <order>3</order>
+                    <order>4</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="27">
@@ -222,14 +222,7 @@
                 <data>
                     <name>RTH to LND Link Off</name>
                     <group>1</group>
-                    <order>5</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="31">
-                <data>
-                    <name>TKO to HOV</name>
-                    <group>1</group>
-                    <order>1</order>
+                    <order>6</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="32">
@@ -243,7 +236,7 @@
                 <data>
                     <name>LND to STB</name>
                     <group>1</group>
-                    <order>0</order>
+                    <order>2</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="34">
@@ -271,7 +264,21 @@
                 <data>
                     <name>RTH to LND Link Ok</name>
                     <group>1</group>
-                    <order>6</order>
+                    <order>7</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="38">
+                <data>
+                    <name>TKO Timer</name>
+                    <group>1</group>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="39">
+                <data>
+                    <name>TKO to HOV</name>
+                    <group>1</group>
+                    <order>1</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="40">
