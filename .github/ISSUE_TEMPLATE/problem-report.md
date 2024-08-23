@@ -2,7 +2,7 @@
 name: Problem Report
 about: Describe a PR
 title: ''
-labels: Analysis, Comment, PR, Quality
+labels: Analysis, Comment, PR
 assignees: ''
 
 ---
@@ -15,29 +15,15 @@ assignees: ''
 <!-- Procedimiento Problem Report: -->
 <!-- https://documentation.embention.net/411/en/latest/index.html  -->
 
-# Description
-## Severity
-- [ ] 1 (Catastrophic)
-- [ ] 2 (Hazardous)
-- [ ] 3 (Major)
-- [ ] 4 (Minor)
-- [ ] 5 (No effect)
-- [ ] 6 (Not detected)
-
-## Priority:
-- [ ] 1 (High)
-- [ ] 2 (Medium)
-- [ ] 3 (Low)
-
-
 ## Configuration
-|  |   |
+| Item | Version |
 | - | - |
 | **HW name/version** | <!-- If apply, E.g.:  Veronte AP 4.8 --> |
 | **FW version** | <!-- If apply, E.g.: Veronte 6.8.55 --> |
 | **APP name/version** | <!-- If apply, 1xPDI Builder 6.8.53 --> |
 | **Setup/Environment** | <!-- If apply, Specific setup details --> |
 | **Config files** | <!-- If apply, Attached .zip file --> |
+| **Docs/Artifacts** | <!-- If apply, Docs/Artifacts --> |
 
 ## Problem description
 <!-- Problem/bug description -->
