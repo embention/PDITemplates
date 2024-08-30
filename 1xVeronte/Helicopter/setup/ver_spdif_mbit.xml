@@ -1,0 +1,127 @@
+<entry-mbit>
+    <id>138</id>
+    <filename>mbit.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>62</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <id>1333</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1204</id>
+                <description>
+                    <name>Static Pressure Switch</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1209</id>
+                <description>
+                    <name>Heading Hold</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1210</id>
+                <description>
+                    <name>Lidar Enable</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1208</id>
+                <description>
+                    <name>Landed Indicator</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1206</id>
+                <description>
+                    <name>Safety Altitude Alarm</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1205</id>
+                <description>
+                    <name>Safety Altitude Switch</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1497</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1493</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1207</id>
+                <description>
+                    <name>Position Phase</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1211</id>
+                <description>
+                    <name>Governor Integral</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1212</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1299</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1200</id>
+                <description>
+                    <name>Enable Integrals</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1201</id>
+                <description>
+                    <name>Enable Altimeter</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1202</id>
+                <description>
+                    <name>Link Status</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1203</id>
+                <description>
+                    <name>Engine Running</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>329</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>909</id>
+                <description>
+                    <name>Enable Bank Correction</name>
+                </description>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mbit>
