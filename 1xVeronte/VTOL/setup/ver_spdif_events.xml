@@ -876,5 +876,23 @@
                 </indexes>
             </data>
         </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="83">
+            <data>
+                <type>5</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>1226</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="84">
+            <data>
+                <type>9</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
+            </data>
+        </str-tunarray-element>
     </data>
 </entry-events>

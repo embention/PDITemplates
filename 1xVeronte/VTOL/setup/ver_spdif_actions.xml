@@ -419,6 +419,17 @@
                     </acset-uclk>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="25">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>65535</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="26">
                 <data>
                     <acset-phase>
@@ -439,6 +450,15 @@
                             <flyto-cmd>1</flyto-cmd>
                         </str>
                     </acset-flyto>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="28">
+                <data>
+                    <acset-entry-log>
+                        <type>0</type>
+                        <idCfg>234</idCfg>
+                        <str/>
+                    </acset-entry-log>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="30">
