@@ -7,6 +7,52 @@
         <revision>62</revision>
     </version>
     <data>
-        <map/>
+        <map>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <string>Pitching (Q)</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <string>Thrusting (Q)</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <string>Rolling (Q)</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <string>Yawing (Q)</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <string>Pitching (P)</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <string>Rolling (P)</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <string>Throttle (P)</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <string>Right Asymmetrical Deflection</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <string>Left Asymmetrical Deflection</string>
+                </data>
+            </str-tunarray-element>
+        </map>
     </data>
 </entry-meta-channel>

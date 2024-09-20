@@ -2084,7 +2084,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="83">
                 <data>
-                    <name>RTH Phase</name>
+                    <name>Simulation disable</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -2109,14 +2109,14 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="84">
                 <data>
-                    <name>Wing Fold OFF</name>
+                    <name>Enable mission</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
                             <var>
                                 <vref-var>
-                                    <type>0</type>
-                                    <id>4101</id>
+                                    <type>2</type>
+                                    <id>1219</id>
                                 </vref-var>
                             </var>
                             <arrayColores/>
@@ -2124,7 +2124,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>2021</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>

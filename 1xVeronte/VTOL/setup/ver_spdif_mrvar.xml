@@ -482,12 +482,13 @@
                 <id>3117</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Stall Speed</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>0</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -628,7 +629,7 @@
                 <id>3128</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Stall Down</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -680,7 +681,7 @@
                 <id>3132</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Stall Up</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -693,7 +694,7 @@
                 <id>3133</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Control mix max</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -706,7 +707,7 @@
                 <id>3134</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Control mix min</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -719,12 +720,13 @@
                 <id>3135</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Yaw Dev</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -732,12 +734,13 @@
                 <id>3136</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Yaw Dev</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -745,7 +748,7 @@
                 <id>3137</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Control mix 2 max</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -758,7 +761,7 @@
                 <id>3138</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Control mix 2 min</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -771,7 +774,7 @@
                 <id>3139</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Control mix 3 max</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -784,7 +787,7 @@
                 <id>3140</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Control mix 3 min</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -797,7 +800,7 @@
                 <id>3141</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Pitch Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -810,7 +813,7 @@
                 <id>3142</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Roll Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -823,7 +826,7 @@
                 <id>3143</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Armed thrust</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -836,7 +839,7 @@
                 <id>3144</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Stick - Transition min</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -849,7 +852,7 @@
                 <id>3145</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>RTH Distance</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -862,7 +865,7 @@
                 <id>3146</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Hold Pitch (Q)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -875,7 +878,7 @@
                 <id>3147</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Hold Pitch (FW)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -888,7 +891,7 @@
                 <id>3148</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Roll Acc</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -901,7 +904,7 @@
                 <id>3149</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Speed</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -914,7 +917,7 @@
                 <id>3150</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Nominal Cruise Speed</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -927,7 +930,7 @@
                 <id>3151</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Yaw Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -966,7 +969,7 @@
                 <id>3153</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Hold IAS Rate Lim</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -979,7 +982,7 @@
                 <id>3154</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Rate of Descent</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -992,7 +995,7 @@
                 <id>3155</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Rate of Climb</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1005,7 +1008,7 @@
                 <id>3156</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max FPA</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1018,7 +1021,7 @@
                 <id>3157</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min FPA</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1031,7 +1034,7 @@
                 <id>3158</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Pitch</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1044,7 +1047,7 @@
                 <id>3159</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Pitch</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1057,7 +1060,7 @@
                 <id>3160</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Roll (Q)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1070,7 +1073,7 @@
                 <id>3161</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Roll (Q)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1083,7 +1086,7 @@
                 <id>3162</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Yaw Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1096,7 +1099,7 @@
                 <id>3163</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Roll Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1109,7 +1112,7 @@
                 <id>3164</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Pitch Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1122,7 +1125,7 @@
                 <id>3165</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Roll (FW)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1135,7 +1138,7 @@
                 <id>3166</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Roll (FW)</name>
                     </description>
                     <unit>
                         <no-exist-unit>

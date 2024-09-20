@@ -41,7 +41,7 @@
             <reserved0>0</reserved0>
             <pDop>250</pDop>
             <tDop>1000</tDop>
-            <pAcc>100</pAcc>
+            <pAcc>10</pAcc>
             <tAcc>100</tAcc>
             <staticHoldThresh>0</staticHoldThresh>
             <dgnssTimeout>60</dgnssTimeout>

@@ -78,6 +78,21 @@
                     <string>Compute RTH</string>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <string>Control Parameters</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <string>Guidance Parameters</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <string>Euler to Body Axis</string>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="17">
                 <data>
                     <string>Control to servo</string>
@@ -88,6 +103,11 @@
                     <string>Stick</string>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <string>Aircraft parameters</string>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="20">
                 <data>
                     <string>Navigation</string>
@@ -96,6 +116,16 @@
             <str-tunarray-element str-tunarray-key="21">
                 <data>
                     <string>Guidance</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="22">
+                <data>
+                    <string>----- Parameters ---------</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="23">
+                <data>
+                    <string>----- Navigation and Guidance ---------</string>
                 </data>
             </str-tunarray-element>
         </map>
