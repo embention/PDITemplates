@@ -48,6 +48,11 @@
                     <string>Calibration</string>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <string>Buttons</string>
+                </data>
+            </str-tunarray-element>
         </map>
     </data>
 </entry-automations-gname>

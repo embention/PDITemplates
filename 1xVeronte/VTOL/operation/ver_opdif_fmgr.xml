@@ -8,15 +8,15 @@
     </version>
     <data>
         <genericOp>
-            <str-tunarray-element str-tunarray-key="0">
+            <str-tunarray-element str-tunarray-key="3">
                 <data>
                     <wrt-choice>
                         <wrt-choice-abs>
                             <wrt>65535</wrt>
                             <pos>
-                                <lon>-7006271</lon>
-                                <lat>383847384</lat>
-                                <alt>360570</alt>
+                                <lon>0</lon>
+                                <lat>0</lat>
+                                <alt>0</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>
@@ -31,6 +31,34 @@
                                 <lon>-6976261</lon>
                                 <lat>383844271</lat>
                                 <alt>361570</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>0</lon>
+                                <lat>0</lat>
+                                <alt>0</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-7006271</lon>
+                                <lat>383847384</lat>
+                                <alt>360570</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>

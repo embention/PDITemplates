@@ -18,6 +18,11 @@
                     <string>Selected RTH</string>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10242">
+                <data>
+                    <string>RTH RWY</string>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="45056">
                 <data>
                     <string>Home 1</string>

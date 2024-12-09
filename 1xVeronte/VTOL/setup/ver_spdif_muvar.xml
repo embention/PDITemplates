@@ -11,7 +11,7 @@
             <str-tunarray-element>
                 <id>1000</id>
                 <description>
-                    <name/>
+                    <name>Selected RTH ID</name>
                 </description>
             </str-tunarray-element>
             <str-tunarray-element>

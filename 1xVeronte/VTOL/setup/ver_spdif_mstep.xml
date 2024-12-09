@@ -48,11 +48,6 @@
                     <string>RPM XPlane</string>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="8">
-                <data>
-                    <string>RTH distance OK</string>
-                </data>
-            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="9">
                 <data>
                     <string>Rates to control</string>
@@ -126,6 +121,11 @@
             <str-tunarray-element str-tunarray-key="23">
                 <data>
                     <string>----- Navigation and Guidance ---------</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="24">
+                <data>
+                    <string>RTH Mode</string>
                 </data>
             </str-tunarray-element>
         </map>
