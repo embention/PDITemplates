@@ -59,7 +59,7 @@
             <str-tunarray-element>
                 <id>1207</id>
                 <description>
-                    <name/>
+                    <name>Respect FW 2</name>
                 </description>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -71,19 +71,19 @@
             <str-tunarray-element>
                 <id>1209</id>
                 <description>
-                    <name/>
+                    <name>Respect VTOL control 2</name>
                 </description>
             </str-tunarray-element>
             <str-tunarray-element>
                 <id>1210</id>
                 <description>
-                    <name/>
+                    <name>Multicopter RTH</name>
                 </description>
             </str-tunarray-element>
             <str-tunarray-element>
                 <id>1211</id>
                 <description>
-                    <name/>
+                    <name>Knobs MSL mode</name>
                 </description>
             </str-tunarray-element>
             <str-tunarray-element>

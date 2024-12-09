@@ -35,12 +35,12 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="5">
                 <data>
-                    <string>Rolling (P)</string>
+                    <string>Throttle (P)</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="6">
                 <data>
-                    <string>Throttle (P)</string>
+                    <string>Rolling (P)</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">

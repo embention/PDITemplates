@@ -371,7 +371,7 @@
             <str-tunarray-element str-tunarray-key="29">
                 <data>
                     <name>
-                        <name>Close Cargo bay</name>
+                        <name>KNB</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -395,7 +395,7 @@
             <str-tunarray-element str-tunarray-key="31">
                 <data>
                     <name>
-                        <name>Register radiolink 2</name>
+                        <name>MSL Mode OFF</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -407,7 +407,7 @@
             <str-tunarray-element str-tunarray-key="32">
                 <data>
                     <name>
-                        <name>Register radiolink 1</name>
+                        <name>MSL Mode ON</name>
                     </name>
                     <has-icon>
                         <has-icon-n>

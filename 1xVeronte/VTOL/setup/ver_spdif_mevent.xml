@@ -2134,7 +2134,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="85">
                 <data>
-                    <name>Wing Fold STOP</name>
+                    <name>Knobs</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -2149,7 +2149,172 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>2137</icon>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="86">
+                <data>
+                    <name>Knobs Phases</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="87">
+                <data>
+                    <name>MSL Mode Button</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>2</type>
+                                    <id>1211</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>-0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>2.0</entry>
+                                        <color>
+                                            <r>0</r>
+                                            <g>255</g>
+                                            <b>0</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                            </arrayColores>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>863</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="88">
+                <data>
+                    <name>FPA Mode Button</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>2</type>
+                                    <id>1211</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>-0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>0</r>
+                                            <g>255</g>
+                                            <b>0</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>2.0</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                            </arrayColores>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>1294</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>

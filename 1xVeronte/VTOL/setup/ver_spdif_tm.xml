@@ -741,7 +741,58 @@
                         </real-float32>
                     </data-fieldset>
                 </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>3172</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>3173</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>3174</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>3177</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1211</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
             </fields>
+            <periode>0.1</periode>
+            <address>
+                <uav>2</uav>
+            </address>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <fields/>
             <periode>0.1</periode>
             <address>
                 <uav>2</uav>

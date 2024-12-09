@@ -668,7 +668,7 @@
                 <id>3131</id>
                 <value>
                     <description>
-                        <name>Distance to home</name>
+                        <name>Distance to Home</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -904,7 +904,7 @@
                 <id>3149</id>
                 <value>
                     <description>
-                        <name>Max Speed</name>
+                        <name>Max FW Speed</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -943,7 +943,7 @@
                 <id>3152</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max VTOL Ground Speed</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1034,7 +1034,7 @@
                 <id>3158</id>
                 <value>
                     <description>
-                        <name>Max Pitch</name>
+                        <name>Max Pitch (FW)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1047,7 +1047,7 @@
                 <id>3159</id>
                 <value>
                     <description>
-                        <name>Min Pitch</name>
+                        <name>Min Pitch (FW)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1151,7 +1151,7 @@
                 <id>3167</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Hover thrust</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1164,7 +1164,7 @@
                 <id>3168</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Pitch (Q)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1177,7 +1177,7 @@
                 <id>3169</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Pitch (Q)</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1190,7 +1190,7 @@
                 <id>3170</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Vertical Distance to Home</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1203,7 +1203,7 @@
                 <id>3171</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>RTH Vertical Distance</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1216,12 +1216,13 @@
                 <id>3172</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Knobs FPA cmd</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1242,12 +1243,13 @@
                 <id>3173</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Knobs MSL cmd</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>5</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1255,12 +1257,13 @@
                 <id>3174</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Knobs IAS cmd</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>0</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1307,12 +1310,13 @@
                 <id>3177</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Knobs HDG cmd</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1451,12 +1455,12 @@
                 <id>2700</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Loiter Radius</name>
                     </description>
                     <unit>
                         <exist-unit>
                             <exist>1</exist>
-                            <id>56</id>
+                            <id>5</id>
                         </exist-unit>
                     </unit>
                 </value>

@@ -1125,6 +1125,16 @@
                     </real-float32>
                 </data-fieldset>
             </str-tunarray-element>
+            <str-tunarray-element>
+                <data-fieldset>
+                    <uinteger16>
+                        <type>2</type>
+                        <id>1</id>
+                        <min>0.0</min>
+                        <max>65535.0</max>
+                    </uinteger16>
+                </data-fieldset>
+            </str-tunarray-element>
         </fields>
     </data>
 </entry-fstr>

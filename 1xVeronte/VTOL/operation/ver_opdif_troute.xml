@@ -7,12 +7,12 @@
         <revision>62</revision>
     </version>
     <data>
-        <first>4</first>
+        <first>1</first>
         <points/>
         <lines>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
-                    <p0>45056</p0>
+                    <p0>45062</p0>
                     <p1>45064</p1>
                 </data>
             </str-tunarray-element>
@@ -28,7 +28,7 @@
             <str-tunarray-element str-tunarray-key="0">
                 <data>
                     <f0>45060</f0>
-                    <f1>45056</f1>
+                    <f1>45062</f1>
                     <rk>
                         <x>150.49864</x>
                         <y>26.450361</y>
@@ -57,9 +57,16 @@
                     <elem>0</elem>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <next>3</next>
+                    <type>3</type>
+                    <elem>1</elem>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
-                    <next>4</next>
+                    <next>1</next>
                     <type>1</type>
                     <elem>0</elem>
                 </data>
@@ -68,13 +75,6 @@
                 <data>
                     <next>0</next>
                     <type>1</type>
-                    <elem>1</elem>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="4">
-                <data>
-                    <next>3</next>
-                    <type>3</type>
                     <elem>1</elem>
                 </data>
             </str-tunarray-element>

@@ -11,9 +11,9 @@
             <wrt-choice-abs>
                 <wrt>65535</wrt>
                 <pos>
-                    <lon>0</lon>
-                    <lat>0</lat>
-                    <alt>0</alt>
+                    <lon>-6979187</lon>
+                    <lat>383827840</lat>
+                    <alt>301400</alt>
                 </pos>
             </wrt-choice-abs>
         </wrt-choice>

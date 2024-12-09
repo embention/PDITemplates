@@ -82,7 +82,7 @@
                 <data>
                     <name>Manual</name>
                     <group>2</group>
-                    <order>4</order>
+                    <order>3</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="11">
@@ -145,14 +145,14 @@
                 <data>
                     <name>Auto</name>
                     <group>2</group>
-                    <order>1</order>
+                    <order>0</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="20">
                 <data>
                     <name>Semi-Arcade</name>
                     <group>2</group>
-                    <order>3</order>
+                    <order>2</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="21">
@@ -201,21 +201,21 @@
                 <data>
                     <name>Arcade Phases to HLD</name>
                     <group>2</group>
-                    <order>5</order>
+                    <order>4</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="28">
                 <data>
                     <name>Arcade</name>
                     <group>2</group>
-                    <order>2</order>
+                    <order>1</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="29">
                 <data>
                     <name>Manual Arm</name>
                     <group>2</group>
-                    <order>6</order>
+                    <order>5</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="30">
@@ -225,11 +225,18 @@
                     <order>6</order>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="31">
+                <data>
+                    <name>KNB Button</name>
+                    <group>0</group>
+                    <order>12</order>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="32">
                 <data>
                     <name>Arm to HLD 2</name>
                     <group>2</group>
-                    <order>7</order>
+                    <order>6</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="33">
@@ -288,11 +295,32 @@
                     <order>3</order>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="42">
+            <str-tunarray-element str-tunarray-key="41">
+                <data>
+                    <name>MSL Mode Button</name>
+                    <group>8</group>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="43">
+                <data>
+                    <name>FPA Mode Button</name>
+                    <group>8</group>
+                    <order>1</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="44">
+                <data>
+                    <name>Arcade Trim</name>
+                    <group>8</group>
+                    <order>2</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="45">
                 <data>
                     <name>Trim stick</name>
                     <group>2</group>
-                    <order>0</order>
+                    <order>7</order>
                 </data>
             </str-tunarray-element>
         </map>
