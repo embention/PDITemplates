@@ -40,6 +40,7 @@
 <details>
 <summary>Checklist Summary</summary>
 
+- [P.079-revision-y-aprobacion-de-disenos-mecanicos](https://documentation.embention.net/079/es/latest/index.html)
 - [P.413-planning-process-verification-activity-checklist](https://documentation.embention.net/413/en/latest/index.html)
 - [P.414-requirement-verification-activity-checklist](https://documentation.embention.net/414/en/latest/index.html)
 - [P.415-design-verification-activity-checklist](https://documentation.embention.net/415/en/latest/index.html)
@@ -52,5 +53,9 @@
 - [P.439-serializer-verification-activity-checklist](https://documentation.embention.net/439/en/latest/index.html)
 - [P.545-hardware-requirement-verification-checklist](https://documentation.embention.net/545/en/latest/index.html)
 - [P.599-aircraft-and-product-requirement-activity-checklist](https://documentation.embention.net/599/es/latest/index.html)
+- [P.673-hardware-verification-wi-checklist](https://documentation.embention.net/673/es/latest/index.html)
+- [P.674-hardware-verification-tr-checklist](https://documentation.embention.net/674/es/latest/index.html)
+- [P.691-test-readiness-review-checklist-trr](https://documentation.embention.net/691/en/latest/index.html)
+- [P.735-user-manual-verification-activity-checklist](https://documentation.embention.net/735/en/latest/index.html)
 
 </details>
