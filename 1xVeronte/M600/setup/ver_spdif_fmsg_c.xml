@@ -15,7 +15,14 @@
                 <bitid>0</bitid>
             </str-tunarray-element>
         </fmsg1>
-        <fmsg2/>
+        <fmsg2>
+            <str-tunarray-element>
+                <fmsg-id>3</fmsg-id>
+                <time>0.0</time>
+                <type>0</type>
+                <bitid>0</bitid>
+            </str-tunarray-element>
+        </fmsg2>
         <fmsg3/>
     </data>
 </entry-fmsg-c>

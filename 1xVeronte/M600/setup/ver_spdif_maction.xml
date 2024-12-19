@@ -323,7 +323,7 @@
             <str-tunarray-element str-tunarray-key="26">
                 <data>
                     <name>
-                        <name>To LDN</name>
+                        <name>Change to List B</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -335,7 +335,7 @@
             <str-tunarray-element str-tunarray-key="27">
                 <data>
                     <name>
-                        <name>BITCylinder = 1</name>
+                        <name>List A</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -347,7 +347,7 @@
             <str-tunarray-element str-tunarray-key="28">
                 <data>
                     <name>
-                        <name>BITCylinder = 0</name>
+                        <name>List B</name>
                     </name>
                     <has-icon>
                         <has-icon-n>

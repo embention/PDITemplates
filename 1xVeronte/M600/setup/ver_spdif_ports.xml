@@ -9,13 +9,19 @@
     <data>
         <str-tunarray-element str-tunarray-key="0">
             <data>
-                <msk-port>95</msk-port>
+                <msk-port>79</msk-port>
                 <data-ports-aux>
                     <str-tunarray-element>
                         <address>
                             <uav>43073</uav>
                         </address>
                         <port>5</port>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <address>
+                            <uav>4000</uav>
+                        </address>
+                        <port>4</port>
                     </str-tunarray-element>
                 </data-ports-aux>
             </data>

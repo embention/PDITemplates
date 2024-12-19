@@ -356,14 +356,32 @@
                 </xclk>
                 <node>
                     <map>
-                        <event>
-                            <type>2</type>
-                            <param>0</param>
-                        </event>
+                        <and-or>
+                            <type>1</type>
+                            <list-nodes>
+                                <str-tunarray-element>
+                                    <data-elem-list-nodes>
+                                        <event>
+                                            <type>2</type>
+                                            <param>0</param>
+                                        </event>
+                                    </data-elem-list-nodes>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data-elem-list-nodes>
+                                        <event>
+                                            <type>2</type>
+                                            <param>79</param>
+                                        </event>
+                                    </data-elem-list-nodes>
+                                </str-tunarray-element>
+                            </list-nodes>
+                        </and-or>
                     </map>
                 </node>
                 <actions>
                     <str-tunarray-element>0</str-tunarray-element>
+                    <str-tunarray-element>27</str-tunarray-element>
                 </actions>
             </data>
         </str-tunarray-element>
@@ -686,6 +704,14 @@
                                         </event>
                                     </data-elem-list-nodes>
                                 </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data-elem-list-nodes>
+                                        <event>
+                                            <type>2</type>
+                                            <param>78</param>
+                                        </event>
+                                    </data-elem-list-nodes>
+                                </str-tunarray-element>
                             </list-nodes>
                         </and-or>
                     </map>
@@ -728,18 +754,52 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data-elem-list-nodes>
-                                        <event>
-                                            <type>2</type>
-                                            <param>51</param>
-                                        </event>
-                                    </data-elem-list-nodes>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data-elem-list-nodes>
-                                        <event>
-                                            <type>2</type>
-                                            <param>8</param>
-                                        </event>
+                                        <and-or>
+                                            <type>0</type>
+                                            <list-nodes>
+                                                <str-tunarray-element>
+                                                    <data-elem-list-nodes>
+                                                        <and-or>
+                                                            <type>1</type>
+                                                            <list-nodes>
+                                                                <str-tunarray-element>
+                                                                    <data-elem-list-nodes>
+                                                                        <event>
+                                                                            <type>2</type>
+                                                                            <param>8</param>
+                                                                        </event>
+                                                                    </data-elem-list-nodes>
+                                                                </str-tunarray-element>
+                                                                <str-tunarray-element>
+                                                                    <data-elem-list-nodes>
+                                                                        <event>
+                                                                            <type>2</type>
+                                                                            <param>74</param>
+                                                                        </event>
+                                                                    </data-elem-list-nodes>
+                                                                </str-tunarray-element>
+                                                                <str-tunarray-element>
+                                                                    <data-elem-list-nodes>
+                                                                        <event>
+                                                                            <type>2</type>
+                                                                            <param>77</param>
+                                                                        </event>
+                                                                    </data-elem-list-nodes>
+                                                                </str-tunarray-element>
+                                                            </list-nodes>
+                                                        </and-or>
+                                                    </data-elem-list-nodes>
+                                                </str-tunarray-element>
+                                                <str-tunarray-element>
+                                                    <data-elem-list-nodes>
+                                                        <event>
+                                                            <type>2</type>
+                                                            <param>47</param>
+                                                        </event>
+                                                    </data-elem-list-nodes>
+                                                </str-tunarray-element>
+                                            </list-nodes>
+                                        </and-or>
                                     </data-elem-list-nodes>
                                 </str-tunarray-element>
                             </list-nodes>
@@ -1504,6 +1564,14 @@
                                         </event>
                                     </data-elem-list-nodes>
                                 </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data-elem-list-nodes>
+                                        <event>
+                                            <type>2</type>
+                                            <param>78</param>
+                                        </event>
+                                    </data-elem-list-nodes>
+                                </str-tunarray-element>
                             </list-nodes>
                         </and-or>
                     </map>
@@ -1667,7 +1735,7 @@
                                                                     <data-elem-list-nodes>
                                                                         <event>
                                                                             <type>2</type>
-                                                                            <param>59</param>
+                                                                            <param>74</param>
                                                                         </event>
                                                                     </data-elem-list-nodes>
                                                                 </str-tunarray-element>
@@ -1945,6 +2013,55 @@
                 </node>
                 <actions>
                     <str-tunarray-element>25</str-tunarray-element>
+                </actions>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="37">
+            <data>
+                <enabled>1</enabled>
+                <delay>0.0</delay>
+                <delay_max>0</delay_max>
+                <xclk>
+                    <period>
+                        <fixed-disable>
+                            <mode>0</mode>
+                        </fixed-disable>
+                    </period>
+                    <type>
+                        <type-no-vector>
+                            <type>0</type>
+                        </type-no-vector>
+                    </type>
+                </xclk>
+                <node>
+                    <map>
+                        <and-or>
+                            <type>1</type>
+                            <list-nodes>
+                                <str-tunarray-element>
+                                    <data-elem-list-nodes>
+                                        <event>
+                                            <type>2</type>
+                                            <param>0</param>
+                                        </event>
+                                    </data-elem-list-nodes>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data-elem-list-nodes>
+                                        <event>
+                                            <type>2</type>
+                                            <param>78</param>
+                                        </event>
+                                    </data-elem-list-nodes>
+                                </str-tunarray-element>
+                            </list-nodes>
+                        </and-or>
+                    </map>
+                </node>
+                <actions>
+                    <str-tunarray-element>0</str-tunarray-element>
+                    <str-tunarray-element>26</str-tunarray-element>
+                    <str-tunarray-element>28</str-tunarray-element>
                 </actions>
             </data>
         </str-tunarray-element>
