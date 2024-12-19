@@ -98,6 +98,18 @@
                     <name>Calibration button</name>
                 </description>
             </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1220</id>
+                <description>
+                    <name>Simulating</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1010</id>
+                <description>
+                    <name>Veronte Link OK</name>
+                </description>
+            </str-tunarray-element>
         </map>
     </data>
 </entry-mbit>

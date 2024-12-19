@@ -212,7 +212,7 @@
                 <id>3106</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Safety Bits List</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -467,7 +467,7 @@
                 <id>2700</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Cruise Speed</name>
                     </description>
                     <unit>
                         <exist-unit>

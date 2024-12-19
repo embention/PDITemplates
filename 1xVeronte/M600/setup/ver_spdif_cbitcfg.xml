@@ -7,9 +7,7 @@
         <revision>62</revision>
     </version>
     <data>
-        <bits_0>
-            <str-tunarray-element>50</str-tunarray-element>
-        </bits_0>
+        <bits_0/>
         <bits_1>
             <str-tunarray-element>50</str-tunarray-element>
         </bits_1>

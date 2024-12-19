@@ -385,7 +385,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="15">
                 <data>
-                    <name>Stick r3 &lt; 0.1</name>
+                    <name>Stick r3 &lt; 0.2</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1904,7 +1904,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="74">
                 <data>
-                    <name>No name</name>
+                    <name>Semi and Arcade Modes</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1954,7 +1954,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="76">
                 <data>
-                    <name>TO</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1979,7 +1979,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="77">
                 <data>
-                    <name>End of GE</name>
+                    <name>INI and SBY Phases</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -2004,7 +2004,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="78">
                 <data>
-                    <name>RDZ Phases</name>
+                    <name>Simulation Disable</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -2029,7 +2029,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="79">
                 <data>
-                    <name>No name</name>
+                    <name>Simulating</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>

@@ -22,6 +22,34 @@
                     </wrt-choice>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-6980102</lon>
+                                <lat>383827857</lat>
+                                <alt>301840</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-6983451</lon>
+                                <lat>383830536</lat>
+                                <alt>349790</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="5">
                 <data>
                     <wrt-choice>
@@ -72,7 +100,7 @@
                             <pos>
                                 <lon>-6982246</lon>
                                 <lat>383829026</lat>
-                                <alt>315560</alt>
+                                <alt>351620</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>
@@ -86,7 +114,7 @@
                             <pos>
                                 <lon>-6981548</lon>
                                 <lat>383831339</lat>
-                                <alt>315560</alt>
+                                <alt>351600</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>
@@ -98,9 +126,9 @@
                         <wrt-choice-abs>
                             <wrt>65535</wrt>
                             <pos>
-                                <lon>-6984391</lon>
+                                <lon>-6984438</lon>
                                 <lat>383831907</lat>
-                                <alt>315560</alt>
+                                <alt>351430</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>
@@ -114,7 +142,7 @@
                             <pos>
                                 <lon>-6985222</lon>
                                 <lat>383829594</lat>
-                                <alt>315560</alt>
+                                <alt>351590</alt>
                             </pos>
                         </wrt-choice-abs>
                     </wrt-choice>
