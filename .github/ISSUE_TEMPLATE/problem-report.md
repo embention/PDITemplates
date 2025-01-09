@@ -43,11 +43,18 @@ assignees: ''
 
 **Impact assessment**
 <!-- The impact of having the PR open at the time of product sale or certification -->
-  - General evaluation impact:
-  - Functional limitations/operational restrictions at the equipment level (If apply):
-  - Relationship with other PRs/issues (If apply): 
+  - [ ] General evaluation impact:
+  - [ ] Functional limitations/operational restrictions at the equipment level (If apply):
+  - [ ] Relationship with other PRs/issues (If apply): 
 <!-- Link issues to their outputs, including related repository commits with the change control activity information -->
-  - Root cause (If Functional/Significant PR):
+  - [ ] Root cause (If Functional/Significant PR):
+  - [ ] Assessment results:
+<!-- List here the description of any mitigations or justifications used to:
+
+      - Significant PR: substantiate the acceptability of the PR safety effect.
+      - Functional PR: to reduce the PR safety effect to Minor or No Effect
+      - Process PR: describe the extent or nature of the process non-compliance or deficiency that might contribute to not satisfying the applicable development assurance objectives.
+      - Process, LCD or Other PR: justify that the error cannot have a safety or functional effect.   -->  
 
 **Corrective actions**
 - [ ] 1.
