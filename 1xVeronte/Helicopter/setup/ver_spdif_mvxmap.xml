@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <data-to-veronte-vref>
@@ -34,15 +34,6 @@
                 <data-xplane>
                     <str-tunarray-element>
                         <type>0</type>
-                        <id>2404</id>
-                        <entry>
-                            <xvar>propPitch0</xvar>
-                            <v2xScale>18.0</v2xScale>
-                            <v2xOffset>-0.35</v2xOffset>
-                        </entry>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <type>0</type>
                         <id>3156</id>
                         <entry>
                             <xvar>propPitch1</xvar>
@@ -55,7 +46,7 @@
                         <id>3153</id>
                         <entry>
                             <xvar>rollCyclicTilts0</xvar>
-                            <v2xScale>5.7</v2xScale>
+                            <v2xScale>1.0</v2xScale>
                             <v2xOffset>0.0</v2xOffset>
                         </entry>
                     </str-tunarray-element>
@@ -64,7 +55,25 @@
                         <id>3150</id>
                         <entry>
                             <xvar>pitchCyclicTilts0</xvar>
-                            <v2xScale>5.7</v2xScale>
+                            <v2xScale>1.0</v2xScale>
+                            <v2xOffset>0.0</v2xOffset>
+                        </entry>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <type>0</type>
+                        <id>3114</id>
+                        <entry>
+                            <xvar>propPitch0</xvar>
+                            <v2xScale>1.0</v2xScale>
+                            <v2xOffset>0.0</v2xOffset>
+                        </entry>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <type>0</type>
+                        <id>2401</id>
+                        <entry>
+                            <xvar>throttleCommand1</xvar>
+                            <v2xScale>1.0</v2xScale>
                             <v2xOffset>0.0</v2xOffset>
                         </entry>
                     </str-tunarray-element>

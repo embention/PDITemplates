@@ -4,15 +4,15 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
-        <accRange>2</accRange>
+        <accRange>3</accRange>
         <accODR>12</accODR>
-        <accBWP>128</accBWP>
+        <accBWP>160</accBWP>
         <accMaxNvSamples>30</accMaxNvSamples>
         <gyrRange>0</gyrRange>
-        <gyrOdrBw>2</gyrOdrBw>
+        <gyrOdrBw>1</gyrOdrBw>
         <gyrMaxNvSamples>30</gyrMaxNvSamples>
     </data>
 </entry-imu2>

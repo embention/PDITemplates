@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <nins>1</nins>
@@ -64,7 +64,7 @@
                 <out-addr>0</out-addr>
             </str-tunarray-element>
         </outs>
-        <name>Rad to Deg</name>
+        <name>rad2deg</name>
         <map>
             <str-tunarray-element>
                 <x-pos>0</x-pos>

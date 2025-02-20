@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <map>
@@ -286,7 +286,7 @@
                 <id>3190</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Roll Rate FF</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -423,7 +423,7 @@
                 <id>3130</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Pitch</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -542,7 +542,7 @@
                 <id>3131</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Pitch</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -555,7 +555,7 @@
                 <id>3132</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Pitch Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -568,7 +568,7 @@
                 <id>3139</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Yaw Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -763,7 +763,7 @@
                 <id>3133</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Min Pitch Rate</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -776,7 +776,7 @@
                 <id>3134</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Roll</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1111,7 +1111,7 @@
                 <id>3114</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Xplane Collective</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1124,7 +1124,7 @@
                 <id>3115</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Speed</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1137,7 +1137,7 @@
                 <id>3116</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Nominal Cruise Speed</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1150,7 +1150,7 @@
                 <id>3117</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Rate of Descent</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1163,7 +1163,7 @@
                 <id>3118</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Max Rate of Climb</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1176,7 +1176,7 @@
                 <id>3119</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Distance to Home</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1203,7 +1203,7 @@
                 <id>1000</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Pitch Stick</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1216,7 +1216,7 @@
                 <id>1001</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Throttle Stick</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1229,7 +1229,7 @@
                 <id>1002</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Roll Stick</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1242,7 +1242,7 @@
                 <id>1003</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Tail Stick</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1268,7 +1268,7 @@
                 <id>2600</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Arc - Pitch</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1281,7 +1281,7 @@
                 <id>2601</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Arc - Roll</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1294,7 +1294,7 @@
                 <id>2602</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Arc - Yaw</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1307,7 +1307,7 @@
                 <id>2603</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Arc - Collective</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1467,7 +1467,7 @@
                 <id>900</id>
                 <value>
                     <description>
-                        <name>Pitch Stick</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1480,7 +1480,7 @@
                 <id>901</id>
                 <value>
                     <description>
-                        <name>Throttle Stick</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1493,7 +1493,7 @@
                 <id>902</id>
                 <value>
                     <description>
-                        <name>Roll Stick</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1506,7 +1506,7 @@
                 <id>903</id>
                 <value>
                     <description>
-                        <name>Tail Stick</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1519,7 +1519,7 @@
                 <id>904</id>
                 <value>
                     <description>
-                        <name>Collective Stick</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1571,7 +1571,7 @@
                 <id>905</id>
                 <value>
                     <description>
-                        <name>Phase Switch</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1883,7 +1883,7 @@
                 <id>906</id>
                 <value>
                     <description>
-                        <name>Mode Switch</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1988,6 +1988,136 @@
                 <value>
                     <description>
                         <name>Collective FF</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3191</id>
+                <value>
+                    <description>
+                        <name>Yaw Rate FF</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3135</id>
+                <value>
+                    <description>
+                        <name>Min Roll</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3136</id>
+                <value>
+                    <description>
+                        <name>Max Roll Rate</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3137</id>
+                <value>
+                    <description>
+                        <name>Min Roll Rate</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3138</id>
+                <value>
+                    <description>
+                        <name>Max Yaw Rate</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>907</id>
+                <value>
+                    <description>
+                        <name/>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1004</id>
+                <value>
+                    <description>
+                        <name>Collective Stick</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1005</id>
+                <value>
+                    <description>
+                        <name>Stick - Phase</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1006</id>
+                <value>
+                    <description>
+                        <name>Stick - Mode</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1007</id>
+                <value>
+                    <description>
+                        <name>Stick - Manual</name>
                     </description>
                     <unit>
                         <no-exist-unit>

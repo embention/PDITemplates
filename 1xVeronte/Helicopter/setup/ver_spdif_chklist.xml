@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -13,7 +13,7 @@
                     <size>19</size>
                     <task>0</task>
                     <name>Sensors Check</name>
-                    <phase>0</phase>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -25,8 +25,8 @@
                 <other>
                     <size>17</size>
                     <task>0</task>
-                    <name>Stick check</name>
-                    <phase>0</phase>
+                    <name>Stick Check</name>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -39,7 +39,7 @@
                     <size>18</size>
                     <task>0</task>
                     <name>Link Quality</name>
-                    <phase>0</phase>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -52,7 +52,7 @@
                     <size>26</size>
                     <task>0</task>
                     <name>Calibrate Atmosphere</name>
-                    <phase>0</phase>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -64,8 +64,8 @@
                 <other>
                     <size>26</size>
                     <task>0</task>
-                    <name>Battery / Fuel check</name>
-                    <phase>0</phase>
+                    <name>Battery / Fuel Check</name>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -77,8 +77,8 @@
                 <other>
                     <size>21</size>
                     <task>0</task>
-                    <name>Actuators check</name>
-                    <phase>0</phase>
+                    <name>Actautors Check</name>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -90,8 +90,8 @@
                 <other>
                     <size>23</size>
                     <task>0</task>
-                    <name>CG Position check</name>
-                    <phase>0</phase>
+                    <name>CG Position Check</name>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -104,7 +104,7 @@
                     <size>19</size>
                     <task>0</task>
                     <name>Mission Check</name>
-                    <phase>0</phase>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -116,8 +116,8 @@
                 <other>
                     <size>24</size>
                     <task>0</task>
-                    <name>Terrain Mesh check</name>
-                    <phase>0</phase>
+                    <name>Terrain Mesh Check</name>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
@@ -129,8 +129,8 @@
                 <other>
                     <size>23</size>
                     <task>0</task>
-                    <name>Automations check</name>
-                    <phase>0</phase>
+                    <name>Automations Check</name>
+                    <phase>20</phase>
                     <obliged>0</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>

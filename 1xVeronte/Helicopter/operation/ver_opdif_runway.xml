@@ -4,10 +4,99 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
-        <runways/>
+        <runways>
+            <str-tunarray-element str-tunarray-key="0">
+                <runway>
+                    <loides>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-1211027498</lon>
+                                    <lat>374100220</lat>
+                                    <alt>45500</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </loides>
+                    <alarms_cfg/>
+                    <fstart>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-1211049279</lon>
+                                    <lat>374030429</lat>
+                                    <alt>18870</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </fstart>
+                    <fend>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-1211194786</lon>
+                                    <lat>374175061</lat>
+                                    <alt>18890</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </fend>
+                    <preferred>0</preferred>
+                    <margin-ratio>0.0</margin-ratio>
+                    <margin-reverse-ratio>0.0</margin-reverse-ratio>
+                </runway>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <runway>
+                    <loides>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-1211253833</lon>
+                                    <lat>373934821</lat>
+                                    <alt>50820</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </loides>
+                    <alarms_cfg/>
+                    <fstart>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-1211109638</lon>
+                                    <lat>374013578</lat>
+                                    <alt>19940</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </fstart>
+                    <fend>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-1211062766</lon>
+                                    <lat>374223416</lat>
+                                    <alt>2580</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </fend>
+                    <preferred>0</preferred>
+                    <margin-ratio>0.0</margin-ratio>
+                    <margin-reverse-ratio>0.0</margin-reverse-ratio>
+                </runway>
+            </str-tunarray-element>
+        </runways>
         <spots/>
     </data>
 </entry-oprwy>

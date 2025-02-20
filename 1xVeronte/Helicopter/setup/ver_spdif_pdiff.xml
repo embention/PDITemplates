@@ -4,11 +4,11 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <mode>1</mode>
-        <e2dBb>10000.0</e2dBb>
+        <e2dBb>100.0</e2dBb>
         <decimation>1</decimation>
         <qmin>1.0</qmin>
         <ub>

@@ -4,12 +4,12 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <ecap1>
             <enable>1</enable>
-            <gpio-id>102</gpio-id>
+            <gpio-id>100</gpio-id>
             <wrap>3</wrap>
             <trigger1>0</trigger1>
             <trigger2>1</trigger2>
@@ -18,7 +18,7 @@
         </ecap1>
         <ecap2>
             <enable>1</enable>
-            <gpio-id>100</gpio-id>
+            <gpio-id>102</gpio-id>
             <wrap>3</wrap>
             <trigger1>1</trigger1>
             <trigger2>0</trigger2>

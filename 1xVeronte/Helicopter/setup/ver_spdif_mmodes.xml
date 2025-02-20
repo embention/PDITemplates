@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -23,6 +23,16 @@
                     <abbreviation>71</abbreviation>
                     <name>
                         <name>Arcade</name>
+                    </name>
+                </map>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data>
+                <map>
+                    <abbreviation>83</abbreviation>
+                    <name>
+                        <name>Semi-Arcade</name>
                     </name>
                 </map>
             </data>

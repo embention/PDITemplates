@@ -4,11 +4,11 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <notch>
-            <num-harmonics>0</num-harmonics>
+            <num-harmonics>1</num-harmonics>
             <center-freq>
                 <vref-kval>
                     <type>65534</type>

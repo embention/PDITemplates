@@ -4,15 +4,15 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <map>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
-                    <name>Go Home</name>
-                    <group>5</group>
-                    <order>2</order>
+                    <name>Auto Atmosphere/DEM Cal</name>
+                    <group>6</group>
+                    <order>0</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="1">
@@ -24,14 +24,14 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
-                    <name>SBY AUTO Mode</name>
+                    <name>Auto</name>
                     <group>1</group>
-                    <order>2</order>
+                    <order>0</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
                 <data>
-                    <name>Position Button</name>
+                    <name>HOV Button</name>
                     <group>2</group>
                     <order>3</order>
                 </data>
@@ -80,72 +80,86 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="10">
                 <data>
-                    <name>Calibrate AGL</name>
-                    <group>7</group>
-                    <order>1</order>
+                    <name>Remember Home</name>
+                    <group>5</group>
+                    <order>0</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="11">
                 <data>
-                    <name>Position Arcade</name>
+                    <name>Arcade</name>
                     <group>1</group>
-                    <order>0</order>
+                    <order>1</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="12">
                 <data>
-                    <name>No Stick Spin-Up</name>
-                    <group>0</group>
-                    <order>3</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="14">
-                <data>
-                    <name>Low Power</name>
+                    <name>Stick Errro to AUTO</name>
                     <group>0</group>
                     <order>2</order>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="13">
+                <data>
+                    <name>Go to cruise</name>
+                    <group>4</group>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <name>Battery Low to RTH</name>
+                    <group>0</group>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="15">
                 <data>
-                    <name>Long LinkOff Flight</name>
-                    <group>0</group>
-                    <order>5</order>
+                    <name>Semi-Arcade</name>
+                    <group>1</group>
+                    <order>2</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="16">
                 <data>
                     <name>TKO to HVR</name>
                     <group>3</group>
-                    <order>0</order>
+                    <order>2</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="17">
                 <data>
-                    <name>Go Home (RTH)</name>
-                    <group>5</group>
+                    <name>TKO Timer</name>
+                    <group>3</group>
                     <order>1</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="18">
                 <data>
-                    <name>LND at Home</name>
-                    <group>3</group>
-                    <order>1</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="19">
-                <data>
-                    <name>Arcade Attitude</name>
+                    <name>Manual</name>
                     <group>1</group>
                     <order>3</order>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <name>Arcade phases to HLD</name>
+                    <group>1</group>
+                    <order>4</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="20">
+                <data>
+                    <name>Trim Stick</name>
+                    <group>1</group>
+                    <order>5</order>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="21">
                 <data>
-                    <name>Land to SBY</name>
-                    <group>7</group>
-                    <order>0</order>
+                    <name>LND to SBY</name>
+                    <group>3</group>
+                    <order>3</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="22">
@@ -155,80 +169,17 @@
                     <order>2</order>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="26">
-                <data>
-                    <name>Engine Timer On</name>
-                    <group>6</group>
-                    <order>1</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="27">
-                <data>
-                    <name>Engine Timer Off</name>
-                    <group>6</group>
-                    <order>0</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="28">
-                <data>
-                    <name>Link OK</name>
-                    <group>4</group>
-                    <order>0</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="29">
-                <data>
-                    <name>Link Off</name>
-                    <group>2</group>
-                    <order>9</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="31">
-                <data>
-                    <name>HLD when No GPS</name>
-                    <group>0</group>
-                    <order>1</order>
-                </data>
-            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="32">
                 <data>
-                    <name>LinkOff Flight</name>
+                    <name>Link Lost to RTH</name>
                     <group>0</group>
-                    <order>0</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="33">
-                <data>
-                    <name>RTH to Home</name>
-                    <group>3</group>
-                    <order>2</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="52">
-                <data>
-                    <name>Manual Mode in SBY</name>
-                    <group>1</group>
                     <order>1</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="56">
-                <data>
-                    <name>Auto Position when No Stick </name>
-                    <group>0</group>
-                    <order>4</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="57">
-                <data>
-                    <name>AUTO in Flight Phase</name>
-                    <group>1</group>
-                    <order>4</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="66">
                 <data>
-                    <name>Hover Here</name>
-                    <group>5</group>
+                    <name>Hover HERE</name>
+                    <group>3</group>
                     <order>0</order>
                 </data>
             </str-tunarray-element>

@@ -4,10 +4,49 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
-        <polygons/>
+        <polygons>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <polygon>
+                        <fid>45065</fid>
+                        <fid>45066</fid>
+                        <fid>45067</fid>
+                        <fid>45068</fid>
+                    </polygon>
+                    <height>
+                        <upper-bound>
+                            <limited>0</limited>
+                            <fidrel>0</fidrel>
+                            <lim>
+                                <type>2</type>
+                                <h>
+                                    <vref-kval>
+                                        <type>65534</type>
+                                        <kval>100000.0</kval>
+                                    </vref-kval>
+                                </h>
+                            </lim>
+                        </upper-bound>
+                        <lower-bound>
+                            <limited>0</limited>
+                            <fidrel>0</fidrel>
+                            <lim>
+                                <type>2</type>
+                                <h>
+                                    <vref-kval>
+                                        <type>65534</type>
+                                        <kval>100000.0</kval>
+                                    </vref-kval>
+                                </h>
+                            </lim>
+                        </lower-bound>
+                    </height>
+                </data>
+            </str-tunarray-element>
+        </polygons>
         <circles/>
         <spheres/>
     </data>

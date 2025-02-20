@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <map>
@@ -47,7 +47,7 @@
             <str-tunarray-element str-tunarray-key="3">
                 <data>
                     <name>
-                        <name>Hover</name>
+                        <name>HOV</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -95,7 +95,7 @@
             <str-tunarray-element str-tunarray-key="7">
                 <data>
                     <name>
-                        <name>Engine Running</name>
+                        <name>Atmosphere Cal</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -107,7 +107,7 @@
             <str-tunarray-element str-tunarray-key="8">
                 <data>
                     <name>
-                        <name>Enable Altimeter</name>
+                        <name>Remember Home</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -131,7 +131,7 @@
             <str-tunarray-element str-tunarray-key="10">
                 <data>
                     <name>
-                        <name>Attitude Phase</name>
+                        <name>Hold Phase</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -143,7 +143,7 @@
             <str-tunarray-element str-tunarray-key="11">
                 <data>
                     <name>
-                        <name>Arcade Mode</name>
+                        <name>Arcade</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -155,19 +155,31 @@
             <str-tunarray-element str-tunarray-key="12">
                 <data>
                     <name>
-                        <name>Disable Altimeter</name>
+                        <name>Start Cruise</name>
                     </name>
                     <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
+                        <has-icon-y>
+                            <hasIcon>1</hasIcon>
+                            <color>
+                                <cmpType2>
+                                    <typeColor>0</typeColor>
+                                    <color>
+                                        <r>255</r>
+                                        <g>255</g>
+                                        <b>255</b>
+                                        <a>255</a>
+                                    </color>
+                                </cmpType2>
+                            </color>
+                            <icon>1835</icon>
+                        </has-icon-y>
                     </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="13">
                 <data>
                     <name>
-                        <name>Calibrate AGL</name>
+                        <name>Timer 1 Start</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -179,7 +191,7 @@
             <str-tunarray-element str-tunarray-key="14">
                 <data>
                     <name>
-                        <name>AGL Calibration</name>
+                        <name>DEM Calibration</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -191,7 +203,7 @@
             <str-tunarray-element str-tunarray-key="15">
                 <data>
                     <name>
-                        <name>Belly Payload ON</name>
+                        <name>No name</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -203,7 +215,7 @@
             <str-tunarray-element str-tunarray-key="16">
                 <data>
                     <name>
-                        <name>Lights ON</name>
+                        <name>Semi-Arcade</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -215,7 +227,7 @@
             <str-tunarray-element str-tunarray-key="17">
                 <data>
                     <name>
-                        <name>Belly Payload OFF</name>
+                        <name>Manual</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -227,7 +239,7 @@
             <str-tunarray-element str-tunarray-key="18">
                 <data>
                     <name>
-                        <name>Nose Payload ON</name>
+                        <name>Trim Stick</name>
                     </name>
                     <has-icon>
                         <has-icon-n>

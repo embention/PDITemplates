@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <map>
@@ -30,17 +30,17 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="4">
                 <data>
-                    <string>Link Status</string>
+                    <string>Navigation</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="5">
                 <data>
-                    <string>Navigation</string>
+                    <string>Home</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="6">
                 <data>
-                    <string>Timers</string>
+                    <string>Calibration</string>
                 </data>
             </str-tunarray-element>
         </map>
