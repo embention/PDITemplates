@@ -4,14 +4,14 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <cap-pps1>
-            <p2x_s>12.566371</p2x_s>
-            <mean>0</mean>
-            <pmin_s>0.001</pmin_s>
-            <toff_s>2.0</toff_s>
+            <p2x_s>3.1415927</p2x_s>
+            <mean>10</mean>
+            <pmin_s>2.0E-4</pmin_s>
+            <toff_s>0.5</toff_s>
         </cap-pps1>
         <cap-pps2>
             <p2x_s>0.05235988</p2x_s>

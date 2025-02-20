@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <map>
@@ -13,9 +13,19 @@
                     <string>Throttle</string>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <string>-----Xplane-----</string>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
                     <string>Pitching</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <string>---Performance---</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="4">
@@ -76,6 +86,41 @@
             <str-tunarray-element str-tunarray-key="15">
                 <data>
                     <string>Integrators</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <string>----Control----</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <string>Failsafes/Automations</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <string>Xplane</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <string>---Navigation and Guidance---</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="20">
+                <data>
+                    <string>---Parameters---</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="21">
+                <data>
+                    <string>Aircraft Parameters</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="22">
+                <data>
+                    <string>Compute RTH</string>
                 </data>
             </str-tunarray-element>
         </map>

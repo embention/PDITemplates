@@ -4,14 +4,11 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
-            <data>76.2</data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="1">
-            <data>9.144</data>
+            <data>3.0</data>
         </str-tunarray-element>
     </data>
 </entry-rrefs>

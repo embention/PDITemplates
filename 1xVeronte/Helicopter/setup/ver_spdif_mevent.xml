@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <map>
@@ -60,7 +60,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
-                    <name>RTH Phases</name>
+                    <name>Stick - Mode &lt; 0.2</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -85,7 +85,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
                 <data>
-                    <name>Position Button</name>
+                    <name>HOV Button</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -185,7 +185,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">
                 <data>
-                    <name>Initial Phase</name>
+                    <name>INI Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -210,7 +210,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="8">
                 <data>
-                    <name>Stick Error Long time</name>
+                    <name>Stick OK</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -260,7 +260,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="10">
                 <data>
-                    <name>Position Phases</name>
+                    <name>HOV Phases</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -360,7 +360,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="14">
                 <data>
-                    <name>Hold Phases</name>
+                    <name>HLD Phases</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -410,7 +410,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="16">
                 <data>
-                    <name>Landing Phase</name>
+                    <name>Position fixed</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -435,7 +435,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="17">
                 <data>
-                    <name>Link is Off &gt; 120s</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -460,7 +460,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="18">
                 <data>
-                    <name>NO GPS</name>
+                    <name>0.2 &lt; Stick - Mode &lt; 0.8</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -485,67 +485,22 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="19">
                 <data>
-                    <name>Lights Button</name>
+                    <name>GNSS 1 Accuracy &lt; 2m</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
                             <var>
                                 <vref-var>
                                     <type>0</type>
-                                    <id>1058</id>
+                                    <id>4101</id>
                                 </vref-var>
                             </var>
-                            <arrayColores>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>-0.1</entry>
-                                        <color>
-                                            <r>255</r>
-                                            <g>255</g>
-                                            <b>255</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>0.5</entry>
-                                        <color>
-                                            <r>0</r>
-                                            <g>255</g>
-                                            <b>0</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>0.5</entry>
-                                        <color>
-                                            <r>255</r>
-                                            <g>255</g>
-                                            <b>255</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>1.1</entry>
-                                        <color>
-                                            <r>0</r>
-                                            <g>128</g>
-                                            <b>0</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                            </arrayColores>
+                            <arrayColores/>
                         </cmpType3>
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>36</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -580,7 +535,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="21">
                 <data>
-                    <name>Phase Stick Away</name>
+                    <name>Stick - Mode &gt; 0.8</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -605,7 +560,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="22">
                 <data>
-                    <name>Off COPY</name>
+                    <name>TKO Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -630,7 +585,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="23">
                 <data>
-                    <name>No name</name>
+                    <name>Timer 0</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -655,7 +610,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="24">
                 <data>
-                    <name>Calibrate AGL</name>
+                    <name>CRU phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -670,7 +625,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>32</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -680,21 +635,22 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="25">
                 <data>
-                    <name>End of Scan Mark Achieved</name>
+                    <name>Simulation</name>
                     <dataTypeColor>
-                        <cmpType2>
-                            <typeColor>0</typeColor>
-                            <color>
-                                <r>255</r>
-                                <g>255</g>
-                                <b>255</b>
-                                <a>255</a>
-                            </color>
-                        </cmpType2>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>575</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -704,69 +660,24 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="26">
                 <data>
-                    <name>Starter Run Button</name>
+                    <name>Stick - Manual &lt; 0.2</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
                             <var>
                                 <vref-var>
                                     <type>0</type>
-                                    <id>1057</id>
+                                    <id>4101</id>
                                 </vref-var>
                             </var>
-                            <arrayColores>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>-0.1</entry>
-                                        <color>
-                                            <r>255</r>
-                                            <g>255</g>
-                                            <b>255</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>0.5</entry>
-                                        <color>
-                                            <r>0</r>
-                                            <g>128</g>
-                                            <b>0</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>0.5</entry>
-                                        <color>
-                                            <r>255</r>
-                                            <g>255</g>
-                                            <b>255</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>1.1</entry>
-                                        <color>
-                                            <r>0</r>
-                                            <g>255</g>
-                                            <b>0</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                            </arrayColores>
+                            <arrayColores/>
                         </cmpType3>
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>89</icon>
-                            <timeControl>1.0</timeControl>
-                            <check>1</check>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
                             <checkTime>0</checkTime>
                         </data>
                     </check>
@@ -799,67 +710,22 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="28">
                 <data>
-                    <name>Belly Payload Button</name>
+                    <name>Stick - Manual &gt; 0.8</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
                             <var>
                                 <vref-var>
                                     <type>0</type>
-                                    <id>1059</id>
+                                    <id>4101</id>
                                 </vref-var>
                             </var>
-                            <arrayColores>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>-0.1</entry>
-                                        <color>
-                                            <r>255</r>
-                                            <g>255</g>
-                                            <b>255</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>0.5</entry>
-                                        <color>
-                                            <r>0</r>
-                                            <g>128</g>
-                                            <b>0</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>0.5</entry>
-                                        <color>
-                                            <r>255</r>
-                                            <g>255</g>
-                                            <b>255</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <data>
-                                        <entry>1.1</entry>
-                                        <color>
-                                            <r>0</r>
-                                            <g>255</g>
-                                            <b>0</b>
-                                            <a>255</a>
-                                        </color>
-                                    </data>
-                                </str-tunarray-element>
-                            </arrayColores>
+                            <arrayColores/>
                         </cmpType3>
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>1673</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -869,7 +735,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="29">
                 <data>
-                    <name>Belly Payload Off</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -894,7 +760,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="30">
                 <data>
-                    <name>Home Reached</name>
+                    <name>Trim Stick</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -909,7 +775,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>10</icon>
+                            <icon>1320</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -1489,7 +1355,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="43">
                 <data>
-                    <name>Power Input &lt; Min Voltage</name>
+                    <name>Power Input &lt; 26</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -2288,7 +2154,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="75">
                 <data>
-                    <name>Hover Phase</name>
+                    <name>HOV Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -2687,7 +2553,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="92">
                 <data>
-                    <name>Link is Off &gt; 10s</name>
+                    <name>Link Off &gt; 2s</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>

@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <port_spi>
@@ -13,7 +13,7 @@
             <tx_ready>0</tx_ready>
             <mode>0</mode>
             <baudRate>0</baudRate>
-            <in_proto_mask>1</in_proto_mask>
+            <in_proto_mask>33</in_proto_mask>
             <out_proto_mask>1</out_proto_mask>
             <flags>0</flags>
             <reserved5>0</reserved5>
@@ -39,9 +39,9 @@
             <fixedAltVar>1</fixedAltVar>
             <minElev>5</minElev>
             <reserved0>0</reserved0>
-            <pDop>2500</pDop>
-            <tDop>10000</tDop>
-            <pAcc>100</pAcc>
+            <pDop>250</pDop>
+            <tDop>1000</tDop>
+            <pAcc>10</pAcc>
             <tAcc>100</tAcc>
             <staticHoldThresh>0</staticHoldThresh>
             <dgnssTimeout>60</dgnssTimeout>

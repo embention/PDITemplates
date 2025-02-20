@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -120,20 +120,6 @@
                         <str-tunarray-element>84</str-tunarray-element>
                         <str-tunarray-element>111</str-tunarray-element>
                         <str-tunarray-element>32</str-tunarray-element>
-                        <str-tunarray-element>72</str-tunarray-element>
-                        <str-tunarray-element>111</str-tunarray-element>
-                        <str-tunarray-element>109</str-tunarray-element>
-                        <str-tunarray-element>101</str-tunarray-element>
-                    </name>
-                </map>
-            </data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="9">
-            <data>
-                <map>
-                    <group>0</group>
-                    <order>0</order>
-                    <name>
                         <str-tunarray-element>72</str-tunarray-element>
                         <str-tunarray-element>111</str-tunarray-element>
                         <str-tunarray-element>109</str-tunarray-element>

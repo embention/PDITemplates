@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <map>
@@ -77,7 +77,7 @@
             <str-tunarray-element>
                 <id>1212</id>
                 <description>
-                    <name/>
+                    <name>HIL simulation</name>
                 </description>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -120,6 +120,12 @@
                 <id>909</id>
                 <description>
                     <name>Enable Bank Correction</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1213</id>
+                <description>
+                    <name>RTH Allowed</name>
                 </description>
             </str-tunarray-element>
         </map>

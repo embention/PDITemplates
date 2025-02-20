@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -717,6 +717,142 @@
                     <vref-kval>
                         <type>65534</type>
                         <kval>0.26</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="42">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1510</id>
+                    </vref-var>
+                </variable>
+                <type>1</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>2.0</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="43">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1610</id>
+                    </vref-var>
+                </variable>
+                <type>1</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>2.0</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="44">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1006</id>
+                    </vref-var>
+                </variable>
+                <type>1</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>0.2</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="45">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1006</id>
+                    </vref-var>
+                </variable>
+                <type>1</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>0.8</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="46">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1006</id>
+                    </vref-var>
+                </variable>
+                <type>0</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>0.2</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="47">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1007</id>
+                    </vref-var>
+                </variable>
+                <type>1</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>0.2</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="48">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1006</id>
+                    </vref-var>
+                </variable>
+                <type>0</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>0.8</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="49">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1007</id>
+                    </vref-var>
+                </variable>
+                <type>0</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>0.8</kval>
                     </vref-kval>
                 </value>
             </data>

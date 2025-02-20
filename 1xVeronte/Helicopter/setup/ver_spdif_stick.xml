@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <tunSource>
@@ -15,7 +15,7 @@
                         <uav>1969</uav>
                     </id>
                     <port>0</port>
-                    <tsafe>0.2</tsafe>
+                    <tsafe>0.5</tsafe>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="1">
@@ -25,14 +25,14 @@
                         <uav>2</uav>
                     </id>
                     <port>1</port>
-                    <tsafe>0.4</tsafe>
+                    <tsafe>0.5</tsafe>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
                     <local>0</local>
                     <id>
-                        <uav>2605</uav>
+                        <uav>4159</uav>
                     </id>
                     <port>0</port>
                     <tsafe>0.5</tsafe>

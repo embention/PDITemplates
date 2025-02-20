@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
         <map>
@@ -22,11 +22,6 @@
                     <str-tunarray-element str-tunarray-key="0">
                         <data>
                             <name>Start of the Route</name>
-                        </data>
-                    </str-tunarray-element>
-                    <str-tunarray-element str-tunarray-key="1">
-                        <data>
-                            <name>Home</name>
                         </data>
                     </str-tunarray-element>
                 </var-name-array>

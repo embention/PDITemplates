@@ -4,40 +4,64 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>62</revision>
+        <revision>69</revision>
     </version>
     <data>
-        <first>0</first>
-        <points>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <p1>45061</p1>
-                </data>
-            </str-tunarray-element>
-        </points>
+        <first>22</first>
+        <points/>
         <lines>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
-                    <p0>45058</p0>
-                    <p1>45059</p1>
+                    <p0>45064</p0>
+                    <p1>45069</p1>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="1">
                 <data>
-                    <p0>45060</p0>
-                    <p1>45057</p1>
+                    <p0>45069</p0>
+                    <p1>45070</p1>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
-                    <p0>45062</p0>
-                    <p1>45063</p1>
+                    <p0>45070</p0>
+                    <p1>45071</p1>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
                 <data>
-                    <p0>45064</p0>
-                    <p1>45056</p1>
+                    <p0>45071</p0>
+                    <p1>45072</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <p0>45073</p0>
+                    <p1>45074</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <p0>45074</p0>
+                    <p1>45075</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <p0>45075</p0>
+                    <p1>45076</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <p0>45076</p0>
+                    <p1>45077</p1>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <p0>45057</p0>
+                    <p1>45058</p1>
                 </data>
             </str-tunarray-element>
         </lines>
@@ -45,69 +69,125 @@
         <arcs>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
-                    <f0>45059</f0>
-                    <f1>45060</f1>
+                    <f0>45058</f0>
+                    <f1>45059</f1>
                     <rk>
-                        <x>-93.03887</x>
-                        <y>-25.07849</y>
+                        <x>109.679085</x>
+                        <y>26.580189</y>
                     </rk>
                     <nturns>0</nturns>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="1">
                 <data>
-                    <f0>45056</f0>
-                    <f1>45062</f1>
+                    <f0>45059</f0>
+                    <f1>45060</f1>
                     <rk>
-                        <x>43.07991</x>
-                        <y>3.6788807</y>
+                        <x>158.84439</x>
+                        <y>-144.32367</y>
                     </rk>
                     <nturns>0</nturns>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
-                    <f0>45057</f0>
-                    <f1>45058</f1>
+                    <f0>45060</f0>
+                    <f1>45061</f1>
                     <rk>
-                        <x>90.29941</x>
-                        <y>23.926384</y>
+                        <x>-102.10561</x>
+                        <y>-212.7175</y>
                     </rk>
                     <nturns>0</nturns>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
                 <data>
+                    <f0>45061</f0>
+                    <f1>45062</f1>
+                    <rk>
+                        <x>-181.56683</x>
+                        <y>-37.990383</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <f0>45062</f0>
+                    <f1>45058</f1>
+                    <rk>
+                        <x>-90.73901</x>
+                        <y>224.10062</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
                     <f0>45063</f0>
                     <f1>45064</f1>
                     <rk>
-                        <x>-31.173967</x>
-                        <y>-2.7677968</y>
+                        <x>125.58584</x>
+                        <y>238.36377</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <f0>45072</f0>
+                    <f1>45073</f1>
+                    <rk>
+                        <x>-870.5543</x>
+                        <y>156.61993</y>
+                    </rk>
+                    <nturns>0</nturns>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <f0>45077</f0>
+                    <f1>45064</f1>
+                    <rk>
+                        <x>884.49365</x>
+                        <y>-267.39645</y>
                     </rk>
                     <nturns>0</nturns>
                 </data>
             </str-tunarray-element>
         </arcs>
-        <ellipses/>
-        <patches>
+        <ellipses>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
-                    <next>6</next>
-                    <type>3</type>
-                    <elem>1</elem>
+                    <f>45056</f>
+                    <turn>2</turn>
+                    <rotation>2.7920716</rotation>
+                    <a>431.62543</a>
+                    <b>431.62543</b>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="1">
                 <data>
+                    <f>45082</f>
+                    <turn>2</turn>
+                    <rotation>-2.0877268</rotation>
+                    <a>157.27864</a>
+                    <b>157.27864</b>
+                </data>
+            </str-tunarray-element>
+        </ellipses>
+        <patches>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
                     <next>65535</next>
-                    <type>0</type>
+                    <type>4</type>
                     <elem>0</elem>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
                     <next>3</next>
-                    <type>1</type>
+                    <type>3</type>
                     <elem>0</elem>
                 </data>
             </str-tunarray-element>
@@ -115,42 +195,119 @@
                 <data>
                     <next>4</next>
                     <type>3</type>
-                    <elem>0</elem>
+                    <elem>1</elem>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="4">
                 <data>
-                    <next>7</next>
-                    <type>1</type>
-                    <elem>1</elem>
+                    <next>5</next>
+                    <type>3</type>
+                    <elem>2</elem>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="5">
                 <data>
-                    <next>8</next>
+                    <next>6</next>
                     <type>3</type>
                     <elem>3</elem>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="6">
                 <data>
-                    <next>5</next>
-                    <type>1</type>
-                    <elem>2</elem>
+                    <next>2</next>
+                    <type>3</type>
+                    <elem>4</elem>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">
                 <data>
-                    <next>2</next>
+                    <next>8</next>
                     <type>3</type>
-                    <elem>2</elem>
+                    <elem>5</elem>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="8">
                 <data>
-                    <next>0</next>
+                    <next>9</next>
+                    <type>1</type>
+                    <elem>0</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="9">
+                <data>
+                    <next>10</next>
+                    <type>1</type>
+                    <elem>1</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10">
+                <data>
+                    <next>11</next>
+                    <type>1</type>
+                    <elem>2</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="11">
+                <data>
+                    <next>12</next>
                     <type>1</type>
                     <elem>3</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="12">
+                <data>
+                    <next>13</next>
+                    <type>3</type>
+                    <elem>6</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="13">
+                <data>
+                    <next>14</next>
+                    <type>1</type>
+                    <elem>4</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <next>15</next>
+                    <type>1</type>
+                    <elem>5</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <next>16</next>
+                    <type>1</type>
+                    <elem>6</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <next>17</next>
+                    <type>1</type>
+                    <elem>7</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <next>8</next>
+                    <type>3</type>
+                    <elem>7</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <next>2</next>
+                    <type>1</type>
+                    <elem>8</elem>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="22">
+                <data>
+                    <next>65535</next>
+                    <type>4</type>
+                    <elem>1</elem>
                 </data>
             </str-tunarray-element>
         </patches>
