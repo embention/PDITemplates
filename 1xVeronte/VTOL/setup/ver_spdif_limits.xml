@@ -546,7 +546,7 @@
                 <value>
                     <vref-kval>
                         <type>65534</type>
-                        <kval>0.92</kval>
+                        <kval>-0.92</kval>
                     </vref-kval>
                 </value>
             </data>

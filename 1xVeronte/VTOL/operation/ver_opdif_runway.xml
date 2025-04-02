@@ -47,7 +47,7 @@
                             </wrt-choice-abs>
                         </wrt-choice>
                     </fend>
-                    <preferred>0</preferred>
+                    <preferred>1</preferred>
                     <margin-ratio>0.0</margin-ratio>
                     <margin-reverse-ratio>0.0</margin-reverse-ratio>
                 </runway>

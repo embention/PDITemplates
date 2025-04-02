@@ -69,7 +69,7 @@
                         <type>0</type>
                         <idCfg>222</idCfg>
                         <str>
-                            <phase-cmd>2</phase-cmd>
+                            <phase-cmd>65535</phase-cmd>
                         </str>
                     </acset-phase>
                 </data>
