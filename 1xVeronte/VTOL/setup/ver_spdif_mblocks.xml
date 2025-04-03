@@ -29,6 +29,14 @@
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>523</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>45</x-pos>
+                <y-pos>210</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
                 <x-pos>86</x-pos>
                 <y-pos>445</y-pos>
             </str-tunarray-element>
@@ -41,20 +49,20 @@
                 <y-pos>351</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>47</x-pos>
-                <y-pos>162</y-pos>
+                <x-pos>0</x-pos>
+                <y-pos>168</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>92</x-pos>
-                <y-pos>494</y-pos>
+                <x-pos>17</x-pos>
+                <y-pos>490</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>102</x-pos>
                 <y-pos>115</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>284</x-pos>
-                <y-pos>256</y-pos>
+                <x-pos>342</x-pos>
+                <y-pos>257</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>56</x-pos>
@@ -65,15 +73,31 @@
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>264</x-pos>
-                <y-pos>1</y-pos>
+                <x-pos>173</x-pos>
+                <y-pos>169</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>264</x-pos>
-                <y-pos>332</y-pos>
+                <x-pos>242</x-pos>
+                <y-pos>166</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>400</x-pos>
+                <x-pos>326</x-pos>
+                <y-pos>8</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>145</x-pos>
+                <y-pos>490</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>219</x-pos>
+                <y-pos>480</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>328</x-pos>
+                <y-pos>314</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>459</x-pos>
                 <y-pos>237</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -97,8 +121,8 @@
                 <y-pos>410</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>6</x-pos>
-                <y-pos>76</y-pos>
+                <x-pos>0</x-pos>
+                <y-pos>20</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>1187</x-pos>
@@ -121,6 +145,10 @@
                 <y-pos>331</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
+                <x-pos>44</x-pos>
+                <y-pos>208</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
                 <x-pos>889</x-pos>
                 <y-pos>183</y-pos>
             </str-tunarray-element>
@@ -137,8 +165,16 @@
                 <y-pos>114</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>225</x-pos>
-                <y-pos>162</y-pos>
+                <x-pos>0</x-pos>
+                <y-pos>168</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>181</x-pos>
+                <y-pos>168</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>266</x-pos>
+                <y-pos>163</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>407</x-pos>
@@ -153,8 +189,12 @@
                 <y-pos>163</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>625</x-pos>
-                <y-pos>220</y-pos>
+                <x-pos>499</x-pos>
+                <y-pos>368</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>514</x-pos>
+                <y-pos>279</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>361</x-pos>
@@ -217,6 +257,14 @@
                 <y-pos>328</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
+                <x-pos>627</x-pos>
+                <y-pos>279</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>699</x-pos>
+                <y-pos>272</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
                 <x-pos>761</x-pos>
                 <y-pos>51</y-pos>
             </str-tunarray-element>
@@ -247,6 +295,14 @@
             <str-tunarray-element>
                 <x-pos>998</x-pos>
                 <y-pos>461</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>444</x-pos>
+                <y-pos>998</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>546</x-pos>
+                <y-pos>639</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>303</x-pos>
@@ -301,8 +357,8 @@
                 <y-pos>643</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>387</x-pos>
-                <y-pos>623</y-pos>
+                <x-pos>330</x-pos>
+                <y-pos>621</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>253</x-pos>
@@ -325,7 +381,7 @@
                 <y-pos>609</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>538</x-pos>
+                <x-pos>450</x-pos>
                 <y-pos>604</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -341,11 +397,11 @@
                 <y-pos>508</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>588</x-pos>
-                <y-pos>479</y-pos>
+                <x-pos>680</x-pos>
+                <y-pos>478</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>707</x-pos>
+                <x-pos>762</x-pos>
                 <y-pos>294</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -417,8 +473,8 @@
                 <y-pos>848</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>722</x-pos>
-                <y-pos>671</y-pos>
+                <x-pos>765</x-pos>
+                <y-pos>669</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>951</x-pos>
@@ -493,20 +549,24 @@
                 <y-pos>39</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
+                <x-pos>52</x-pos>
+                <y-pos>377</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
                 <x-pos>130</x-pos>
                 <y-pos>155</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>133</x-pos>
-                <y-pos>321</y-pos>
+                <x-pos>19</x-pos>
+                <y-pos>338</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>596</x-pos>
                 <y-pos>30</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>132</x-pos>
-                <y-pos>285</y-pos>
+                <x-pos>73</x-pos>
+                <y-pos>302</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>39</x-pos>
@@ -553,8 +613,16 @@
                 <y-pos>133</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>331</x-pos>
-                <y-pos>280</y-pos>
+                <x-pos>211</x-pos>
+                <y-pos>302</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>211</x-pos>
+                <y-pos>340</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>319</x-pos>
+                <y-pos>288</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>463</x-pos>
@@ -595,6 +663,10 @@
             <str-tunarray-element>
                 <x-pos>0</x-pos>
                 <y-pos>0</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>736</x-pos>
+                <y-pos>492</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>539</x-pos>
@@ -645,6 +717,10 @@
                 <y-pos>105</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
+                <x-pos>71</x-pos>
+                <y-pos>186</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
                 <x-pos>250</x-pos>
                 <y-pos>0</y-pos>
             </str-tunarray-element>
@@ -661,8 +737,8 @@
                 <y-pos>308</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>0</x-pos>
-                <y-pos>344</y-pos>
+                <x-pos>9</x-pos>
+                <y-pos>346</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>222</x-pos>
@@ -709,16 +785,16 @@
                 <y-pos>334</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>858</x-pos>
-                <y-pos>279</y-pos>
+                <x-pos>873</x-pos>
+                <y-pos>273</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>980</x-pos>
-                <y-pos>148</y-pos>
+                <x-pos>1013</x-pos>
+                <y-pos>149</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>1092</x-pos>
-                <y-pos>169</y-pos>
+                <x-pos>1106</x-pos>
+                <y-pos>171</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>117</x-pos>
@@ -1269,12 +1345,12 @@
                 <y-pos>455</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>392</x-pos>
+                <x-pos>368</x-pos>
                 <y-pos>449</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>391</x-pos>
-                <y-pos>378</y-pos>
+                <x-pos>362</x-pos>
+                <y-pos>381</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>469</x-pos>
@@ -1413,8 +1489,8 @@
                 <y-pos>898</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>405</x-pos>
-                <y-pos>938</y-pos>
+                <x-pos>407</x-pos>
+                <y-pos>939</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>888</x-pos>
@@ -1533,20 +1609,40 @@
                 <y-pos>1024</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>195</x-pos>
-                <y-pos>1114</y-pos>
+                <x-pos>804</x-pos>
+                <y-pos>1323</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>302</x-pos>
+                <y-pos>1270</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>272</x-pos>
+                <y-pos>1385</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>51</x-pos>
+                <y-pos>1208</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>48</x-pos>
+                <y-pos>1081</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>210</x-pos>
+                <y-pos>979</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>108</x-pos>
-                <y-pos>1066</y-pos>
+                <y-pos>928</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>152</x-pos>
-                <y-pos>907</y-pos>
+                <x-pos>111</x-pos>
+                <y-pos>787</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>140</x-pos>
-                <y-pos>122</y-pos>
+                <x-pos>113</x-pos>
+                <y-pos>20</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>196</x-pos>
@@ -1589,12 +1685,12 @@
                 <y-pos>98</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>681</x-pos>
-                <y-pos>254</y-pos>
+                <x-pos>658</x-pos>
+                <y-pos>152</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>142</x-pos>
-                <y-pos>432</y-pos>
+                <x-pos>113</x-pos>
+                <y-pos>309</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>36</x-pos>
@@ -1645,48 +1741,124 @@
                 <y-pos>275</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>256</x-pos>
-                <y-pos>944</y-pos>
+                <x-pos>247</x-pos>
+                <y-pos>841</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>350</x-pos>
-                <y-pos>881</y-pos>
+                <x-pos>310</x-pos>
+                <y-pos>743</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>404</x-pos>
-                <y-pos>885</y-pos>
+                <x-pos>395</x-pos>
+                <y-pos>760</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>179</x-pos>
-                <y-pos>1035</y-pos>
+                <x-pos>169</x-pos>
+                <y-pos>893</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>259</x-pos>
-                <y-pos>1042</y-pos>
+                <x-pos>265</x-pos>
+                <y-pos>898</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>419</x-pos>
+                <y-pos>911</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>532</x-pos>
+                <y-pos>851</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>679</x-pos>
+                <y-pos>868</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>719</x-pos>
+                <y-pos>942</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>790</x-pos>
+                <y-pos>891</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>868</x-pos>
+                <y-pos>900</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>55</x-pos>
+                <y-pos>1518</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>255</x-pos>
+                <y-pos>7</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>244</x-pos>
+                <y-pos>9</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>79</x-pos>
+                <y-pos>1158</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>208</x-pos>
+                <y-pos>1083</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>200</x-pos>
+                <y-pos>1166</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>389</x-pos>
-                <y-pos>1081</y-pos>
+                <y-pos>1116</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>550</x-pos>
-                <y-pos>967</y-pos>
+                <x-pos>545</x-pos>
+                <y-pos>1131</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>689</x-pos>
-                <y-pos>982</y-pos>
+                <x-pos>0</x-pos>
+                <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>724</x-pos>
-                <y-pos>1051</y-pos>
+                <x-pos>324</x-pos>
+                <y-pos>1310</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>793</x-pos>
-                <y-pos>1006</y-pos>
+                <x-pos>499</x-pos>
+                <y-pos>1274</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>856</x-pos>
-                <y-pos>1015</y-pos>
+                <x-pos>323</x-pos>
+                <y-pos>1425</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>500</x-pos>
+                <y-pos>1392</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>709</x-pos>
+                <y-pos>1337</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>841</x-pos>
+                <y-pos>1399</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>965</x-pos>
+                <y-pos>1357</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>1056</x-pos>
+                <y-pos>1382</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>1182</x-pos>
+                <y-pos>1364</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>6</x-pos>
+                <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
@@ -1781,10 +1953,6 @@
                 <y-pos>386</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>1220</x-pos>
-                <y-pos>406</y-pos>
-            </str-tunarray-element>
-            <str-tunarray-element>
                 <x-pos>783</x-pos>
                 <y-pos>495</y-pos>
             </str-tunarray-element>
@@ -1807,6 +1975,10 @@
             <str-tunarray-element>
                 <x-pos>42</x-pos>
                 <y-pos>17</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>1214</x-pos>
+                <y-pos>408</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
@@ -1930,7 +2102,7 @@
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
-                <y-pos>136</y-pos>
+                <y-pos>134</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>85</x-pos>
@@ -2337,7 +2509,7 @@
                 <y-pos>311</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>0</x-pos>
+                <x-pos>2</x-pos>
                 <y-pos>371</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -2413,16 +2585,20 @@
                 <y-pos>71</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>47</x-pos>
-                <y-pos>904</y-pos>
+                <x-pos>61</x-pos>
+                <y-pos>1407</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>111</x-pos>
-                <y-pos>868</y-pos>
+                <x-pos>80</x-pos>
+                <y-pos>1085</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>114</x-pos>
+                <y-pos>1047</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
-                <y-pos>0</y-pos>
+                <y-pos>1</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>916</x-pos>
@@ -2495,22 +2671,6 @@
             <str-tunarray-element>
                 <x-pos>179</x-pos>
                 <y-pos>199</y-pos>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <x-pos>33</x-pos>
-                <y-pos>221</y-pos>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <x-pos>0</x-pos>
-                <y-pos>106</y-pos>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <x-pos>157</x-pos>
-                <y-pos>0</y-pos>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <x-pos>194</x-pos>
-                <y-pos>193</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
@@ -2629,12 +2789,12 @@
                 <y-pos>261</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>644</x-pos>
-                <y-pos>692</y-pos>
+                <x-pos>177</x-pos>
+                <y-pos>724</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>457</x-pos>
-                <y-pos>667</y-pos>
+                <x-pos>644</x-pos>
+                <y-pos>692</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>37</x-pos>
@@ -2751,6 +2911,18 @@
             <str-tunarray-element>
                 <x-pos>528</x-pos>
                 <y-pos>627</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>304</x-pos>
+                <y-pos>724</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>2</x-pos>
+                <y-pos>5</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>37</x-pos>
+                <y-pos>13</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>616</x-pos>
@@ -2949,12 +3121,12 @@
                 <y-pos>87</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>275</x-pos>
-                <y-pos>848</y-pos>
+                <x-pos>276</x-pos>
+                <y-pos>1065</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>228</x-pos>
-                <y-pos>962</y-pos>
+                <x-pos>221</x-pos>
+                <y-pos>1166</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
@@ -2965,16 +3137,16 @@
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>487</x-pos>
-                <y-pos>913</y-pos>
+                <x-pos>455</x-pos>
+                <y-pos>1125</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>598</x-pos>
-                <y-pos>942</y-pos>
+                <x-pos>540</x-pos>
+                <y-pos>1156</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>849</x-pos>
-                <y-pos>878</y-pos>
+                <x-pos>799</x-pos>
+                <y-pos>1024</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
@@ -3023,6 +3195,38 @@
             <str-tunarray-element>
                 <x-pos>277</x-pos>
                 <y-pos>41</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>87</x-pos>
+                <y-pos>1311</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>259</x-pos>
+                <y-pos>1290</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>86</x-pos>
+                <y-pos>1501</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>257</x-pos>
+                <y-pos>1463</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>257</x-pos>
+                <y-pos>1374</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>458</x-pos>
+                <y-pos>1502</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>452</x-pos>
+                <y-pos>1411</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>452</x-pos>
+                <y-pos>1331</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>

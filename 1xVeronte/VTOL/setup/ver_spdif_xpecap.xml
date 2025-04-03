@@ -13,5 +13,11 @@
             <group>0</group>
             <enable-bvar>1</enable-bvar>
         </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>1</producer>
+            <consumer>1</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
     </data>
 </entry-xpecap>

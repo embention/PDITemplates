@@ -7,17 +7,17 @@
         <revision>62</revision>
     </version>
     <data>
-        <puls_pol>1</puls_pol>
+        <puls_pol>0</puls_pol>
         <vguard>0.004</vguard>
         <puls_min>2.5E-4</puls_min>
         <puls_max>5.0E-4</puls_max>
         <valid_min>8.0E-4</valid_min>
         <valid_max>0.0022</valid_max>
-        <pos_min>9.0E-4</pos_min>
-        <pos_max>0.0021</pos_max>
+        <pos_min>0.0011</pos_min>
+        <pos_max>0.0019</pos_max>
         <ch_num>8</ch_num>
-        <chmsk>4095</chmsk>
-        <fmsk>4095</fmsk>
+        <chmsk>255</chmsk>
+        <fmsk>255</fmsk>
         <fgl>
             <delta_min>0.0</delta_min>
             <delta_max>1000.0</delta_max>
@@ -155,7 +155,19 @@
             </ch16>
         </tr>
         <stick_cap>
-            <stick-cap-entry/>
+            <stick-cap-entry>
+                <str-tunarray-element str-tunarray-key="0">
+                    <data>
+                        <mode-choice>
+                            <other>
+                                <mode>0</mode>
+                                <ich>0</ich>
+                            </other>
+                        </mode-choice>
+                        <src_port>0</src_port>
+                    </data>
+                </str-tunarray-element>
+            </stick-cap-entry>
         </stick_cap>
     </data>
 </entry-ppm1>

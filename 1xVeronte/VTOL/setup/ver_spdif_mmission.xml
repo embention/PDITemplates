@@ -42,24 +42,6 @@
                 </map>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="2">
-            <data>
-                <map>
-                    <group>4</group>
-                    <order>10</order>
-                    <name>
-                        <str-tunarray-element>65</str-tunarray-element>
-                        <str-tunarray-element>112</str-tunarray-element>
-                        <str-tunarray-element>112</str-tunarray-element>
-                        <str-tunarray-element>114</str-tunarray-element>
-                        <str-tunarray-element>111</str-tunarray-element>
-                        <str-tunarray-element>97</str-tunarray-element>
-                        <str-tunarray-element>99</str-tunarray-element>
-                        <str-tunarray-element>104</str-tunarray-element>
-                    </name>
-                </map>
-            </data>
-        </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="3">
             <data>
                 <map>

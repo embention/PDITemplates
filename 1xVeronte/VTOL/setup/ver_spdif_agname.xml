@@ -30,25 +30,20 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="4">
                 <data>
-                    <string>Integral Enable</string>
+                    <string>Navigation</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="5">
                 <data>
-                    <string>Navigation</string>
+                    <string>Home</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="6">
                 <data>
-                    <string>Home</string>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="7">
-                <data>
                     <string>Calibration</string>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="8">
+            <str-tunarray-element str-tunarray-key="7">
                 <data>
                     <string>Buttons</string>
                 </data>

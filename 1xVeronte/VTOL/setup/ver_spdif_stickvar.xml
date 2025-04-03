@@ -8,15 +8,9 @@
     </version>
     <data>
         <data-stickvar>
-            <is-enabled>
-                <enabled>1</enabled>
-                <ok>1</ok>
-                <ts>0.1</ts>
-                <list-rvar/>
-                <stick-cap>
-                    <stick-cap-entry/>
-                </stick-cap>
-            </is-enabled>
+            <not-enabled>
+                <enabled>0</enabled>
+            </not-enabled>
         </data-stickvar>
     </data>
 </entry-stickvar>
