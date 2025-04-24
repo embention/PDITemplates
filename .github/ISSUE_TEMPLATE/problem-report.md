@@ -53,7 +53,7 @@ assignees: ''
 
       - Significant PR: substantiate the acceptability of the PR safety effect.
       - Functional PR: to reduce the PR safety effect to Minor or No Effect
-      - Process PR: describe the extent or nature of the process non-compliance or deficiency that might contribute to not satisfying the applicable development assurance objectives.
+      - Process PR: describe the extent or nature of the process non-compliance or deficiency that cannot have a safety or functional effect but might contribute to not satisfying the applicable development assurance objectives.
       - Process, LCD or Other PR: justify that the error cannot have a safety or functional effect.   -->  
 
 **Corrective actions**
