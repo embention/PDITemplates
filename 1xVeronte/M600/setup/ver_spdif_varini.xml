@@ -3,13 +3,18 @@
     <filename>varini.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <str-tunarray-element>
             <vtype>3</vtype>
             <id>1203</id>
+            <val0>1.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>3</vtype>
+            <id>1213</id>
             <val0>1.0</val0>
         </str-tunarray-element>
     </data>

@@ -3,110 +3,112 @@
     <filename>troute.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <first>0</first>
-        <points>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <p1>45056</p1>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="1">
-                <data>
-                    <p1>45057</p1>
-                </data>
-            </str-tunarray-element>
-        </points>
-        <lines>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <p0>45064</p0>
-                    <p1>45065</p1>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="1">
-                <data>
-                    <p0>45065</p0>
-                    <p1>45066</p1>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="2">
-                <data>
-                    <p0>45066</p0>
-                    <p1>45067</p1>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="3">
-                <data>
-                    <p0>45067</p0>
-                    <p1>45064</p1>
-                </data>
-            </str-tunarray-element>
-        </lines>
-        <orthodromes/>
-        <arcs/>
-        <ellipses>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <f>45059</f>
-                    <turn>2</turn>
-                    <rotation>2.0628915</rotation>
-                    <a>25.73071</a>
-                    <b>25.73071</b>
-                </data>
-            </str-tunarray-element>
-        </ellipses>
         <patches>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
-                    <next>65535</next>
-                    <type>4</type>
-                    <elem>0</elem>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="1">
-                <data>
-                    <next>65535</next>
-                    <type>0</type>
-                    <elem>0</elem>
+                    <wp>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-6976261</lon>
+                                    <lat>383844271</lat>
+                                    <alt>361570</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </wp>
+                    <next>2</next>
+                    <cfg>
+                        <arc>
+                            <patch-cfg-type>3</patch-cfg-type>
+                            <data>
+                                <rk>
+                                    <x>150.49864</x>
+                                    <y>26.450361</y>
+                                </rk>
+                                <nturns>0</nturns>
+                            </data>
+                        </arc>
+                    </cfg>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
-                    <next>3</next>
-                    <type>1</type>
-                    <elem>0</elem>
+                    <wp>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-7006271</lon>
+                                    <lat>383847384</lat>
+                                    <alt>360570</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </wp>
+                    <next>7</next>
+                    <cfg>
+                        <line>
+                            <patch-cfg-type>1</patch-cfg-type>
+                        </line>
+                    </cfg>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
                 <data>
-                    <next>4</next>
-                    <type>1</type>
-                    <elem>1</elem>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="4">
-                <data>
-                    <next>5</next>
-                    <type>1</type>
-                    <elem>2</elem>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="5">
-                <data>
-                    <next>2</next>
-                    <type>1</type>
-                    <elem>3</elem>
+                    <wp>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-7008165</lon>
+                                    <lat>383823723</lat>
+                                    <alt>360570</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </wp>
+                    <next>0</next>
+                    <cfg>
+                        <line>
+                            <patch-cfg-type>1</patch-cfg-type>
+                        </line>
+                    </cfg>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">
                 <data>
-                    <next>65535</next>
-                    <type>0</type>
-                    <elem>1</elem>
+                    <wp>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-6981091</lon>
+                                    <lat>383821930</lat>
+                                    <alt>360560</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </wp>
+                    <next>3</next>
+                    <cfg>
+                        <arc>
+                            <patch-cfg-type>3</patch-cfg-type>
+                            <data>
+                                <rk>
+                                    <x>-171.31485</x>
+                                    <y>-47.02521</y>
+                                </rk>
+                                <nturns>0</nturns>
+                            </data>
+                        </arc>
+                    </cfg>
                 </data>
             </str-tunarray-element>
         </patches>

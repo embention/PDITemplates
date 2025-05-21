@@ -3,8 +3,8 @@
     <filename>actions.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <action-array>
@@ -252,17 +252,6 @@
                     </acset-ussa76-cmd>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="15">
-                <data>
-                    <acset-phase>
-                        <type>0</type>
-                        <idCfg>222</idCfg>
-                        <str>
-                            <phase-cmd>5</phase-cmd>
-                        </str>
-                    </acset-phase>
-                </data>
-            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="16">
                 <data>
                     <acset-uclk>
@@ -395,7 +384,7 @@
                 <data>
                     <acset-flyto>
                         <type>0</type>
-                        <idCfg>191</idCfg>
+                        <idCfg>198</idCfg>
                         <str>
                             <flyto-cmd>0</flyto-cmd>
                         </str>

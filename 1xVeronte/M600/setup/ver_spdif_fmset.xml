@@ -3,8 +3,8 @@
     <filename>fmset.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -87,6 +87,7 @@
             </fields>
             <endianness>1</endianness>
             <time>0.0333</time>
+            <offset>0.0</offset>
         </str-tunarray-element>
         <str-tunarray-element>
             <fields>
@@ -140,6 +141,7 @@
             </fields>
             <endianness>1</endianness>
             <time>0.15</time>
+            <offset>0.0</offset>
         </str-tunarray-element>
         <str-tunarray-element>
             <fields>
@@ -373,6 +375,7 @@
             </fields>
             <endianness>1</endianness>
             <time>0.5</time>
+            <offset>0.0</offset>
         </str-tunarray-element>
         <str-tunarray-element>
             <fields>
@@ -606,6 +609,64 @@
             </fields>
             <endianness>1</endianness>
             <time>2.0</time>
+            <offset>0.0</offset>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <fields>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-ibits>
+                            <type>6</type>
+                            <id>3114</id>
+                            <min>-2.184533E-4</min>
+                            <max>2.184466E-4</max>
+                            <umin>-32768</umin>
+                            <umax>32767</umax>
+                            <nbits>16</nbits>
+                        </real-ibits>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-ibits>
+                            <type>6</type>
+                            <id>3115</id>
+                            <min>-2.184533E-4</min>
+                            <max>2.184466E-4</max>
+                            <umin>-32768</umin>
+                            <umax>32767</umax>
+                            <nbits>16</nbits>
+                        </real-ibits>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-ibits>
+                            <type>6</type>
+                            <id>3116</id>
+                            <min>-2.184533E-4</min>
+                            <max>2.184466E-4</max>
+                            <umin>-32768</umin>
+                            <umax>32767</umax>
+                            <nbits>16</nbits>
+                        </real-ibits>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <matcher>
+                            <type>8</type>
+                            <id>0</id>
+                            <nbits>8</nbits>
+                            <value>13</value>
+                            <mask>255</mask>
+                        </matcher>
+                    </data-fieldset>
+                </str-tunarray-element>
+            </fields>
+            <endianness>2</endianness>
+            <time>0.1</time>
+            <offset>0.0</offset>
         </str-tunarray-element>
     </data>
 </entry-fmset>

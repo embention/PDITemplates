@@ -1,0 +1,20 @@
+<entry-extacc1>
+    <id>157</id>
+    <filename>extacc1.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>14</minor>
+        <revision>29</revision>
+    </version>
+    <data>
+        <desired_freq>0.0</desired_freq>
+        <flt_cfg>
+            <enable>0</enable>
+            <cutoff_freq>0.0</cutoff_freq>
+        </flt_cfg>
+        <min_value>-3.4028235E38</min_value>
+        <max_value>3.4028235E38</max_value>
+        <max_delta>3.4028235E38</max_delta>
+        <max_count_nv>3</max_count_nv>
+    </data>
+</entry-extacc1>

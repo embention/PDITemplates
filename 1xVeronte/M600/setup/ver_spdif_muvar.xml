@@ -3,8 +3,8 @@
     <filename>muvar.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <map>
@@ -52,6 +52,12 @@
             </str-tunarray-element>
             <str-tunarray-element>
                 <id>1023</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1040</id>
                 <description>
                     <name/>
                 </description>

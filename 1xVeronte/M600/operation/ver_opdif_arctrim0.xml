@@ -3,15 +3,14 @@
     <filename>arctrim0.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <u0>
-            <str-tunarray-element>0.05201471</str-tunarray-element>
-            <str-tunarray-element>0.0632478</str-tunarray-element>
-            <str-tunarray-element>0.07692313</str-tunarray-element>
-            <str-tunarray-element>0.1418804</str-tunarray-element>
+            <str-tunarray-element>-0.003663063</str-tunarray-element>
+            <str-tunarray-element>0.0017094612</str-tunarray-element>
+            <str-tunarray-element>-2.4414062E-4</str-tunarray-element>
         </u0>
     </data>
 </entry-arctrim0>
