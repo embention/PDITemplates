@@ -3,8 +3,8 @@
     <filename>evact.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -443,7 +443,7 @@
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="9">
             <data>
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <delay>0.0</delay>
                 <delay_max>0</delay_max>
                 <xclk>
