@@ -3,25 +3,13 @@
     <filename>xpcu8.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <str-tunarray-element>
             <producer>0</producer>
             <consumer>5</consumer>
-            <group>0</group>
-            <enable-bvar>1</enable-bvar>
-        </str-tunarray-element>
-        <str-tunarray-element>
-            <producer>1</producer>
-            <consumer>6</consumer>
-            <group>0</group>
-            <enable-bvar>1</enable-bvar>
-        </str-tunarray-element>
-        <str-tunarray-element>
-            <producer>6</producer>
-            <consumer>1</consumer>
             <group>0</group>
             <enable-bvar>1</enable-bvar>
         </str-tunarray-element>

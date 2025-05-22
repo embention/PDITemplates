@@ -3,8 +3,8 @@
     <filename>maction.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <map>
@@ -13,11 +13,6 @@
                     <name>
                         <name>Save current position</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="1">
@@ -25,11 +20,6 @@
                     <name>
                         <name>TILT On</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
@@ -37,11 +27,6 @@
                     <name>
                         <name>TILT Off</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
@@ -49,11 +34,6 @@
                     <name>
                         <name>Vector Body 0</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="4">
@@ -61,11 +41,6 @@
                     <name>
                         <name>Track Vehicle</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="5">
@@ -73,11 +48,6 @@
                     <name>
                         <name>Set Yaw</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="6">
@@ -85,11 +55,6 @@
                     <name>
                         <name>Apply trim</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">
@@ -97,11 +62,6 @@
                     <name>
                         <name>Trim left +</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="8">
@@ -109,11 +69,6 @@
                     <name>
                         <name>Trim left</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="9">
@@ -121,11 +76,6 @@
                     <name>
                         <name>Trim right</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="10">
@@ -133,11 +83,6 @@
                     <name>
                         <name>Trim right +</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="11">
@@ -145,11 +90,6 @@
                     <name>
                         <name>Track Phase</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
         </map>

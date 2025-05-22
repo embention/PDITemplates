@@ -3,8 +3,8 @@
     <filename>tm.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -187,6 +187,7 @@
                     </data-fieldset>
                 </str-tunarray-element>
             </fields>
+            <enable>1</enable>
             <periode>0.1</periode>
             <address>
                 <uav>2</uav>
