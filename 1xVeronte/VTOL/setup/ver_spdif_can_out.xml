@@ -3,11 +3,14 @@
     <filename>can_out.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <can-out>
+            <str-tunarray-element>
+                <port>3</port>
+            </str-tunarray-element>
             <str-tunarray-element>
                 <port>2</port>
             </str-tunarray-element>
@@ -15,16 +18,13 @@
                 <port>1</port>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>0</port>
+                <port>2</port>
             </str-tunarray-element>
             <str-tunarray-element>
                 <port>1</port>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>0</port>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <port>0</port>
+                <port>1</port>
             </str-tunarray-element>
         </can-out>
     </data>

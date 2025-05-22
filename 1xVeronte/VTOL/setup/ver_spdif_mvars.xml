@@ -3,8 +3,8 @@
     <filename>mvars.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <map>
@@ -13,18 +13,8 @@
                 <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <idType>1</idType>
-                <var-name-array/>
-            </str-tunarray-element>
-            <str-tunarray-element>
                 <idType>2</idType>
-                <var-name-array>
-                    <str-tunarray-element str-tunarray-key="1">
-                        <data>
-                            <name>Cruise Start</name>
-                        </data>
-                    </str-tunarray-element>
-                </var-name-array>
+                <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
                 <idType>3</idType>
@@ -36,6 +26,18 @@
                     <str-tunarray-element str-tunarray-key="0">
                         <data>
                             <name>VTOL Runway</name>
+                            <mandatory>0</mandatory>
+                            <color>
+                                <r>255</r>
+                                <g>255</g>
+                                <b>255</b>
+                                <a>255</a>
+                            </color>
+                            <has-icon>
+                                <has-icon-n>
+                                    <hasIcon>0</hasIcon>
+                                </has-icon-n>
+                            </has-icon>
                         </data>
                     </str-tunarray-element>
                 </var-name-array>
@@ -45,8 +47,26 @@
                 <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <idType>8</idType>
-                <var-name-array/>
+                <idType>6</idType>
+                <var-name-array>
+                    <str-tunarray-element str-tunarray-key="1">
+                        <data>
+                            <name>Unnamed Waypoint 1</name>
+                            <mandatory>0</mandatory>
+                            <color>
+                                <r>225</r>
+                                <g>225</g>
+                                <b>225</b>
+                                <a>225</a>
+                            </color>
+                            <has-icon>
+                                <has-icon-n>
+                                    <hasIcon>0</hasIcon>
+                                </has-icon-n>
+                            </has-icon>
+                        </data>
+                    </str-tunarray-element>
+                </var-name-array>
             </str-tunarray-element>
         </map>
     </data>

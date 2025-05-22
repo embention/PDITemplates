@@ -3,13 +3,13 @@
     <filename>adsbdyn.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <ctl_mode>0</ctl_mode>
         <squawk>0</squawk>
         <intent>0</intent>
-        <custom>0</custom>
+        <custom>65535</custom>
     </data>
 </entry-adsb-dynamic>

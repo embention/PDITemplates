@@ -3,8 +3,8 @@
     <filename>tm.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -504,7 +504,86 @@
                         </real-float32>
                     </data-fieldset>
                 </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>7</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>9</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <uinteger16>
+                            <type>2</type>
+                            <id>50</id>
+                            <min>0.0</min>
+                            <max>65535.0</max>
+                        </uinteger16>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1229</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>104</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>900</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>901</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>902</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>903</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
             </fields>
+            <enable>1</enable>
             <periode>0.06666667</periode>
             <address>
                 <uav>2</uav>
@@ -785,7 +864,99 @@
                         </bit>
                     </data-fieldset>
                 </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>103</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>104</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>4</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>209</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>401</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>1610</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>2407</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>2408</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <uinteger16>
+                            <type>2</type>
+                            <id>150</id>
+                            <min>0.0</min>
+                            <max>65535.0</max>
+                        </uinteger16>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <uinteger16>
+                            <type>2</type>
+                            <id>100</id>
+                            <min>0.0</min>
+                            <max>65535.0</max>
+                        </uinteger16>
+                    </data-fieldset>
+                </str-tunarray-element>
             </fields>
+            <enable>1</enable>
             <periode>0.1</periode>
             <address>
                 <uav>2</uav>
@@ -793,6 +964,7 @@
         </str-tunarray-element>
         <str-tunarray-element>
             <fields/>
+            <enable>1</enable>
             <periode>0.1</periode>
             <address>
                 <uav>2</uav>

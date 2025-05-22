@@ -3,8 +3,8 @@
     <filename>blocks.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <programs>
@@ -264,6 +264,11 @@
                                                                                             </pin>
                                                                                         </is-connected>
                                                                                     </integral_enable>
+                                                                                    <i0>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </i0>
                                                                                 </pid-common>
                                                                                 <pid-static-cmd>
                                                                                     <opin>1</opin>
@@ -382,6 +387,11 @@
                                                                                             </pin>
                                                                                         </is-connected>
                                                                                     </integral_enable>
+                                                                                    <i0>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </i0>
                                                                                 </pid-common>
                                                                                 <pid-static-cmd>
                                                                                     <opin>0</opin>
@@ -547,6 +557,11 @@
                                                                     <connected>0</connected>
                                                                 </is-not-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -859,6 +874,11 @@
                                                                                             </pin>
                                                                                         </is-connected>
                                                                                     </integral_enable>
+                                                                                    <i0>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </i0>
                                                                                 </pid-common>
                                                                                 <pid-static-cmd>
                                                                                     <opin>0</opin>
@@ -1217,6 +1237,11 @@
                                                                                                                     </pin>
                                                                                                                 </is-connected>
                                                                                                             </integral_enable>
+                                                                                                            <i0>
+                                                                                                                <is-not-connected>
+                                                                                                                    <connected>0</connected>
+                                                                                                                </is-not-connected>
+                                                                                                            </i0>
                                                                                                         </pid-common>
                                                                                                         <pid-static-cmd>
                                                                                                             <opin>2</opin>
@@ -1392,6 +1417,11 @@
                                                                     <connected>0</connected>
                                                                 </is-not-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -1840,6 +1870,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -2242,6 +2277,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -2853,6 +2893,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>1</opin>
@@ -3286,6 +3331,11 @@
                                                                                             </pin>
                                                                                         </is-connected>
                                                                                     </integral_enable>
+                                                                                    <i0>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </i0>
                                                                                 </pid-common>
                                                                                 <pid-static-cmd>
                                                                                     <opin>2</opin>
@@ -3602,6 +3652,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>2</opin>
@@ -4354,6 +4409,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -4500,6 +4560,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -4618,6 +4683,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -4809,6 +4879,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -5000,6 +5075,11 @@
                                                                     </pin>
                                                                 </is-connected>
                                                             </integral_enable>
+                                                            <i0>
+                                                                <is-not-connected>
+                                                                    <connected>0</connected>
+                                                                </is-not-connected>
+                                                            </i0>
                                                         </pid-common>
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
@@ -10176,6 +10256,24 @@
                     <str-tunarray-element>
                         <rvarget>
                             <block-type>9</block-type>
+                            <rvarid>2801</rvarid>
+                        </rvarget>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarget>
+                            <block-type>9</block-type>
+                            <rvarid>2800</rvarid>
+                        </rvarget>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <uvarget>
+                            <block-type>11</block-type>
+                            <uvarid>404</uvarid>
+                        </uvarget>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarget>
+                            <block-type>9</block-type>
                             <rvarid>2906</rvarid>
                         </rvarget>
                     </str-tunarray-element>
@@ -10266,7 +10364,7 @@
                             <block-type>87</block-type>
                             <data>
                                 <in>
-                                    <block-addr>1</block-addr>
+                                    <block-addr>4</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <enable>
@@ -10280,6 +10378,8 @@
                                     <duration>2.5</duration>
                                     <e2>20.0</e2>
                                 </accvar>
+                                <kappa_h>0.0</kappa_h>
+                                <kappa_v>0.0</kappa_v>
                             </data>
                         </ekfpos>
                     </str-tunarray-element>
@@ -10288,7 +10388,7 @@
                             <block-type>88</block-type>
                             <data>
                                 <in>
-                                    <block-addr>1</block-addr>
+                                    <block-addr>4</block-addr>
                                     <out-addr>1</out-addr>
                                 </in>
                                 <enable>
@@ -10302,6 +10402,8 @@
                                     <duration>2.5</duration>
                                     <e2>20.0</e2>
                                 </accvar>
+                                <kappa_h>0.0</kappa_h>
+                                <kappa_v>0.0</kappa_v>
                             </data>
                         </ekfvel>
                     </str-tunarray-element>
@@ -10310,7 +10412,7 @@
                             <block-type>87</block-type>
                             <data>
                                 <in>
-                                    <block-addr>2</block-addr>
+                                    <block-addr>5</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <enable>
@@ -10324,6 +10426,8 @@
                                     <duration>2.5</duration>
                                     <e2>20.0</e2>
                                 </accvar>
+                                <kappa_h>0.0</kappa_h>
+                                <kappa_v>0.0</kappa_v>
                             </data>
                         </ekfpos>
                     </str-tunarray-element>
@@ -10332,7 +10436,7 @@
                             <block-type>88</block-type>
                             <data>
                                 <in>
-                                    <block-addr>2</block-addr>
+                                    <block-addr>5</block-addr>
                                     <out-addr>1</out-addr>
                                 </in>
                                 <enable>
@@ -10346,6 +10450,8 @@
                                     <duration>2.5</duration>
                                     <e2>20.0</e2>
                                 </accvar>
+                                <kappa_h>0.0</kappa_h>
+                                <kappa_v>0.0</kappa_v>
                             </data>
                         </ekfvel>
                     </str-tunarray-element>
@@ -10358,7 +10464,7 @@
                         <senmag>
                             <block-type>84</block-type>
                             <data>
-                                <selected>8</selected>
+                                <selected>4</selected>
                                 <e2>1.0E-10</e2>
                             </data>
                         </senmag>
@@ -10368,11 +10474,11 @@
                             <block-type>83</block-type>
                             <data>
                                 <in-ned>
-                                    <block-addr>7</block-addr>
+                                    <block-addr>10</block-addr>
                                     <out-addr>0</out-addr>
                                 </in-ned>
                                 <in-body>
-                                    <block-addr>8</block-addr>
+                                    <block-addr>11</block-addr>
                                     <out-addr>0</out-addr>
                                 </in-body>
                                 <enable>
@@ -10383,7 +10489,7 @@
                                 <decimation>10</decimation>
                                 <use3d>0</use3d>
                                 <minnorm>5.0E-7</minnorm>
-                                <ndthr>0.1</ndthr>
+                                <ndthr>0.2</ndthr>
                                 <norm-filt>0.1</norm-filt>
                             </data>
                         </ekfmis>
@@ -10393,7 +10499,7 @@
                             <block-type>14</block-type>
                             <data>
                                 <input>
-                                    <block-addr>9</block-addr>
+                                    <block-addr>12</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <bvarid>106</bvarid>
@@ -10405,7 +10511,7 @@
                             <block-type>7</block-type>
                             <data>
                                 <ins>
-                                    <block-addr>8</block-addr>
+                                    <block-addr>11</block-addr>
                                     <out-addr>0</out-addr>
                                 </ins>
                                 <outs>
@@ -10438,7 +10544,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>11</block-addr>
+                                    <block-addr>14</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <rvarid>313</rvarid>
@@ -10450,7 +10556,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>11</block-addr>
+                                    <block-addr>14</block-addr>
                                     <out-addr>2</out-addr>
                                 </input>
                                 <rvarid>314</rvarid>
@@ -10462,7 +10568,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>11</block-addr>
+                                    <block-addr>14</block-addr>
                                     <out-addr>3</out-addr>
                                 </input>
                                 <rvarid>315</rvarid>
@@ -10483,7 +10589,7 @@
                             <block-type>81</block-type>
                             <data>
                                 <in-mea>
-                                    <block-addr>15</block-addr>
+                                    <block-addr>18</block-addr>
                                     <out-addr>0</out-addr>
                                 </in-mea>
                                 <enable>
@@ -10526,6 +10632,7 @@
                                     <lfalling>-9900.0</lfalling>
                                     <lrising>-1.0</lrising>
                                 </e2rl>
+                                <kappa>0.0</kappa>
                             </data>
                         </ekfstp>
                     </str-tunarray-element>
@@ -10534,7 +10641,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>16</block-addr>
+                                    <block-addr>19</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <rvarid>2900</rvarid>
@@ -10546,7 +10653,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>16</block-addr>
+                                    <block-addr>19</block-addr>
                                     <out-addr>2</out-addr>
                                 </input>
                                 <rvarid>2901</rvarid>
@@ -10558,7 +10665,7 @@
                             <block-type>7</block-type>
                             <data>
                                 <ins>
-                                    <block-addr>15</block-addr>
+                                    <block-addr>18</block-addr>
                                     <out-addr>0</out-addr>
                                 </ins>
                                 <outs>
@@ -10583,7 +10690,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>19</block-addr>
+                                    <block-addr>22</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <rvarid>304</rvarid>
@@ -10604,7 +10711,7 @@
                             <block-type>95</block-type>
                             <data>
                                 <in>
-                                    <block-addr>21</block-addr>
+                                    <block-addr>24</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <enable>
@@ -10622,19 +10729,15 @@
                             <data>
                                 <ins>
                                     <str-tunarray-element>
-                                        <block-addr>3</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <block-addr>4</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <block-addr>5</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
                                         <block-addr>6</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>7</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>8</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
@@ -10642,11 +10745,15 @@
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
-                                        <block-addr>16</block-addr>
+                                        <block-addr>12</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
-                                        <block-addr>22</block-addr>
+                                        <block-addr>19</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>25</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                 </ins>
@@ -10669,13 +10776,13 @@
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>24</block-addr>
+                                            <block-addr>27</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
                                 </min>
                                 <input>
-                                    <block-addr>0</block-addr>
+                                    <block-addr>3</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <max>
@@ -10691,12 +10798,331 @@
                             <block-type>14</block-type>
                             <data>
                                 <input>
-                                    <block-addr>25</block-addr>
+                                    <block-addr>28</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <bvarid>1226</bvarid>
                             </data>
                         </bvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <switch>
+                            <block-type>2</block-type>
+                            <data>
+                                <selector>
+                                    <block-addr>2</block-addr>
+                                    <out-addr>0</out-addr>
+                                </selector>
+                                <blk-switch-map>
+                                    <str-tunarray-element>
+                                        <in>0</in>
+                                        <out>0</out>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <in>3</in>
+                                        <out>1</out>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <in>4</in>
+                                        <out>2</out>
+                                    </str-tunarray-element>
+                                </blk-switch-map>
+                                <blk-switch-defcase>0</blk-switch-defcase>
+                                <blk-switch-common>
+                                    <inputs/>
+                                    <cases>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <senqinf>
+                                                    <block-type>115</block-type>
+                                                    <data>
+                                                        <selected>0</selected>
+                                                        <e2>100.0</e2>
+                                                        <qmin>1.0</qmin>
+                                                    </data>
+                                                </senqinf>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <senqinf>
+                                                    <block-type>115</block-type>
+                                                    <data>
+                                                        <selected>3</selected>
+                                                        <e2>100.0</e2>
+                                                        <qmin>1.0</qmin>
+                                                    </data>
+                                                </senqinf>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <senqinf>
+                                                    <block-type>115</block-type>
+                                                    <data>
+                                                        <selected>4</selected>
+                                                        <e2>100.0</e2>
+                                                        <qmin>1.0</qmin>
+                                                    </data>
+                                                </senqinf>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                    </cases>
+                                    <outs>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>0</out-addr>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>0</out-addr>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>0</out-addr>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>1</out-addr>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>1</out-addr>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>1</out-addr>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>2</out-addr>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>2</out-addr>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <block-addr>0</block-addr>
+                                                <out-addr>2</out-addr>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                    </outs>
+                                </blk-switch-common>
+                            </data>
+                        </switch>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <split-real-array>
+                            <block-type>7</block-type>
+                            <data>
+                                <ins>
+                                    <block-addr>30</block-addr>
+                                    <out-addr>2</out-addr>
+                                </ins>
+                                <outs>
+                                    <str-tunarray-element>
+                                        <offset>0</offset>
+                                        <size>1</size>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <offset>1</offset>
+                                        <size>1</size>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <offset>2</offset>
+                                        <size>1</size>
+                                    </str-tunarray-element>
+                                </outs>
+                            </data>
+                        </split-real-array>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>30</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <rvarid>303</rvarid>
+                            </data>
+                        </rvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>31</block-addr>
+                                    <out-addr>1</out-addr>
+                                </input>
+                                <rvarid>1</rvarid>
+                            </data>
+                        </rvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>30</block-addr>
+                                    <out-addr>1</out-addr>
+                                </input>
+                                <rvarid>0</rvarid>
+                            </data>
+                        </rvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <wind>
+                            <block-type>114</block-type>
+                            <data>
+                                <in>
+                                    <block-addr>30</block-addr>
+                                    <out-addr>2</out-addr>
+                                </in>
+                                <in_ak0>
+                                    <is-not-connected>
+                                        <connected>0</connected>
+                                    </is-not-connected>
+                                </in_ak0>
+                                <in_Pk0>
+                                    <is-not-connected>
+                                        <connected>0</connected>
+                                    </is-not-connected>
+                                </in_Pk0>
+                                <Q>
+                                    <a00>1.0E-4</a00>
+                                    <a10>0.0</a10>
+                                    <a20>0.0</a20>
+                                    <a01>0.0</a01>
+                                    <a11>1.0E-4</a11>
+                                    <a21>0.0</a21>
+                                    <a02>0.0</a02>
+                                    <a12>0.0</a12>
+                                    <a22>1.0E-4</a22>
+                                </Q>
+                                <ak>
+                                    <x>0.0</x>
+                                    <y>0.0</y>
+                                    <z>0.0</z>
+                                </ak>
+                                <Pk>
+                                    <a00>1.0</a00>
+                                    <a10>0.0</a10>
+                                    <a20>0.0</a20>
+                                    <a01>0.0</a01>
+                                    <a11>1.0</a11>
+                                    <a21>0.0</a21>
+                                    <a02>0.0</a02>
+                                    <a12>0.0</a12>
+                                    <a22>1.0</a22>
+                                </Pk>
+                                <decimation>1</decimation>
+                                <ub>
+                                    <x>1.0</x>
+                                    <y>0.0</y>
+                                    <z>0.0</z>
+                                </ub>
+                            </data>
+                        </wind>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <mult_rvarset>
+                            <block-type>18</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>35</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <rvarid>2800</rvarid>
+                                <n>3</n>
+                            </data>
+                        </mult_rvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <mult_rvarset>
+                            <block-type>18</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>35</block-addr>
+                                    <out-addr>1</out-addr>
+                                </input>
+                                <rvarid>2803</rvarid>
+                                <n>9</n>
+                            </data>
+                        </mult_rvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-r2xr1>
+                            <block-type>28</block-type>
+                            <data>
+                                <input0>
+                                    <block-addr>0</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input0>
+                                <input1>
+                                    <block-addr>1</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input1>
+                                <type>6</type>
+                            </data>
+                        </func-r2xr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>38</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <rvarid>2812</rvarid>
+                            </data>
+                        </rvarset>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <build-real-array>
+                            <block-type>6</block-type>
+                            <ins>
+                                <str-tunarray-element>
+                                    <block-addr>1</block-addr>
+                                    <out-addr>0</out-addr>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <block-addr>0</block-addr>
+                                    <out-addr>0</out-addr>
+                                </str-tunarray-element>
+                            </ins>
+                        </build-real-array>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-rnxr1>
+                            <block-type>31</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>40</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <type>2</type>
+                            </data>
+                        </func-rnxr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>41</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <rvarid>2813</rvarid>
+                            </data>
+                        </rvarset>
                     </str-tunarray-element>
                 </blocks>
             </str-tunarray-element>

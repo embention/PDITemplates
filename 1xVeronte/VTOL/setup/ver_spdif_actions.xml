@@ -3,8 +3,8 @@
     <filename>actions.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <action-array>
@@ -445,9 +445,9 @@
                 <data>
                     <acset-flyto>
                         <type>0</type>
-                        <idCfg>191</idCfg>
+                        <idCfg>198</idCfg>
                         <str>
-                            <flyto-cmd>1</flyto-cmd>
+                            <flyto-cmd>0</flyto-cmd>
                         </str>
                     </acset-flyto>
                 </data>
