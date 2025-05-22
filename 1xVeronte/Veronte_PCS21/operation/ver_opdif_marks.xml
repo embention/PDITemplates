@@ -3,17 +3,8 @@
     <filename>marks.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
-    <data>
-        <str-tunarray-element str-tunarray-key="0">
-            <data>
-                <t>0</t>
-                <psid>0</psid>
-                <id>4</id>
-                <s>500.0</s>
-            </data>
-        </str-tunarray-element>
-    </data>
+    <data/>
 </entry-rmark>

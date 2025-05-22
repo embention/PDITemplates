@@ -3,18 +3,18 @@
     <filename>ppm0.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
-        <puls_pol>0</puls_pol>
+        <puls_pol>1</puls_pol>
         <vguard>0.004</vguard>
         <puls_min>2.5E-4</puls_min>
         <puls_max>5.0E-4</puls_max>
         <valid_min>8.0E-4</valid_min>
         <valid_max>0.0022</valid_max>
-        <pos_min>9.0E-4</pos_min>
-        <pos_max>0.0021</pos_max>
+        <pos_min>0.0011</pos_min>
+        <pos_max>0.0019</pos_max>
         <ch_num>8</ch_num>
         <chmsk>255</chmsk>
         <fmsk>255</fmsk>

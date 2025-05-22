@@ -1,0 +1,15 @@
+<entry-mxplane>
+    <id>149</id>
+    <filename>mxplane.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>14</minor>
+        <revision>29</revision>
+    </version>
+    <data>
+        <map>
+            <data-veronte/>
+            <data-xplane/>
+        </map>
+    </data>
+</entry-mxplane>
