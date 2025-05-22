@@ -3,8 +3,8 @@
     <filename>runway.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <runways>
@@ -15,9 +15,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6990790</lon>
-                                    <lat>383833743</lat>
-                                    <alt>357910</alt>
+                                    <lon>-6978303</lon>
+                                    <lat>383837475</lat>
+                                    <alt>332180</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -28,9 +28,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6981206</lon>
-                                    <lat>383825535</lat>
-                                    <alt>328560</alt>
+                                    <lon>-6978303</lon>
+                                    <lat>383832475</lat>
+                                    <alt>301120</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -40,14 +40,14 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6978869</lon>
-                                    <lat>383834231</lat>
-                                    <alt>331570</alt>
+                                    <lon>-6979429</lon>
+                                    <lat>383826209</lat>
+                                    <alt>300190</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
                     </fend>
-                    <preferred>1</preferred>
+                    <preferred>0</preferred>
                     <margin-ratio>0.0</margin-ratio>
                     <margin-reverse-ratio>0.0</margin-reverse-ratio>
                 </runway>

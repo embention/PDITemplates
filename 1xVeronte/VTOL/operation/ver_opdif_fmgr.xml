@@ -3,96 +3,11 @@
     <filename>fmgr.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
-        <genericOp>
-            <str-tunarray-element str-tunarray-key="3">
-                <data>
-                    <wrt-choice>
-                        <wrt-choice-abs>
-                            <wrt>65535</wrt>
-                            <pos>
-                                <lon>0</lon>
-                                <lat>0</lat>
-                                <alt>0</alt>
-                            </pos>
-                        </wrt-choice-abs>
-                    </wrt-choice>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="4">
-                <data>
-                    <wrt-choice>
-                        <wrt-choice-abs>
-                            <wrt>65535</wrt>
-                            <pos>
-                                <lon>-6976261</lon>
-                                <lat>383844271</lat>
-                                <alt>361570</alt>
-                            </pos>
-                        </wrt-choice-abs>
-                    </wrt-choice>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="5">
-                <data>
-                    <wrt-choice>
-                        <wrt-choice-abs>
-                            <wrt>65535</wrt>
-                            <pos>
-                                <lon>0</lon>
-                                <lat>0</lat>
-                                <alt>0</alt>
-                            </pos>
-                        </wrt-choice-abs>
-                    </wrt-choice>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="6">
-                <data>
-                    <wrt-choice>
-                        <wrt-choice-abs>
-                            <wrt>65535</wrt>
-                            <pos>
-                                <lon>-7006271</lon>
-                                <lat>383847384</lat>
-                                <alt>360570</alt>
-                            </pos>
-                        </wrt-choice-abs>
-                    </wrt-choice>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="8">
-                <data>
-                    <wrt-choice>
-                        <wrt-choice-abs>
-                            <wrt>65535</wrt>
-                            <pos>
-                                <lon>-6981091</lon>
-                                <lat>383821930</lat>
-                                <alt>360560</alt>
-                            </pos>
-                        </wrt-choice-abs>
-                    </wrt-choice>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="9">
-                <data>
-                    <wrt-choice>
-                        <wrt-choice-abs>
-                            <wrt>65535</wrt>
-                            <pos>
-                                <lon>-7008165</lon>
-                                <lat>383823723</lat>
-                                <alt>360570</alt>
-                            </pos>
-                        </wrt-choice-abs>
-                    </wrt-choice>
-                </data>
-            </str-tunarray-element>
-        </genericOp>
+        <genericOp/>
         <specifiedOp/>
     </data>
 </entry-fmgr>

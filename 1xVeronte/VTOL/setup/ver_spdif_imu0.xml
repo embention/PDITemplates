@@ -3,8 +3,8 @@
     <filename>imu0.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <accelRange>4</accelRange>
@@ -23,5 +23,7 @@
         <temp_enabled>1</temp_enabled>
         <accel_max_nv_samples>30</accel_max_nv_samples>
         <gyro_max_nv_samples>40</gyro_max_nv_samples>
+        <acc_max_delta>313.8128</acc_max_delta>
+        <gyr_max_delta>69.81317</gyr_max_delta>
     </data>
 </entry-imu0>

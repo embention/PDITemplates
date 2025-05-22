@@ -3,8 +3,8 @@
     <filename>imu2.bin</filename>
     <version>
         <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <minor>14</minor>
+        <revision>29</revision>
     </version>
     <data>
         <accRange>3</accRange>
@@ -14,5 +14,7 @@
         <gyrRange>0</gyrRange>
         <gyrOdrBw>1</gyrOdrBw>
         <gyrMaxNvSamples>30</gyrMaxNvSamples>
+        <acc_max_delta>470.7192</acc_max_delta>
+        <gyr_max_delta>69.81317</gyr_max_delta>
     </data>
 </entry-imu2>
