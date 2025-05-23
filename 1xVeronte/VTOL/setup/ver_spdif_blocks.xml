@@ -11124,6 +11124,30 @@
                             </data>
                         </rvarset>
                     </str-tunarray-element>
+                    <str-tunarray-element>
+                        <func-rnxr1>
+                            <block-type>31</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>35</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <type>2</type>
+                            </data>
+                        </func-rnxr1>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <rvarset>
+                            <block-type>10</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>43</block-addr>
+                                    <out-addr>0</out-addr>
+                                </input>
+                                <rvarid>3179</rvarid>
+                            </data>
+                        </rvarset>
+                    </str-tunarray-element>
                 </blocks>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -12172,7 +12196,11 @@
                                                                                                                 <out>0</out>
                                                                                                             </str-tunarray-element>
                                                                                                             <str-tunarray-element>
-                                                                                                                <in>4</in>
+                                                                                                                <in>5</in>
+                                                                                                                <out>1</out>
+                                                                                                            </str-tunarray-element>
+                                                                                                            <str-tunarray-element>
+                                                                                                                <in>6</in>
                                                                                                                 <out>1</out>
                                                                                                             </str-tunarray-element>
                                                                                                         </blk-switch-map>
@@ -13366,7 +13394,7 @@
                                                                                 <acc_obstacles>
                                                                                     <vref-kval>
                                                                                         <type>65534</type>
-                                                                                        <kval>0.7</kval>
+                                                                                        <kval>3.0</kval>
                                                                                     </vref-kval>
                                                                                 </acc_obstacles>
                                                                             </data>
@@ -13518,7 +13546,7 @@
                                                                                 <acc_obstacles>
                                                                                     <vref-kval>
                                                                                         <type>65534</type>
-                                                                                        <kval>0.7</kval>
+                                                                                        <kval>4.0</kval>
                                                                                     </vref-kval>
                                                                                 </acc_obstacles>
                                                                             </data>

@@ -16,9 +16,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6977820</lon>
-                                    <lat>383834577</lat>
-                                    <alt>340564</alt>
+                                    <lon>-6986478</lon>
+                                    <lat>383836848</lat>
+                                    <alt>350570</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -38,9 +38,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6978785</lon>
-                                    <lat>383821962</lat>
-                                    <alt>340564</alt>
+                                    <lon>-6989264</lon>
+                                    <lat>383818906</lat>
+                                    <alt>350560</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -60,9 +60,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6992626</lon>
-                                    <lat>383824737</lat>
-                                    <alt>340564</alt>
+                                    <lon>-7010722</lon>
+                                    <lat>383823952</lat>
+                                    <alt>350560</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -73,8 +73,8 @@
                             <patch-cfg-type>3</patch-cfg-type>
                             <data>
                                 <rk>
-                                    <x>-95.6891</x>
-                                    <y>-8.906296</y>
+                                    <x>-139.10594</x>
+                                    <y>63.75277</y>
                                 </rk>
                                 <nturns>0</nturns>
                             </data>
@@ -89,9 +89,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6991016</lon>
-                                    <lat>383836932</lat>
-                                    <alt>340564</alt>
+                                    <lon>-7006001</lon>
+                                    <lat>383839259</lat>
+                                    <alt>350570</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -102,56 +102,12 @@
                             <patch-cfg-type>3</patch-cfg-type>
                             <data>
                                 <rk>
-                                    <x>111.09492</x>
-                                    <y>17.350355</y>
+                                    <x>177.68091</x>
+                                    <y>43.136177</y>
                                 </rk>
                                 <nturns>0</nturns>
                             </data>
                         </arc>
-                    </cfg>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="4">
-                <data>
-                    <wp>
-                        <wrt-choice>
-                            <wrt-choice-abs>
-                                <wrt>65535</wrt>
-                                <pos>
-                                    <lon>-6975111</lon>
-                                    <lat>383828753</lat>
-                                    <alt>331510</alt>
-                                </pos>
-                            </wrt-choice-abs>
-                        </wrt-choice>
-                    </wp>
-                    <next>65535</next>
-                    <cfg>
-                        <point>
-                            <patch-cfg-type>0</patch-cfg-type>
-                        </point>
-                    </cfg>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="5">
-                <data>
-                    <wp>
-                        <wrt-choice>
-                            <wrt-choice-abs>
-                                <wrt>65535</wrt>
-                                <pos>
-                                    <lon>-6976345</lon>
-                                    <lat>383827849</lat>
-                                    <alt>331340</alt>
-                                </pos>
-                            </wrt-choice-abs>
-                        </wrt-choice>
-                    </wp>
-                    <next>65535</next>
-                    <cfg>
-                        <point>
-                            <patch-cfg-type>0</patch-cfg-type>
-                        </point>
                     </cfg>
                 </data>
             </str-tunarray-element>

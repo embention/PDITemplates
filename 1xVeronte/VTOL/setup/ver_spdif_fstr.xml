@@ -7,7 +7,7 @@
         <revision>29</revision>
     </version>
     <data>
-        <periode>0.05</periode>
+        <periode>0.025</periode>
         <fields>
             <str-tunarray-element>
                 <data-fieldset>

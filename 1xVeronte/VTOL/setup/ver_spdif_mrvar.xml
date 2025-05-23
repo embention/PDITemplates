@@ -1230,7 +1230,7 @@
                 <id>3179</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Wind Velocity - Norm</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1469,7 +1469,7 @@
                 <id>2701</id>
                 <value>
                     <description>
-                        <name>Unnamed Operation 2701</name>
+                        <name/>
                     </description>
                     <unit>
                         <exist-unit>
@@ -1483,7 +1483,7 @@
                 <id>2702</id>
                 <value>
                     <description>
-                        <name>Unnamed Operation 2702</name>
+                        <name/>
                     </description>
                     <unit>
                         <exist-unit>
@@ -1497,7 +1497,7 @@
                 <id>2703</id>
                 <value>
                     <description>
-                        <name>Unnamed Operation 2703</name>
+                        <name/>
                     </description>
                     <unit>
                         <exist-unit>
