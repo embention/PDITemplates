@@ -51,7 +51,7 @@
                 <var-name-array>
                     <str-tunarray-element str-tunarray-key="1">
                         <data>
-                            <name>Unnamed Waypoint 1</name>
+                            <name>Cruise Start</name>
                             <mandatory>0</mandatory>
                             <color>
                                 <r>225</r>

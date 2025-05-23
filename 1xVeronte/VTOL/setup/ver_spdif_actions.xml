@@ -447,7 +447,7 @@
                         <type>0</type>
                         <idCfg>198</idCfg>
                         <str>
-                            <flyto-cmd>0</flyto-cmd>
+                            <flyto-cmd>1</flyto-cmd>
                         </str>
                     </acset-flyto>
                 </data>
