@@ -1,7 +1,7 @@
 ---
 name: Problem Report
 about: Describe a PR
-title: ''
+title: "[PR] [ptag] [mtag] [itag] [utag]"
 labels: Analysis, Comment, PR
 assignees: ''
 
@@ -15,40 +15,31 @@ assignees: ''
 <!-- Procedimiento Problem Report: -->
 <!-- https://documentation.embention.net/411/en/latest/index.html  -->
 
-## Configuration
+
+## Identification/Configuration
 | item | version |
 | - | - |
-| **HW name/version** | <!-- If apply, E.g.:  Veronte AP 4.8 --> |
-| **FW version** | <!-- If apply, E.g.: Veronte 6.8.55 --> |
-| **APP name/version** | <!-- If apply, 1xPDI Builder 6.8.53 --> |
-| **Setup/Environment** | <!-- If apply, Specific setup details --> |
+| **item name/version** | <!-- If apply, E.g.:  Veronte AP 4.8 --> |
 | **Config files** | <!-- If apply, Attached .zip file --> |
-| **Docs/Artifacts** | <!-- If apply, SCMP-2.2 --> |
 
 ## Problem description
-<!-- Problem/bug description -->
+<!-- Problem/bug description, details to reproduce the failure, URLs, screenShoots, Traceback errors, printed errors -->
 
 ## Classification 
 <!-- Categories: Significant, Functional, Process, Life-cycle Data, Other-->
 - [ ] The classification label has been added 
-
-## Steps to reproduce
-<!-- If known, details to reproduce the failure, URLs, screenShoots, Traceback errors, printed errors, ... -->
-
-## Expected results
-<!-- If known, functional expected result, ...-->
 
 ## PR monitoring 
 <!-- to be checked during the management of the PR -->
 
 **Impact assessment**
 <!-- The impact of having the PR open at the time of product sale or certification -->
-  - [ ] General evaluation impact:
   - [ ] Functional limitations/operational restrictions at the equipment level (If apply):
   - [ ] Relationship with other PRs/issues (If apply): 
 <!-- Link issues to their outputs, including related repository commits with the change control activity information -->
   - [ ] Root cause (If Functional/Significant PR):
-  - [ ] Assessment results:
+<!-- Include root cause type (Procedure, Training, Resources, Human Error, Attitude) and a brief explanation -->
+  - [ ] Assessment results (If apply):
 <!-- List here the description of any mitigations or justifications used to:
 
       - Significant PR: substantiate the acceptability of the PR safety effect.
@@ -57,10 +48,8 @@ assignees: ''
       - Process, LCD or Other PR: justify that the error cannot have a safety or functional effect.   -->  
 
 **Corrective actions**
-- [ ] 1.
-- [ ] 2.
-- [ ] 3.
-<!-- Assign responsibles for activities-->
+<!-- Add all corrective actions and assign responsibles for activities-->
+  - [ ] 1.
 
 **Are preventive actions required?**
 <!-- Action to eliminate the root cause of a discrepancy and prevent reoccurrence, e.g. updating procedures, providing training, improving resources, etc). -->
