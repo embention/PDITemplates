@@ -1,0 +1,97 @@
+name: "Problem Report"
+description: "Register and track a Problem Report (PR)"
+title: "[PR] [ptag] [itag] [utag] Text string"
+labels: ["Analysis", "Comment", "PR"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```
+        Example:
+        [PR] [1xVeronte] [IMU] [BLOCKS] Missing requirements and verification review
+        ```
+
+  - type: input
+    id: references
+    attributes:
+      label: References
+      placeholder: "#1234"
+    validations:
+      required: false
+
+  - type: input
+    id: item_name
+    attributes:
+      label: Item name/version
+      placeholder: "If apply, E.g: Veronte AP 4.8"
+    validations:
+      required: false
+
+  - type: input
+    id: config_files
+    attributes:
+      label: Config files
+      placeholder: "If apply, Attached .zip file"
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem_description
+    attributes:
+      label: Problem description
+      placeholder: "Describe the problem, steps to reproduce, related URLs, screenshots, tracebacks, or errors"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: classification_confirmation
+    attributes:
+      label: Confirm classification label added
+      description: Confirm that you have  added the appropriate classification label to this issue (Significant, Functional, Process, Life-cycle Data, Other), in accordance with [P.411 - Problem Reporting](https://documentation.embention.net/411/en/017/index.md#classification-of-pr)
+      options:
+        - label: I have added the appropriate classification label
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        > [!WARNING]
+        > ### As PR author
+        >
+        > In coordination with the corresponding **Team Leader** or **Project Manager**, you must:
+        > - Set the corresponding milestone  
+        > - Assign the issue  
+        > - Add it to a project  
+        > - Continuously follow up on the PR to ensure it progresses until it is closed
+
+  - type: textarea
+    id: info_suceso_posterior
+    attributes:
+      label: 🚨 PR monitoring (to be completed by the PR manager)
+      description: This section will be filled in later. Create the issue without completing it.
+      value: |
+        **Impact assessment**
+        <!-- The impact of having the PR open at the time of product sale or certification -->
+          - [ ] Functional limitations/operational restrictions at the equipment level (If apply):
+          - [ ] Relationship with other PRs/issues (If apply): 
+          - [ ] Root cause (If Functional/Significant PR):
+          - [ ] Assessment results (If apply):
+
+        **Corrective actions**
+          - [ ] 1.
+
+        **Are preventive actions required?**
+        - [ ] Yes -> Mention Quality department to create a NC (Non Conformity). FYI: _____
+        - [ ] No
+
+        **PR resolution**
+        - Final analysis:
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        See [P.411 - Problem Reporting](https://documentation.embention.net/411/en/latest/index.html) for additional information
