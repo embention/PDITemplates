@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>54</revision>
+        <revision>75</revision>
     </version>
     <data>
         <map>
@@ -454,7 +454,7 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data>
-                                        <entry>0.2</entry>
+                                        <entry>0.15</entry>
                                         <color>
                                             <r>255</r>
                                             <g>102</g>
@@ -465,7 +465,7 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data>
-                                        <entry>0.2</entry>
+                                        <entry>0.15</entry>
                                         <color>
                                             <r>255</r>
                                             <g>255</g>
@@ -498,7 +498,7 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data>
-                                        <entry>0.95</entry>
+                                        <entry>0.7</entry>
                                         <color>
                                             <r>255</r>
                                             <g>255</g>
@@ -509,7 +509,7 @@
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data>
-                                        <entry>0.95</entry>
+                                        <entry>0.7</entry>
                                         <color>
                                             <r>255</r>
                                             <g>255</g>
@@ -806,7 +806,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="22">
                 <data>
-                    <name>Position Fix</name>
+                    <name>Trim down</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -821,7 +821,32 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>10</icon>
+                            <icon>83</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="23">
+                <data>
+                    <name>Trim up</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>107</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>

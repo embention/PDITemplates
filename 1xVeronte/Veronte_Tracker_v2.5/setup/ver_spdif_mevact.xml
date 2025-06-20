@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>54</revision>
+        <revision>75</revision>
     </version>
     <data>
         <map>
@@ -136,9 +136,16 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="18">
                 <data>
-                    <name>Define Home</name>
-                    <group>2</group>
-                    <order>1</order>
+                    <name>Trim down</name>
+                    <group>3</group>
+                    <order>4</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <name>Trim up</name>
+                    <group>3</group>
+                    <order>5</order>
                 </data>
             </str-tunarray-element>
         </map>
