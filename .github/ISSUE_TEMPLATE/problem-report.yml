@@ -9,7 +9,7 @@ body:
       value: |
         ```
         Example:
-        [PR] [1xVeronte] [IMU] [BLOCKS] Missing requirements and verification review
+        [PR] [1x] [IMU] Missing requirements and verification review
         ```
 
   - type: input
@@ -58,13 +58,10 @@ body:
     attributes:
       value: |
         > [!WARNING]
-        > ### As PR author
-        >
-        > In coordination with the corresponding **Team Leader** or **Project Manager**, you must:
-        > - Set the corresponding milestone  
-        > - Assign the issue  
-        > - Add it to a project  
-        > - Continuously follow up on the PR to ensure it progresses until it is closed
+        > ### As PR author, you must:
+        > 
+        > - Assign the issue to the corresponding TPMO  
+        > - Be sure to add the label of the department that is most closely related to the PR    
 
   - type: textarea
     id: info_suceso_posterior
@@ -72,6 +69,9 @@ body:
       label: 🚨 PR monitoring (to be completed by the PR manager)
       description: This section will be filled in later. Create the issue without completing it.
       value: |
+
+        - [ ]  Milestone and Project have been set
+        
         **Impact assessment**
         <!-- The impact of having the PR open at the time of product sale or certification -->
           - [ ] Functional limitations/operational restrictions at the equipment level (If apply):
@@ -81,10 +81,6 @@ body:
 
         **Corrective actions**
           - [ ] 1.
-
-        **Are preventive actions required?**
-        - [ ] Yes -> Mention Quality department to create a NC (Non Conformity). FYI: _____
-        - [ ] No
 
         **PR resolution**
         - Final analysis:
