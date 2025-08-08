@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>75</revision>
+        <revision>72</revision>
     </version>
     <data>
         <map>
@@ -16,16 +16,6 @@
             <str-tunarray-element str-tunarray-key="1">
                 <data>
                     <string>Battery</string>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="2">
-                <data>
-                    <string>Trim Step tilt</string>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="7">
-                <data>
-                    <string>SENSORS</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="18">
