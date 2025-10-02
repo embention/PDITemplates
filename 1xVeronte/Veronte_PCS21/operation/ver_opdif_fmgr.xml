@@ -4,10 +4,32 @@
     <version>
         <major>6</major>
         <minor>14</minor>
-        <revision>29</revision>
+        <revision>37</revision>
     </version>
     <data>
-        <genericOp/>
+        <genericOp>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <lon>0</lon>
+                    <lat>0</lat>
+                    <alt>0</alt>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <lon>0</lon>
+                    <lat>0</lat>
+                    <alt>0</alt>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <lon>0</lon>
+                    <lat>0</lat>
+                    <alt>0</alt>
+                </data>
+            </str-tunarray-element>
+        </genericOp>
         <specifiedOp/>
     </data>
 </entry-fmgr>

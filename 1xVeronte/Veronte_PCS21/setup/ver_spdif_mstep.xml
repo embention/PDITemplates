@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>14</minor>
-        <revision>29</revision>
+        <revision>37</revision>
     </version>
     <data>
         <map>
@@ -18,7 +18,7 @@
                     <string>Battery</string>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="21">
+            <str-tunarray-element str-tunarray-key="2">
                 <data>
                     <string>Navigation</string>
                 </data>
