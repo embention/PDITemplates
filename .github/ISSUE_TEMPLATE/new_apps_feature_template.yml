@@ -1,0 +1,20 @@
+name: "🚀 New Apps Feature"
+description: "Inicia el proceso de una nueva version para diferentes productos."
+title: "[APPS] [New Feature] [product] - Title"
+labels: ["Apps", "Analysis", "Comment", "Epic"]
+assignees: ["acg3", "adm5"] 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Checklist de Plataformas
+        - Marcar targets que se verán afectados por este release.
+        - Se creará una sub-issue anidada para cada target
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Plataformas Afectadas
+      description: "El workflow creará 2 sub-issues."
+      options:
+        - label: "Apps"
+        - label: "QA-Apps"
