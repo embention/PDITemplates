@@ -8,10 +8,6 @@ jobs:
   trigger-workflow:
     # El workflow solo se ejecuta si el título de la issue empieza con '[APPS] [New Feature]'
     if: startsWith(github.event.issue.title, '[APPS] [New Feature]')
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger the Project Planning Workflow
-        uses: embention/sw_ci_libs/.github/workflows/new_feature_apps.yml@develop
-        secrets:
-          ORG_GH_ACTION_ADD_ISSUE_TO_PROJECT: ${{ secrets.ORG_GH_ACTION_ADD_ISSUE_TO_PROJECT }}
-
+    uses: embention/sw_ci_libs/.github/workflows/new_feature_apps.yml@develop
+    secrets:
+      ORG_GH_ACTION_ADD_ISSUE_TO_PROJECT: ${{ secrets.ORG_GH_ACTION_ADD_ISSUE_TO_PROJECT }}
