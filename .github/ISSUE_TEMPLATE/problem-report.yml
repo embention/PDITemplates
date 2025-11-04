@@ -24,7 +24,7 @@ body:
     id: item_name
     attributes:
       label: Item name/version
-      placeholder: "If apply, E.g: Veronte AP 4.8"
+      placeholder: "If applicable, E.g: Veronte AP 4.8"
     validations:
       required: false
 
@@ -32,7 +32,7 @@ body:
     id: Additional_files
     attributes:
       label: Config files
-      placeholder: "If apply, Attached .zip .json file"
+      placeholder: "If applicable, Attached .zip .json file"
     validations:
       required: false
 
@@ -71,17 +71,20 @@ body:
       value: |
         
         **Impact assessment**
-        <!-- If don’t apply, indicate N/A and check the box-->
-        - [ ] Functional limitations/operational restrictions at the equipment level (If apply):
-        <!-- The impact of having the PR open at the time of product sale or certification -->  
+        <!-- If not applicable, explicitly indicate the reasons and check the box-->
+        - [ ] Functional limitations/operational restrictions at the equipment level (If applicable):
+        <!-- The impact of an open PR (Problem Report) existing at the time of product sale or certification. If it is not applicable, explicitly state there are no functional or operational restrictions -->
         
-        - [ ] Relationship with other PRs/issues (If apply): 
-        <!-- Link issues to their outputs, including related repository commits with the change control activity information --> 
+        - [ ] Relationship with other PRs/issues (If applicable): 
+        <!-- Link issues to their outputs, including related repository commits with the change control activity information. State "None" if not applicable -->
         
         - [ ] Root cause (If Functional/Significant PR):
         <!-- Include root cause type (Procedure, Training, Resources, Human Error, Attitude) and a brief explanation -->  
-        
-        - [ ] Assessment results (If apply):
+
+        - [ ] Affected artifacts and processes (If applicable):
+        <!-- Identify all affected artifacts and processes such as: requirements, design documents, code, test cases, verification procedures, hardware components, configuration items, etc. -->
+
+        - [ ] Assessment results (If applicable):
         <!-- List here the description of any mitigations or justifications used to:
         <!-- - Significant PR: substantiate the acceptability of the PR safety effect.
         <!-- - Functional PR: to reduce the PR safety effect to Minor or No Effect
