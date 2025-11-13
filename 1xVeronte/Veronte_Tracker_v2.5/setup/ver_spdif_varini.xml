@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>72</revision>
+        <revision>80</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -20,7 +20,7 @@
         <str-tunarray-element>
             <vtype>0</vtype>
             <id>3127</id>
-            <val0>9.81</val0>
+            <val0>-9.81</val0>
         </str-tunarray-element>
     </data>
 </entry-varini>

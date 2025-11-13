@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>72</revision>
+        <revision>80</revision>
     </version>
     <data>
         <action-array>
@@ -343,6 +343,158 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="14">
                 <data>
+                    <acset-block>
+                        <type>0</type>
+                        <idCfg>233</idCfg>
+                        <str>
+                            <cmd-option>0</cmd-option>
+                            <sel-idx>0</sel-idx>
+                            <block-cmd>
+                                <gimbal>
+                                    <block-cmd-type>2</block-cmd-type>
+                                    <data>
+                                        <g-target>
+                                            <mode>3</mode>
+                                            <target>
+                                                <ref-var>
+                                                    <type>0</type>
+                                                    <id>45056</id>
+                                                </ref-var>
+                                            </target>
+                                        </g-target>
+                                    </data>
+                                </gimbal>
+                            </block-cmd>
+                        </str>
+                    </acset-block>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1201</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>1.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1201</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>0.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1202</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>1.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <acset-var>
+                        <type>0</type>
+                        <idCfg>235</idCfg>
+                        <str>
+                            <var>
+                                <vrset>
+                                    <type>0</type>
+                                    <vars-array>
+                                        <str-tunarray-element>
+                                            <destination>
+                                                <vref-var>
+                                                    <type>2</type>
+                                                    <id>1202</id>
+                                                </vref-var>
+                                            </destination>
+                                            <source>
+                                                <vref-kval>
+                                                    <type>65534</type>
+                                                    <kval>0.0</kval>
+                                                </vref-kval>
+                                            </source>
+                                        </str-tunarray-element>
+                                    </vars-array>
+                                </vrset>
+                            </var>
+                        </str>
+                    </acset-var>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
                     <acset-gpio>
                         <type>0</type>
                         <idCfg>221</idCfg>
@@ -359,7 +511,7 @@
                     </acset-gpio>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="15">
+            <str-tunarray-element str-tunarray-key="20">
                 <data>
                     <acset-gpio>
                         <type>0</type>

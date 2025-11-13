@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>72</revision>
+        <revision>80</revision>
     </version>
     <data>
         <map>
@@ -139,6 +139,34 @@
                     <name>Define Home</name>
                     <group>2</group>
                     <order>1</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <name>Test Enable</name>
+                    <group>6</group>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="20">
+                <data>
+                    <name>Test Disable</name>
+                    <group>6</group>
+                    <order>1</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="21">
+                <data>
+                    <name>Test Point Tracking Enable</name>
+                    <group>6</group>
+                    <order>2</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="22">
+                <data>
+                    <name>Test Point Tracking Disable</name>
+                    <group>6</group>
+                    <order>3</order>
                 </data>
             </str-tunarray-element>
         </map>
