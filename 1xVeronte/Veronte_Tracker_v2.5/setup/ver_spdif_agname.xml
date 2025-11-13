@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>72</revision>
+        <revision>80</revision>
     </version>
     <data>
         <map>
@@ -36,6 +36,11 @@
             <str-tunarray-element str-tunarray-key="5">
                 <data>
                     <string>Failsafe</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <string>Testing</string>
                 </data>
             </str-tunarray-element>
         </map>

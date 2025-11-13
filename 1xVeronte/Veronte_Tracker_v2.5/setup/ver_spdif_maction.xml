@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>72</revision>
+        <revision>80</revision>
     </version>
     <data>
         <map>
@@ -179,7 +179,7 @@
             <str-tunarray-element str-tunarray-key="14">
                 <data>
                     <name>
-                        <name>Activate RF4</name>
+                        <name>Track Test Point</name>
                     </name>
                     <has-icon>
                         <has-icon-n>
@@ -189,6 +189,66 @@
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <name>
+                        <name>Test Enable</name>
+                    </name>
+                    <has-icon>
+                        <has-icon-n>
+                            <hasIcon>0</hasIcon>
+                        </has-icon-n>
+                    </has-icon>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <name>
+                        <name>Test Disable</name>
+                    </name>
+                    <has-icon>
+                        <has-icon-n>
+                            <hasIcon>0</hasIcon>
+                        </has-icon-n>
+                    </has-icon>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <name>
+                        <name>Track Test Point Enable</name>
+                    </name>
+                    <has-icon>
+                        <has-icon-n>
+                            <hasIcon>0</hasIcon>
+                        </has-icon-n>
+                    </has-icon>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <name>
+                        <name>Track Test Point Disable</name>
+                    </name>
+                    <has-icon>
+                        <has-icon-n>
+                            <hasIcon>0</hasIcon>
+                        </has-icon-n>
+                    </has-icon>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <name>
+                        <name>Activate RF4</name>
+                    </name>
+                    <has-icon>
+                        <has-icon-n>
+                            <hasIcon>0</hasIcon>
+                        </has-icon-n>
+                    </has-icon>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="20">
                 <data>
                     <name>
                         <name>Activate RF3</name>

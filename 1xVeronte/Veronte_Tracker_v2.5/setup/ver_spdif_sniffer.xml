@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>72</revision>
+        <revision>80</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -27,7 +27,7 @@
                 </str-tunarray-element>
             </fields>
             <pktmask>
-                <uav>998</uav>
+                <uav>4582</uav>
             </pktmask>
             <map>
                 <str-tunarray-element str-tunarray-key="0">
@@ -45,7 +45,7 @@
                     </data>
                 </str-tunarray-element>
             </map>
-            <accept_all>1</accept_all>
+            <accept_all>0</accept_all>
             <timeout>0.0</timeout>
         </str-tunarray-element>
     </data>

@@ -4,7 +4,7 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>72</revision>
+        <revision>80</revision>
     </version>
     <data>
         <map>
@@ -456,9 +456,9 @@
                                     <data>
                                         <entry>0.2</entry>
                                         <color>
-                                            <r>255</r>
-                                            <g>102</g>
-                                            <b>102</b>
+                                            <r>153</r>
+                                            <g>204</g>
+                                            <b>153</b>
                                             <a>255</a>
                                         </color>
                                     </data>
@@ -807,6 +807,321 @@
             <str-tunarray-element str-tunarray-key="22">
                 <data>
                     <name>Position Fix</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="23">
+                <data>
+                    <name>INI &amp; RDY</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="24">
+                <data>
+                    <name>Test Enable Button</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>2</type>
+                                    <id>1201</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.0</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>102</g>
+                                            <b>102</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>1.5</entry>
+                                        <color>
+                                            <r>153</r>
+                                            <g>204</g>
+                                            <b>153</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                            </arrayColores>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>2517</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="25">
+                <data>
+                    <name>Test Enable = 0</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="26">
+                <data>
+                    <name>No name</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="27">
+                <data>
+                    <name>Test Enable = 1</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="28">
+                <data>
+                    <name>Test Point Tracking Butto</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>2</type>
+                                    <id>1202</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.0</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>102</g>
+                                            <b>102</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>0.5</entry>
+                                        <color>
+                                            <r>255</r>
+                                            <g>255</g>
+                                            <b>255</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data>
+                                        <entry>1.5</entry>
+                                        <color>
+                                            <r>128</r>
+                                            <g>179</g>
+                                            <b>128</b>
+                                            <a>255</a>
+                                        </color>
+                                    </data>
+                                </str-tunarray-element>
+                            </arrayColores>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>1437</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="29">
+                <data>
+                    <name>No name</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="30">
+                <data>
+                    <name>Track Test Point = 0</name>
+                    <dataTypeColor>
+                        <cmpType3>
+                            <typeColor>1</typeColor>
+                            <var>
+                                <vref-var>
+                                    <type>0</type>
+                                    <id>4101</id>
+                                </vref-var>
+                            </var>
+                            <arrayColores/>
+                        </cmpType3>
+                    </dataTypeColor>
+                    <check>
+                        <data>
+                            <icon>10</icon>
+                            <timeControl>0.0</timeControl>
+                            <check>0</check>
+                            <checkTime>0</checkTime>
+                        </data>
+                    </check>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="31">
+                <data>
+                    <name>Track Test Point = 1</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>

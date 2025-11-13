@@ -4,12 +4,12 @@
     <version>
         <major>6</major>
         <minor>12</minor>
-        <revision>72</revision>
+        <revision>80</revision>
     </version>
     <data>
         <model>0</model>
         <init_mode>0</init_mode>
-        <cm_id>0</cm_id>
+        <cm_id>-1</cm_id>
         <icao>0</icao>
         <emitter>0</emitter>
         <ascii-array>
