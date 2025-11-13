@@ -1,0 +1,13 @@
+name: Hardware Release
+
+on:
+  push:
+    tags:
+      - 'release/3d_*/*-*'
+      - 'release/hw_*/*-*'
+      - 'release/har_*/*-*'
+jobs:
+  generate_release:
+    uses: embention/sw_CI_Libs/.github/workflows/release_hardware_item_workflow.yml@develop
+    secrets: inherit
+
