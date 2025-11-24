@@ -1,0 +1,286 @@
+<entry-maction>
+    <id>130</id>
+    <filename>maction.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>25</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <name>
+                        <name>SBY</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <name>
+                        <name>HLD</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <name>
+                        <name>RTH</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <name>
+                        <name>HVR</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <name>
+                        <name>LND</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <name>
+                        <name>CRU</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <name>
+                        <name>TKO</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <name>
+                        <name>Atm Cal 1</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <name>
+                        <name>Remember Home</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="9">
+                <data>
+                    <name>
+                        <name>AUTO</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10">
+                <data>
+                    <name>
+                        <name>HLD</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="11">
+                <data>
+                    <name>
+                        <name>Arcade Mode</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="12">
+                <data>
+                    <name>
+                        <name>Trim Arcade</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="13">
+                <data>
+                    <name>
+                        <name>Enable Mission = 1</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <name>
+                        <name>Atm Cal 2</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <name>
+                        <name>LND</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <name>
+                        <name>Timer 1 Start</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <name>
+                        <name>Atm Calib GNSS1 ready</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <name>
+                        <name>Atm Calib GNSS2 ready</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="19">
+                <data>
+                    <name>
+                        <name>Enable Mission = 0</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="20">
+                <data>
+                    <name>
+                        <name>Start Cruise</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="21">
+                <data>
+                    <name>
+                        <name>ARM</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="22">
+                <data>
+                    <name>
+                        <name>Atm Calib GNSS1 NOT ready</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="23">
+                <data>
+                    <name>
+                        <name>SBY</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="24">
+                <data>
+                    <name>
+                        <name>Enable Mission = 1</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="25">
+                <data>
+                    <name>
+                        <name>Atm Calib GNSS2 NOT ready</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="26">
+                <data>
+                    <name>
+                        <name>To LDN</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="27">
+                <data>
+                    <name>
+                        <name>BITCylinder = 1</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="28">
+                <data>
+                    <name>
+                        <name>BITCylinder = 0</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="29">
+                <data>
+                    <name>
+                        <name>Attitude Limits</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="30">
+                <data>
+                    <name>
+                        <name>RDZ</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="31">
+                <data>
+                    <name>
+                        <name>Gimbal Zero</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="35">
+                <data>
+                    <name>
+                        <name>HLD (HVR)</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="42">
+                <data>
+                    <name>
+                        <name>No name</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="43">
+                <data>
+                    <name>
+                        <name>No name</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="44">
+                <data>
+                    <name>
+                        <name>Hover HERE</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="45">
+                <data>
+                    <name>
+                        <name>GE ON</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="46">
+                <data>
+                    <name>
+                        <name>GE Distance</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="47">
+                <data>
+                    <name>
+                        <name>GE OFF</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-maction>

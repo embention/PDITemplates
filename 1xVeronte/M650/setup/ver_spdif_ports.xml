@@ -1,0 +1,35 @@
+<entry-ports>
+    <id>64</id>
+    <filename>ports.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>25</revision>
+    </version>
+    <data>
+        <tables>
+            <str-tunarray-element>
+                <str-tunarray-element>
+                    <dst_addr>
+                        <uav>43073</uav>
+                    </dst_addr>
+                    <dst_mask>
+                        <uav>4294967295</uav>
+                    </dst_mask>
+                    <ports>260</ports>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <dst_addr>
+                        <uav>0</uav>
+                    </dst_addr>
+                    <dst_mask>
+                        <uav>0</uav>
+                    </dst_mask>
+                    <ports>764</ports>
+                </str-tunarray-element>
+            </str-tunarray-element>
+        </tables>
+        <ttl>3</ttl>
+        <curr_table>0</curr_table>
+    </data>
+</entry-ports>

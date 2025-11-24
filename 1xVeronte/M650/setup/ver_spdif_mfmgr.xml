@@ -1,0 +1,23 @@
+<entry-mfmgr>
+    <id>148</id>
+    <filename>mfmgr.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>25</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element str-tunarray-key="10240">
+                <data>
+                    <string>Remember Home</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10241">
+                <data>
+                    <string>Selected Home</string>
+                </data>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mfmgr>
