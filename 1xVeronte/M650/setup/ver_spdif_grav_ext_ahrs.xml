@@ -1,0 +1,14 @@
+<entry-grav-ext-ahrs>
+    <id>26</id>
+    <filename>grav_ext_ahrs.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>25</revision>
+    </version>
+    <data>
+        <m_disabled>
+            <mode>0</mode>
+        </m_disabled>
+    </data>
+</entry-grav-ext-ahrs>

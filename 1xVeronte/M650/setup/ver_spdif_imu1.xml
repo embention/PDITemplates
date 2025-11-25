@@ -1,0 +1,29 @@
+<entry-imu1>
+    <id>103</id>
+    <filename>imu1.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>25</revision>
+    </version>
+    <data>
+        <accelRange>4</accelRange>
+        <accelSampleRate>160</accelSampleRate>
+        <accelbw>0</accelbw>
+        <enOutDr>1</enOutDr>
+        <linear_lpf2>0</linear_lpf2>
+        <accel_dso_lpf2_en>0</accel_dso_lpf2_en>
+        <accel_dso_lpf2_fc>0</accel_dso_lpf2_fc>
+        <gyroRange>12</gyroRange>
+        <gyroSampleRate>128</gyroSampleRate>
+        <gyroHpfEn>0</gyroHpfEn>
+        <gyroHpf>0</gyroHpf>
+        <gyro_dso_lpf1_en>0</gyro_dso_lpf1_en>
+        <gyro_dso_lpf1_fc>0</gyro_dso_lpf1_fc>
+        <temp_enabled>1</temp_enabled>
+        <accel_max_nv_samples>10</accel_max_nv_samples>
+        <gyro_max_nv_samples>10</gyro_max_nv_samples>
+        <acc_max_delta>313.8128</acc_max_delta>
+        <gyr_max_delta>69.81317</gyr_max_delta>
+    </data>
+</entry-imu1>

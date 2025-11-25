@@ -1,0 +1,17 @@
+<entry-magResfilt>
+    <id>368</id>
+    <filename>magResfilt.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>25</revision>
+    </version>
+    <data>
+        <iir_cfg>
+            <enable>0</enable>
+            <cutoff_freq>1.0</cutoff_freq>
+        </iir_cfg>
+        <max_nv_samples>0</max_nv_samples>
+        <max_delta>1.0E-4</max_delta>
+    </data>
+</entry-magResfilt>
