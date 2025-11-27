@@ -26,9 +26,9 @@ assignees: ''
 - [ ] Tag Release
 
 
-@embention/product 
-@embention/scripts
-@embention/hardware-verification
+@embention/manuals
+@embention/cm
+@embention/tpmo
 
 
 <!-- Template for securization comment: -->
