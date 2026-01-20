@@ -2,23 +2,43 @@
     <id>64</id>
     <filename>ports.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>37</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>43</revision>
     </version>
     <data>
-        <str-tunarray-element str-tunarray-key="0">
-            <data>
-                <msk-port>103</msk-port>
-                <data-ports-aux>
-                    <str-tunarray-element>
-                        <address>
-                            <uav>2</uav>
-                        </address>
-                        <port>3</port>
-                    </str-tunarray-element>
-                </data-ports-aux>
-            </data>
-        </str-tunarray-element>
+        <tables>
+            <str-tunarray-element>
+                <str-tunarray-element>
+                    <dst_addr>
+                        <uav>2</uav>
+                    </dst_addr>
+                    <dst_mask>
+                        <uav>4294967295</uav>
+                    </dst_mask>
+                    <ports>76</ports>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <dst_addr>
+                        <uav>4294967295</uav>
+                    </dst_addr>
+                    <dst_mask>
+                        <uav>4294967295</uav>
+                    </dst_mask>
+                    <ports>1020</ports>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <dst_addr>
+                        <uav>0</uav>
+                    </dst_addr>
+                    <dst_mask>
+                        <uav>0</uav>
+                    </dst_mask>
+                    <ports>944</ports>
+                </str-tunarray-element>
+            </str-tunarray-element>
+        </tables>
+        <ttl>1</ttl>
+        <curr_table>0</curr_table>
     </data>
 </entry-ports>

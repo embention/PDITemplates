@@ -2,12 +2,13 @@
     <id>24</id>
     <filename>can-terminators.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>37</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>43</revision>
     </version>
     <data>
         <can_a_terminator_enabled>0</can_a_terminator_enabled>
         <can_b_terminator_enabled>0</can_b_terminator_enabled>
+        <can_fd_a_terminator_enabled>0</can_fd_a_terminator_enabled>
     </data>
 </entry-can-terminators>

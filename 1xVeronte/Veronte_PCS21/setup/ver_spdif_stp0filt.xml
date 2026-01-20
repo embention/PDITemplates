@@ -2,9 +2,9 @@
     <id>105</id>
     <filename>stp0filt.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>37</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>43</revision>
     </version>
     <data>
         <iir_cfg>

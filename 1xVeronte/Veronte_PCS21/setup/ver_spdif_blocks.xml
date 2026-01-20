@@ -2,9 +2,9 @@
     <id>432</id>
     <filename>blocks.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>37</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>43</revision>
     </version>
     <data>
         <programs>
@@ -942,7 +942,8 @@
                                                     <data>
                                                         <selected>0</selected>
                                                         <e2>100.0</e2>
-                                                        <qmin>1.0</qmin>
+                                                        <qinf-threshold>1.0</qinf-threshold>
+                                                        <qinf-under-threshold-value>1.0</qinf-under-threshold-value>
                                                     </data>
                                                 </senqinf>
                                             </str-tunarray-element>
@@ -954,7 +955,8 @@
                                                     <data>
                                                         <selected>3</selected>
                                                         <e2>100.0</e2>
-                                                        <qmin>1.0</qmin>
+                                                        <qinf-threshold>1.0</qinf-threshold>
+                                                        <qinf-under-threshold-value>1.0</qinf-under-threshold-value>
                                                     </data>
                                                 </senqinf>
                                             </str-tunarray-element>
@@ -966,7 +968,8 @@
                                                     <data>
                                                         <selected>4</selected>
                                                         <e2>100.0</e2>
-                                                        <qmin>1.0</qmin>
+                                                        <qinf-threshold>1.0</qinf-threshold>
+                                                        <qinf-under-threshold-value>1.0</qinf-under-threshold-value>
                                                     </data>
                                                 </senqinf>
                                             </str-tunarray-element>

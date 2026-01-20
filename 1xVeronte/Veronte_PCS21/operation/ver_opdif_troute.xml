@@ -2,9 +2,9 @@
     <id>67</id>
     <filename>troute.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>37</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>43</revision>
     </version>
     <data>
         <first>3</first>
@@ -24,6 +24,17 @@
                         </wrt-choice>
                     </wp>
                     <next>65535</next>
+                    <speed-cfg>
+                        <type-speed>
+                            <type>2</type>
+                            <vlink>1.0</vlink>
+                            <vpoint-cfg>
+                                <mode-fixed>
+                                    <mode>0</mode>
+                                </mode-fixed>
+                            </vpoint-cfg>
+                        </type-speed>
+                    </speed-cfg>
                     <cfg>
                         <point>
                             <patch-cfg-type>0</patch-cfg-type>
@@ -46,6 +57,17 @@
                         </wrt-choice>
                     </wp>
                     <next>3</next>
+                    <speed-cfg>
+                        <type-speed>
+                            <type>2</type>
+                            <vlink>1.0</vlink>
+                            <vpoint-cfg>
+                                <mode-fixed>
+                                    <mode>0</mode>
+                                </mode-fixed>
+                            </vpoint-cfg>
+                        </type-speed>
+                    </speed-cfg>
                     <cfg>
                         <line>
                             <patch-cfg-type>1</patch-cfg-type>
@@ -68,6 +90,17 @@
                         </wrt-choice>
                     </wp>
                     <next>4</next>
+                    <speed-cfg>
+                        <type-speed>
+                            <type>2</type>
+                            <vlink>1.0</vlink>
+                            <vpoint-cfg>
+                                <mode-fixed>
+                                    <mode>0</mode>
+                                </mode-fixed>
+                            </vpoint-cfg>
+                        </type-speed>
+                    </speed-cfg>
                     <cfg>
                         <line>
                             <patch-cfg-type>1</patch-cfg-type>
@@ -90,6 +123,17 @@
                         </wrt-choice>
                     </wp>
                     <next>5</next>
+                    <speed-cfg>
+                        <type-speed>
+                            <type>2</type>
+                            <vlink>1.0</vlink>
+                            <vpoint-cfg>
+                                <mode-fixed>
+                                    <mode>0</mode>
+                                </mode-fixed>
+                            </vpoint-cfg>
+                        </type-speed>
+                    </speed-cfg>
                     <cfg>
                         <line>
                             <patch-cfg-type>1</patch-cfg-type>
@@ -112,6 +156,17 @@
                         </wrt-choice>
                     </wp>
                     <next>2</next>
+                    <speed-cfg>
+                        <type-speed>
+                            <type>2</type>
+                            <vlink>1.0</vlink>
+                            <vpoint-cfg>
+                                <mode-fixed>
+                                    <mode>0</mode>
+                                </mode-fixed>
+                            </vpoint-cfg>
+                        </type-speed>
+                    </speed-cfg>
                     <cfg>
                         <line>
                             <patch-cfg-type>1</patch-cfg-type>
