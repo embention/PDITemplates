@@ -2,9 +2,9 @@
     <id>63</id>
     <filename>sniffer.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>37</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>43</revision>
     </version>
     <data>
         <str-tunarray-element>

@@ -1,0 +1,13 @@
+<entry-stg-vom-cfg>
+    <id>383</id>
+    <filename>stg_vom_cfg.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>43</revision>
+    </version>
+    <data>
+        <var0>1000</var0>
+        <var1>3100</var1>
+    </data>
+</entry-stg-vom-cfg>

@@ -2,9 +2,9 @@
     <id>9</id>
     <filename>ppm0.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>37</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>43</revision>
     </version>
     <data>
         <puls_pol>1</puls_pol>
@@ -163,7 +163,7 @@
                                 <mode>1</mode>
                                 <ich>0</ich>
                                 <address>
-                                    <uav>998</uav>
+                                    <uav>4294967295</uav>
                                 </address>
                                 <period_low_s>0.2</period_low_s>
                                 <period_hgh_s>0.025</period_hgh_s>
