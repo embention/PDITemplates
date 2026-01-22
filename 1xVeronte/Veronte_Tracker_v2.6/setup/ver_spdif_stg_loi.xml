@@ -1,0 +1,15 @@
+<entry-stg-loi>
+    <id>385</id>
+    <filename>stg_loi.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <loi>0</loi>
+            <addr>0</addr>
+        </str-tunarray-element>
+    </data>
+</entry-stg-loi>
