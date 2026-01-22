@@ -1,0 +1,27 @@
+<entry-oprrng>
+    <id>4</id>
+    <filename>oprrng.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <min>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>0.0</kval>
+                    </vref-kval>
+                </min>
+                <max>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>3.4028235E38</kval>
+                    </vref-kval>
+                </max>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-oprrng>

@@ -1,0 +1,17 @@
+<entry-mag5filt>
+    <id>268</id>
+    <filename>mag5filt.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+    </version>
+    <data>
+        <iir_cfg>
+            <enable>0</enable>
+            <cutoff_freq>1.0</cutoff_freq>
+        </iir_cfg>
+        <max_nv_samples>16</max_nv_samples>
+        <max_delta>0.0016</max_delta>
+    </data>
+</entry-mag5filt>
