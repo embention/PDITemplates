@@ -1,0 +1,62 @@
+<entry-sniffer>
+    <id>63</id>
+    <filename>sniffer.bin</filename>
+    <version>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_sniffer.xml
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+=======
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_sniffer.xml
+    </version>
+    <data>
+        <str-tunarray-element>
+            <fields>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <pos_abs>
+                            <type>10</type>
+                            <id>8192</id>
+                        </pos_abs>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>100</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+            </fields>
+            <pktmask>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_sniffer.xml
+                <uav>4294967295</uav>
+=======
+                <uav>998</uav>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_sniffer.xml
+            </pktmask>
+            <map>
+                <str-tunarray-element str-tunarray-key="0">
+                    <data>
+                        <type>11</type>
+                        <id-in>8192</id-in>
+                        <id-out>28672</id-out>
+                    </data>
+                </str-tunarray-element>
+                <str-tunarray-element str-tunarray-key="1">
+                    <data>
+                        <type>3</type>
+                        <id-in>100</id-in>
+                        <id-out>1200</id-out>
+                    </data>
+                </str-tunarray-element>
+            </map>
+            <accept_all>1</accept_all>
+            <timeout>0.0</timeout>
+        </str-tunarray-element>
+    </data>
+</entry-sniffer>

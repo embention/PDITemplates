@@ -1,0 +1,27 @@
+<entry-mmodes>
+    <id>127</id>
+    <filename>mmodes.bin</filename>
+    <version>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_mmodes.xml
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+=======
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_mmodes.xml
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>
+                <map>
+                    <abbreviation>65</abbreviation>
+                    <name>
+                        <name>Auto</name>
+                    </name>
+                </map>
+            </data>
+        </str-tunarray-element>
+    </data>
+</entry-mmodes>

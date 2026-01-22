@@ -1,0 +1,25 @@
+<entry-comstats>
+    <id>58</id>
+    <filename>comstats.bin</filename>
+    <version>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_comstats.xml
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+=======
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_comstats.xml
+    </version>
+    <data>
+        <rx_auto>1</rx_auto>
+        <rx_address>
+            <uav>4294967295</uav>
+        </rx_address>
+        <tx_period>1.0</tx_period>
+        <tx_address>
+            <uav>4294967295</uav>
+        </tx_address>
+    </data>
+</entry-comstats>

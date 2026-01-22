@@ -1,0 +1,14 @@
+<entry-sched-interp3>
+    <id>436</id>
+    <filename>sched-interp3.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_sched-interp3.xml
+        <revision>75</revision>
+=======
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_sched-interp3.xml
+    </version>
+    <data/>
+</entry-sched-interp3>

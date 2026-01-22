@@ -2,21 +2,15 @@
     <id>103</id>
     <filename>imu1.bin</filename>
     <version>
-<<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.6/setup/ver_spdif_imu1.xml
-        <major>7</major>
-        <minor>6</minor>
-        <revision>41</revision>
-========
         <major>6</major>
         <minor>12</minor>
-        <revision>54</revision>
->>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_imu0.xml
+        <revision>37</revision>
     </version>
     <data>
         <accelRange>4</accelRange>
         <accelSampleRate>160</accelSampleRate>
         <accelbw>0</accelbw>
-        <enOutDr>1</enOutDr>
+        <enOutDr>0</enOutDr>
         <linear_lpf2>0</linear_lpf2>
         <accel_dso_lpf2_en>0</accel_dso_lpf2_en>
         <accel_dso_lpf2_fc>0</accel_dso_lpf2_fc>
@@ -27,9 +21,7 @@
         <gyro_dso_lpf1_en>0</gyro_dso_lpf1_en>
         <gyro_dso_lpf1_fc>0</gyro_dso_lpf1_fc>
         <temp_enabled>1</temp_enabled>
-        <accel_max_nv_samples>10</accel_max_nv_samples>
-        <gyro_max_nv_samples>10</gyro_max_nv_samples>
-        <acc_max_delta>313.8128</acc_max_delta>
-        <gyr_max_delta>69.81317</gyr_max_delta>
+        <accel_max_nv_samples>30</accel_max_nv_samples>
+        <gyro_max_nv_samples>40</gyro_max_nv_samples>
     </data>
 </entry-imu1>

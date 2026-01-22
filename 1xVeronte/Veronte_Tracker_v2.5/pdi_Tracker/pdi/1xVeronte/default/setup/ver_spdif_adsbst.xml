@@ -1,0 +1,33 @@
+<entry-adsb-static>
+    <id>295</id>
+    <filename>adsbst.bin</filename>
+    <version>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_adsbst.xml
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+=======
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_adsbst.xml
+    </version>
+    <data>
+        <model>0</model>
+        <init_mode>0</init_mode>
+        <cm_id>0</cm_id>
+        <icao>0</icao>
+        <emitter>0</emitter>
+        <ascii-array>
+            <char0>0</char0>
+            <char1>0</char1>
+            <char2>0</char2>
+            <char3>0</char3>
+            <char4>0</char4>
+            <char5>0</char5>
+            <char6>0</char6>
+            <char7>0</char7>
+        </ascii-array>
+        <custom>65535</custom>
+    </data>
+</entry-adsb-static>

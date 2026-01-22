@@ -1,0 +1,33 @@
+<entry-varqinf>
+    <id>66</id>
+    <filename>varqinf.bin</filename>
+    <version>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_varqinf.xml
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+=======
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_varqinf.xml
+    </version>
+    <data>
+        <rvar0>
+            <enable>1</enable>
+            <rvar_id>4100</rvar_id>
+            <min_value>-3.4028235E38</min_value>
+            <max_value>3.4028235E38</max_value>
+            <max_delta>3.4028235E38</max_delta>
+            <max_count_nv>0</max_count_nv>
+        </rvar0>
+        <rvar1>
+            <enable>1</enable>
+            <rvar_id>4100</rvar_id>
+            <min_value>-3.4028235E38</min_value>
+            <max_value>3.4028235E38</max_value>
+            <max_delta>3.4028235E38</max_delta>
+            <max_count_nv>0</max_count_nv>
+        </rvar1>
+    </data>
+</entry-varqinf>

@@ -1,0 +1,23 @@
+<entry-stp1filt>
+    <id>106</id>
+    <filename>stp1filt.bin</filename>
+    <version>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_stp1filt.xml
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+=======
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_stp1filt.xml
+    </version>
+    <data>
+        <iir_cfg>
+            <enable>0</enable>
+            <cutoff_freq>1.0</cutoff_freq>
+        </iir_cfg>
+        <max_nv_samples>10</max_nv_samples>
+        <max_delta>113.4</max_delta>
+    </data>
+</entry-stp1filt>

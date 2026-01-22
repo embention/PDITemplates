@@ -1,0 +1,24 @@
+<entry-imu3>
+    <id>360</id>
+    <filename>imu3.bin</filename>
+    <version>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_imu3.xml
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+=======
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_imu3.xml
+    </version>
+    <data>
+        <accMaxNvSamples>10</accMaxNvSamples>
+        <gyrMaxNvSamples>10</gyrMaxNvSamples>
+        <mode_32bit>1</mode_32bit>
+        <filter_stages>4</filter_stages>
+        <bandwidth_370hz>0</bandwidth_370hz>
+        <acc_max_delta>156.8</acc_max_delta>
+        <gyr_max_delta>69.81317</gyr_max_delta>
+    </data>
+</entry-imu3>

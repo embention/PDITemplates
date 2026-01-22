@@ -1,0 +1,19 @@
+<entry-freqmgr>
+    <id>25</id>
+    <filename>freqmgr.bin</filename>
+    <version>
+<<<<<<< HEAD:1xVeronte/Veronte_Tracker_v2.5/setup/ver_spdif_freqmgr.xml
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+=======
+        <major>6</major>
+        <minor>12</minor>
+        <revision>54</revision>
+>>>>>>> 04d314d04ce030d66effa99158409dd84f64216f:1xVeronte/Veronte_Tracker_v2.5/pdi_Tracker/pdi/1xVeronte/default/setup/ver_spdif_freqmgr.xml
+    </version>
+    <data>
+        <period_acq>9.90099E-4</period_acq>
+        <period_gnc>0.0025</period_gnc>
+    </data>
+</entry-freqmgr>
