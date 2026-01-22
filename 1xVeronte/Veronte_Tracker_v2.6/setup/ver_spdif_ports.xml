@@ -16,7 +16,7 @@
                     <dst_mask>
                         <uav>4294967295</uav>
                     </dst_mask>
-                    <ports>76</ports>
+                    <ports>140</ports>
                 </str-tunarray-element>
                 <str-tunarray-element>
                     <dst_addr>
