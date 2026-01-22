@@ -1,0 +1,139 @@
+<entry-maction>
+    <id>130</id>
+    <filename>maction.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <name>
+                        <name>READY</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <name>
+                        <name>TILT On</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <name>
+                        <name>TILT Off</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="3">
+                <data>
+                    <name>
+                        <name>Vector Body 0</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <name>
+                        <name>Track Vehicle</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <name>
+                        <name>Set Yaw</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <name>
+                        <name>Apply trim</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <name>
+                        <name>Trim left +</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="8">
+                <data>
+                    <name>
+                        <name>Trim left</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="9">
+                <data>
+                    <name>
+                        <name>Trim right</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10">
+                <data>
+                    <name>
+                        <name>Trim right +</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="11">
+                <data>
+                    <name>
+                        <name>Track Phase</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="12">
+                <data>
+                    <name>
+                        <name>Test phase</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="13">
+                <data>
+                    <name>
+                        <name>Apply trim</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="14">
+                <data>
+                    <name>
+                        <name>Apply trim COPY</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <name>
+                        <name>Apply trim COPY</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="16">
+                <data>
+                    <name>
+                        <name>Activate RF4</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="17">
+                <data>
+                    <name>
+                        <name>Activate RF3</name>
+                    </name>
+                </data>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-maction>
