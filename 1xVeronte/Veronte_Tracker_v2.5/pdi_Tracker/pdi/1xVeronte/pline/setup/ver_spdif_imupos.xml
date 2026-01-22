@@ -1,0 +1,16 @@
+<entry-imupos>
+    <id>53</id>
+    <filename>imupos.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>37</revision>
+    </version>
+    <data>
+        <GIb>
+            <x>0.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </GIb>
+    </data>
+</entry-imupos>

@@ -1,0 +1,55 @@
+<entry-mvars>
+    <id>278</id>
+    <filename>mvars.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>41</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <idType>0</idType>
+                <var-name-array>
+                    <str-tunarray-element str-tunarray-key="20">
+                        <data>
+                            <name>Unnamed Circle 1</name>
+                            <mandatory>0</mandatory>
+                            <color>
+                                <r>255</r>
+                                <g>255</g>
+                                <b>255</b>
+                                <a>255</a>
+                            </color>
+                            <has-icon>
+                                <has-icon-n>
+                                    <hasIcon>0</hasIcon>
+                                </has-icon-n>
+                            </has-icon>
+                        </data>
+                    </str-tunarray-element>
+                </var-name-array>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>2</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>3</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>4</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>5</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>6</idType>
+                <var-name-array/>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mvars>

@@ -1,0 +1,16 @@
+<entry-blklib16>
+    <id>416</id>
+    <filename>blklib16.bin</filename>
+    <version>
+        <major>6</major>
+        <minor>12</minor>
+        <revision>37</revision>
+    </version>
+    <data>
+        <nins>0</nins>
+        <blocks/>
+        <outs/>
+        <name/>
+        <map/>
+    </data>
+</entry-blklib16>
