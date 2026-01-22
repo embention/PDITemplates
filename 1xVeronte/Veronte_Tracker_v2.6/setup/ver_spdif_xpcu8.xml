@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>6</minor>
-        <revision>41</revision>
+        <revision>45</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -51,25 +51,37 @@
         </str-tunarray-element>
         <str-tunarray-element>
             <producer>3</producer>
-            <consumer>8</consumer>
+            <consumer>10</consumer>
             <group>0</group>
             <enable-bvar>1</enable-bvar>
         </str-tunarray-element>
         <str-tunarray-element>
-            <producer>8</producer>
+            <producer>10</producer>
             <consumer>3</consumer>
             <group>0</group>
             <enable-bvar>1</enable-bvar>
         </str-tunarray-element>
         <str-tunarray-element>
             <producer>4</producer>
+            <consumer>8</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>8</producer>
+            <consumer>4</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>30</producer>
             <consumer>9</consumer>
             <group>0</group>
             <enable-bvar>1</enable-bvar>
         </str-tunarray-element>
         <str-tunarray-element>
             <producer>9</producer>
-            <consumer>4</consumer>
+            <consumer>27</consumer>
             <group>0</group>
             <enable-bvar>1</enable-bvar>
         </str-tunarray-element>
