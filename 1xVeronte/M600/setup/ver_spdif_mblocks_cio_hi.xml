@@ -1,0 +1,21 @@
+<entry-mblocks-cio-hi>
+    <id>434</id>
+    <filename>mblocks_cio_hi.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>0</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>80</y-pos>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mblocks-cio-hi>

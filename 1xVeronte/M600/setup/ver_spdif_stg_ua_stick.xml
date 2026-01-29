@@ -1,0 +1,12 @@
+<entry-stg-ua-stick>
+    <id>393</id>
+    <filename>stg_ua_stick.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
+    </version>
+    <data>
+        <port>0</port>
+    </data>
+</entry-stg-ua-stick>

@@ -2,29 +2,43 @@
     <id>64</id>
     <filename>ports.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>29</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
-        <str-tunarray-element str-tunarray-key="0">
-            <data>
-                <msk-port>79</msk-port>
-                <data-ports-aux>
-                    <str-tunarray-element>
-                        <address>
-                            <uav>43073</uav>
-                        </address>
-                        <port>5</port>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <address>
-                            <uav>4000</uav>
-                        </address>
-                        <port>4</port>
-                    </str-tunarray-element>
-                </data-ports-aux>
-            </data>
-        </str-tunarray-element>
+        <tables>
+            <str-tunarray-element>
+                <str-tunarray-element>
+                    <dst_addr>
+                        <uav>43073</uav>
+                    </dst_addr>
+                    <dst_mask>
+                        <uav>4294967295</uav>
+                    </dst_mask>
+                    <ports>260</ports>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <dst_addr>
+                        <uav>4000</uav>
+                    </dst_addr>
+                    <dst_mask>
+                        <uav>4294967295</uav>
+                    </dst_mask>
+                    <ports>132</ports>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <dst_addr>
+                        <uav>0</uav>
+                    </dst_addr>
+                    <dst_mask>
+                        <uav>0</uav>
+                    </dst_mask>
+                    <ports>636</ports>
+                </str-tunarray-element>
+            </str-tunarray-element>
+        </tables>
+        <ttl>3</ttl>
+        <curr_table>0</curr_table>
     </data>
 </entry-ports>
