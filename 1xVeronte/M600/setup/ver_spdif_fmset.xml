@@ -2,9 +2,9 @@
     <id>50</id>
     <filename>fmset.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>29</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -17,6 +17,7 @@
                             <nbits>8</nbits>
                             <value>170</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -73,6 +74,7 @@
                             <nbits>7</nbits>
                             <value>0</value>
                             <mask>127</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -99,6 +101,7 @@
                             <nbits>8</nbits>
                             <value>90</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -153,6 +156,7 @@
                             <nbits>8</nbits>
                             <value>186</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -164,6 +168,7 @@
                             <nbits>16</nbits>
                             <value>4000</value>
                             <mask>65535</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -175,6 +180,7 @@
                             <nbits>16</nbits>
                             <value>2</value>
                             <mask>65535</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -186,6 +192,7 @@
                             <nbits>8</nbits>
                             <value>48</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -197,6 +204,7 @@
                             <nbits>8</nbits>
                             <value>2</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -208,6 +216,7 @@
                             <nbits>8</nbits>
                             <value>11</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -239,6 +248,7 @@
                             <nbits>8</nbits>
                             <value>0</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -250,6 +260,7 @@
                             <nbits>8</nbits>
                             <value>5</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -261,6 +272,7 @@
                             <nbits>8</nbits>
                             <value>69</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -272,6 +284,7 @@
                             <nbits>8</nbits>
                             <value>109</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -283,6 +296,7 @@
                             <nbits>8</nbits>
                             <value>98</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -294,6 +308,7 @@
                             <nbits>8</nbits>
                             <value>101</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -305,6 +320,7 @@
                             <nbits>8</nbits>
                             <value>110</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -316,6 +332,7 @@
                             <nbits>8</nbits>
                             <value>116</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -327,6 +344,7 @@
                             <nbits>8</nbits>
                             <value>105</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -338,6 +356,7 @@
                             <nbits>8</nbits>
                             <value>111</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -349,6 +368,7 @@
                             <nbits>8</nbits>
                             <value>110</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -387,6 +407,7 @@
                             <nbits>8</nbits>
                             <value>186</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -398,6 +419,7 @@
                             <nbits>16</nbits>
                             <value>2</value>
                             <mask>65535</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -409,6 +431,7 @@
                             <nbits>16</nbits>
                             <value>4000</value>
                             <mask>65535</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -420,6 +443,7 @@
                             <nbits>8</nbits>
                             <value>48</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -431,6 +455,7 @@
                             <nbits>8</nbits>
                             <value>2</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -442,6 +467,7 @@
                             <nbits>8</nbits>
                             <value>11</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -473,6 +499,7 @@
                             <nbits>8</nbits>
                             <value>0</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -484,6 +511,7 @@
                             <nbits>8</nbits>
                             <value>5</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -495,6 +523,7 @@
                             <nbits>8</nbits>
                             <value>69</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -506,6 +535,7 @@
                             <nbits>8</nbits>
                             <value>109</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -517,6 +547,7 @@
                             <nbits>8</nbits>
                             <value>98</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -528,6 +559,7 @@
                             <nbits>8</nbits>
                             <value>101</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -539,6 +571,7 @@
                             <nbits>8</nbits>
                             <value>110</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -550,6 +583,7 @@
                             <nbits>8</nbits>
                             <value>116</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -561,6 +595,7 @@
                             <nbits>8</nbits>
                             <value>105</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -572,6 +607,7 @@
                             <nbits>8</nbits>
                             <value>111</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -583,6 +619,7 @@
                             <nbits>8</nbits>
                             <value>110</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>
@@ -660,6 +697,7 @@
                             <nbits>8</nbits>
                             <value>13</value>
                             <mask>255</mask>
+                            <is_dyn>0</is_dyn>
                         </matcher>
                     </data-fieldset>
                 </str-tunarray-element>

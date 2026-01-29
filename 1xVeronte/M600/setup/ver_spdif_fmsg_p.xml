@@ -2,9 +2,9 @@
     <id>74</id>
     <filename>fmsg_p.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>29</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -14,6 +14,7 @@
                     <time>0.0</time>
                     <type>0</type>
                     <bitid>0</bitid>
+                    <triggers_ev>0</triggers_ev>
                 </str-tunarray-element>
             </data>
         </str-tunarray-element>
@@ -24,6 +25,7 @@
                     <time>0.0</time>
                     <type>0</type>
                     <bitid>0</bitid>
+                    <triggers_ev>0</triggers_ev>
                 </str-tunarray-element>
             </data>
         </str-tunarray-element>

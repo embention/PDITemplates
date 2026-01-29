@@ -1,0 +1,15 @@
+<entry-arbiter-address>
+    <id>80</id>
+    <filename>arbaddr.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
+    </version>
+    <data>
+        <arbaddr>
+            <uav>999</uav>
+        </arbaddr>
+        <apaddrs/>
+    </data>
+</entry-arbiter-address>
