@@ -4,14 +4,14 @@
     <version>
         <major>7</major>
         <minor>6</minor>
-        <revision>25</revision>
+        <revision>53</revision>
     </version>
     <data>
         <u0>
-            <str-tunarray-element>0.010012269</str-tunarray-element>
-            <str-tunarray-element>-0.0021978617</str-tunarray-element>
-            <str-tunarray-element>-0.01001215</str-tunarray-element>
-            <str-tunarray-element>-0.007081747</str-tunarray-element>
+            <str-tunarray-element>0.0105006695</str-tunarray-element>
+            <str-tunarray-element>-2.4425983E-4</str-tunarray-element>
+            <str-tunarray-element>-0.001709342</str-tunarray-element>
+            <str-tunarray-element>-0.008058548</str-tunarray-element>
         </u0>
     </data>
 </entry-arctrim0>

@@ -4,64 +4,12 @@
     <version>
         <major>7</major>
         <minor>6</minor>
-        <revision>25</revision>
+        <revision>53</revision>
     </version>
     <data>
-        <volumeOp>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <wrt-choice>
-                        <wrt-choice-abs>
-                            <wrt>65535</wrt>
-                            <pos>
-                                <lon>-6980888</lon>
-                                <lat>383829910</lat>
-                                <alt>330310</alt>
-                            </pos>
-                        </wrt-choice-abs>
-                    </wrt-choice>
-                </data>
-            </str-tunarray-element>
-        </volumeOp>
+        <volumeOp/>
         <polygons/>
-        <circles>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <circle>
-                        <fid>30720</fid>
-                        <R>15.883286</R>
-                    </circle>
-                    <height>
-                        <upper-bound>
-                            <limited>0</limited>
-                            <fidrel>0</fidrel>
-                            <lim>
-                                <type>2</type>
-                                <h>
-                                    <vref-kval>
-                                        <type>65534</type>
-                                        <kval>100000.0</kval>
-                                    </vref-kval>
-                                </h>
-                            </lim>
-                        </upper-bound>
-                        <lower-bound>
-                            <limited>0</limited>
-                            <fidrel>0</fidrel>
-                            <lim>
-                                <type>2</type>
-                                <h>
-                                    <vref-kval>
-                                        <type>65534</type>
-                                        <kval>100000.0</kval>
-                                    </vref-kval>
-                                </h>
-                            </lim>
-                        </lower-bound>
-                    </height>
-                </data>
-            </str-tunarray-element>
-        </circles>
+        <circles/>
         <spheres/>
         <groups/>
         <geoCage>

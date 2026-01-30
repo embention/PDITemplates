@@ -2069,6 +2069,21 @@
               </sequence>
             </complexType>
           </element>
+          <element name="str_hex_real">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="cfg:data-enum-field-type">
+                      <enumeration value="21"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="scale" type="cfg:str-realfloat32"/>
+              </sequence>
+            </complexType>
+          </element>
           <element name="u8size_array">
             <complexType>
               <sequence>
@@ -3388,7 +3403,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="6" type="cfg:data-fieldset">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="64" type="cfg:data-fieldset">
           </element>
         </sequence>
       </restriction>
@@ -4304,4 +4319,45 @@
       <element name="addr" type="cfg:str-uinteger32"/>
     </sequence>
   </complexType>
+
+  <simpleType name="data-enum-func-2u16xu16-type">
+    <restriction base="cfg:data-enum-identifiable">
+      <pattern value="0|1|2|3|4|5|6|7|8|9|10|11"/>
+    </restriction>
+  </simpleType>
+
+  <complexType name="data-block-func-2u16xu16">
+    <sequence>
+      <element name="block-type">
+        <simpleType>
+          <restriction base="cfg:data-enum-block-type">
+            <enumeration value="123"/>
+          </restriction>
+        </simpleType>
+      </element>
+      <element name="data">
+        <complexType>
+          <sequence>
+            <element name="input0" type="cfg:data-pin-addr"/>
+            <element name="input1" type="cfg:data-pin-addr"/>
+            <element name="type" type="cfg:data-enum-func-2u16xu16-type"/>
+          </sequence>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-const-uint16">
+    <sequence>
+      <element name="block-type">
+        <simpleType>
+          <restriction base="cfg:data-enum-block-type">
+            <enumeration value="124"/>
+          </restriction>
+        </simpleType>
+      </element>
+      <element name="value" type="cfg:data-uarray"></element>
+    </sequence>
+  </complexType>
+
 </schema>
