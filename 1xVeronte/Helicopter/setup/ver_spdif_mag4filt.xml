@@ -2,12 +2,16 @@
     <id>262</id>
     <filename>mag4filt.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
-        <enable>0</enable>
-        <cutoff_freq>1.0</cutoff_freq>
+        <iir_cfg>
+            <enable>0</enable>
+            <cutoff_freq>1.0</cutoff_freq>
+        </iir_cfg>
+        <max_nv_samples>16</max_nv_samples>
+        <max_delta>0.0016</max_delta>
     </data>
 </entry-mag4filt>

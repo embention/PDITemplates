@@ -2,19 +2,23 @@
     <id>117</id>
     <filename>i2cdevs.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
             <data>
                 <type>1</type>
                 <address>98</address>
-                <iir_cfg>
-                    <enable>0</enable>
-                    <cutoff_freq>1.0</cutoff_freq>
-                </iir_cfg>
+                <common_cfg>
+                    <iir_cfg>
+                        <enable>0</enable>
+                        <cutoff_freq>1.0</cutoff_freq>
+                    </iir_cfg>
+                    <max_nv_samples>10</max_nv_samples>
+                    <max_delta>5.0</max_delta>
+                </common_cfg>
             </data>
         </str-tunarray-element>
     </data>

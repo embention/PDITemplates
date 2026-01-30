@@ -1,0 +1,12 @@
+<entry-stg-ua-lights>
+    <id>382</id>
+    <filename>stg_ua_lights.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
+    </version>
+    <data>
+        <var0>1200</var0>
+    </data>
+</entry-stg-ua-lights>

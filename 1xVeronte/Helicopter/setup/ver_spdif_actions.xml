@@ -2,9 +2,9 @@
     <id>83</id>
     <filename>actions.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <action-array>
@@ -168,7 +168,7 @@
                 <data>
                     <acset-flyto>
                         <type>0</type>
-                        <idCfg>191</idCfg>
+                        <idCfg>198</idCfg>
                         <str>
                             <flyto-cmd>0</flyto-cmd>
                         </str>

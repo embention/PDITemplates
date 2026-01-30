@@ -2,70 +2,30 @@
     <id>122</id>
     <filename>vargyr.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
-        <uvar0>
-            <enable>0</enable>
-            <vs0>
-                <is_signed>0</is_signed>
-                <uvar_id>2001</uvar_id>
-                <polycoef/>
-            </vs0>
-            <vs1>
-                <is_signed>0</is_signed>
-                <uvar_id>2001</uvar_id>
-                <polycoef/>
-            </vs1>
-            <vs2>
-                <is_signed>0</is_signed>
-                <uvar_id>2001</uvar_id>
-                <polycoef/>
-            </vs2>
-        </uvar0>
-        <uvar1>
-            <enable>0</enable>
-            <vs0>
-                <is_signed>0</is_signed>
-                <uvar_id>2001</uvar_id>
-                <polycoef/>
-            </vs0>
-            <vs1>
-                <is_signed>0</is_signed>
-                <uvar_id>2001</uvar_id>
-                <polycoef/>
-            </vs1>
-            <vs2>
-                <is_signed>0</is_signed>
-                <uvar_id>2001</uvar_id>
-                <polycoef/>
-            </vs2>
-        </uvar1>
         <rvar0>
             <enable>1</enable>
-            <vs0>
-                <rvar_id>4100</rvar_id>
-            </vs0>
-            <vs1>
-                <rvar_id>4100</rvar_id>
-            </vs1>
-            <vs2>
-                <rvar_id>4100</rvar_id>
-            </vs2>
+            <rvar_id0>4100</rvar_id0>
+            <rvar_id1>4100</rvar_id1>
+            <rvar_id2>4100</rvar_id2>
+            <min_value>-3.4028235E38</min_value>
+            <max_value>3.4028235E38</max_value>
+            <max_delta>3.4028235E38</max_delta>
+            <max_count_nv>0</max_count_nv>
         </rvar0>
         <rvar1>
             <enable>1</enable>
-            <vs0>
-                <rvar_id>4100</rvar_id>
-            </vs0>
-            <vs1>
-                <rvar_id>4100</rvar_id>
-            </vs1>
-            <vs2>
-                <rvar_id>4100</rvar_id>
-            </vs2>
+            <rvar_id0>4100</rvar_id0>
+            <rvar_id1>4100</rvar_id1>
+            <rvar_id2>4100</rvar_id2>
+            <min_value>-3.4028235E38</min_value>
+            <max_value>3.4028235E38</max_value>
+            <max_delta>3.4028235E38</max_delta>
+            <max_count_nv>0</max_count_nv>
         </rvar1>
     </data>
 </entry-vargyr>

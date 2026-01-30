@@ -2,12 +2,16 @@
     <id>106</id>
     <filename>stp1filt.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
-        <enable>1</enable>
-        <cutoff_freq>2.0</cutoff_freq>
+        <iir_cfg>
+            <enable>1</enable>
+            <cutoff_freq>2.0</cutoff_freq>
+        </iir_cfg>
+        <max_nv_samples>10</max_nv_samples>
+        <max_delta>113.4</max_delta>
     </data>
 </entry-stp1filt>
