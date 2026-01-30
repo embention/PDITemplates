@@ -3,8 +3,8 @@
     <filename>adsbdyn.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>52</revision>
+        <minor>8</minor>
+        <revision>9</revision>
     </version>
     <data>
         <ctl_mode>0</ctl_mode>

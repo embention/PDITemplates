@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/cfg007006"
-  xmlns:cfg="http://www.embention.com/schema/cfg007006">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/cfg007008"
+  xmlns:cfg="http://www.embention.com/schema/cfg007008">
   <simpleType name="str-uinteger16">
     <restriction base="unsignedShort"></restriction>
   </simpleType>
@@ -126,6 +126,20 @@
           <element name="id" type="short" fixed="32"></element>
           <element name="filename" type="string"
             fixed="scic.bin"></element>
+          <element name="version" type="cfg:data-version"></element>
+          <element name="data" type="cfg:data-sci"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-scid">
+    <complexContent>
+      <restriction base="cfg:entry">
+        <sequence>
+          <element name="id" type="short" fixed="33"></element>
+          <element name="filename" type="string"
+            fixed="scid.bin"></element>
           <element name="version" type="cfg:data-version"></element>
           <element name="data" type="cfg:data-sci"></element>
         </sequence>
@@ -736,11 +750,19 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="2" type="cfg:data-routing-table"> </element>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="2" type="cfg:data-rtable"> </element>
         </sequence>
       </restriction>
     </complexContent>
   </complexType>
+
+  <complexType name="data-rtable">
+    <sequence>
+      <element name="entries" type="cfg:data-routing-table"></element>
+      <element name="to_relay" type="cfg:data-msg-to-relay"></element>
+    </sequence>
+  </complexType>
+
 
   <complexType name="data-routing-table">
     <complexContent>
@@ -752,11 +774,28 @@
     </complexContent>
   </complexType>
 
+  <complexType name="data-msg-to-relay">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-msg-to-relay-entry"> </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
   <complexType name="data-routing-entry">
     <sequence>
       <element name="dst_addr" type="cfg:data-address"></element>
       <element name="dst_mask" type="cfg:data-address"></element>
       <element name="ports" type="cfg:str-uinteger16"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-msg-to-relay-entry">
+    <sequence>
+      <element name="msg_from" type="cfg:str-uinteger16"></element>
+      <element name="msg_to" type="cfg:str-uinteger16"></element>
     </sequence>
   </complexType>
 
@@ -1392,6 +1431,16 @@
       <restriction base="cfg:str-tunarray">
         <sequence>
           <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="cfg:str-uinteger16"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-i32array">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535" type="cfg:str-integer32"/>
         </sequence>
       </restriction>
     </complexContent>
@@ -2822,6 +2871,17 @@
     </sequence>
   </complexType>
 
+
+  <complexType name="data-stg-first-var2-array">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="4" type="cfg:data-stg-first-var2"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
   <complexType name="data-stg-first-var2-period">
     <sequence>
       <element name="varcfg" type="cfg:data-stg-first-var2"/>
@@ -3873,6 +3933,47 @@
     </sequence>
   </complexType>
 
+  <complexType name="data-block-func-r64xr64">
+    <sequence>
+      <element name="block-type">
+        <simpleType>
+          <restriction base="cfg:data-enum-block-type">
+            <enumeration value="121"/>
+          </restriction>
+        </simpleType>
+      </element>
+      <element name="data">
+        <complexType>
+          <sequence>
+            <element name="input" type="cfg:data-pin-addr"/>
+            <element name="type" type="cfg:data-enum-func-r64xr64-type"/>
+          </sequence>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-func-2r64xr64">
+    <sequence>
+      <element name="block-type">
+        <simpleType>
+          <restriction base="cfg:data-enum-block-type">
+            <enumeration value="122"/>
+          </restriction>
+        </simpleType>
+      </element>
+      <element name="data">
+        <complexType>
+          <sequence>
+            <element name="input0" type="cfg:data-pin-addr"/>
+            <element name="input1" type="cfg:data-pin-addr"/>
+            <element name="type" type="cfg:data-enum-func-2r64xr64-type"/>
+          </sequence>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+
   <complexType name="data-block-func-rnxr1">
     <sequence>
       <element name="input" type="cfg:data-pin-addr"/>
@@ -3897,6 +3998,18 @@
   <simpleType name="data-enum-func-r2xr1-type">
     <restriction base="cfg:data-enum-identifiable">
       <pattern value="0|1|2|3|4|5|6|7|8"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="data-enum-func-r64xr64-type">
+    <restriction base="cfg:data-enum-identifiable">
+      <pattern value="0|1|2|3|4|5"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="data-enum-func-2r64xr64-type">
+    <restriction base="cfg:data-enum-identifiable">
+      <pattern value="0|1|2|3|4"/>
     </restriction>
   </simpleType>
 
@@ -4209,10 +4322,19 @@
     <complexContent>
       <restriction base="cfg:str-meta">
         <sequence>
-          <element name="map" type="cfg:data-meta-blocks"></element>
+          <element name="map" type="cfg:data-meta-blocks"/>
+          <element name="snap-settings" minOccurs="0" type="cfg:data-meta-snap-settings"/>
         </sequence>
       </restriction>
     </complexContent>
+  </complexType>
+
+  <complexType name="data-meta-snap-settings">
+    <sequence>
+      <element name="snap" type="cfg:str-bool16"/>
+      <element name="width" type="cfg:str-uinteger16"/>
+      <element name="height" type="cfg:str-uinteger16"/>
+    </sequence>
   </complexType>
 
   <complexType name="data-meta-blocks">
@@ -4320,11 +4442,48 @@
     </sequence>
   </complexType>
 
+  <complexType name="data-can-producer-id">
+    <sequence>
+      <element name="fcmp_id" type="cfg:str-uinteger16"/>
+      <element name="message_id" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-msg-p-trigger">
+    <sequence>
+      <element name="in_enabled" type="cfg:data-pin-addr-opt"/>
+      <element name="id" type="cfg:data-can-producer-id"/>
+      <element name="initial_delay" type="cfg:str-realfloat32"/>
+      <element name="is_periodic" type="cfg:str-bool16"/>
+      <element name="period" type="cfg:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
   <simpleType name="data-enum-func-2u16xu16-type">
     <restriction base="cfg:data-enum-identifiable">
       <pattern value="0|1|2|3|4|5|6|7|8|9|10|11"/>
     </restriction>
   </simpleType>
+
+  <complexType name="data-block-r64varset-elems">
+    <sequence>
+      <element name="input" type="cfg:data-pin-addr"/>
+      <element name="r64varid" type="cfg:data-enum-r64varid"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-r64varset">
+    <sequence>
+      <element name="block-type">
+        <simpleType>
+          <restriction base="cfg:data-enum-block-type">
+            <enumeration value="112"/>
+          </restriction>
+        </simpleType>
+      </element>
+      <element name="data" type="cfg:data-block-r64varset-elems"></element>
+    </sequence>
+  </complexType>
 
   <complexType name="data-block-func-2u16xu16">
     <sequence>
@@ -4357,6 +4516,32 @@
         </simpleType>
       </element>
       <element name="value" type="cfg:data-uarray"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-can-p-trigger">
+    <sequence>
+      <element name="block-type">
+        <simpleType>
+          <restriction base="cfg:data-enum-block-type">
+            <enumeration value="120"/>
+          </restriction>
+        </simpleType>
+      </element>
+      <element name="data" type="cfg:data-msg-p-trigger"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-fmsg-p-trigger">
+    <sequence>
+      <element name="block-type">
+        <simpleType>
+          <restriction base="cfg:data-enum-block-type">
+            <enumeration value="126"/>
+          </restriction>
+        </simpleType>
+      </element>
+      <element name="data" type="cfg:data-msg-p-trigger"></element>
     </sequence>
   </complexType>
 
