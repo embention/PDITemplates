@@ -4,10 +4,10 @@
     <version>
         <major>7</major>
         <minor>6</minor>
-        <revision>25</revision>
+        <revision>53</revision>
     </version>
     <data>
-        <first>4</first>
+        <first>2</first>
         <patches>
             <str-tunarray-element str-tunarray-key="1">
                 <data>
@@ -16,9 +16,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6977076</lon>
-                                    <lat>383829420</lat>
-                                    <alt>345560</alt>
+                                    <lon>-6984280</lon>
+                                    <lat>383833003</lat>
+                                    <alt>330570</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -27,7 +27,7 @@
                     <speed-cfg>
                         <type-speed>
                             <type>2</type>
-                            <vlink>1.0</vlink>
+                            <vlink>5.0</vlink>
                             <vpoint-cfg>
                                 <mode-fixed>
                                     <mode>0</mode>
@@ -49,9 +49,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6979863</lon>
-                                    <lat>383826768</lat>
-                                    <alt>330080</alt>
+                                    <lon>-6982241</lon>
+                                    <lat>383832583</lat>
+                                    <alt>330570</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -60,47 +60,7 @@
                     <speed-cfg>
                         <type-speed>
                             <type>2</type>
-                            <vlink>1.0</vlink>
-                            <vpoint-cfg>
-                                <mode-fixed>
-                                    <mode>0</mode>
-                                </mode-fixed>
-                            </vpoint-cfg>
-                        </type-speed>
-                    </speed-cfg>
-                    <cfg>
-                        <arc>
-                            <patch-cfg-type>3</patch-cfg-type>
-                            <data>
-                                <rk>
-                                    <x>-20.98413</x>
-                                    <y>2.6988754</y>
-                                </rk>
-                                <nturns>0</nturns>
-                            </data>
-                        </arc>
-                    </cfg>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="3">
-                <data>
-                    <wp>
-                        <wrt-choice>
-                            <wrt-choice-abs>
-                                <wrt>65535</wrt>
-                                <pos>
-                                    <lon>-6977128</lon>
-                                    <lat>383826768</lat>
-                                    <alt>330970</alt>
-                                </pos>
-                            </wrt-choice-abs>
-                        </wrt-choice>
-                    </wp>
-                    <next>4</next>
-                    <speed-cfg>
-                        <type-speed>
-                            <type>2</type>
-                            <vlink>1.0</vlink>
+                            <vlink>5.0</vlink>
                             <vpoint-cfg>
                                 <mode-fixed>
                                     <mode>0</mode>
@@ -115,25 +75,25 @@
                     </cfg>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="4">
+            <str-tunarray-element str-tunarray-key="3">
                 <data>
                     <wp>
                         <wrt-choice>
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6979863</lon>
-                                    <lat>383829427</lat>
-                                    <alt>330470</alt>
+                                    <lon>-6981714</lon>
+                                    <lat>383834076</lat>
+                                    <alt>330570</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
                     </wp>
-                    <next>1</next>
+                    <next>4</next>
                     <speed-cfg>
                         <type-speed>
                             <type>2</type>
-                            <vlink>1.0</vlink>
+                            <vlink>5.0</vlink>
                             <vpoint-cfg>
                                 <mode-fixed>
                                     <mode>0</mode>
@@ -146,12 +106,45 @@
                             <patch-cfg-type>3</patch-cfg-type>
                             <data>
                                 <rk>
-                                    <x>22.77176</x>
-                                    <y>-0.11222219</y>
+                                    <x>7.637431</x>
+                                    <y>1.4623662</y>
                                 </rk>
                                 <nturns>0</nturns>
                             </data>
                         </arc>
+                    </cfg>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <wp>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-6983819</lon>
+                                    <lat>383834402</lat>
+                                    <alt>330570</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </wp>
+                    <next>1</next>
+                    <speed-cfg>
+                        <type-speed>
+                            <type>2</type>
+                            <vlink>5.0</vlink>
+                            <vpoint-cfg>
+                                <mode-fixed>
+                                    <mode>0</mode>
+                                </mode-fixed>
+                            </vpoint-cfg>
+                        </type-speed>
+                    </speed-cfg>
+                    <cfg>
+                        <line>
+                            <patch-cfg-type>1</patch-cfg-type>
+                        </line>
                     </cfg>
                 </data>
             </str-tunarray-element>
@@ -173,7 +166,7 @@
                     <speed-cfg>
                         <type-speed>
                             <type>2</type>
-                            <vlink>1.0</vlink>
+                            <vlink>5.0</vlink>
                             <vpoint-cfg>
                                 <mode-fixed>
                                     <mode>0</mode>
@@ -195,8 +188,8 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6974933</lon>
-                                    <lat>383828122</lat>
+                                    <lon>-6982478</lon>
+                                    <lat>383830372</lat>
                                     <alt>300560</alt>
                                 </pos>
                             </wrt-choice-abs>
@@ -206,7 +199,7 @@
                     <speed-cfg>
                         <type-speed>
                             <type>2</type>
-                            <vlink>1.0</vlink>
+                            <vlink>5.0</vlink>
                             <vpoint-cfg>
                                 <mode-fixed>
                                     <mode>0</mode>
@@ -218,6 +211,45 @@
                         <point>
                             <patch-cfg-type>0</patch-cfg-type>
                         </point>
+                    </cfg>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <wp>
+                        <wrt-choice>
+                            <wrt-choice-abs>
+                                <wrt>65535</wrt>
+                                <pos>
+                                    <lon>-6983462</lon>
+                                    <lat>383829693</lat>
+                                    <alt>330560</alt>
+                                </pos>
+                            </wrt-choice-abs>
+                        </wrt-choice>
+                    </wp>
+                    <next>65535</next>
+                    <speed-cfg>
+                        <type-speed>
+                            <type>2</type>
+                            <vlink>5.0</vlink>
+                            <vpoint-cfg>
+                                <mode-fixed>
+                                    <mode>0</mode>
+                                </mode-fixed>
+                            </vpoint-cfg>
+                        </type-speed>
+                    </speed-cfg>
+                    <cfg>
+                        <ellipse>
+                            <patch-cfg-type>4</patch-cfg-type>
+                            <data>
+                                <turn>2</turn>
+                                <rotation>0.6066696</rotation>
+                                <a>28.396935</a>
+                                <b>19.980988</b>
+                            </data>
+                        </ellipse>
                     </cfg>
                 </data>
             </str-tunarray-element>

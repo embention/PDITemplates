@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>6</minor>
-        <revision>25</revision>
+        <revision>53</revision>
     </version>
     <data>
         <map>
@@ -769,6 +769,10 @@
                 <y-pos>496</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
+                <x-pos>128</x-pos>
+                <y-pos>485</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
                 <x-pos>20</x-pos>
                 <y-pos>20</y-pos>
             </str-tunarray-element>
@@ -789,8 +793,40 @@
                 <y-pos>227</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>600</x-pos>
-                <y-pos>94</y-pos>
+                <x-pos>357</x-pos>
+                <y-pos>398</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>318</x-pos>
+                <y-pos>487</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>533</x-pos>
+                <y-pos>431</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>857</x-pos>
+                <y-pos>170</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>966</x-pos>
+                <y-pos>333</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>1181</x-pos>
+                <y-pos>175</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>1313</x-pos>
+                <y-pos>242</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>1184</x-pos>
+                <y-pos>339</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>1165</x-pos>
+                <y-pos>414</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>55</x-pos>

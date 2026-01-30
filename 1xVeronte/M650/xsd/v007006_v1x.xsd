@@ -9468,6 +9468,9 @@
             </complexType>
           </element>
 
+          <element name="func-2u16xu16" type="core:data-block-func-2u16xu16"/>
+          <element name="const-uint16" type="core:data-block-const-uint16"/>
+
         </choice>
       </extension>
     </complexContent>
