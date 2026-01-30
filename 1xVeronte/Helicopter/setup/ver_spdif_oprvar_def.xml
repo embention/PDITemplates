@@ -6,9 +6,5 @@
         <minor>6</minor>
         <revision>52</revision>
     </version>
-    <data>
-        <str-tunarray-element str-tunarray-key="0">
-            <data>3.0</data>
-        </str-tunarray-element>
-    </data>
+    <data/>
 </entry-oprvar-def>
