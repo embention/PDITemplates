@@ -2,9 +2,9 @@
     <id>136</id>
     <filename>mrvar.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <map>
@@ -869,7 +869,7 @@
                 <id>2702</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Unnamed Operation 2702</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -1001,7 +1001,7 @@
                 <id>2703</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Unnamed Operation 2703</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -1015,7 +1015,7 @@
                 <id>2704</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Unnamed Operation 2704</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -1348,7 +1348,7 @@
                 <id>2705</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Unnamed Operation 2705</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -1362,7 +1362,7 @@
                 <id>2706</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Unnamed Operation 2706</name>
                     </description>
                     <unit>
                         <exist-unit>

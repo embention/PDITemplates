@@ -2,19 +2,77 @@
     <id>21</id>
     <filename>polymgr.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
+        <volumeOp>
+            <str-tunarray-element str-tunarray-key="9">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-1211699694</lon>
+                                <lat>374502662</lat>
+                                <alt>53360</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="10">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-1210492321</lon>
+                                <lat>374500828</lat>
+                                <alt>32900</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="11">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-1210273668</lon>
+                                <lat>373329909</lat>
+                                <alt>30320</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="12">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-1211126335</lon>
+                                <lat>373336072</lat>
+                                <alt>62600</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+        </volumeOp>
         <polygons>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
                     <polygon>
-                        <fid>45065</fid>
-                        <fid>45066</fid>
-                        <fid>45067</fid>
-                        <fid>45068</fid>
+                        <fid>30729</fid>
+                        <fid>30730</fid>
+                        <fid>30731</fid>
+                        <fid>30732</fid>
                     </polygon>
                     <height>
                         <upper-bound>
@@ -49,5 +107,19 @@
         </polygons>
         <circles/>
         <spheres/>
+        <groups/>
+        <geoCage>
+            <geoIdx>
+                <contingency>65535</contingency>
+                <emergency>65535</emergency>
+                <emergencyMargin>65535</emergencyMargin>
+                <prohibited>65535</prohibited>
+            </geoIdx>
+            <geoDist>
+                <cont-dist>0.0</cont-dist>
+                <emer-dist>0.0</emer-dist>
+                <emer-mar-dist>0.0</emer-mar-dist>
+            </geoDist>
+        </geoCage>
     </data>
 </entry-polymgr>

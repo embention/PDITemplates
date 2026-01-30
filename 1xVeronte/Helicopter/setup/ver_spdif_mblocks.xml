@@ -2,9 +2,9 @@
     <id>174</id>
     <filename>mblocks.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <map>
@@ -925,6 +925,18 @@
                 <y-pos>104</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>1500</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>1400</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>1200</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
                 <x-pos>1107</x-pos>
                 <y-pos>62</y-pos>
             </str-tunarray-element>
@@ -1095,6 +1107,70 @@
             <str-tunarray-element>
                 <x-pos>1486</x-pos>
                 <y-pos>88</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>195</x-pos>
+                <y-pos>1110</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>0</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>0</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>0</x-pos>
+                <y-pos>0</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>480</x-pos>
+                <y-pos>1300</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>600</x-pos>
+                <y-pos>1100</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>600</x-pos>
+                <y-pos>1300</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>600</x-pos>
+                <y-pos>1160</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>600</x-pos>
+                <y-pos>1200</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>900</x-pos>
+                <y-pos>1160</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>900</x-pos>
+                <y-pos>1300</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>480</x-pos>
+                <y-pos>1500</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>600</x-pos>
+                <y-pos>1500</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>480</x-pos>
+                <y-pos>1600</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>600</x-pos>
+                <y-pos>1600</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>900</x-pos>
+                <y-pos>1600</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>21</x-pos>

@@ -2,9 +2,9 @@
     <id>37</id>
     <filename>cantmc0.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <data-fcan-consumer-rx/>

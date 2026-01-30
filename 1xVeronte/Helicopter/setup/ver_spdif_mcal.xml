@@ -2,15 +2,13 @@
     <id>133</id>
     <filename>mcal.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>69</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <map>
-            <type>9</type>
             <tmeas>5.0</tmeas>
-            <calPabs>101325.0</calPabs>
             <save_xcal>1</save_xcal>
         </map>
     </data>
