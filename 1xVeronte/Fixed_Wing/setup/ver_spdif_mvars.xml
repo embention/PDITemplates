@@ -2,9 +2,9 @@
     <id>278</id>
     <filename>mvars.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <map>
@@ -13,18 +13,8 @@
                 <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <idType>1</idType>
-                <var-name-array/>
-            </str-tunarray-element>
-            <str-tunarray-element>
                 <idType>2</idType>
-                <var-name-array>
-                    <str-tunarray-element str-tunarray-key="0">
-                        <data>
-                            <name>Mission Start Point</name>
-                        </data>
-                    </str-tunarray-element>
-                </var-name-array>
+                <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
                 <idType>3</idType>
@@ -36,6 +26,18 @@
                     <str-tunarray-element str-tunarray-key="0">
                         <data>
                             <name>RWY</name>
+                            <mandatory>0</mandatory>
+                            <color>
+                                <r>255</r>
+                                <g>255</g>
+                                <b>255</b>
+                                <a>255</a>
+                            </color>
+                            <has-icon>
+                                <has-icon-n>
+                                    <hasIcon>0</hasIcon>
+                                </has-icon-n>
+                            </has-icon>
                         </data>
                     </str-tunarray-element>
                 </var-name-array>
@@ -45,8 +47,57 @@
                 <var-name-array/>
             </str-tunarray-element>
             <str-tunarray-element>
-                <idType>8</idType>
-                <var-name-array/>
+                <idType>6</idType>
+                <var-name-array>
+                    <str-tunarray-element str-tunarray-key="0">
+                        <data>
+                            <name>Mission Start Point</name>
+                            <mandatory>0</mandatory>
+                            <color>
+                                <r>255</r>
+                                <g>255</g>
+                                <b>255</b>
+                                <a>255</a>
+                            </color>
+                            <has-icon>
+                                <has-icon-y>
+                                    <hasIcon>1</hasIcon>
+                                    <color>
+                                        <r>0</r>
+                                        <g>255</g>
+                                        <b>0</b>
+                                        <a>255</a>
+                                    </color>
+                                    <icon>28</icon>
+                                </has-icon-y>
+                            </has-icon>
+                        </data>
+                    </str-tunarray-element>
+                    <str-tunarray-element str-tunarray-key="1">
+                        <data>
+                            <name>Taxi Start Point</name>
+                            <mandatory>0</mandatory>
+                            <color>
+                                <r>255</r>
+                                <g>255</g>
+                                <b>255</b>
+                                <a>255</a>
+                            </color>
+                            <has-icon>
+                                <has-icon-y>
+                                    <hasIcon>1</hasIcon>
+                                    <color>
+                                        <r>255</r>
+                                        <g>255</g>
+                                        <b>0</b>
+                                        <a>255</a>
+                                    </color>
+                                    <icon>1826</icon>
+                                </has-icon-y>
+                            </has-icon>
+                        </data>
+                    </str-tunarray-element>
+                </var-name-array>
             </str-tunarray-element>
         </map>
     </data>

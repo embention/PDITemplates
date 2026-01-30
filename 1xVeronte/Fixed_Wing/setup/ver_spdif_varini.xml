@@ -2,9 +2,9 @@
     <id>6</id>
     <filename>varini.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -91,6 +91,16 @@
             <vtype>3</vtype>
             <id>1215</id>
             <val0>1.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>0</vtype>
+            <id>3130</id>
+            <val0>-0.5</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>0</vtype>
+            <id>3131</id>
+            <val0>0.6</val0>
         </str-tunarray-element>
     </data>
 </entry-varini>

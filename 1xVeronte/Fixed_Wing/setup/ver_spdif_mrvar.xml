@@ -2,9 +2,9 @@
     <id>136</id>
     <filename>mrvar.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <map>
@@ -680,7 +680,7 @@
                 <id>2705</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Unnamed Operation 2705</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -1033,7 +1033,7 @@
                 <id>2400</id>
                 <value>
                     <description>
-                        <name>Pitching</name>
+                        <name>Pitching u0</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1046,7 +1046,7 @@
                 <id>1050</id>
                 <value>
                     <description>
-                        <name>Pitching Before Servo Saturation</name>
+                        <name>Pitching u0 Before Servo Saturation</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1059,7 +1059,7 @@
                 <id>2401</id>
                 <value>
                     <description>
-                        <name>Thrusting </name>
+                        <name>Thrusting u1</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1072,7 +1072,7 @@
                 <id>1051</id>
                 <value>
                     <description>
-                        <name>Thrusting Before Servo Saturation</name>
+                        <name>Thrusting u1 Before Servo Saturation</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1085,7 +1085,7 @@
                 <id>2402</id>
                 <value>
                     <description>
-                        <name>Rolling</name>
+                        <name>Rolling u2</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1098,7 +1098,7 @@
                 <id>1052</id>
                 <value>
                     <description>
-                        <name>Rolling Before Servo Saturation</name>
+                        <name>Rolling u2 Before Servo Saturation</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1111,7 +1111,7 @@
                 <id>2403</id>
                 <value>
                     <description>
-                        <name>Yawing</name>
+                        <name>Yawing u3</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1124,7 +1124,7 @@
                 <id>1053</id>
                 <value>
                     <description>
-                        <name>Yawing Before Servo Saturation</name>
+                        <name>Yawing u3 Before Servo Saturation</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1137,7 +1137,7 @@
                 <id>2404</id>
                 <value>
                     <description>
-                        <name>Flaps</name>
+                        <name>Flaps u4</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1150,7 +1150,7 @@
                 <id>1054</id>
                 <value>
                     <description>
-                        <name>Flaps Before Servo Saturation</name>
+                        <name>Flaps u4 Before Servo Saturation</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1163,7 +1163,7 @@
                 <id>2405</id>
                 <value>
                     <description>
-                        <name>Steering</name>
+                        <name>Steering u5</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1176,12 +1176,106 @@
                 <id>1055</id>
                 <value>
                     <description>
-                        <name>Steering Before Servo Saturation</name>
+                        <name>Steering u5 Before Servo Saturation</name>
                     </description>
                     <unit>
                         <no-exist-unit>
                             <exist>0</exist>
                         </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3128</id>
+                <value>
+                    <description>
+                        <name>Desired Energy Distribution</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3129</id>
+                <value>
+                    <description>
+                        <name>Desired Energy Rate</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3130</id>
+                <value>
+                    <description>
+                        <name>Desired Pîtch FF Gain</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3131</id>
+                <value>
+                    <description>
+                        <name>Throttle Cruise</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3132</id>
+                <value>
+                    <description>
+                        <name>2D Cruise FPA</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3133</id>
+                <value>
+                    <description>
+                        <name>Taxi Max GS</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>0</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3134</id>
+                <value>
+                    <description>
+                        <name>Hold Pitch</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>

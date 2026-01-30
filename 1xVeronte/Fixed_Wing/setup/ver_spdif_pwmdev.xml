@@ -2,14 +2,14 @@
     <id>54</id>
     <filename>pwmdev.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
             <data>
-                <frequency>50</frequency>
+                <frequency>250</frequency>
                 <pwmA>
                     <activeHigh>1</activeHigh>
                     <rangeMode>0</rangeMode>
@@ -26,7 +26,7 @@
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="1">
             <data>
-                <frequency>50</frequency>
+                <frequency>250</frequency>
                 <pwmA>
                     <activeHigh>1</activeHigh>
                     <rangeMode>0</rangeMode>
@@ -43,7 +43,7 @@
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="2">
             <data>
-                <frequency>50</frequency>
+                <frequency>250</frequency>
                 <pwmA>
                     <activeHigh>1</activeHigh>
                     <rangeMode>0</rangeMode>
@@ -60,7 +60,7 @@
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="3">
             <data>
-                <frequency>50</frequency>
+                <frequency>250</frequency>
                 <pwmA>
                     <activeHigh>1</activeHigh>
                     <rangeMode>0</rangeMode>
