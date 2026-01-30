@@ -3,21 +3,24 @@
     <filename>ports.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>52</revision>
+        <minor>8</minor>
+        <revision>13</revision>
     </version>
     <data>
         <tables>
             <str-tunarray-element>
-                <str-tunarray-element>
-                    <dst_addr>
-                        <uav>0</uav>
-                    </dst_addr>
-                    <dst_mask>
-                        <uav>0</uav>
-                    </dst_mask>
-                    <ports>1020</ports>
-                </str-tunarray-element>
+                <entries>
+                    <str-tunarray-element>
+                        <dst_addr>
+                            <uav>0</uav>
+                        </dst_addr>
+                        <dst_mask>
+                            <uav>0</uav>
+                        </dst_mask>
+                        <ports>1020</ports>
+                    </str-tunarray-element>
+                </entries>
+                <to_relay/>
             </str-tunarray-element>
         </tables>
         <ttl>3</ttl>

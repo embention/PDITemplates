@@ -3,8 +3,8 @@
     <filename>mblocks.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>52</revision>
+        <minor>8</minor>
+        <revision>13</revision>
     </version>
     <data>
         <map>
@@ -2597,5 +2597,10 @@
                 <y-pos>282</y-pos>
             </str-tunarray-element>
         </map>
+        <snap-settings>
+            <snap>0</snap>
+            <width>100</width>
+            <height>100</height>
+        </snap-settings>
     </data>
 </entry-mblocks>
