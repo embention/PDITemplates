@@ -2,9 +2,9 @@
     <id>84</id>
     <filename>evact.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>29</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -632,7 +632,7 @@
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="16">
             <data>
-                <enabled>1</enabled>
+                <enabled>0</enabled>
                 <delay>0.0</delay>
                 <delay_max>0</delay_max>
                 <xclk>
@@ -692,6 +692,14 @@
                                                 </str-tunarray-element>
                                             </list-nodes>
                                         </and-or>
+                                    </data-elem-list-nodes>
+                                </str-tunarray-element>
+                                <str-tunarray-element>
+                                    <data-elem-list-nodes>
+                                        <event>
+                                            <type>2</type>
+                                            <param>90</param>
+                                        </event>
                                     </data-elem-list-nodes>
                                 </str-tunarray-element>
                             </list-nodes>
@@ -1556,39 +1564,22 @@
                 <node>
                     <map>
                         <and-or>
-                            <type>0</type>
+                            <type>1</type>
                             <list-nodes>
                                 <str-tunarray-element>
                                     <data-elem-list-nodes>
                                         <event>
                                             <type>2</type>
-                                            <param>21</param>
+                                            <param>89</param>
                                         </event>
                                     </data-elem-list-nodes>
                                 </str-tunarray-element>
                                 <str-tunarray-element>
                                     <data-elem-list-nodes>
-                                        <and-or>
-                                            <type>1</type>
-                                            <list-nodes>
-                                                <str-tunarray-element>
-                                                    <data-elem-list-nodes>
-                                                        <event>
-                                                            <type>2</type>
-                                                            <param>3</param>
-                                                        </event>
-                                                    </data-elem-list-nodes>
-                                                </str-tunarray-element>
-                                                <str-tunarray-element>
-                                                    <data-elem-list-nodes>
-                                                        <event>
-                                                            <type>2</type>
-                                                            <param>30</param>
-                                                        </event>
-                                                    </data-elem-list-nodes>
-                                                </str-tunarray-element>
-                                            </list-nodes>
-                                        </and-or>
+                                        <event>
+                                            <type>2</type>
+                                            <param>30</param>
+                                        </event>
                                     </data-elem-list-nodes>
                                 </str-tunarray-element>
                             </list-nodes>

@@ -2,9 +2,9 @@
     <id>82</id>
     <filename>events.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>29</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -931,6 +931,36 @@
                 <duration>0.0</duration>
                 <idx>65535</idx>
                 <indexes/>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="89">
+            <data>
+                <type>1</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>9</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="90">
+            <data>
+                <type>2</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>67</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="91">
+            <data>
+                <type>2</type>
+                <duration>15.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>68</str-tunarray-element>
+                </indexes>
             </data>
         </str-tunarray-element>
     </data>
