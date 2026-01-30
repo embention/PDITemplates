@@ -2,9 +2,9 @@
     <id>82</id>
     <filename>events.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -95,7 +95,6 @@
                 <duration>0.0</duration>
                 <idx>65535</idx>
                 <indexes>
-                    <str-tunarray-element>1</str-tunarray-element>
                     <str-tunarray-element>3</str-tunarray-element>
                     <str-tunarray-element>4</str-tunarray-element>
                     <str-tunarray-element>5</str-tunarray-element>
@@ -103,6 +102,8 @@
                     <str-tunarray-element>8</str-tunarray-element>
                     <str-tunarray-element>9</str-tunarray-element>
                     <str-tunarray-element>7</str-tunarray-element>
+                    <str-tunarray-element>10</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -117,6 +118,7 @@
                     <str-tunarray-element>5</str-tunarray-element>
                     <str-tunarray-element>8</str-tunarray-element>
                     <str-tunarray-element>9</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -131,6 +133,7 @@
                     <str-tunarray-element>5</str-tunarray-element>
                     <str-tunarray-element>8</str-tunarray-element>
                     <str-tunarray-element>9</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -145,6 +148,7 @@
                     <str-tunarray-element>4</str-tunarray-element>
                     <str-tunarray-element>8</str-tunarray-element>
                     <str-tunarray-element>9</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -160,6 +164,7 @@
                     <str-tunarray-element>5</str-tunarray-element>
                     <str-tunarray-element>8</str-tunarray-element>
                     <str-tunarray-element>9</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -184,6 +189,7 @@
                     <str-tunarray-element>4</str-tunarray-element>
                     <str-tunarray-element>5</str-tunarray-element>
                     <str-tunarray-element>9</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -296,6 +302,7 @@
                     <str-tunarray-element>5</str-tunarray-element>
                     <str-tunarray-element>6</str-tunarray-element>
                     <str-tunarray-element>7</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -330,6 +337,8 @@
                     <str-tunarray-element>5</str-tunarray-element>
                     <str-tunarray-element>8</str-tunarray-element>
                     <str-tunarray-element>9</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
+                    <str-tunarray-element>2</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -376,6 +385,7 @@
                     <str-tunarray-element>6</str-tunarray-element>
                     <str-tunarray-element>8</str-tunarray-element>
                     <str-tunarray-element>9</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -533,6 +543,8 @@
                     <str-tunarray-element>5</str-tunarray-element>
                     <str-tunarray-element>6</str-tunarray-element>
                     <str-tunarray-element>8</str-tunarray-element>
+                    <str-tunarray-element>10</str-tunarray-element>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>
@@ -592,6 +604,95 @@
                 <idx>65535</idx>
                 <indexes>
                     <str-tunarray-element>1216</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="57">
+            <data>
+                <type>1</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>10</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="58">
+            <data>
+                <type>9</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="59">
+            <data>
+                <type>12</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>1</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="60">
+            <data>
+                <type>4</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>1217</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="61">
+            <data>
+                <type>9</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="62">
+            <data>
+                <type>1</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>2</str-tunarray-element>
+                    <str-tunarray-element>3</str-tunarray-element>
+                    <str-tunarray-element>4</str-tunarray-element>
+                    <str-tunarray-element>5</str-tunarray-element>
+                    <str-tunarray-element>8</str-tunarray-element>
+                    <str-tunarray-element>9</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="63">
+            <data>
+                <type>9</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="64">
+            <data>
+                <type>1</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>12</str-tunarray-element>
+                </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="65">
+            <data>
+                <type>1</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes>
+                    <str-tunarray-element>11</str-tunarray-element>
                 </indexes>
             </data>
         </str-tunarray-element>

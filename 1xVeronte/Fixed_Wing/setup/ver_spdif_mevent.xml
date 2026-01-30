@@ -2,9 +2,9 @@
     <id>128</id>
     <filename>mevent.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <map>
@@ -1659,7 +1659,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="57">
                 <data>
-                    <name>IAS &gt; 10</name>
+                    <name>ROT Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1684,7 +1684,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="58">
                 <data>
-                    <name>Stick priority &gt; 0</name>
+                    <name>ROT Button</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1709,7 +1709,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="59">
                 <data>
-                    <name>Auto Mode</name>
+                    <name>ROT Timer finished</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1734,7 +1734,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="60">
                 <data>
-                    <name>No name</name>
+                    <name>Simulation Running</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1759,7 +1759,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="61">
                 <data>
-                    <name>Stick Middle</name>
+                    <name>CR2 Button</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1784,7 +1784,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="62">
                 <data>
-                    <name>0 Flap Button</name>
+                    <name>Phases to CR2</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1799,7 +1799,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>0</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -1809,7 +1809,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="63">
                 <data>
-                    <name>Manual/Arcade Mode</name>
+                    <name>TAX Button</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1834,7 +1834,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="64">
                 <data>
-                    <name>Mid Flap Button</name>
+                    <name>TAX Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1849,7 +1849,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>1</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>
@@ -1859,7 +1859,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="65">
                 <data>
-                    <name>Full Flap Button</name>
+                    <name>CR2 Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1874,7 +1874,7 @@
                     </dataTypeColor>
                     <check>
                         <data>
-                            <icon>2</icon>
+                            <icon>10</icon>
                             <timeControl>0.0</timeControl>
                             <check>0</check>
                             <checkTime>0</checkTime>

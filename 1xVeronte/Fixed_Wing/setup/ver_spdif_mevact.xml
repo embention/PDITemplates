@@ -2,9 +2,9 @@
     <id>129</id>
     <filename>mevact.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <map>
@@ -19,56 +19,56 @@
                 <data>
                     <name>RWY Button</name>
                     <group>1</group>
-                    <order>1</order>
+                    <order>2</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
                     <name>CMB Button</name>
                     <group>1</group>
-                    <order>2</order>
+                    <order>4</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
                 <data>
                     <name>CRU Button</name>
                     <group>1</group>
-                    <order>3</order>
+                    <order>5</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="4">
                 <data>
                     <name>HLD Button</name>
                     <group>1</group>
-                    <order>4</order>
+                    <order>7</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="5">
                 <data>
                     <name>LOI Button</name>
                     <group>1</group>
-                    <order>5</order>
+                    <order>8</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="6">
                 <data>
                     <name>LND Button</name>
                     <group>1</group>
-                    <order>6</order>
+                    <order>9</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">
                 <data>
                     <name>FLR Button</name>
                     <group>1</group>
-                    <order>7</order>
+                    <order>10</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="8">
                 <data>
                     <name>KNB Button</name>
                     <group>1</group>
-                    <order>8</order>
+                    <order>11</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="9">
@@ -164,44 +164,44 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="22">
                 <data>
-                    <name>RWY to CMB</name>
+                    <name>RWY to ROT</name>
                     <group>0</group>
-                    <order>0</order>
+                    <order>1</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="23">
                 <data>
                     <name>CMB to CRU</name>
                     <group>0</group>
-                    <order>1</order>
+                    <order>4</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="24">
                 <data>
                     <name>LND to FLR</name>
                     <group>0</group>
-                    <order>2</order>
+                    <order>5</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="25">
                 <data>
                     <name>Mission in CRU</name>
                     <group>4</group>
-                    <order>0</order>
+                    <order>1</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="26">
                 <data>
                     <name>Loiter CW</name>
                     <group>4</group>
-                    <order>1</order>
+                    <order>2</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="27">
                 <data>
                     <name>Loiter CCW</name>
                     <group>4</group>
-                    <order>2</order>
+                    <order>3</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="28">
@@ -229,12 +229,12 @@
                 <data>
                     <name>LND to CMB (Abort)</name>
                     <group>0</group>
-                    <order>3</order>
+                    <order>6</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="32">
                 <data>
-                    <name>Link Off Abort TKO</name>
+                    <name>Link Off Abort TKO or TAX</name>
                     <group>3</group>
                     <order>3</order>
                 </data>
@@ -243,7 +243,7 @@
                 <data>
                     <name>FbW Button</name>
                     <group>1</group>
-                    <order>9</order>
+                    <order>12</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="34">
@@ -271,14 +271,14 @@
                 <data>
                     <name>Loiter CW when route finished</name>
                     <group>4</group>
-                    <order>3</order>
+                    <order>4</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="38">
                 <data>
                     <name>Loiter CCW when route finished COPY</name>
                     <group>4</group>
-                    <order>4</order>
+                    <order>5</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="39">
@@ -293,6 +293,55 @@
                     <name>Calibrate Atm</name>
                     <group>6</group>
                     <order>2</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="41">
+                <data>
+                    <name>ROT to CMB</name>
+                    <group>0</group>
+                    <order>3</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="42">
+                <data>
+                    <name>ROT Button</name>
+                    <group>1</group>
+                    <order>3</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="43">
+                <data>
+                    <name>ROT Timer</name>
+                    <group>0</group>
+                    <order>2</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="44">
+                <data>
+                    <name>CR2 Button</name>
+                    <group>1</group>
+                    <order>6</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="45">
+                <data>
+                    <name>TAX Button</name>
+                    <group>1</group>
+                    <order>1</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="46">
+                <data>
+                    <name>Mission in TAX</name>
+                    <group>4</group>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="47">
+                <data>
+                    <name>TAX to SBY</name>
+                    <group>0</group>
+                    <order>0</order>
                 </data>
             </str-tunarray-element>
         </map>

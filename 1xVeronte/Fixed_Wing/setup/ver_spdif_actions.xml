@@ -2,9 +2,9 @@
     <id>83</id>
     <filename>actions.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <action-array>
@@ -266,7 +266,7 @@
                 <data>
                     <acset-flyto>
                         <type>0</type>
-                        <idCfg>191</idCfg>
+                        <idCfg>198</idCfg>
                         <str>
                             <flyto-cmd>0</flyto-cmd>
                         </str>
@@ -511,6 +511,85 @@
                             </var>
                         </str>
                     </acset-var>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="27">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>10</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="28">
+                <data>
+                    <acset-uclk>
+                        <type>0</type>
+                        <idCfg>224</idCfg>
+                        <str>
+                            <uclk>
+                                <ntimer>1</ntimer>
+                                <flags-choice>
+                                    <all>
+                                        <type>15</type>
+                                        <run>1</run>
+                                        <period>
+                                            <fixed-any>
+                                                <mode>1</mode>
+                                                <period_s>10.0</period_s>
+                                            </fixed-any>
+                                        </period>
+                                        <xclk-type>
+                                            <type-vector>
+                                                <type>2</type>
+                                                <uh>
+                                                    <x>0.0</x>
+                                                    <y>0.0</y>
+                                                    <z>-1.0</z>
+                                                </uh>
+                                            </type-vector>
+                                        </xclk-type>
+                                    </all>
+                                </flags-choice>
+                            </uclk>
+                        </str>
+                    </acset-uclk>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="29">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>12</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="30">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>11</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="31">
+                <data>
+                    <acset-flyto>
+                        <type>0</type>
+                        <idCfg>198</idCfg>
+                        <str>
+                            <flyto-cmd>1</flyto-cmd>
+                        </str>
+                    </acset-flyto>
                 </data>
             </str-tunarray-element>
         </action-array>

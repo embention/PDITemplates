@@ -1,0 +1,17 @@
+<entry-flyto-setup-map>
+    <id>22</id>
+    <filename>flyto-setup-map.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>0</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="1">
+            <data>1</data>
+        </str-tunarray-element>
+    </data>
+</entry-flyto-setup-map>

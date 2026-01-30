@@ -2,9 +2,9 @@
     <id>60</id>
     <filename>tm.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -433,6 +433,7 @@
                     </data-fieldset>
                 </str-tunarray-element>
             </fields>
+            <enable>1</enable>
             <periode>0.1</periode>
             <address>
                 <uav>2</uav>
@@ -664,23 +665,6 @@
                     <data-fieldset>
                         <bit>
                             <type>3</type>
-                            <id>206</id>
-                        </bit>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <real-float32>
-                            <type>0</type>
-                            <id>1520</id>
-                            <scale>1.0</scale>
-                        </real-float32>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <bit>
-                            <type>3</type>
                             <id>1208</id>
                         </bit>
                     </data-fieldset>
@@ -891,7 +875,35 @@
                         </real-float32>
                     </data-fieldset>
                 </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <uinteger16>
+                            <type>2</type>
+                            <id>50</id>
+                            <min>0.0</min>
+                            <max>65535.0</max>
+                        </uinteger16>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>306</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>1620</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
             </fields>
+            <enable>1</enable>
             <periode>0.2</periode>
             <address>
                 <uav>2</uav>
