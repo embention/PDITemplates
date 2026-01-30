@@ -2,9 +2,9 @@
     <id>130</id>
     <filename>maction.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>54</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <map>
@@ -13,11 +13,6 @@
                     <name>
                         <name>SBY</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="1">
@@ -25,11 +20,6 @@
                     <name>
                         <name>HLD</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
@@ -37,11 +27,6 @@
                     <name>
                         <name>RTH</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
@@ -49,11 +34,6 @@
                     <name>
                         <name>HVR</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="4">
@@ -61,11 +41,6 @@
                     <name>
                         <name>LND</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="5">
@@ -73,11 +48,6 @@
                     <name>
                         <name>CRU</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="6">
@@ -85,23 +55,13 @@
                     <name>
                         <name>TKO</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="7">
                 <data>
                     <name>
-                        <name>Atmosphere Cal</name>
+                        <name>Atm Cal 1</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="8">
@@ -109,11 +69,6 @@
                     <name>
                         <name>Remember Home</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="9">
@@ -121,11 +76,6 @@
                     <name>
                         <name>AUTO</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="10">
@@ -133,11 +83,6 @@
                     <name>
                         <name>HLD</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="11">
@@ -145,11 +90,6 @@
                     <name>
                         <name>Arcade Mode</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="12">
@@ -157,11 +97,6 @@
                     <name>
                         <name>Trim Arcade</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="13">
@@ -169,23 +104,13 @@
                     <name>
                         <name>Enable Mission = 1</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="14">
                 <data>
                     <name>
-                        <name>In Home</name>
+                        <name>Atm Calib GNSS1 ready</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="15">
@@ -193,11 +118,6 @@
                     <name>
                         <name>LND</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="16">
@@ -205,47 +125,20 @@
                     <name>
                         <name>Timer 1 Start</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="17">
                 <data>
                     <name>
-                        <name>Not In Home</name>
+                        <name>GNSS2 Accuracy &lt; 4 m</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="18">
                 <data>
                     <name>
-                        <name>Go to Home WP</name>
+                        <name>Atm Calib GNSS2 ready</name>
                     </name>
-                    <has-icon>
-                        <has-icon-y>
-                            <hasIcon>1</hasIcon>
-                            <color>
-                                <cmpType2>
-                                    <typeColor>0</typeColor>
-                                    <color>
-                                        <r>255</r>
-                                        <g>255</g>
-                                        <b>255</b>
-                                        <a>255</a>
-                                    </color>
-                                </cmpType2>
-                            </color>
-                            <icon>42</icon>
-                        </has-icon-y>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="19">
@@ -253,11 +146,6 @@
                     <name>
                         <name>Enable Mission = 0</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="20">
@@ -265,11 +153,6 @@
                     <name>
                         <name>Start Cruise</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="21">
@@ -277,23 +160,13 @@
                     <name>
                         <name>ARM</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="22">
                 <data>
                     <name>
-                        <name>Execute RTH distance program</name>
+                        <name>Atm Calib GNSS1 NOT ready</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="23">
@@ -301,11 +174,6 @@
                     <name>
                         <name>SBY</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="24">
@@ -313,35 +181,20 @@
                     <name>
                         <name>Enable Mission = 1</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="25">
                 <data>
                     <name>
-                        <name>To inflight point</name>
+                        <name>Atm Calib GNSS2 NOT ready</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="26">
                 <data>
                     <name>
-                        <name>To LDN</name>
+                        <name>Atm Cal 2</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="27">
@@ -349,11 +202,6 @@
                     <name>
                         <name>BITCylinder = 1</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="28">
@@ -361,11 +209,6 @@
                     <name>
                         <name>BITCylinder = 0</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="29">
@@ -373,11 +216,6 @@
                     <name>
                         <name>Attitude Limits</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="30">
@@ -385,11 +223,6 @@
                     <name>
                         <name>RDZ</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="31">
@@ -397,11 +230,6 @@
                     <name>
                         <name>Gimbal Zero</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="35">
@@ -409,11 +237,6 @@
                     <name>
                         <name>HLD (HVR)</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="42">
@@ -421,11 +244,6 @@
                     <name>
                         <name>No name</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="43">
@@ -433,11 +251,6 @@
                     <name>
                         <name>No name</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="44">
@@ -445,11 +258,6 @@
                     <name>
                         <name>Hover HERE</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="45">
@@ -457,11 +265,6 @@
                     <name>
                         <name>GE ON</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="46">
@@ -469,11 +272,6 @@
                     <name>
                         <name>GE Distance</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="47">
@@ -481,11 +279,6 @@
                     <name>
                         <name>GE OFF</name>
                     </name>
-                    <has-icon>
-                        <has-icon-n>
-                            <hasIcon>0</hasIcon>
-                        </has-icon-n>
-                    </has-icon>
                 </data>
             </str-tunarray-element>
         </map>

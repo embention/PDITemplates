@@ -2,9 +2,9 @@
     <id>148</id>
     <filename>mfmgr.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>54</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <map>
@@ -28,17 +28,17 @@
                     <string>Selected RTH</string>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="45056">
+            <str-tunarray-element str-tunarray-key="29702">
                 <data>
                     <string>Home 1</string>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="45057">
+            <str-tunarray-element str-tunarray-key="45056">
                 <data>
                     <string>Home 2</string>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="45058">
+            <str-tunarray-element str-tunarray-key="45057">
                 <data>
                     <string>Home 3</string>
                 </data>

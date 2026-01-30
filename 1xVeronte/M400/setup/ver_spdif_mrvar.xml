@@ -2,9 +2,9 @@
     <id>136</id>
     <filename>mrvar.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>54</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <map>
@@ -547,6 +547,110 @@
                 <value>
                     <description>
                         <name/>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1050</id>
+                <value>
+                    <description>
+                        <name>Pitching Before Servo Saturation</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>2400</id>
+                <value>
+                    <description>
+                        <name>Pitching </name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>2401</id>
+                <value>
+                    <description>
+                        <name>Thrusting </name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1051</id>
+                <value>
+                    <description>
+                        <name>Thrusting Before Servo Saturation</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>2402</id>
+                <value>
+                    <description>
+                        <name>Rolling</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1052</id>
+                <value>
+                    <description>
+                        <name>Rolling Before Servo Saturation</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>2403</id>
+                <value>
+                    <description>
+                        <name>Yawing</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1053</id>
+                <value>
+                    <description>
+                        <name>Yawing Before Servo Saturation</name>
                     </description>
                     <unit>
                         <no-exist-unit>

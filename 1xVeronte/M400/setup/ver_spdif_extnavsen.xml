@@ -1,0 +1,14 @@
+<entry-extnavsen>
+    <id>168</id>
+    <filename>extnavsen.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
+    </version>
+    <data>
+        <desired_freq>100.0</desired_freq>
+        <req_status0_present>0</req_status0_present>
+        <req_status0_value>0</req_status0_value>
+    </data>
+</entry-extnavsen>

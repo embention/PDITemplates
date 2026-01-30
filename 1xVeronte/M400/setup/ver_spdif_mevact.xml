@@ -2,9 +2,9 @@
     <id>129</id>
     <filename>mevact.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>54</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <map>
@@ -129,9 +129,16 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="17">
                 <data>
-                    <name>Auto Atmosphere Cal</name>
+                    <name>Atm Cal 1 ready</name>
                     <group>6</group>
                     <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="18">
+                <data>
+                    <name>Atm Cal 2 ready</name>
+                    <group>6</group>
+                    <order>1</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="19">
@@ -153,6 +160,13 @@
                     <name>TKO to HVR</name>
                     <group>1</group>
                     <order>1</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="22">
+                <data>
+                    <name>Atm Cal 1 NOT ready</name>
+                    <group>6</group>
+                    <order>2</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="23">
@@ -204,11 +218,25 @@
                     <order>2</order>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="30">
+                <data>
+                    <name>Atm Cal 2 NOT ready</name>
+                    <group>6</group>
+                    <order>3</order>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="31">
                 <data>
                     <name>Low Battery Critical</name>
                     <group>3</group>
                     <order>3</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="32">
+                <data>
+                    <name>Calibrate Atm 1</name>
+                    <group>6</group>
+                    <order>4</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="33">
@@ -229,6 +257,13 @@
                 <data>
                     <name>ARM to HLD</name>
                     <group>2</group>
+                    <order>5</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="36">
+                <data>
+                    <name>Calibrate Atm 2</name>
+                    <group>6</group>
                     <order>5</order>
                 </data>
             </str-tunarray-element>

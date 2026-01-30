@@ -2,9 +2,9 @@
     <id>72</id>
     <filename>tmcompl.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>54</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -155,6 +155,7 @@
                     </data-fieldset>
                 </str-tunarray-element>
             </fields>
+            <enable>1</enable>
             <periode>0.1</periode>
             <address>
                 <uav>2</uav>
