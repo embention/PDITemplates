@@ -3,8 +3,8 @@
     <filename>extgyr1.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>52</revision>
+        <minor>8</minor>
+        <revision>9</revision>
     </version>
     <data>
         <desired_freq>0.0</desired_freq>

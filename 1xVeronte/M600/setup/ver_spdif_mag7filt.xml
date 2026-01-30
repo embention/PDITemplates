@@ -3,8 +3,8 @@
     <filename>mag7filt.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>52</revision>
+        <minor>8</minor>
+        <revision>9</revision>
     </version>
     <data>
         <iir_cfg>
