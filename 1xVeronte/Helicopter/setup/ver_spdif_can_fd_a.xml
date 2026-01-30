@@ -7,26 +7,26 @@
         <revision>52</revision>
     </version>
     <data>
-        <can_fd_mode>0</can_fd_mode>
+        <can_fd_mode>1</can_fd_mode>
         <enable_brs>0</enable_brs>
         <arb>
             <use_timings>0</use_timings>
             <baudrate>5</baudrate>
             <tim>
-                <prescaler>0</prescaler>
-                <tseg1>0</tseg1>
-                <tseg2>0</tseg2>
-                <sjw>0</sjw>
+                <prescaler>24</prescaler>
+                <tseg1>4</tseg1>
+                <tseg2>1</tseg2>
+                <sjw>1</sjw>
             </tim>
         </arb>
         <data>
             <use_timings>0</use_timings>
-            <baudrate>0</baudrate>
+            <baudrate>5</baudrate>
             <tim>
-                <prescaler>0</prescaler>
-                <tseg1>0</tseg1>
-                <tseg2>0</tseg2>
-                <sjw>0</sjw>
+                <prescaler>24</prescaler>
+                <tseg1>4</tseg1>
+                <tseg2>1</tseg2>
+                <sjw>1</sjw>
             </tim>
         </data>
         <rx/>
