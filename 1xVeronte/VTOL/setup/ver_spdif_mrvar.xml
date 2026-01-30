@@ -2,9 +2,9 @@
     <id>136</id>
     <filename>mrvar.bin</filename>
     <version>
-        <major>6</major>
-        <minor>14</minor>
-        <revision>29</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <map>
@@ -1324,12 +1324,13 @@
                 <id>3180</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>SRTM Accuracy</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1402,12 +1403,13 @@
                 <id>3178</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>SRTM Terain Altitude</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
