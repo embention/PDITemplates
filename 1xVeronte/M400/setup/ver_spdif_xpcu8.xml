@@ -2,9 +2,9 @@
     <id>12</id>
     <filename>xpcu8.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -57,7 +57,7 @@
         </str-tunarray-element>
         <str-tunarray-element>
             <producer>31</producer>
-            <consumer>19</consumer>
+            <consumer>41</consumer>
             <group>1</group>
             <enable-bvar>1</enable-bvar>
         </str-tunarray-element>

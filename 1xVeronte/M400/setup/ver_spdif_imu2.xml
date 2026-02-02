@@ -2,17 +2,19 @@
     <id>256</id>
     <filename>imu2.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
-        <accRange>3</accRange>
+        <accRange>2</accRange>
         <accODR>12</accODR>
         <accBWP>160</accBWP>
         <accMaxNvSamples>30</accMaxNvSamples>
         <gyrRange>0</gyrRange>
-        <gyrOdrBw>1</gyrOdrBw>
+        <gyrOdrBw>2</gyrOdrBw>
         <gyrMaxNvSamples>30</gyrMaxNvSamples>
+        <acc_max_delta>235.3596</acc_max_delta>
+        <gyr_max_delta>69.81317</gyr_max_delta>
     </data>
 </entry-imu2>

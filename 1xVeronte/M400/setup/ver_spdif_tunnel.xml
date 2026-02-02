@@ -2,9 +2,9 @@
     <id>73</id>
     <filename>tunnel.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <tunnel1>
@@ -18,7 +18,7 @@
         </tunnel1>
         <tunnel2>
             <address>
-                <uav>999</uav>
+                <uav>4278190080</uav>
             </address>
             <port>0</port>
             <dts>0.01</dts>
@@ -27,7 +27,7 @@
         </tunnel2>
         <tunnel3>
             <address>
-                <uav>999</uav>
+                <uav>4278190080</uav>
             </address>
             <port>0</port>
             <dts>0.01</dts>

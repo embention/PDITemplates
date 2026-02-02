@@ -2,9 +2,9 @@
     <id>28</id>
     <filename>dpqr.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <str-tunarray-element>1.0</str-tunarray-element>
