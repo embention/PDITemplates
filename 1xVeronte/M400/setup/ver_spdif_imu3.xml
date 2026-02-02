@@ -2,9 +2,9 @@
     <id>360</id>
     <filename>imu3.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
-        <revision>62</revision>
+        <major>7</major>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <accMaxNvSamples>10</accMaxNvSamples>
@@ -12,5 +12,7 @@
         <mode_32bit>1</mode_32bit>
         <filter_stages>4</filter_stages>
         <bandwidth_370hz>0</bandwidth_370hz>
+        <acc_max_delta>156.8</acc_max_delta>
+        <gyr_max_delta>69.81317</gyr_max_delta>
     </data>
 </entry-imu3>
