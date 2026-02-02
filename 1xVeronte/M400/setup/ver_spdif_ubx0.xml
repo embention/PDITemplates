@@ -3,8 +3,8 @@
     <filename>ubx0.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>53</revision>
+        <minor>8</minor>
+        <revision>11</revision>
     </version>
     <data>
         <port_spi>
@@ -327,25 +327,5 @@
             <rate>0</rate>
             <port5>0</port5>
         </msg_rtcm4072>
-        <msg_rxm_sfrbx>
-            <msg-class>2</msg-class>
-            <msg-id>19</msg-id>
-            <i2c>0</i2c>
-            <uart1>0</uart1>
-            <uart2>0</uart2>
-            <usb>0</usb>
-            <rate>0</rate>
-            <port5>0</port5>
-        </msg_rxm_sfrbx>
-        <msg_rxm_rawx>
-            <msg-class>2</msg-class>
-            <msg-id>21</msg-id>
-            <i2c>0</i2c>
-            <uart1>0</uart1>
-            <uart2>0</uart2>
-            <usb>0</usb>
-            <rate>0</rate>
-            <port5>0</port5>
-        </msg_rxm_rawx>
     </data>
 </entry-ubx0>
