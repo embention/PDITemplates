@@ -3,8 +3,8 @@
     <filename>mblocks.bin</filename>
     <version>
         <major>7</major>
-        <minor>8</minor>
-        <revision>9</revision>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <map>
@@ -729,8 +729,8 @@
                 <y-pos>420</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>400</x-pos>
-                <y-pos>343</y-pos>
+                <x-pos>455</x-pos>
+                <y-pos>302</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>20</x-pos>
@@ -753,36 +753,40 @@
                 <y-pos>227</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>784</x-pos>
-                <y-pos>26</y-pos>
+                <x-pos>717</x-pos>
+                <y-pos>29</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>994</x-pos>
-                <y-pos>19</y-pos>
+                <x-pos>793</x-pos>
+                <y-pos>29</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>573</x-pos>
-                <y-pos>343</y-pos>
+                <x-pos>873</x-pos>
+                <y-pos>63</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>614</x-pos>
-                <y-pos>306</y-pos>
+                <x-pos>678</x-pos>
+                <y-pos>232</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>725</x-pos>
-                <y-pos>315</y-pos>
+                <x-pos>617</x-pos>
+                <y-pos>302</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>864</x-pos>
-                <y-pos>87</y-pos>
+                <x-pos>758</x-pos>
+                <y-pos>231</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>995</x-pos>
-                <y-pos>92</y-pos>
+                <x-pos>911</x-pos>
+                <y-pos>148</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>995</x-pos>
-                <y-pos>149</y-pos>
+                <x-pos>1078</x-pos>
+                <y-pos>188</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>1081</x-pos>
+                <y-pos>250</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>55</x-pos>
@@ -1145,10 +1149,5 @@
                 <y-pos>473</y-pos>
             </str-tunarray-element>
         </map>
-        <snap-settings>
-            <snap>0</snap>
-            <width>100</width>
-            <height>100</height>
-        </snap-settings>
     </data>
 </entry-mblocks>
