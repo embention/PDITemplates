@@ -3,20 +3,20 @@
     <filename>oppos.bin</filename>
     <version>
         <major>7</major>
-        <minor>8</minor>
-        <revision>9</revision>
+        <minor>6</minor>
+        <revision>53</revision>
     </version>
     <data>
         <feature>
             <wrt-choice>
-                <wrt-choice-rel>
-                    <wrt>46080</wrt>
-                    <rn>
-                        <x>0.0</x>
-                        <y>0.0</y>
-                        <z>0.0</z>
-                    </rn>
-                </wrt-choice-rel>
+                <wrt-choice-abs>
+                    <wrt>65535</wrt>
+                    <pos>
+                        <lon>0</lon>
+                        <lat>0</lat>
+                        <alt>0</alt>
+                    </pos>
+                </wrt-choice-abs>
             </wrt-choice>
         </feature>
     </data>
