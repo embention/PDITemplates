@@ -3,17 +3,26 @@
     <filename>marks.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>53</revision>
+        <minor>8</minor>
+        <revision>13</revision>
     </version>
     <data>
-        <str-tunarray-element str-tunarray-key="1">
-            <data>
-                <t>0</t>
-                <psid>0</psid>
-                <id>4</id>
-                <s>100.0</s>
-            </data>
-        </str-tunarray-element>
+        <marks>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <t>0</t>
+                    <psid>0</psid>
+                    <id>4</id>
+                    <s>100.0</s>
+                </data>
+            </str-tunarray-element>
+        </marks>
+        <mark-groups>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <str-tunarray-element>1</str-tunarray-element>
+                </data>
+            </str-tunarray-element>
+        </mark-groups>
     </data>
 </entry-rmark>
