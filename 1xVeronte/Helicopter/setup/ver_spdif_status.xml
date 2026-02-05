@@ -3,8 +3,8 @@
     <filename>status.bin</filename>
     <version>
         <major>7</major>
-        <minor>8</minor>
-        <revision>13</revision>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <vcp_tx_enabled>1</vcp_tx_enabled>

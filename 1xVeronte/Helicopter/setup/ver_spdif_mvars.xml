@@ -3,8 +3,8 @@
     <filename>mvars.bin</filename>
     <version>
         <major>7</major>
-        <minor>8</minor>
-        <revision>13</revision>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <map>
@@ -56,10 +56,6 @@
                         </data>
                     </str-tunarray-element>
                 </var-name-array>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <idType>7</idType>
-                <var-name-array/>
             </str-tunarray-element>
         </map>
     </data>

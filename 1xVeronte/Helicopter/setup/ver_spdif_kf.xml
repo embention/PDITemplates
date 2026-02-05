@@ -3,8 +3,8 @@
     <filename>kf.bin</filename>
     <version>
         <major>7</major>
-        <minor>8</minor>
-        <revision>13</revision>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <gpsok-time>5.0</gpsok-time>
