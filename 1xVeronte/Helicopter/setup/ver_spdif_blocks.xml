@@ -3,8 +3,8 @@
     <filename>blocks.bin</filename>
     <version>
         <major>7</major>
-        <minor>8</minor>
-        <revision>13</revision>
+        <minor>6</minor>
+        <revision>52</revision>
     </version>
     <data>
         <programs>
@@ -5224,6 +5224,8 @@
                                     <duration>2.5</duration>
                                     <e2>20.0</e2>
                                 </accvar>
+                                <kappa_h>0.0</kappa_h>
+                                <kappa_v>0.0</kappa_v>
                             </data>
                         </ekfpos>
                     </str-tunarray-element>
@@ -5246,6 +5248,8 @@
                                     <duration>2.5</duration>
                                     <e2>20.0</e2>
                                 </accvar>
+                                <kappa_h>0.0</kappa_h>
+                                <kappa_v>0.0</kappa_v>
                             </data>
                         </ekfvel>
                     </str-tunarray-element>
@@ -5268,6 +5272,8 @@
                                     <duration>2.5</duration>
                                     <e2>20.0</e2>
                                 </accvar>
+                                <kappa_h>0.0</kappa_h>
+                                <kappa_v>0.0</kappa_v>
                             </data>
                         </ekfpos>
                     </str-tunarray-element>
@@ -5290,6 +5296,8 @@
                                     <duration>2.5</duration>
                                     <e2>20.0</e2>
                                 </accvar>
+                                <kappa_h>0.0</kappa_h>
+                                <kappa_v>0.0</kappa_v>
                             </data>
                         </ekfvel>
                     </str-tunarray-element>
@@ -5507,6 +5515,7 @@
                                     <lfalling>-9900.0</lfalling>
                                     <lrising>-1.0</lrising>
                                 </e2rl>
+                                <kappa>0.0</kappa>
                             </data>
                         </ekfstp>
                     </str-tunarray-element>
