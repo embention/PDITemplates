@@ -1,0 +1,10 @@
+name: Email on milestone completion - trigger
+
+on:
+  milestone:
+    types: [closed]
+
+jobs:
+  notify:
+    uses: embention/sw_CI_Libs/.github/workflows/milestone_notify_completion_workflow.yaml@develop
+    secrets: inherit
