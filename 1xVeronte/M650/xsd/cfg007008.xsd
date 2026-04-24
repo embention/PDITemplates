@@ -1169,7 +1169,9 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fmset-consumer-mset-entry"></element>
+            <!-- 1x maximum is 64 and CEX2 maximum is 100, so leave the maximum in order to not duplicate all entries and this value
+            should be properly controlled by builder -->
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="100" type="cfg:data-fmset-consumer-mset-entry"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -2440,7 +2442,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="16" type="cfg:data-rxcfg-entry"/>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-rxcfg-entry"/>
         </sequence>
       </restriction>
     </complexContent>
@@ -3432,7 +3434,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fmset-can-cex">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="8" type="cfg:data-fmset-can-cex">
           </element>
         </sequence>
       </restriction>
@@ -3443,7 +3445,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="1280" type="cfg:data-fmset-can-cex">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="160" type="cfg:data-fmset-can-cex2">
           </element>
         </sequence>
       </restriction>
@@ -3459,22 +3461,42 @@
     </sequence>
   </complexType>
 
+    <complexType name="data-fmset-can-cex2">
+        <sequence>
+            <element name="fields" type="cfg:data-fieldset-array-can-cex2"/>
+            <element name="endianness" type="cfg:data-enum-endianness"></element>
+            <element name="time" type="cfg:str-realfloat32"/>
+            <element name="offset" type="cfg:str-realfloat32"></element>
+        </sequence>
+    </complexType>
+
   <complexType name="data-fieldset-array-can-cex">
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="64" type="cfg:data-fieldset">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fieldset">
           </element>
         </sequence>
       </restriction>
     </complexContent>
   </complexType>
+
+    <complexType name="data-fieldset-array-can-cex2">
+        <complexContent>
+            <restriction base="cfg:str-tunarray">
+                <sequence>
+                    <element name="str-tunarray-element" minOccurs="0" maxOccurs="1280" type="cfg:data-fieldset">
+                    </element>
+                </sequence>
+            </restriction>
+        </complexContent>
+    </complexType>
   
   <complexType name="data-fmset-array-cex">
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fmset-cex">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="10" type="cfg:data-fmset-cex">
           </element>
         </sequence>
       </restriction>
@@ -3505,7 +3527,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="20" type="cfg:data-fieldset">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fieldset">
           </element>
         </sequence>
       </restriction>
@@ -3525,7 +3547,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="100" type="cfg:data-fieldset">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="1000" type="cfg:data-fieldset">
           </element>
         </sequence>
       </restriction>
@@ -3638,7 +3660,7 @@
 
   <complexType name="data-can-producer-cex2">
     <sequence>
-      <element name="data-fcan-producer-tx-ini" type="cfg:data-fmsgcan-producer-cex-1"></element>
+      <element name="data-fcan-producer-tx-ini" type="cfg:data-fmsgcan-producer-cex2"></element>
       <element name="data-fcan-producer-tx" type="cfg:data-fmsgcan-producer-cex2"></element>
     </sequence>
   </complexType>
@@ -3669,7 +3691,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="160"
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="40"
             type="cfg:data-fmsgcanp"></element>
         </sequence>
       </restriction>
