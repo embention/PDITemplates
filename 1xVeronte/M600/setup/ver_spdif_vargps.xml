@@ -3,8 +3,8 @@
     <filename>vargps.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>53</revision>
+        <minor>8</minor>
+        <revision>36</revision>
     </version>
     <data>
         <vgps_wts>-1.0</vgps_wts>

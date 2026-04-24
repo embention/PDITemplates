@@ -3,8 +3,8 @@
     <filename>mvars.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>53</revision>
+        <minor>8</minor>
+        <revision>36</revision>
     </version>
     <data>
         <map>
@@ -70,6 +70,35 @@
                                 <has-icon-n>
                                     <hasIcon>0</hasIcon>
                                 </has-icon-n>
+                            </has-icon>
+                        </data>
+                    </str-tunarray-element>
+                </var-name-array>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <idType>7</idType>
+                <var-name-array>
+                    <str-tunarray-element str-tunarray-key="0">
+                        <data>
+                            <name>Home List</name>
+                            <mandatory>0</mandatory>
+                            <color>
+                                <r>255</r>
+                                <g>179</g>
+                                <b>102</b>
+                                <a>255</a>
+                            </color>
+                            <has-icon>
+                                <has-icon-y>
+                                    <hasIcon>1</hasIcon>
+                                    <color>
+                                        <r>0</r>
+                                        <g>0</g>
+                                        <b>0</b>
+                                        <a>255</a>
+                                    </color>
+                                    <icon>42</icon>
+                                </has-icon-y>
                             </has-icon>
                         </data>
                     </str-tunarray-element>
