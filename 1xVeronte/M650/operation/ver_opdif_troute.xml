@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>36</revision>
     </version>
     <data>
         <first>2</first>
@@ -158,39 +158,6 @@
                                     <lon>-6953169</lon>
                                     <lat>383851319</lat>
                                     <alt>320570</alt>
-                                </pos>
-                            </wrt-choice-abs>
-                        </wrt-choice>
-                    </wp>
-                    <next>65535</next>
-                    <speed-cfg>
-                        <type-speed>
-                            <type>2</type>
-                            <vlink>5.0</vlink>
-                            <vpoint-cfg>
-                                <mode-fixed>
-                                    <mode>0</mode>
-                                </mode-fixed>
-                            </vpoint-cfg>
-                        </type-speed>
-                    </speed-cfg>
-                    <cfg>
-                        <point>
-                            <patch-cfg-type>0</patch-cfg-type>
-                        </point>
-                    </cfg>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="6">
-                <data>
-                    <wp>
-                        <wrt-choice>
-                            <wrt-choice-abs>
-                                <wrt>65535</wrt>
-                                <pos>
-                                    <lon>-6982478</lon>
-                                    <lat>383830372</lat>
-                                    <alt>300560</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>

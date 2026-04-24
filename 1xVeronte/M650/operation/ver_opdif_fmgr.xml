@@ -4,11 +4,33 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>36</revision>
     </version>
     <data>
-        <genericOp/>
+        <genericOp>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <lon>-6982427</lon>
+                    <lat>383830336</lat>
+                    <alt>300560</alt>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <lon>-6982195</lon>
+                    <lat>383826817</lat>
+                    <alt>300560</alt>
+                </data>
+            </str-tunarray-element>
+        </genericOp>
         <specifiedOp/>
-        <fid-groups/>
+        <fid-groups>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <str-tunarray-element>45056</str-tunarray-element>
+                    <str-tunarray-element>45057</str-tunarray-element>
+                </data>
+            </str-tunarray-element>
+        </fid-groups>
     </data>
 </entry-fmgr>

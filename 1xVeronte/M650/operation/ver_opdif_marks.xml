@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>36</revision>
     </version>
     <data>
         <marks>
@@ -17,12 +17,6 @@
                 </data>
             </str-tunarray-element>
         </marks>
-        <mark-groups>
-            <str-tunarray-element str-tunarray-key="1">
-                <data>
-                    <str-tunarray-element>1</str-tunarray-element>
-                </data>
-            </str-tunarray-element>
-        </mark-groups>
+        <mark-groups/>
     </data>
 </entry-rmark>
