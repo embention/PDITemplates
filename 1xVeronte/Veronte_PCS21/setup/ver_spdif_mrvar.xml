@@ -3,8 +3,8 @@
     <filename>mrvar.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>43</revision>
+        <minor>8</minor>
+        <revision>37</revision>
     </version>
     <data>
         <map>
@@ -488,6 +488,230 @@
                         <no-exist-unit>
                             <exist>0</exist>
                         </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3200</id>
+                <value>
+                    <description>
+                        <name>UAV lon</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3201</id>
+                <value>
+                    <description>
+                        <name>UAV lat</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3202</id>
+                <value>
+                    <description>
+                        <name>UAV alt</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3205</id>
+                <value>
+                    <description>
+                        <name>NIS position GNSS1</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3206</id>
+                <value>
+                    <description>
+                        <name>NIS velocity GNSS1</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3207</id>
+                <value>
+                    <description>
+                        <name>NIS position GNSS2</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3208</id>
+                <value>
+                    <description>
+                        <name>NIS velocity GNSS2</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3209</id>
+                <value>
+                    <description>
+                        <name>NIS Magnetometer</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3140</id>
+                <value>
+                    <description>
+                        <name>GNSS PHerr</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3500</id>
+                <value>
+                    <description>
+                        <name/>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3141</id>
+                <value>
+                    <description>
+                        <name>GNSS PVerr</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3142</id>
+                <value>
+                    <description>
+                        <name>GNSS Vnorth</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3143</id>
+                <value>
+                    <description>
+                        <name>GNSS Veast</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3144</id>
+                <value>
+                    <description>
+                        <name>GNSS Vdown</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3145</id>
+                <value>
+                    <description>
+                        <name>GNSS VHerr</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3146</id>
+                <value>
+                    <description>
+                        <name>GNSS VVerr</name>
+                    </description>
+                    <unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>

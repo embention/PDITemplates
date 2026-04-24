@@ -3,8 +3,8 @@
     <filename>iridium.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>43</revision>
+        <minor>8</minor>
+        <revision>37</revision>
     </version>
     <data>
         <enable>0</enable>

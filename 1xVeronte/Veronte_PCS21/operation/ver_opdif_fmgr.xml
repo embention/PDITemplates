@@ -3,33 +3,12 @@
     <filename>fmgr.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>43</revision>
+        <minor>8</minor>
+        <revision>37</revision>
     </version>
     <data>
-        <genericOp>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <lon>0</lon>
-                    <lat>0</lat>
-                    <alt>0</alt>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="1">
-                <data>
-                    <lon>0</lon>
-                    <lat>0</lat>
-                    <alt>0</alt>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="2">
-                <data>
-                    <lon>0</lon>
-                    <lat>0</lat>
-                    <alt>0</alt>
-                </data>
-            </str-tunarray-element>
-        </genericOp>
+        <genericOp/>
         <specifiedOp/>
+        <fid-groups/>
     </data>
 </entry-fmgr>
