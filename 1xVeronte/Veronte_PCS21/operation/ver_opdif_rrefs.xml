@@ -3,8 +3,21 @@
     <filename>rrefs.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>43</revision>
+        <minor>8</minor>
+        <revision>37</revision>
     </version>
-    <data/>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>15.433333</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="1">
+            <data>10.288889</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data>10.288889</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="3">
+            <data>5.1444445</data>
+        </str-tunarray-element>
+    </data>
 </entry-rrefs>

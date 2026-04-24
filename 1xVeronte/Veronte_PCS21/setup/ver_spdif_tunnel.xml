@@ -3,18 +3,18 @@
     <filename>tunnel.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>43</revision>
+        <minor>8</minor>
+        <revision>37</revision>
     </version>
     <data>
         <tunnel1>
             <address>
-                <uav>999</uav>
+                <uav>4294967295</uav>
             </address>
             <port>0</port>
-            <dts>0.01</dts>
-            <dataBytes>22</dataBytes>
-            <parsing>0</parsing>
+            <dts>1.5</dts>
+            <dataBytes>250</dataBytes>
+            <parsing>1</parsing>
         </tunnel1>
         <tunnel2>
             <address>

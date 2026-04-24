@@ -3,13 +3,160 @@
     <filename>polymgr.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>43</revision>
+        <minor>8</minor>
+        <revision>37</revision>
     </version>
     <data>
-        <volumeOp/>
-        <polygons/>
-        <circles/>
+        <volumeOp>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-5409692</lon>
+                                <lat>382887408</lat>
+                                <alt>0</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-5484794</lon>
+                                <lat>382895155</lat>
+                                <alt>0</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-5502604</lon>
+                                <lat>382819193</lat>
+                                <alt>0</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-5421923</lon>
+                                <lat>382810434</lat>
+                                <alt>0</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="38">
+                <data>
+                    <wrt-choice>
+                        <wrt-choice-abs>
+                            <wrt>65535</wrt>
+                            <pos>
+                                <lon>-5750977</lon>
+                                <lat>382856607</lat>
+                                <alt>129380</alt>
+                            </pos>
+                        </wrt-choice-abs>
+                    </wrt-choice>
+                </data>
+            </str-tunarray-element>
+        </volumeOp>
+        <polygons>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <polygon>
+                        <fid>30727</fid>
+                        <fid>30726</fid>
+                        <fid>30725</fid>
+                        <fid>30724</fid>
+                    </polygon>
+                    <height>
+                        <upper-bound>
+                            <limited>0</limited>
+                            <fidrel>0</fidrel>
+                            <lim>
+                                <type>2</type>
+                                <h>
+                                    <vref-kval>
+                                        <type>65534</type>
+                                        <kval>100000.0</kval>
+                                    </vref-kval>
+                                </h>
+                            </lim>
+                        </upper-bound>
+                        <lower-bound>
+                            <limited>0</limited>
+                            <fidrel>0</fidrel>
+                            <lim>
+                                <type>2</type>
+                                <h>
+                                    <vref-kval>
+                                        <type>65534</type>
+                                        <kval>100000.0</kval>
+                                    </vref-kval>
+                                </h>
+                            </lim>
+                        </lower-bound>
+                    </height>
+                </data>
+            </str-tunarray-element>
+        </polygons>
+        <circles>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <circle>
+                        <fid>45094</fid>
+                        <R>6.0</R>
+                    </circle>
+                    <height>
+                        <upper-bound>
+                            <limited>1</limited>
+                            <fidrel>8195</fidrel>
+                            <lim>
+                                <type>1</type>
+                                <h>
+                                    <vref-kval>
+                                        <type>65534</type>
+                                        <kval>25.0</kval>
+                                    </vref-kval>
+                                </h>
+                            </lim>
+                        </upper-bound>
+                        <lower-bound>
+                            <limited>0</limited>
+                            <fidrel>0</fidrel>
+                            <lim>
+                                <type>1</type>
+                                <h>
+                                    <vref-kval>
+                                        <type>65534</type>
+                                        <kval>100000.0</kval>
+                                    </vref-kval>
+                                </h>
+                            </lim>
+                        </lower-bound>
+                    </height>
+                </data>
+            </str-tunarray-element>
+        </circles>
         <spheres/>
         <groups/>
         <geoCage>

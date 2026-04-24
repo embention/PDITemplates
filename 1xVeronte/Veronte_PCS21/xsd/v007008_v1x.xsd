@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v007006_v1x"
-  xmlns:ver="http://www.embention.com/schema/v007006_v1x" xmlns:core="http://www.embention.com/schema/cfg007006">
-  <import  namespace="http://www.embention.com/schema/cfg007006" schemaLocation="cfg007006.xsd"/>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v007008_v1x"
+  xmlns:ver="http://www.embention.com/schema/v007008_v1x" xmlns:core="http://www.embention.com/schema/cfg007008">
+  <import  namespace="http://www.embention.com/schema/cfg007008" schemaLocation="cfg007008.xsd"/>
 
   <!-- Simple Type -->
   <simpleType name="data-enum-satmgr-type">
@@ -119,6 +119,7 @@
       <element minOccurs="0" name="entry-ubx0" type="ver:entry-ubx0"></element>
       <element minOccurs="0" name="entry-ubx1" type="ver:entry-ubx1"></element>
       <element minOccurs="0" name="entry-sara" type="ver:entry-sara"></element>
+      <element minOccurs="0" name="entry-aes_tables" type="ver:entry-aes_tables"></element>
       <element minOccurs="0" name="entry-vgeoref" type="ver:entry-vgeoref"></element>
       <element minOccurs="0" name="entry-ppm1" type="ver:entry-ppm1"></element>
       <element minOccurs="0" name="entry-ppm2" type="ver:entry-ppm2"></element>
@@ -345,6 +346,7 @@
       <element minOccurs="0" name="entry-stg-mset" type="core:entry-stg-mset"></element>
       <element minOccurs="0" name="entry-stg-mcfg" type="core:entry-stg-mcfg"></element>
       <element minOccurs="0" name="entry-stg-subsys" type="ver:entry-stg-subsystem"></element>
+      <element minOccurs="0" name="entry-data-link-cfg" type="ver:entry-data-link-cfg"></element>
       <element minOccurs="0" name="entry-stg-msg-cfgs" type="ver:entry-stg-msg-cfgs"></element>
       <element minOccurs="0" name="entry-stg-ua-lights" type="ver:entry-stg-ua-lights"></element>
       <element minOccurs="0" name="entry-stg-vom-cfg" type="ver:entry-stg-vom-cfg"></element>
@@ -377,6 +379,7 @@
       <element minOccurs="0" name="entry-sched3-interp3" type="ver:entry-sched3-interp3"></element>
       <element minOccurs="0" name="entry-sched3-interp4" type="ver:entry-sched3-interp4"></element>
       <element minOccurs="0" name="entry-sched3-interp5" type="ver:entry-sched3-interp5"></element>
+      <element minOccurs="0" name="entry-network-config" type="ver:entry-network-config"></element>
     </all>
   </complexType>
 
@@ -544,6 +547,20 @@
             fixed="sara.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-sara"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="entry-aes_tables">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="16"></element>
+          <element name="filename" type="string"
+                   fixed="aes_tables.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="ver:data-aes_tables"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -1067,7 +1084,7 @@
           <element name="filename" type="string"
             fixed="marks.bin"></element>
           <element name="version" type="core:data-version"></element>
-          <element name="data" type="ver:data-rmarks-tunarray"></element>
+          <element name="data" type="ver:data-marks-pdi"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -1781,7 +1798,7 @@
       <element name="idType">
         <simpleType>
           <restriction base="core:str-uinteger16">
-            <pattern value="[023456]"/>
+            <pattern value="[0234567]"/>
           </restriction>
         </simpleType>
       </element>
@@ -3374,6 +3391,28 @@
     </complexContent>
   </complexType>
 
+  <complexType name="data-datalink">
+  <sequence>
+    <element name="period" type="core:str-realfloat32"/>
+    <element name="BIT_mode" type="core:str-uinteger8"/>
+    <element name="dl_info" type="core:data-stg-first-var2-array"/>
+  </sequence>
+  </complexType>
+
+  <complexType name="entry-data-link-cfg">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="378"></element>
+          <element name="filename" type="string"
+                   fixed="stg_data_link.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="ver:data-datalink"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
   <complexType name="entry-stg-msg-cfgs">
     <complexContent>
       <restriction base="core:entry">
@@ -4222,6 +4261,47 @@
     <sequence>
       <element name="loides" type="ver:data-geo-feature"/>
       <element name="alarms_cfg" type="core:data-uarray"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="entry-network-config">
+    <complexContent>
+      <restriction base="core:entry">
+        <sequence>
+          <element name="id" type="short" fixed="394"></element>
+          <element name="filename" type="string"
+                   fixed="network_config.bin"></element>
+          <element name="version" type="core:data-version"></element>
+          <element name="data" type="ver:data-network-config"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-network-config">
+    <sequence>
+      <element name="port_stg" type="core:str-uinteger16"></element>
+      <element name="ip_address" type="core:str-uinteger32"></element>
+      <element name="net_mask" type="core:str-uinteger32"></element>
+      <element name="static_routes" type="ver:network-route-entry_arr"></element>
+    </sequence>
+  </complexType>
+
+
+  <complexType name="network-route-entry_arr">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="19" type="ver:network-route-entry"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="network-route-entry">
+    <sequence>
+      <element name="address" type="core:data-address"></element>
+      <element name="ip_address" type="core:str-uinteger32"></element>
     </sequence>
   </complexType>
 
@@ -6751,7 +6831,7 @@
 
   <simpleType name="data-vpoint-cfg-type">
     <restriction base="core:data-enum-identifiable">
-      <pattern value="0|1"/>
+      <pattern value="0|1|2"/>
     </restriction>
   </simpleType>
 
@@ -6783,6 +6863,20 @@
                   </simpleType>
                 </element>
                 <element name="vpoint" type="core:str-realfloat32"></element>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="mode-flyby">
+            <complexType>
+              <sequence>
+                <element name="mode">
+                  <simpleType>
+                    <restriction base="ver:data-vpoint-cfg-type">
+                      <pattern value="2"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="fly-by-dist" type="core:str-realfloat32"></element>
               </sequence>
             </complexType>
           </element>
@@ -6937,10 +7031,41 @@
     </complexContent>
   </complexType>
 
+  <complexType name="data-fid-group">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="20" type="ver:data-enum-fid"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-fid-groups">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="5">
+            <complexType>
+              <complexContent>
+                <restriction base="core:str-tunarray-element">
+                  <sequence>
+                    <element name="data" type="ver:data-fid-group"/>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
   <complexType name="data-fmgr">
     <sequence>
       <element name="genericOp" type="ver:data-foperation"/>
       <element name="specifiedOp" type="ver:data-foperation"/>
+      <element name="fid-groups" type="ver:data-fid-groups"/>
     </sequence>
   </complexType>
 
@@ -9318,6 +9443,8 @@
             </complexType>
           </element>
 
+          <element name="r64varset" type="core:data-block-r64varset"/>
+
           <element name="envelope">
             <complexType>
               <sequence>
@@ -9408,6 +9535,23 @@
             </complexType>
           </element>
 
+          <element name="fid-group-get">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="119"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-fid-group-get"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="can-p-trigger" type="core:data-block-can-p-trigger"/>
+
           <element name="imu_lsm6dsx_port0">
             <complexType>
               <sequence>
@@ -9468,8 +9612,57 @@
             </complexType>
           </element>
 
+          <element name="func-r64xr64" type="core:data-block-func-r64xr64"/>
+          <element name="func-2r64xr64" type="core:data-block-func-2r64xr64"/>
           <element name="func-2u16xu16" type="core:data-block-func-2u16xu16"/>
           <element name="const-uint16" type="core:data-block-const-uint16"/>
+          <element name="pos-to-llh" type="ver:data-block-pos-to-llh"/>
+          <element name="fmsg-p-trigger" type="core:data-block-fmsg-p-trigger"/>
+
+          <element name="custom-wp-set">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="127"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-custom-wp-set"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="custom-waypoints">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="128"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-custom-waypoints"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="runway-block">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="129"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-runway-blk"></element>
+              </sequence>
+            </complexType>
+          </element>
 
         </choice>
       </extension>
@@ -10021,20 +10214,17 @@
   <complexType name="data-channelconfig">
     <sequence>
       <element name="crtype" type="core:str-uinteger8"></element>
-      <element name="times" type="core:str-uinteger8"></element>
-      <element name="random" type="core:str-uinteger16"></element>
-      <element name="keySize" type="core:str-uinteger8"></element>
-      <element name="key" type="core:str-uinteger8" minOccurs="0" maxOccurs="64"></element>
+      <element name="key" type="core:data-u8array" minOccurs="0" maxOccurs="64"></element>
     </sequence>
   </complexType>
 
   <complexType name="data-channelselector">
     <sequence>
-      <element name="USVsrc" type="core:str-uinteger8"></element>
-      <element name="USVdst" type="core:str-uinteger8"></element>
-      <element name="USVsrc_msk" type="core:str-uinteger8"></element>
-      <element name="USVdst_msk" type="core:str-uinteger8"></element>
-      <element name="CfgIndex" type="core:str-uinteger8"></element>
+      <element name="USVsrc" type="core:data-address"></element>
+      <element name="USVdst" type="core:data-address"></element>
+      <element name="USVsrc_msk" type="core:str-uinteger32"></element>
+      <element name="USVdst_msk" type="core:str-uinteger32"></element>
+      <element name="CfgIndex" type="core:str-uinteger16"></element>
     </sequence>
   </complexType>
 
@@ -10063,8 +10253,6 @@
       <element name="msg_rtcm1127" type="ver:data-ubx-msg"/>
       <element name="msg_rtcm1230" type="ver:data-ubx-msg"/>
       <element name="msg_rtcm4072" type="ver:data-ubx-msg"/>
-      <element name="msg_rxm_sfrbx" type="ver:data-ubx-msg"/>
-      <element name="msg_rxm_rawx" type="ver:data-ubx-msg"/>
     </sequence>
   </complexType>
 
@@ -10225,6 +10413,21 @@
       <element name="enable" type="core:str-bool16"></element>
       <element name="sim" type="core:str-uinteger16"></element>
       <element name="rawpcfg" type="core:data-rawpcfg"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-aes_tables">
+    <sequence>
+      <element name="te0" type="core:data-i32array"></element>
+      <element name="te1" type="core:data-i32array"></element>
+      <element name="te2" type="core:data-i32array"></element>
+      <element name="te3" type="core:data-i32array"></element>
+      <element name="te4" type="core:data-i32array"></element>
+      <element name="td0" type="core:data-i32array"></element>
+      <element name="td1" type="core:data-i32array"></element>
+      <element name="td2" type="core:data-i32array"></element>
+      <element name="td3" type="core:data-i32array"></element>
+      <element name="td4" type="core:data-i32array"></element>
     </sequence>
   </complexType>
 
@@ -10601,6 +10804,43 @@
       <element name="psid" type="core:str-uinteger16"/>
       <element name="id" type="core:str-uinteger16"/>
       <element name="s" type="core:str-realfloat32"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-rmark-group-tunarray">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="8" type="core:str-uinteger8"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-rmark-groups-tunarray">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="256">
+            <complexType>
+              <complexContent>
+                <restriction base="core:str-tunarray-element">
+                  <sequence>
+                    <element name="data" type="ver:data-rmark-group-tunarray"/>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-marks-pdi">
+    <sequence>
+      <element name="marks" type="ver:data-rmarks-tunarray"/>
+      <element name="mark-groups" type="ver:data-rmark-groups-tunarray"/>
     </sequence>
   </complexType>
 
@@ -11314,7 +11554,6 @@
       <element name="gndef_dh" type="core:str-realfloat32"/>
       <element name="gndef_e2" type="core:str-realfloat32"/>
       <element name="e2rl" type="core:data-ratelimiter"/>
-      <element name="kappa" type="core:str-realfloat32"/>
     </sequence>
   </complexType>
 
@@ -11408,8 +11647,6 @@
       <element name="enable" type="core:data-pin-addr-opt"/>
       <element name="att-mode" type="core:str-bool16"/>
       <element name="accvar" type="ver:data-e2acc"/>
-      <element name="kappa_h" type="core:str-realfloat32"/>
-      <element name="kappa_v" type="core:str-realfloat32"/>
     </sequence>
   </complexType>
 
@@ -11419,8 +11656,6 @@
       <element name="enable" type="core:data-pin-addr-opt"/>
       <element name="att-mode" type="core:str-bool16"/>
       <element name="accvar" type="ver:data-e2acc"/>
-      <element name="kappa_h" type="core:str-realfloat32"/>
-      <element name="kappa_v" type="core:str-realfloat32"/>
     </sequence>
   </complexType>
 
@@ -11782,6 +12017,39 @@
     </sequence>
   </complexType>
 
+  <complexType name="data-block-custom-wp-set">
+    <sequence>
+      <element name="in" type="core:data-pin-addr"/>
+      <element name="vlink" type="core:data-pin-addr-opt"/>
+      <element name="vpoint" type="core:data-pin-addr-opt"/>
+      <element name="wp-index" type="core:str-uinteger16"/>
+      <element name="next" type="core:str-uinteger16"/>
+      <element name="speed-cfg" type="ver:data-speed-cfg"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-custom-waypoints">
+    <sequence>
+      <element name="gcfg" type="ver:data-guidance-cfg"/>
+      <element name="first-wp" type="core:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-runway-blk">
+    <sequence>
+      <element name="in_wind" type="core:data-pin-addr-opt"/>
+      <element name="runway-id" type="core:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-fid-group-get">
+    <sequence>
+      <element name="reference-pos" type="core:data-pin-addr"/>
+      <element name="default-pos" type="core:data-pin-addr-opt"/>
+      <element name="selected-group" type="core:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
   <complexType name="data-stg-engine-op-sts-entry">
     <sequence>
       <element name="nspeeds" type="core:str-uinteger16"/>
@@ -11835,64 +12103,53 @@
     </sequence>
   </complexType>
 
-  <complexType name="data-subsystem-entry-key">
+  <complexType name="data-subcomponent-entry-key">
     <sequence>
       <element name="comp_n" type="core:str-uinteger8"/>
       <element name="subcomp_n" type="core:str-uinteger8"/>
     </sequence>
   </complexType>
 
-  <complexType name="data-subsystem-entry">
+  <complexType name="data-subcomponent-entry">
     <sequence>
-      <element name="key" type="ver:data-subsystem-entry-key"/>
+      <element name="key" type="ver:data-subcomponent-entry-key"/>
       <element name="uvar" type="core:str-uinteger16"/>
     </sequence>
   </complexType>
 
-  <complexType name="data-subsystem-array">
+  <complexType name="data-subcomponent-array">
     <complexContent>
       <restriction base="core:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="64" type="ver:data-subsystem-entry"></element>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="64" type="ver:data-subcomponent-entry"></element>
         </sequence>
       </restriction>
     </complexContent>
   </complexType>
 
-  <complexType name="data-subsystem">
+  <complexType name="data-subsystem-entry">
     <sequence>
-      <element name="subsys0" type="ver:data-subsystem-array"/>
-      <element name="subsys1" type="ver:data-subsystem-array"/>
-      <element name="subsys2" type="ver:data-subsystem-array"/>
-      <element name="subsys3" type="ver:data-subsystem-array"/>
-      <element name="subsys4" type="ver:data-subsystem-array"/>
-      <element name="subsys5" type="ver:data-subsystem-array"/>
-      <element name="subsys6" type="ver:data-subsystem-array"/>
-      <element name="subsys7" type="ver:data-subsystem-array"/>
-      <element name="subsys8" type="ver:data-subsystem-array"/>
-      <element name="subsys9" type="ver:data-subsystem-array"/>
-      <element name="subsys10" type="ver:data-subsystem-array"/>
-      <element name="subsys11" type="ver:data-subsystem-array"/>
-      <element name="subsys12" type="ver:data-subsystem-array"/>
-      <element name="subsys13" type="ver:data-subsystem-array"/>
-      <element name="subsys14" type="ver:data-subsystem-array"/>
-      <element name="subsys15" type="ver:data-subsystem-array"/>
-      <element name="subsys16" type="ver:data-subsystem-array"/>
-      <element name="subsys17" type="ver:data-subsystem-array"/>
-      <element name="subsys18" type="ver:data-subsystem-array"/>
-      <element name="subsys19" type="ver:data-subsystem-array"/>
-      <element name="subsys20" type="ver:data-subsystem-array"/>
-      <element name="subsys21" type="ver:data-subsystem-array"/>
-      <element name="subsys22" type="ver:data-subsystem-array"/>
-      <element name="subsys23" type="ver:data-subsystem-array"/>
-      <element name="subsys24" type="ver:data-subsystem-array"/>
-      <element name="subsys25" type="ver:data-subsystem-array"/>
-      <element name="subsys26" type="ver:data-subsystem-array"/>
-      <element name="subsys27" type="ver:data-subsystem-array"/>
-      <element name="subsys28" type="ver:data-subsystem-array"/>
-      <element name="subsys29" type="ver:data-subsystem-array"/>
-      <element name="subsys30" type="ver:data-subsystem-array"/>
-      <element name="subsys31" type="ver:data-subsystem-array"/>
+      <element name="type" type="core:str-uinteger8"></element>
+      <element name="components" type="ver:data-subcomponent-array"></element>
+      <element name="alert_type" type="core:str-uinteger8"></element>
+      <element name="alert_msg" type="core:str-string"></element>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-subsystem">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="ver:data-subsystem-entry"></element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-persistent-pdi">
+    <sequence>
+      <element name="is_persistent_pdi" type="core:str-bool16"/>
+      <element name="is_pdi_config_valid" type="core:str-bool16"/>
     </sequence>
   </complexType>
 
@@ -11971,6 +12228,19 @@
       <element name="device" type="core:data-imu-adis16505-3"/>
       <element name="acc_filters" type="ver:data-filter-3d-array"/>
       <element name="gyr_filters" type="ver:data-filter-3d-array"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-pos-to-llh">
+    <sequence>
+      <element name="block-type">
+        <simpleType>
+          <restriction base="core:data-enum-block-type">
+            <enumeration value="125"/>
+          </restriction>
+        </simpleType>
+      </element>
+      <element name="in" type="core:data-pin-addr"></element>
     </sequence>
   </complexType>
 

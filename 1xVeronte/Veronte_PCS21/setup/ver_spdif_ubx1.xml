@@ -3,8 +3,8 @@
     <filename>ubx1.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>43</revision>
+        <minor>8</minor>
+        <revision>37</revision>
     </version>
     <data>
         <port_spi>
@@ -33,14 +33,14 @@
         </port_sci>
         <nav5>
             <mask>1463</mask>
-            <dynmodel>2</dynmodel>
+            <dynmodel>8</dynmodel>
             <fixmode>2</fixmode>
             <fixedAlt>0</fixedAlt>
             <fixedAltVar>1</fixedAltVar>
             <minElev>5</minElev>
             <reserved0>0</reserved0>
-            <pDop>250</pDop>
-            <tDop>1000</tDop>
+            <pDop>2500</pDop>
+            <tDop>10000</tDop>
             <pAcc>100</pAcc>
             <tAcc>100</tAcc>
             <staticHoldThresh>0</staticHoldThresh>
@@ -103,42 +103,42 @@
                     <restrkch>8</restrkch>
                     <maxtrkch>16</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>17891329</flags>
+                    <flags>286326785</flags>
                 </GPS>
                 <QZSS>
                     <gnssid>5</gnssid>
                     <restrkch>0</restrkch>
-                    <maxtrkch>3</maxtrkch>
+                    <maxtrkch>4</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>17891329</flags>
+                    <flags>353697793</flags>
                 </QZSS>
                 <GLONASS>
                     <gnssid>6</gnssid>
                     <restrkch>8</restrkch>
-                    <maxtrkch>14</maxtrkch>
+                    <maxtrkch>12</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>17891329</flags>
+                    <flags>286326785</flags>
                 </GLONASS>
                 <BeiDou>
                     <gnssid>3</gnssid>
                     <restrkch>2</restrkch>
                     <maxtrkch>5</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>17891329</flags>
+                    <flags>286326785</flags>
                 </BeiDou>
                 <SBAS>
                     <gnssid>1</gnssid>
                     <restrkch>3</restrkch>
                     <maxtrkch>3</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>16842752</flags>
+                    <flags>16842753</flags>
                 </SBAS>
                 <Galileo>
                     <gnssid>2</gnssid>
                     <restrkch>10</restrkch>
                     <maxtrkch>18</maxtrkch>
                     <reserved>0</reserved>
-                    <flags>18939905</flags>
+                    <flags>555810817</flags>
                 </Galileo>
             </cfgblocks>
         </gnss>
@@ -173,7 +173,7 @@
             <scanMode1>0</scanMode1>
         </sbas>
         <cfg_rate>
-            <measRate>250</measRate>
+            <measRate>500</measRate>
             <navRate>1</navRate>
             <timeRef>1</timeRef>
         </cfg_rate>
@@ -184,7 +184,7 @@
             <uart1>0</uart1>
             <uart2>0</uart2>
             <usb>0</usb>
-            <rate>0</rate>
+            <rate>1</rate>
             <port5>0</port5>
         </msg_status>
         <msg_dop>
@@ -194,7 +194,7 @@
             <uart1>0</uart1>
             <uart2>0</uart2>
             <usb>0</usb>
-            <rate>1</rate>
+            <rate>0</rate>
             <port5>0</port5>
         </msg_dop>
         <msg_pvt>
@@ -244,7 +244,7 @@
             <uart1>0</uart1>
             <uart2>0</uart2>
             <usb>0</usb>
-            <rate>1</rate>
+            <rate>0</rate>
             <port5>0</port5>
         </msg_monhw>
         <msg_secsig>
@@ -327,25 +327,5 @@
             <rate>0</rate>
             <port5>0</port5>
         </msg_rtcm4072>
-        <msg_rxm_sfrbx>
-            <msg-class>2</msg-class>
-            <msg-id>19</msg-id>
-            <i2c>0</i2c>
-            <uart1>0</uart1>
-            <uart2>0</uart2>
-            <usb>0</usb>
-            <rate>0</rate>
-            <port5>0</port5>
-        </msg_rxm_sfrbx>
-        <msg_rxm_rawx>
-            <msg-class>2</msg-class>
-            <msg-id>21</msg-id>
-            <i2c>0</i2c>
-            <uart1>0</uart1>
-            <uart2>0</uart2>
-            <usb>0</usb>
-            <rate>0</rate>
-            <port5>0</port5>
-        </msg_rxm_rawx>
     </data>
 </entry-ubx1>

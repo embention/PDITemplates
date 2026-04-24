@@ -1,0 +1,15 @@
+<entry-network-config>
+    <id>394</id>
+    <filename>network_config.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>8</minor>
+        <revision>37</revision>
+    </version>
+    <data>
+        <port_stg>52000</port_stg>
+        <ip_address>0</ip_address>
+        <net_mask>4278190080</net_mask>
+        <static_routes/>
+    </data>
+</entry-network-config>
