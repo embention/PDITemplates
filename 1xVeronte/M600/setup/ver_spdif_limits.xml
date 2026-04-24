@@ -3,8 +3,8 @@
     <filename>limits.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>53</revision>
+        <minor>8</minor>
+        <revision>36</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -602,23 +602,6 @@
                 </value>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="35">
-            <data>
-                <variable>
-                    <vref-var>
-                        <type>0</type>
-                        <id>1610</id>
-                    </vref-var>
-                </variable>
-                <type>1</type>
-                <value>
-                    <vref-kval>
-                        <type>65534</type>
-                        <kval>4.0</kval>
-                    </vref-kval>
-                </value>
-            </data>
-        </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="36">
             <data>
                 <variable>
@@ -632,6 +615,23 @@
                     <vref-kval>
                         <type>65534</type>
                         <kval>0.25</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="37">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>1610</id>
+                    </vref-var>
+                </variable>
+                <type>1</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>4.0</kval>
                     </vref-kval>
                 </value>
             </data>

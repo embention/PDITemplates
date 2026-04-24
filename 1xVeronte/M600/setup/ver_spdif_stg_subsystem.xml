@@ -3,41 +3,8 @@
     <filename>stg_subsystem.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>53</revision>
+        <minor>8</minor>
+        <revision>36</revision>
     </version>
-    <data>
-        <subsys0/>
-        <subsys1/>
-        <subsys2/>
-        <subsys3/>
-        <subsys4/>
-        <subsys5/>
-        <subsys6/>
-        <subsys7/>
-        <subsys8/>
-        <subsys9/>
-        <subsys10/>
-        <subsys11/>
-        <subsys12/>
-        <subsys13/>
-        <subsys14/>
-        <subsys15/>
-        <subsys16/>
-        <subsys17/>
-        <subsys18/>
-        <subsys19/>
-        <subsys20/>
-        <subsys21/>
-        <subsys22/>
-        <subsys23/>
-        <subsys24/>
-        <subsys25/>
-        <subsys26/>
-        <subsys27/>
-        <subsys28/>
-        <subsys29/>
-        <subsys30/>
-        <subsys31/>
-    </data>
+    <data/>
 </entry-stg-subsys>
