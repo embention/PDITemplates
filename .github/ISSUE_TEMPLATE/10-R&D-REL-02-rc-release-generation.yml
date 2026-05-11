@@ -1,0 +1,41 @@
+name: "💡 [R&D] RC Release Generation"
+description: "Release Candidate generation tasks and securization."
+title: "[RELEASE] [RC] [project] [item] [major.minor.revision] [dd/mm/yy]"
+labels: ["Artifact", "Release", "Software"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Examples:
+        `[RELEASE] [RC] [1x] [sw_1x-pdi-builder] [7.4.16] [18/07/2025]`
+        `[RELEASE] [RC] [CEX] [sw_CEX] [7.4.18] [20/09/2025]`
+
+        📘 Related procedures:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+        - [P.172 - SOFTWARE Item Release](https://documentation.embention.net/172/en/latest/index.html)
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: One full URL per line for the related tasks.
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      value: |
+        <!-- Template for securization comment: -->
+        <!-- ## Release <ITEM>/<VERSION> -->
+        <!-- Link to release -->
+
+        <!-- ## Commit -->
+        <!-- Release commit sha -->
+    validations:
+      required: false
