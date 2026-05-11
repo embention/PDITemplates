@@ -1,0 +1,117 @@
+name: "🚩 [QA] No conformidad"
+description: "Resolución de NC mediante metodología 8D"
+title: "[NC] [tag] Text string"
+labels: ["Analysis", "Comment", "NC"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Instrucciones de Título
+        **Ordenar etiquetas de lo general a lo específico (Mayúsculas, una palabra por etiqueta (tag)).**
+
+        Ejemplos de Plantilla:
+        `[NC] [INTERNAL] [AREA] Brief NC description`
+        `[NC] [EXTERNAL] [AUDIT] [STANDARD] Brief NC description` 
+
+        📘 Procedimientos relacionados:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+        - [P.033 - No Conformidades y Propuestas de Mejora](https://documentation.embention.net/033/es/latest/index.html)
+        - [P.669 - Resolución De Problemas Con El Método 8D](https://documentation.embention.net/669/en/latest/index.html)
+
+  - type: textarea
+    id: d0_emergency_response
+    attributes:
+      label: D0. Acción de Respuesta de Emergencia
+      description: Si es necesario, ejecutar una Acción de Respuesta de Emergencia inmediata para contener el problema.
+    validations:
+      required: false
+
+  - type: textarea
+    id: d1_team
+    attributes:
+      label: D1. Equipo
+      value: |
+        - [ ] Asignar el *issue* al **líder de calidad**
+        - [ ] Asignar el *issue* al **responsable**
+    validations:
+      required: true
+
+  - type: textarea
+    id: d2_problem_description
+    attributes:
+      label: D2. Descripción del Problema
+      description: Describir la incidencia detectada, indicando material afectado si es aplicable, detalles, origen del problema, alcance, etc.
+      value: |
+       Nivel
+        - [ ] Nivel A
+        - [ ] Nivel B
+        - [ ] Hito indicado
+    validations:
+      required: false
+
+  - type: textarea
+    id: d3_containment_action
+    attributes:
+      label: D3. Acción de Contención
+      description: Descripción de las acciones para aislar los efectos del problema y evitar un impacto adicional hasta que se puedan implementar medidas correctivas.
+      value: |
+        - [ ] ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: d4_root_cause
+    attributes:
+      label: D4. Categoría de Causa Raíz
+      value: |
+        - [ ] 1 Error Humano
+        - [ ] 2 Recursos
+        - [ ] 3 Actitud
+        - [ ] 4 Competencia
+        - [ ] 5 Procedimiento
+        - Descripción de la causa raíz (o causas):
+        - Punto de escape (si aplica):
+    validations:
+      required: false
+
+  - type: textarea
+    id: d5_corrective_action
+    attributes:
+      label: D5. Acción Correctora
+      description: descripción de las acciones que eliminarán la(s) causa(s) raíz y anularán el/los punto(s) de escape.
+      value: |
+        - [ ] ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: d6_validate_corrective_actions
+    attributes:
+      label: D6. Validar Acciones Correctoras
+      value: |
+        - [ ] Validar que las acciones propuestas producirán el resultado esperado y no generarán nuevos problemas
+    validations:
+      required: false
+
+  - type: textarea
+    id: d7_preventive_action
+    attributes:
+      label: D7. Acciones Correctivas
+      description: descripción de las acciones para prevenir la recurrencia del problema actual, u otros similares esporádicos o sistemáticos.
+      value: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: d8_effectiveness_evaluation
+    attributes:
+      label: D8. ¿Evaluación de Efectividad y Comunicación al Equipo?
+      value: |
+        - Resumen de las acciones: ...
+        - [ ] Verificar que la NC ha sido gestionada satisfactoriamente en todas sus etapas
+    validations:
+    
+    
