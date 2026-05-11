@@ -1,0 +1,35 @@
+name: "🏢 [GEN] Blank Issue"
+description: "Don't see your issue template? Open a blank issue."
+title: "[tag] Text String"
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Template examples:
+        `[PROJECT] [MILESTONE] [DELIVERABLE] Brief task description`
+        `[PROJECT] [ITEM] [DELIVERABLE] Brief task description`
+        `[OBJECTIVE] [YEAR] [AREA] Objective name`
+
+        📘 Related procedure: [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: One full URL per line for the related tasks.
+      placeholder: "- https://github.com/embention/Embention/issues/12345"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the purpose of this issue.
+    validations:
+      required: true
