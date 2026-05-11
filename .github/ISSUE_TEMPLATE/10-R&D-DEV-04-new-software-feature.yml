@@ -1,0 +1,115 @@
+name: "💡 [R&D] New Software Feature"
+description: "Describe a new feature request"
+title: '[item/product] [FEATURE] __feature name__'
+labels:
+  - Analysis
+  - Comment
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Examples:
+        `[1x] [FEATURE] Landing Guidance`
+        `[CEX] [FEATURE] Tracking`
+
+        📘 Related procedures:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: |
+        Una línea por cada URL completa de las tareas relacionadas.
+      value: |
+        - [ ] **Req pull:** 
+        - [ ] **Des pull:**
+        - [ ] **Cod pull:** 
+        - [ ] **APPS issue:** 
+        - [ ] **VERIFICATION issue:**
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: P.695 - Software change impact analysis checklist
+      value: |
+        - Traceability. Requirements modifications needed:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - Code. Code modifications needed:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - Verification. New TC/TP or modifications needed:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - Memory. Actions needed due to significant memory impact:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - Timing. Actions needed due to significant timing impact:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - Data and control flow. Actions needed due to components high coupling:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - I/O. Actions needed due to high impact on Input/Output:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - Development environment:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - PDI. Parameter Data Item modifications needed:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - Partitioning. Actions needed due to impact on partitioning:
+             - [ ] Yes `issue`
+             - [ ] N/A
+        - Life cycle data changes impact on Safety
+             - [ ] Yes `issue`
+             - [ ] N/A
+    validations:
+      required: false
+
+  - type: input
+    id: product-app
+    attributes:
+      label: Product/App
+      description: "If apply, E.g.: 1xVeronte, 1x PDI Builder, etc."
+      placeholder: "E.g.: 1xVeronte, 1x PDI Builder"
+    validations:
+      required: false
+
+  - type: input
+    id: minor-version-target
+    attributes:
+      label: Minor version target
+      description: "If apply, E.g.: 6.14"
+      placeholder: "E.g.: 6.14"
+    validations:
+      required: false
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User story
+      description: New feature description
+      value: |
+        **Como** ... <!-- Usuario: Integrador, Operador, Piloto, etc. -->
+        **Quiero** ... <!-- Objetivo: a conseguir, intención. -->
+        **Para** ... <!-- Ventaja: beneficio, problema que se resuelve. -->
+    validations:
+      required: false
+
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: Detailed description
+      description: "If needed: rationale, images, diagrams..."
+    validations:
+      required: false

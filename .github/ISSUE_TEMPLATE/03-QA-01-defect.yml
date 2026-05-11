@@ -1,16 +1,22 @@
-name: "Defect Issue"
-description: "Register and track a Defect"
-title: "[Defect] [ptag] [itag] [utag] Text string"
+name: "🚩 [QA] Defect"
+description: "Register and track a defect."
+title: "[DEFECT] [tag] Text string"
 labels: ["Analysis", "Comment", "Defect"]
 assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        ```
-        Example:
-        [Defect] [1x] [IMU] Partial loss of data
-        ```
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Template examples:
+        `[DEFECT] [PROJECT] [ITEM] Brief defect description`
+        `[DEFECT] [PRODUCT] [ITEM] [VERSION] Brief defect description`
+
+        📘 Related procedures:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+        - [P.411 - Problem Reporting](https://documentation.embention.net/411/en/latest/)
 
   - type: input
     id: references

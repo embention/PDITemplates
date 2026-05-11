@@ -1,0 +1,31 @@
+name: "💡 [R&D] New Apps Feature"
+description: "Start the process of a new version for different products."
+title: "[item/product] [FEATURE] __feature name__"
+labels: ["Apps", "Analysis", "Comment", "Epic"]
+assignees: ["acg3", "adm5"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Examples:
+        `[APPS] [1x] [FEATURE] Landing Guidance`
+        `[CEX] [FEATURE] Tracking`
+
+        📘 Related procedures:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+
+        #### Platforms checklist
+        - Check targets that will be affected by this release.
+        - A nested sub-issue will be created for each target.
+
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Affected platforms
+      description: "The workflow will create 2 sub-issues."
+      options:
+        - label: "Apps"
+        - label: "QA-Apps"

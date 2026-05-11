@@ -1,0 +1,246 @@
+name: "💡 [R&D] New Project"
+description: "Open a new project issue."
+title: "[XYZ] [PMO] Project Management"
+labels: ["Analysis", "Comment", "TPMO"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Replace `[XYZ]` with your project name.**
+
+        📘 Related procedure: [P.711 Embention APQP](https://documentation.embention.net/711/en/003/index.md#stage-2-design-and-development-of-the-product)
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link to the project planning tool.
+      value: "- [Project Planning] Link to GanttPRO"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Purpose and scope of this project issue.
+      value: "This issue aims to account for the hours the PMO invested in the project and add an overall big-picture view of the current state of project deliverables."
+    validations:
+      required: true
+
+  - type: textarea
+    id: executive-summary
+    attributes:
+      label: Executive Summary Of The Project
+      description: Describe the key target and objectives of the project.
+      placeholder: "The key target of the project is ...."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Sub-Issues / Deliverables
+        _Add as sub-issues the milestones according to Stages of [P.711 Embention APQP](https://documentation.embention.net/711/en/003/index.md#stage-2-design-and-development-of-the-product)._
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: "Edit this list replacing [XYZ] with your project code. Remove any deliverables that do not apply."
+      value: |
+        [XYZ] [PMO] KoM Minutes
+        [XYZ] [PMO] PDR Minutes
+        [XYZ] [PMO] DDR Minutes
+        [XYZ] [PMO] TRR Minutes
+        [XYZ] [PMO] CDR/PRR Minutes
+        [XYZ] [PMO] IPA Minutes
+        [XYZ] [PMO] LLR Minutes
+        [XYZ] [PDR] [EMB] PDR Deliverables
+        [XYZ] [PDR] [100] Project Plan
+        [XYZ] [PDR] [101] Product Requirements
+        [XYZ] [PDR] [102] Preliminary Block Diagram
+        [XYZ] [PDR] [103] Preliminary BoM
+        [XYZ] [PDR] [104] Preliminary sourcing plan
+        [XYZ] [PDR] [105] Deliverable List
+        [XYZ] [PDR] [106] FHA (5.1.3)
+        [XYZ] [PDR] [107] PSSA (5.1.4)
+        [XYZ] [PDR] [108] Cybersecurity Analysis
+        [XYZ] [PDR] [DO178C] PDR Deliverables
+        [XYZ] [PDR] [200] PSAC
+        [XYZ] [PDR] [201] SDP
+        [XYZ] [PDR] [202] PDIDP
+        [XYZ] [PDR] [203] SVP
+        [XYZ] [PDR] [204] PDIVP
+        [XYZ] [PDR] [205] SCMP
+        [XYZ] [PDR] [206] SQAP
+        [XYZ] [PDR] [207] SRS
+        [XYZ] [PDR] [208] SCS
+        [XYZ] [PDR] [209] SDS
+        [XYZ] [PDR] [210] SQAR
+        [XYZ] [PDR] [211] TQP
+        [XYZ] [PDR] [DO254] PDR Deliverables
+        [XYZ] [PDR] [300] PHAC
+        [XYZ] [PDR] [301] HDP
+        [XYZ] [PDR] [302] HVVP
+        [XYZ] [PDR] [303] HCMP
+        [XYZ] [PDR] [304] HPAP
+        [XYZ] [PDR] [305] HPAR
+        [XYZ] [PDR] [306] HRS
+        [XYZ] [PDR] [307] HDS
+        [XYZ] [PDR] [308] TQP
+        [XYZ] [PDR] [ARP4754] PDR Deliverables
+        [XYZ] [PDR] [400] DAL Assignment (5.2)
+        [XYZ] [PDR] [401] Development Assurance Plan (3.2)
+        [XYZ] [PDR] [402] Safety Program Plan (5.1.7)
+        [XYZ] [PDR] [403] Validation and Verification Plan (5.4.7.1) + (5.5.6.1)
+        [XYZ] [PDR] [404] Configuration Management Plan (5.6.2)
+        [XYZ] [PDR] [405] Process Assurance Plan (5.7.2)
+        [XYZ] [PDR] [406] PARs (Process Assurance Records)
+        [XYZ] [PDR] [DO160] PDR Deliverables
+        [XYZ] [PDR] [500] Environmental Qualification Plan
+        [XYZ] [DDR] [EMB] DDR Deliverables
+        [XYZ] [DDR] [100] Product design records
+        [XYZ] [DDR] [101] HW Design Records
+        [XYZ] [DDR] [101.1] HW Schematic
+        [XYZ] [DDR] [101.2] HW PNS
+        [XYZ] [DDR] [101.3] HW Layout
+        [XYZ] [DDR] [101.4] HW Avionics-Mechanical placement
+        [XYZ] [DDR] [101.5] HW Manufacturing files
+        [XYZ] [DDR] [102] SW Design Records
+        [XYZ] [DDR] [103] PR (Product Requirements)
+        [XYZ] [DDR] [104] HR (Hardware Requirements)
+        [XYZ] [DDR] [105] SR (Software Requirements)
+        [XYZ] [DDR] [106] System Safety Assessment
+        [XYZ] [DDR] [107] Feasibility assessment
+        [XYZ] [DDR] [108] Operations requirements
+        [XYZ] [DDR] [109] Supply Chain Risk Management Plan
+        [XYZ] [DDR] [118] ERP Preliminary Product config
+        [XYZ] [DDR] [DO178C] DDR Deliverables
+        [XYZ] [DDR] [200] SRD
+        [XYZ] [DDR] [201] SDD
+        [XYZ] [DDR] [202] SC
+        [XYZ] [DDR] [203] SVR
+        [XYZ] [DDR] [204] SCI
+        [XYZ] [DDR] [205] SECI
+        [XYZ] [DDR] [206] PR
+        [XYZ] [DDR] [207] SCMR
+        [XYZ] [DDR] [208] SQAR
+        [XYZ] [DDR] [209] TD
+        [XYZ] [DDR] [Do254] DDR Deliverables
+        [XYZ] [DDR] [300] HRD
+        [XYZ] [DDR] [301] HDD
+        [XYZ] [DDR] [302] HTD
+        [XYZ] [DDR] [303] HTP
+        [XYZ] [DDR] [304] HVVR
+        [XYZ] [DDR] [305] ADWG
+        [XYZ] [DDR] [306] PR
+        [XYZ] [DDR] [307] HPAR
+        [XYZ] [DDR] [308] HCMR
+        [XYZ] [DDR] [ARP4754] DDR Deliverables
+        [XYZ] [DDR] [400] System Requirements (5.3)
+        [XYZ] [DDR] [401] System Requirement Allocations (4.5)
+        [XYZ] [DDR] [402] System Architecture Data (4.5)
+        [XYZ] [DDR] [403] Validation Tracking (5.4.7.2)
+        [XYZ] [DDR] [404] Validation Summary (5.4.7.3)
+        [XYZ] [DDR] [405] PARs
+        [XYZ] [TRR] [EMB] TRR Deliverables
+        [XYZ] [TRR] [100] PTCs
+        [XYZ] [TRR] [101] PTPs
+        [XYZ] [TRR] [102] PTEs
+        [XYZ] [TRR] [103] HTCs
+        [XYZ] [TRR] [104] HTPs
+        [XYZ] [TRR] [105] HTEs
+        [XYZ] [TRR] [106] SVCPs
+        [XYZ] [TRR] [107] Process Flow Diagram - First Iteration
+        [XYZ] [TRR] [108] Floor Plan Layout - First Iteration
+        [XYZ] [TRR] [109] PFMEA results - First Iteration
+        [XYZ] [TRR] [110] Process Key Characteristics - First Iteration
+        [XYZ] [TRR] [111] Process Updates due to PFMEA analysis - First Iteration
+        [XYZ] [TRR] [112] Control Plan - First Iteration
+        [XYZ] [TRR] [113] Manufacturing Procedure, ATP, ATR & Technical Instructions - First Iteration
+        [XYZ] [TRR] [114] Production Preparation Plan - First Iteration
+        [XYZ] [TRR] [115] MSA results - First Iteration
+        [XYZ] [TRR] [116] Packaging, preservation and labeling definition - First Iteration
+        [XYZ] [TRR] [117] Users Manuals - First Iteration
+        [XYZ] [TRR] [DO178C] TRR Deliverables
+        [XYZ] [TRR] [200] SVCP (Software Verification Cases and Procedures)
+        [XYZ] [TRR] [201] SCI (Software Configuration Index)
+        [XYZ] [TRR] [DO254] TRR Deliverables
+        [XYZ] [TRR] [300] HTP (Hardware Test Procedures)
+        [XYZ] [TRR] [DO160] TRR Deliverables
+        [XYZ] [TRR] [500] Environmental test procedures
+        [XYZ] [CDR] [EMB] CDR Deliverables
+        [XYZ] [CDR] [100] Product TRs
+        [XYZ] [CDR] [101] HW TRs
+        [XYZ] [CDR] [102] SW TRs
+        [XYZ] [CDR] [103] SSA
+        [XYZ] [CDR] [104] Regulatory Submission
+        [XYZ] [CDR] [105] Regulatory Review
+        [XYZ] [CDR] [106] Process Flow Diagram
+        [XYZ] [CDR] [107] Floor Plan Layout
+        [XYZ] [CDR] [108] PFMEA results
+        [XYZ] [CDR] [109] Process Key Characteristics
+        [XYZ] [CDR] [110] Process Updates due to PFMEA analysis
+        [XYZ] [CDR] [111] Control Plan
+        [XYZ] [CDR] [112] Manufacturing Procedure, ATP, ATR & Technical Instructions
+        [XYZ] [CDR] [113] Production Preparation Plan
+        [XYZ] [CDR] [114] MSA results
+        [XYZ] [CDR] [115] Packaging, preservation and labelling definition
+        [XYZ] [CDR] [116] Production Readiness Review results
+        [XYZ] [CDR] [117] Users Manuals
+        [XYZ] [CDR] [117.1] Hardware manual
+        [XYZ] [CDR] [117.2] Software manual
+        [XYZ] [CDR] [118] ERP Product config
+        [XYZ] [CDR] [DO178C] CDR Deliverables
+        [XYZ] [CDR] [200] EOC
+        [XYZ] [CDR] [201] SVR
+        [XYZ] [CDR] [202] SECI
+        [XYZ] [CDR] [203] SCI
+        [XYZ] [CDR] [204] PR
+        [XYZ] [CDR] [205] SCMR
+        [XYZ] [CDR] [206] SQAR
+        [XYZ] [CDR] [207] TQD
+        [XYZ] [CDR] [208] TD (Trace Data)
+        [XYZ] [CDR] [209] Multi-Core Considerations Document
+        [XYZ] [CDR] [DO254] CDR Deliverables
+        [XYZ] [CDR] [300] HVVR
+        [XYZ] [CDR] [301] PR
+        [XYZ] [CDR] [302] HPAR
+        [XYZ] [CDR] [303] HCMR
+        [XYZ] [CDR] [DO160] CDR Deliverables
+        [XYZ] [CDR] [500] Environmental Qualification Report
+        [XYZ] [IPA] [EMB] IPA Deliverables
+        [XYZ] [IPA] [100] FAIR (First Article Inspection Review)
+        [XYZ] [IPA] [101] PPAP (Production Part Approval Process)
+        [XYZ] [IPA] [DO178C] IPA Deliverables
+        [XYZ] [IPA] [200] SECI (Software Life Cycle Environment Configuration Index)
+        [XYZ] [IPA] [201] SCI
+        [XYZ] [IPA] [202] SAS
+        [XYZ] [IPA] [203] PR
+        [XYZ] [IPA] [204] SCMR
+        [XYZ] [IPA] [205] SQAR
+        [XYZ] [IPA] [206] TD Compilation
+        [XYZ] [IPA] [207] PDIF
+        [XYZ] [IPA] [DO254] IPA Deliverables
+        [XYZ] [IPA] [300] HVVR
+        [XYZ] [IPA] [301] HCI
+        [XYZ] [IPA] [302] HAS
+        [XYZ] [IPA] [303] PR
+        [XYZ] [IPA] [304] HPAR
+        [XYZ] [IPA] [305] HCMR
+        [XYZ] [IPA] [ARP4754] IPA Deliverables
+        [XYZ] [IPA] [400] SSA
+        [XYZ] [IPA] [401] Verification Procedures and Results (5.5.6.2)
+        [XYZ] [IPA] [402] Verification Tracking (5.5.6.3)
+        [XYZ] [IPA] [403] Configuration Management Records (5.6.2)
+        [XYZ] [IPA] [404] Configuration Index (5.6.3.1)
+        [XYZ] [IPA] [405] Process Assurance Data (5.7.4)
+        [XYZ] [IPA] [406] OPRs (Open Problem Reports) (AMC 20-189)
+        [XYZ] [LLR] [100] Project evaluation
+        [XYZ] [LLR] [101] Lesson learnt
+        [XYZ] [LLR] [102] Actions for production continuous improvement
+    validations:
+      required: false

@@ -1,0 +1,35 @@
+name: "🏢 [GEN] Analysis"
+description: "Some thinking activity."
+title: "[tag] [ANALYSIS] Text string"
+labels: ["Analysis", "Comment"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Template examples:
+        `[PROJECT] [MILESTONE] [DELIVERABLE] Brief task description`
+        `[PROJECT] [ITEM] [DELIVERABLE] Brief task description`
+        `[OBJECTIVE] [YEAR] [AREA] Objective name`
+
+        📘 Related procedure: [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: One URL per line for the related tasks.
+      placeholder: "- https://github.com/embention/Embention/issues/12345"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the analysis to be performed.
+    validations:
+      required: true

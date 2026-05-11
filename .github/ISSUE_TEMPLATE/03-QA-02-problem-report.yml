@@ -1,16 +1,22 @@
-name: "Problem Report"
-description: "Register and track a Problem Report (PR)"
-title: "[PR] [ptag] [itag] [utag] Text string"
+name: "🚩 [QA] Problem Report"
+description: "Register and track a Problem Report (PR)."
+title: "[PR] [tag] Text string"
 labels: ["Analysis", "Comment", "PR"]
 assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        ```
-        Example:
-        [PR] [1x] [IMU] Missing requirements and verification review
-        ```
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Template examples:
+        `[PR] [PROJECT] [ITEM] Brief defect description`
+        `[PR] [PRODUCT] [ITEM] [VERSION] Brief defect description`
+
+        📘 Related procedures:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+        - [P.411 - Problem Reporting](https://documentation.embention.net/411/en/latest/)
 
   - type: input
     id: references
@@ -103,8 +109,3 @@ body:
         
     validations:
       required: false
-
-  - type: markdown
-    attributes:
-      value: |
-        See [P.411 - Problem Reporting](https://documentation.embention.net/411/en/latest/index.html) for additional information
