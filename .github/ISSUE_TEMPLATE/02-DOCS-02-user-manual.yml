@@ -1,0 +1,39 @@
+name: "📘 [DOCS] User Manual"
+description: "Create or update a user manual."
+title: "[UM.xxx] [version] [NEW/UPDATE] Manual Title"
+labels: ["Commit", "Doc", "Manuals", "Scripts"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Examples:
+        `[UM.223] [NEW] CEX Hardware Manual`
+        `[UM.309] [UPDATE] 1x Software Manual`
+
+        📘 Related procedures:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+        - [P.679 - Creation/Edition of EMD Documentation](https://documentation.embention.net/679/es/latest/index.html)
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: One URL per line for the related tasks.
+      placeholder: "- https://github.com/embention/Embention/issues/12345"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the manual to create/update.
+      value: |
+        Requirements/Changes
+        - [ ]
+    validations:
+      required: true
