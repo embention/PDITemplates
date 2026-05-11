@@ -1,0 +1,38 @@
+name: "💡 [R&D] Release Regression Tasks (Apps)"
+description: "Release regression related tasks."
+title: "[REGRESSION] [product] [item] [major.minor.revision]"
+labels: ["Artifact", "Release", "Apps", "QA Apps"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Examples:
+        `[REGRESSION] [1x] [sw_1x-pdi-builder] [7.4.16]`
+        `[REGRESSION] [CEX] [sw_CEX] [7.4.18]`
+
+        📘 Related procedures:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: One full URL per line for the related releases and tasks.
+      value: |
+        <!-- https://github.com/embention/repo/releases/tag/release/item/major.minor.revision -->
+        <!-- https://github.com/embention/repo/issues/1234 -->
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      value: |
+        @embention/apps-qa
+    validations:
+      required: true
