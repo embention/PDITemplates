@@ -1,0 +1,150 @@
+name: "🚩 [QA] Non-Conformity"
+description: "Register and track a Non-Conformity (NC) following the 8D methodology."
+title: "[NC] [tag] Text string"
+labels: ["Analysis", "Comment", "NC"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🏷️ Title Instructions
+        **Order tags from general to specific (UPPERCASE, ONE WORD per tag).**
+
+        Template examples:
+        `[NC] [INTERNAL] [AREA] Brief NC description`
+        `[NC] [EXTERNAL] [AUDIT] [STANDARD] Brief NC description`
+
+        📘 Related procedure:
+        - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+        - [P.033 - No Conformidades y Propuestas de Mejora](https://documentation.embention.net/033/es/latest/index.html)
+        - [P.669 - Problem Resolution Using the 8D Method](https://documentation.embention.net/669/en/latest/index.html)
+
+  - type: textarea
+    id: d0_emergency_response
+    attributes:
+      label: D0. Emergency Response Action
+      description: If necessary, the quality leader will establish emergency response actions before continuing to gather and analyze information.
+    validations:
+      required: false
+
+  - type: textarea
+    id: d1_team
+    attributes:
+      label: D1. Team
+      value: |
+        - [ ] Assign issue to **quality leader**
+        - [ ] Assign issue to **responsible person** <!--- person most directly related to the NC and with the greatest responsibility in the area. Usually CXO or team leader -->
+        - FYI: <!--- mention other people who will be involved in the NC -->
+    validations:
+      required: true
+
+  - type: textarea
+    id: d2_problem_description
+    attributes:
+      label: D2. Problem Description
+      value: |
+        Affected Material
+        -
+        - Part Name:
+        - PN:
+        - SN:
+        - Quantity:
+
+        Problem Details?
+        -
+        <!--- describe the problem and add information that could be useful -->
+
+        Origin of the Problem?
+        -
+        <!--- indicate the origin: Supplier, Customer, Internal (Production, Design...) -->
+
+        Where was the problem detected?
+        -
+        <!--- indicate the area: Hw, Sw, incoming technical inspection, production... -->
+
+        When was it detected?
+        -
+        <!--- indicate date -->
+
+        What is its scope?
+        -
+        <!--- indicate what or who it affects -->
+
+        Level
+        -
+        - [ ] Level A <!--- Non-compliance affecting aircraft safety -->
+        - [ ] Level B <!--- Non-compliance affecting the quality/SMS manual or applicable regulations -->
+        - [ ] Indicated Milestone
+        <!-- Indicate milestone in the issue based on the level:
+        - Level A: Must be mitigated immediately. For this, an ICA (containment action) will be established and implemented within a maximum of 3 days. The NC will be downgraded to level B when the ICA resolves it.
+        - Level B: Must be corrected within a maximum of 6 months -->
+    validations:
+      required: true
+
+  - type: textarea
+    id: d3_containment_action
+    attributes:
+      label: D3. Containment Action
+      description: Description of actions to isolate the effects of the problem and prevent further impact until corrective measures can be implemented.
+      value: |
+        - [ ] Management of the faulty part(s) (if applicable). Current location: <!-- Describe what was done with the part(s) -->
+        - [ ] ...
+        - [ ] Ensure that the measures produce the expected result and do not cause new problems
+    validations:
+      required: false
+
+  - type: textarea
+    id: d4_root_cause
+    attributes:
+      label: D4. Root Cause
+      value: |
+        - [ ] 1 Human Error
+        - [ ] 2 Resources
+        - [ ] 3 Attitude
+        - [ ] 4 Competence
+        - [ ] 5 Procedure
+        - Root cause description (or causes): <!-- description of the root cause(s) that originated the problem, leading to a non-conformity -->
+        - Escape point (if applicable): <!-- specify where the incident should have been detected and contained -->
+    validations:
+      required: false
+
+  - type: textarea
+    id: d5_corrective_action
+    attributes:
+      label: D5. Corrective Action
+      description: Description of actions that will eliminate the root cause(s) and nullify the escape point(s).
+      value: |
+        - [ ] ... <!-- Action to eliminate root cause -->
+        - [ ] ... <!-- Action to nullify escape point -->
+    validations:
+      required: false
+
+  - type: textarea
+    id: d6_validate_corrective_actions
+    attributes:
+      label: D6. Validate Corrective Actions
+      value: |
+        - [ ] Validate that the proposed actions will produce the expected result and will not cause new problems
+    validations:
+      required: false
+
+  - type: textarea
+    id: d7_preventive_action
+    attributes:
+      label: D7. Preventive Action
+      description: Description of actions to prevent the current problem, similar sporadic or systematic problems from recurring.
+      value: |
+        - [ ] ...
+        - [ ] Validate that the proposed actions will produce the expected result and will not cause new problems
+    validations:
+      required: false
+
+  - type: textarea
+    id: d8_effectiveness_evaluation
+    attributes:
+      label: D8. Effectiveness Evaluation and Team Communication
+      value: |
+        - Summary of actions: <!-- conclude the issue with a brief summary of the actions taken and share it with the team involved in the NC -->
+        - [ ] Verify that the NC has been satisfactorily managed in all its stages
+    validations:
+      required: false
