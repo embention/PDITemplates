@@ -1,0 +1,46 @@
+<entry-actions>
+    <id>83</id>
+    <filename>actions.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <action-array>
+            <str-tunarray-element str-tunarray-key="0">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>0</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="1">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>1</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="2">
+                <data>
+                    <acset-phase>
+                        <type>0</type>
+                        <idCfg>222</idCfg>
+                        <str>
+                            <phase-cmd>2</phase-cmd>
+                        </str>
+                    </acset-phase>
+                </data>
+            </str-tunarray-element>
+        </action-array>
+    </data>
+</entry-actions>

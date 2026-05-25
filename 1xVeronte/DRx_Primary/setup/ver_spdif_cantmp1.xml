@@ -1,0 +1,21 @@
+<entry-cantm-p1>
+    <id>38</id>
+    <filename>cantmp1.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <data-fcan-producer-tx-ini/>
+        <data-fcan-producer-tx>
+            <str-tunarray-element>
+                <id>
+                    <ext>0</ext>
+                    <id>8</id>
+                </id>
+                <msgid>1</msgid>
+            </str-tunarray-element>
+        </data-fcan-producer-tx>
+    </data>
+</entry-cantm-p1>

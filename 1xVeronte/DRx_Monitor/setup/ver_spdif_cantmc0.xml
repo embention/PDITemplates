@@ -1,0 +1,31 @@
+<entry-cantm-c0>
+    <id>37</id>
+    <filename>cantmc0.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <data-fcan-consumer-rx>
+            <str-tunarray-element>
+                <id>
+                    <ext>0</ext>
+                    <id>8</id>
+                </id>
+                <msgid>1</msgid>
+                <bitid>0</bitid>
+                <type>0</type>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>
+                    <ext>0</ext>
+                    <id>9</id>
+                </id>
+                <msgid>2</msgid>
+                <bitid>1</bitid>
+                <type>0</type>
+            </str-tunarray-element>
+        </data-fcan-consumer-rx>
+    </data>
+</entry-cantm-c0>

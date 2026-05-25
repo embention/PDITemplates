@@ -1,0 +1,13 @@
+<entry-troute>
+    <id>67</id>
+    <filename>troute.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <first>65535</first>
+        <patches/>
+    </data>
+</entry-troute>
