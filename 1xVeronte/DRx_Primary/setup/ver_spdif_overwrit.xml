@@ -1,0 +1,36 @@
+<entry-overwrite>
+    <id>91</id>
+    <filename>overwrit.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <enabled>1</enabled>
+        <cfg>
+            <str-tunarray-element>
+                <can-id>
+                    <ext>0</ext>
+                    <id>0</id>
+                </can-id>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <can-id>
+                    <ext>0</ext>
+                    <id>0</id>
+                </can-id>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <can-id>
+                    <ext>0</ext>
+                    <id>0</id>
+                </can-id>
+            </str-tunarray-element>
+        </cfg>
+        <period>1.0</period>
+        <arb_addr>
+            <uav>4278190080</uav>
+        </arb_addr>
+    </data>
+</entry-overwrite>
