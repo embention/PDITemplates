@@ -1,0 +1,14 @@
+<entry-fmgr>
+    <id>79</id>
+    <filename>fmgr.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <genericOp/>
+        <specifiedOp/>
+        <fid-groups/>
+    </data>
+</entry-fmgr>

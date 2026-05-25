@@ -1,0 +1,37 @@
+<entry-mbit>
+    <id>138</id>
+    <filename>mbit.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <id>1200</id>
+                <description>
+                    <name>Selected Autopilot</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1201</id>
+                <description>
+                    <name>Primary Alive</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1202</id>
+                <description>
+                    <name>Recovery Alive</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1203</id>
+                <description>
+                    <name>Arbitration Started</name>
+                </description>
+            </str-tunarray-element>
+        </map>
+    </data>
+</entry-mbit>

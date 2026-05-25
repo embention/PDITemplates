@@ -1,0 +1,35 @@
+<entry-xpcu8>
+    <id>12</id>
+    <filename>xpcu8.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <str-tunarray-element>
+            <producer>5</producer>
+            <consumer>27</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>6</producer>
+            <consumer>28</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>30</producer>
+            <consumer>5</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <producer>31</producer>
+            <consumer>6</consumer>
+            <group>0</group>
+            <enable-bvar>1</enable-bvar>
+        </str-tunarray-element>
+    </data>
+</entry-xpcu8>
