@@ -1,0 +1,17 @@
+<entry-stp1filt>
+    <id>106</id>
+    <filename>stp1filt.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <iir_cfg>
+            <enable>0</enable>
+            <cutoff_freq>1.0</cutoff_freq>
+        </iir_cfg>
+        <max_nv_samples>10</max_nv_samples>
+        <max_delta>113.4</max_delta>
+    </data>
+</entry-stp1filt>

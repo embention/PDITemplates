@@ -1,0 +1,34 @@
+<entry-mblocks>
+    <id>174</id>
+    <filename>mblocks.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <x-pos>58</x-pos>
+                <y-pos>153</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>243</x-pos>
+                <y-pos>107</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>226</x-pos>
+                <y-pos>259</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>220</x-pos>
+                <y-pos>217</y-pos>
+            </str-tunarray-element>
+        </map>
+        <snap-settings>
+            <snap>0</snap>
+            <width>100</width>
+            <height>100</height>
+        </snap-settings>
+    </data>
+</entry-mblocks>

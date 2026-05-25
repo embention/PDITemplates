@@ -1,0 +1,13 @@
+<entry-blocks>
+    <id>432</id>
+    <filename>blocks.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>24</revision>
+    </version>
+    <data>
+        <programs/>
+        <steps/>
+    </data>
+</entry-blocks>
