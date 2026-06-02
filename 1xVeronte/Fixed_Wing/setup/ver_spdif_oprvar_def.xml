@@ -4,7 +4,23 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>59</revision>
     </version>
-    <data/>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>18.0</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="1">
+            <data>80.0</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data>50.0</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="3">
+            <data>200.0</data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="4">
+            <data>7.0</data>
+        </str-tunarray-element>
+    </data>
 </entry-oprvar-def>

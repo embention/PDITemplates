@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>59</revision>
     </version>
     <data>
         <runways>
@@ -15,9 +15,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6992367</lon>
-                                    <lat>383838190</lat>
-                                    <alt>396560</alt>
+                                    <lon>-6990790</lon>
+                                    <lat>383833743</lat>
+                                    <alt>357910</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -28,9 +28,9 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6976318</lon>
-                                    <lat>383825747</lat>
-                                    <alt>303290</alt>
+                                    <lon>-6981206</lon>
+                                    <lat>383825535</lat>
+                                    <alt>328560</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
@@ -40,14 +40,14 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6975889</lon>
-                                    <lat>383830835</lat>
-                                    <alt>301870</alt>
+                                    <lon>-6978869</lon>
+                                    <lat>383834231</lat>
+                                    <alt>331570</alt>
                                 </pos>
                             </wrt-choice-abs>
                         </wrt-choice>
                     </fend>
-                    <preferred>1</preferred>
+                    <preferred>0</preferred>
                     <margin-ratio>0.0</margin-ratio>
                     <margin-reverse-ratio>0.0</margin-reverse-ratio>
                 </runway>
