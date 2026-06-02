@@ -58,13 +58,13 @@
 
   <simpleType name="data-enum-mspd">
     <restriction base="core:data-enum-identifiable">
-      <pattern value="0|1"/>
+      <pattern value="0|1|2"/>
     </restriction>
   </simpleType>
 
   <simpleType name="data-enum-flytocmd">
     <restriction base="core:data-enum-identifiable">
-      <pattern value="0|1"/>
+      <pattern value="0|1|2|3"/>
     </restriction>
   </simpleType>
 
@@ -4643,6 +4643,33 @@
                     </sequence>
                   </complexType>
                 </element>
+                <element name="no-flytocmd-reset">
+                  <complexType>
+                    <sequence>
+                      <element name="hasflyto">
+                        <simpleType>
+                          <restriction base="ver:data-enum-flytocmd">
+                            <enumeration value="2"/>
+                          </restriction>
+                        </simpleType>
+                      </element>
+                    </sequence>
+                  </complexType>
+                </element>
+                <element name="flytocmd-reset">
+                  <complexType>
+                    <sequence>
+                      <element name="hasflyto">
+                        <simpleType>
+                          <restriction base="ver:data-enum-flytocmd">
+                            <enumeration value="3"/>
+                          </restriction>
+                        </simpleType>
+                      </element>
+                      <element name="flyto_idx" type="core:str-uinteger16"/>
+                    </sequence>
+                  </complexType>
+                </element>
               </choice>
             </extension>
           </complexContent>
@@ -4681,6 +4708,22 @@
                         <simpleType>
                           <restriction base="ver:data-enum-mspd">
                             <enumeration value="1"/>
+                          </restriction>
+                        </simpleType>
+                      </element>
+                      <element name="tcmd_speed_vtype" type="core:data-enum-identifiable"/>
+                      <element name="tcmd_speed_vlink" type="core:data-vref"/>
+                      <element name="tcmd_speed_vpoint" type="core:data-vref"/>
+                    </sequence>
+                  </complexType>
+                </element>
+                <element name="mspd_flyby">
+                  <complexType>
+                    <sequence>
+                      <element name="mode">
+                        <simpleType>
+                          <restriction base="ver:data-enum-mspd">
+                            <enumeration value="2"/>
                           </restriction>
                         </simpleType>
                       </element>
@@ -6831,7 +6874,7 @@
 
   <simpleType name="data-vpoint-cfg-type">
     <restriction base="core:data-enum-identifiable">
-      <pattern value="0|1"/>
+      <pattern value="0|1|2"/>
     </restriction>
   </simpleType>
 
@@ -6863,6 +6906,20 @@
                   </simpleType>
                 </element>
                 <element name="vpoint" type="core:str-realfloat32"></element>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="mode-flyby">
+            <complexType>
+              <sequence>
+                <element name="mode">
+                  <simpleType>
+                    <restriction base="ver:data-vpoint-cfg-type">
+                      <pattern value="2"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="fly-by-dist" type="core:str-realfloat32"></element>
               </sequence>
             </complexType>
           </element>
@@ -9605,6 +9662,101 @@
           <element name="pos-to-llh" type="ver:data-block-pos-to-llh"/>
           <element name="fmsg-p-trigger" type="core:data-block-fmsg-p-trigger"/>
 
+          <element name="custom-wp-set">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="127"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-custom-wp-set"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="custom-waypoints">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="128"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-custom-waypoints"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="runway-block">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="129"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-runway-blk"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="btou" type="core:data-block-btou"/>
+          <element name="utob" type="core:data-block-utob"/>
+          <element name="bitmask-to-u16" type="core:data-block-bitmask-to-u16"/>
+          <element name="u16-to-bitmask" type="core:data-block-u16-to-bitmask"/>
+
+          <element name="senoat">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="135"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-senoat"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="dypr2pqr">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="136"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-dypr2pqr"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="pqr2dypr">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="137"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-pqr2dypr"></element>
+              </sequence>
+            </complexType>
+          </element>
+
         </choice>
       </extension>
     </complexContent>
@@ -11946,6 +12098,13 @@
     </sequence>
   </complexType>
 
+  <complexType name="data-block-senoat">
+    <sequence>
+      <element name="enable" type="core:data-pin-addr-opt"/>
+      <element name="input" type="core:data-pin-addr"/>
+    </sequence>
+  </complexType>
+
 
   <complexType name="data-block-readekfpos">
     <sequence>
@@ -11955,6 +12114,45 @@
       <element name="vpe" type="core:data-vref"/>
       <element name="delay" type="core:str-realfloat32"/>
       <element name="decimation" type="core:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-custom-wp-set">
+    <sequence>
+      <element name="in" type="core:data-pin-addr"/>
+      <element name="vlink" type="core:data-pin-addr-opt"/>
+      <element name="vpoint" type="core:data-pin-addr-opt"/>
+      <element name="wp-index" type="core:str-uinteger16"/>
+      <element name="next" type="core:str-uinteger16"/>
+      <element name="speed-cfg" type="ver:data-speed-cfg"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-custom-waypoints">
+    <sequence>
+      <element name="gcfg" type="ver:data-guidance-cfg"/>
+      <element name="first-wp" type="core:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-runway-blk">
+    <sequence>
+      <element name="in_wind" type="core:data-pin-addr-opt"/>
+      <element name="runway-id" type="core:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-dypr2pqr">
+    <sequence>
+      <element name="in_dypr" type="core:data-pin-addr"/>
+      <element name="in_ypr" type="core:data-pin-addr-opt"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-pqr2dypr">
+    <sequence>
+      <element name="in_pqr" type="core:data-pin-addr"/>
+      <element name="in_ypr" type="core:data-pin-addr-opt"/>
     </sequence>
   </complexType>
 
