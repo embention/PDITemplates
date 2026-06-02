@@ -1,0 +1,15 @@
+<entry-mgeocage>
+    <id>146</id>
+    <filename>mgeocage.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>8</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <data>
+            <polygonType>0</polygonType>
+            <auxPolygon>65535</auxPolygon>
+        </data>
+    </data>
+</entry-mgeocage>

@@ -2,13 +2,28 @@
     <id>21</id>
     <filename>polymgr.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
+        <major>7</major>
+        <minor>8</minor>
         <revision>54</revision>
     </version>
     <data>
+        <volumeOp/>
         <polygons/>
         <circles/>
         <spheres/>
+        <groups/>
+        <geoCage>
+            <geoIdx>
+                <contingency>65535</contingency>
+                <emergency>65535</emergency>
+                <emergencyMargin>65535</emergencyMargin>
+                <prohibited>65535</prohibited>
+            </geoIdx>
+            <geoDist>
+                <cont-dist>0.0</cont-dist>
+                <emer-dist>0.0</emer-dist>
+                <emer-mar-dist>0.0</emer-mar-dist>
+            </geoDist>
+        </geoCage>
     </data>
 </entry-polymgr>

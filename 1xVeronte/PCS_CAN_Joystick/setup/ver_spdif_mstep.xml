@@ -2,8 +2,8 @@
     <id>143</id>
     <filename>mstep.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
+        <major>7</major>
+        <minor>8</minor>
         <revision>54</revision>
     </version>
     <data>
@@ -23,7 +23,7 @@
                     <string>Stick</string>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="21">
+            <str-tunarray-element str-tunarray-key="3">
                 <data>
                     <string>Navigation</string>
                 </data>

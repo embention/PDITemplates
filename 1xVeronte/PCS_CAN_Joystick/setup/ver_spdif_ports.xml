@@ -2,23 +2,37 @@
     <id>64</id>
     <filename>ports.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
+        <major>7</major>
+        <minor>8</minor>
         <revision>54</revision>
     </version>
     <data>
-        <str-tunarray-element str-tunarray-key="0">
-            <data>
-                <msk-port>119</msk-port>
-                <data-ports-aux>
+        <tables>
+            <str-tunarray-element>
+                <entries>
                     <str-tunarray-element>
-                        <address>
+                        <dst_addr>
                             <uav>2</uav>
-                        </address>
-                        <port>3</port>
+                        </dst_addr>
+                        <dst_mask>
+                            <uav>4294967295</uav>
+                        </dst_mask>
+                        <ports>68</ports>
                     </str-tunarray-element>
-                </data-ports-aux>
-            </data>
-        </str-tunarray-element>
+                    <str-tunarray-element>
+                        <dst_addr>
+                            <uav>0</uav>
+                        </dst_addr>
+                        <dst_mask>
+                            <uav>0</uav>
+                        </dst_mask>
+                        <ports>956</ports>
+                    </str-tunarray-element>
+                </entries>
+                <to_relay/>
+            </str-tunarray-element>
+        </tables>
+        <ttl>3</ttl>
+        <curr_table>0</curr_table>
     </data>
 </entry-ports>

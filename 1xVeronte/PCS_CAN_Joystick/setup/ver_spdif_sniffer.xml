@@ -2,8 +2,8 @@
     <id>63</id>
     <filename>sniffer.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
+        <major>7</major>
+        <minor>8</minor>
         <revision>54</revision>
     </version>
     <data>
@@ -27,7 +27,7 @@
                 </str-tunarray-element>
             </fields>
             <pktmask>
-                <uav>999</uav>
+                <uav>4278190080</uav>
             </pktmask>
             <map>
                 <str-tunarray-element str-tunarray-key="0">
