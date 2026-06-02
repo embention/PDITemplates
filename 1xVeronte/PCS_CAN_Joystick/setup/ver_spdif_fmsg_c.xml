@@ -2,13 +2,28 @@
     <id>75</id>
     <filename>fmsg_c.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
+        <major>7</major>
+        <minor>8</minor>
         <revision>54</revision>
     </version>
     <data>
-        <fmsg1/>
-        <fmsg2/>
-        <fmsg3/>
+        <str-tunarray-element str-tunarray-key="0">
+            <data/>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="1">
+            <data/>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="2">
+            <data/>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="3">
+            <data/>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="4">
+            <data/>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="5">
+            <data/>
+        </str-tunarray-element>
     </data>
 </entry-fmsg-c>

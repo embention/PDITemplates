@@ -2,8 +2,8 @@
     <id>55</id>
     <filename>stickvar.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
+        <major>7</major>
+        <minor>8</minor>
         <revision>54</revision>
     </version>
     <data>
@@ -199,7 +199,7 @@
                                         <mode>1</mode>
                                         <ich>0</ich>
                                         <address>
-                                            <uav>998</uav>
+                                            <uav>4294967295</uav>
                                         </address>
                                         <period_low_s>0.2</period_low_s>
                                         <period_hgh_s>0.025</period_hgh_s>

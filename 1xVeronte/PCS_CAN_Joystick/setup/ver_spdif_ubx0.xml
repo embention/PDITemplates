@@ -2,8 +2,8 @@
     <id>13</id>
     <filename>ubx0.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
+        <major>7</major>
+        <minor>8</minor>
         <revision>54</revision>
     </version>
     <data>
@@ -172,10 +172,6 @@
             <scanMode2>0</scanMode2>
             <scanMode1>0</scanMode1>
         </sbas>
-        <itfm>
-            <config>2908925171</config>
-            <config2>1126039552</config2>
-        </itfm>
         <cfg_rate>
             <measRate>250</measRate>
             <navRate>1</navRate>
@@ -191,6 +187,16 @@
             <rate>0</rate>
             <port5>0</port5>
         </msg_status>
+        <msg_dop>
+            <msg-class>1</msg-class>
+            <msg-id>4</msg-id>
+            <i2c>0</i2c>
+            <uart1>0</uart1>
+            <uart2>0</uart2>
+            <usb>0</usb>
+            <rate>1</rate>
+            <port5>0</port5>
+        </msg_dop>
         <msg_pvt>
             <msg-class>1</msg-class>
             <msg-id>7</msg-id>
@@ -241,6 +247,16 @@
             <rate>1</rate>
             <port5>0</port5>
         </msg_monhw>
+        <msg_secsig>
+            <msg-class>39</msg-class>
+            <msg-id>9</msg-id>
+            <i2c>0</i2c>
+            <uart1>0</uart1>
+            <uart2>0</uart2>
+            <usb>0</usb>
+            <rate>0</rate>
+            <port5>0</port5>
+        </msg_secsig>
         <msg_rtcminst>
             <msg-class>2</msg-class>
             <msg-id>50</msg-id>

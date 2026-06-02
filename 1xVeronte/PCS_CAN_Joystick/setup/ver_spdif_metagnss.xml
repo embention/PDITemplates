@@ -1,0 +1,13 @@
+<entry-metagnss>
+    <id>173</id>
+    <filename>metagnss.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>8</minor>
+        <revision>54</revision>
+    </version>
+    <data>
+        <sel_preset_gnss0>0</sel_preset_gnss0>
+        <sel_preset_gnss1>0</sel_preset_gnss1>
+    </data>
+</entry-metagnss>

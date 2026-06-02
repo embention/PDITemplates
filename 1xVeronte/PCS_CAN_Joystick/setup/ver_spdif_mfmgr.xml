@@ -2,8 +2,8 @@
     <id>148</id>
     <filename>mfmgr.bin</filename>
     <version>
-        <major>6</major>
-        <minor>12</minor>
+        <major>7</major>
+        <minor>8</minor>
         <revision>54</revision>
     </version>
     <data>
@@ -13,7 +13,7 @@
                     <string>UAV position</string>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="45056">
+            <str-tunarray-element str-tunarray-key="29697">
                 <data>
                     <string>Test point</string>
                 </data>
