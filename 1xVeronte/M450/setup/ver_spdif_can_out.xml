@@ -1,0 +1,37 @@
+<entry-can-suite-out>
+    <id>289</id>
+    <filename>can_out.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
+    </version>
+    <data>
+        <can-out>
+            <str-tunarray-element>
+                <port>3</port>
+                <uvar>2000</uvar>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+                <uvar>2000</uvar>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>1</port>
+                <uvar>2000</uvar>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>2</port>
+                <uvar>2000</uvar>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>1</port>
+                <uvar>2000</uvar>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <port>1</port>
+                <uvar>2000</uvar>
+            </str-tunarray-element>
+        </can-out>
+    </data>
+</entry-can-suite-out>

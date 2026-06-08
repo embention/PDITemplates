@@ -1,0 +1,15 @@
+<entry-gyrsuite>
+    <id>436</id>
+    <filename>gyrsuite.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
+    </version>
+    <data>
+        <sel>
+            <use>12</use>
+            <def-sen>3</def-sen>
+        </sel>
+    </data>
+</entry-gyrsuite>

@@ -1,0 +1,17 @@
+<entry-arctrim0>
+    <id>350</id>
+    <filename>arctrim0.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
+    </version>
+    <data>
+        <u0>
+            <str-tunarray-element>0.005616665</str-tunarray-element>
+            <str-tunarray-element>-0.0031746626</str-tunarray-element>
+            <str-tunarray-element>-0.013430953</str-tunarray-element>
+            <str-tunarray-element>-0.009035349</str-tunarray-element>
+        </u0>
+    </data>
+</entry-arctrim0>

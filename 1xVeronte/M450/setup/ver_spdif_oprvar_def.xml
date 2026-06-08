@@ -1,0 +1,14 @@
+<entry-oprvar-def>
+    <id>294</id>
+    <filename>oprvar_def.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
+    </version>
+    <data>
+        <str-tunarray-element str-tunarray-key="0">
+            <data>3.0</data>
+        </str-tunarray-element>
+    </data>
+</entry-oprvar-def>

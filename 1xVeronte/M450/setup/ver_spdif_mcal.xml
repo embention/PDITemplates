@@ -1,0 +1,15 @@
+<entry-mcal>
+    <id>133</id>
+    <filename>mcal.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
+    </version>
+    <data>
+        <map>
+            <tmeas>5.0</tmeas>
+            <save_xcal>1</save_xcal>
+        </map>
+    </data>
+</entry-mcal>

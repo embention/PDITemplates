@@ -1,0 +1,12 @@
+<entry-stg-inertial-sts>
+    <id>384</id>
+    <filename>stg_inertial_sts.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
+    </version>
+    <data>
+        <freq>0</freq>
+    </data>
+</entry-stg-inertial-sts>
