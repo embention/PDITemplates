@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <map>
@@ -260,7 +260,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="10">
                 <data>
-                    <name>APP Button</name>
+                    <name>Simulated Link fail</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -285,7 +285,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="11">
                 <data>
-                    <name>APP Phases</name>
+                    <name>Simulated Battery fail</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -835,7 +835,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="33">
                 <data>
-                    <name>Integrator OFF</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -910,7 +910,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="36">
                 <data>
-                    <name>Thrust &gt; 0.45</name>
+                    <name>Stick failsafe guard</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -935,7 +935,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="37">
                 <data>
-                    <name>Integrator ON</name>
+                    <name>Batt low failsafe flag</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1035,7 +1035,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="41">
                 <data>
-                    <name>IAS &lt; 7 m/s</name>
+                    <name>GNSS2 Accuracy&lt; 2m</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1309,7 +1309,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="52">
                 <data>
-                    <name>AGL &gt; 20m</name>
+                    <name>ATM Calibrated</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1334,7 +1334,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="53">
                 <data>
-                    <name>Battery &lt; 21.7V</name>
+                    <name>Battery &lt; 21V</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1609,7 +1609,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="64">
                 <data>
-                    <name>In Home = 1 for 60s</name>
+                    <name>TRN Phase</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1684,7 +1684,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="67">
                 <data>
-                    <name>Link Off &gt; 60s</name>
+                    <name>Control Mix = 1 for 1.5s</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1734,7 +1734,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="69">
                 <data>
-                    <name>Control mix &gt; 0.9</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1759,7 +1759,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="70">
                 <data>
-                    <name>Thrust &lt; 0.25</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1784,7 +1784,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="71">
                 <data>
-                    <name>IAS &lt; 5m/s</name>
+                    <name>Simulated GNSS fail</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>
@@ -1809,18 +1809,17 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="72">
                 <data>
-                    <name>APP Phase</name>
+                    <name>No name</name>
                     <dataTypeColor>
-                        <cmpType3>
-                            <typeColor>1</typeColor>
-                            <var>
-                                <vref-var>
-                                    <type>0</type>
-                                    <id>4101</id>
-                                </vref-var>
-                            </var>
-                            <arrayColores/>
-                        </cmpType3>
+                        <cmpType2>
+                            <typeColor>0</typeColor>
+                            <color>
+                                <r>255</r>
+                                <g>255</g>
+                                <b>255</b>
+                                <a>153</a>
+                            </color>
+                        </cmpType2>
                     </dataTypeColor>
                     <check>
                         <data>
@@ -1859,7 +1858,7 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="74">
                 <data>
-                    <name>Link Ok &gt; 20s</name>
+                    <name>No name</name>
                     <dataTypeColor>
                         <cmpType3>
                             <typeColor>1</typeColor>

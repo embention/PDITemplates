@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <map>
@@ -17,7 +17,7 @@
             <str-tunarray-element>
                 <id>1001</id>
                 <description>
-                    <name/>
+                    <name>Flight State</name>
                 </description>
             </str-tunarray-element>
             <str-tunarray-element>

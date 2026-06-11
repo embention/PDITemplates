@@ -4,12 +4,42 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <str-tunarray-element>
             <vtype>3</vtype>
             <id>1219</id>
+            <val0>1.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>3</vtype>
+            <id>1231</id>
+            <val0>1.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>3</vtype>
+            <id>1232</id>
+            <val0>1.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>3</vtype>
+            <id>1235</id>
+            <val0>1.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>3</vtype>
+            <id>1237</id>
+            <val0>1.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>0</vtype>
+            <id>3182</id>
+            <val0>1.0</val0>
+        </str-tunarray-element>
+        <str-tunarray-element>
+            <vtype>3</vtype>
+            <id>1234</id>
             <val0>1.0</val0>
         </str-tunarray-element>
     </data>

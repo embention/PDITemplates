@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <gpio-pwm000>
@@ -116,16 +116,16 @@
             <q>3</q>
         </gpio-io02>
         <gpio-io03>
-            <io>1</io>
+            <io>0</io>
             <pu>0</pu>
             <mux>0</mux>
-            <q>0</q>
+            <q>3</q>
         </gpio-io03>
         <gpio-io04>
-            <io>1</io>
+            <io>0</io>
             <pu>0</pu>
             <mux>0</mux>
-            <q>0</q>
+            <q>3</q>
         </gpio-io04>
         <gpio-ioA>
             <io>1</io>

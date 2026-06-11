@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -108,15 +108,6 @@
                             <type>3</type>
                             <id>110</id>
                         </bit>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <real-float32>
-                            <type>0</type>
-                            <id>1510</id>
-                            <scale>1.0</scale>
-                        </real-float32>
                     </data-fieldset>
                 </str-tunarray-element>
                 <str-tunarray-element>
@@ -912,15 +903,6 @@
                     <data-fieldset>
                         <real-float32>
                             <type>0</type>
-                            <id>1610</id>
-                            <scale>1.0</scale>
-                        </real-float32>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <real-float32>
-                            <type>0</type>
                             <id>2407</id>
                             <scale>1.0</scale>
                         </real-float32>
@@ -997,6 +979,148 @@
                             <type>10</type>
                             <id>10240</id>
                         </pos_abs>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>187</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1236</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1238</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1221</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1222</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1223</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1224</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1225</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1234</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>3183</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>3184</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>106</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1235</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>126</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>127</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1230</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <uinteger16>
+                            <type>2</type>
+                            <id>1001</id>
+                            <min>0.0</min>
+                            <max>65535.0</max>
+                        </uinteger16>
                     </data-fieldset>
                 </str-tunarray-element>
             </fields>

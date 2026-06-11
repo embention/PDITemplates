@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <map>
@@ -126,6 +126,11 @@
             <str-tunarray-element str-tunarray-key="23">
                 <data>
                     <string>RTH Mode</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="24">
+                <data>
+                    <string>Energy Control</string>
                 </data>
             </str-tunarray-element>
         </map>

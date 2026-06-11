@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <map>
@@ -198,6 +198,72 @@
                 <id>1230</id>
                 <description>
                     <name>Link Status</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1231</id>
+                <description>
+                    <name>Simulated Link Status</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1232</id>
+                <description>
+                    <name>Simulated Battery Status</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1233</id>
+                <description>
+                    <name/>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1234</id>
+                <description>
+                    <name>Batt low failsafe flag</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1235</id>
+                <description>
+                    <name>Stick Guard</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1236</id>
+                <description>
+                    <name>Stick transition for OPS</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1237</id>
+                <description>
+                    <name>Simulated GNSS status</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>1238</id>
+                <description>
+                    <name>Stall Protection Enabled</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>816</id>
+                <description>
+                    <name>RSSI 1</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>817</id>
+                <description>
+                    <name>RSSI 2</name>
+                </description>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>818</id>
+                <description>
+                    <name>RSSI 3</name>
                 </description>
             </str-tunarray-element>
         </map>

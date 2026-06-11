@@ -4,11 +4,11 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
-        <can_a_terminator_enabled>0</can_a_terminator_enabled>
-        <can_b_terminator_enabled>0</can_b_terminator_enabled>
+        <can_a_terminator_enabled>1</can_a_terminator_enabled>
+        <can_b_terminator_enabled>1</can_b_terminator_enabled>
         <can_fd_a_terminator_enabled>0</can_fd_a_terminator_enabled>
     </data>
 </entry-can-terminators>

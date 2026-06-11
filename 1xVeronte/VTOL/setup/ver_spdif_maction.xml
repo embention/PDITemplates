@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <map>
@@ -46,7 +46,7 @@
             <str-tunarray-element str-tunarray-key="5">
                 <data>
                     <name>
-                        <name>APP</name>
+                        <name>Stick Guard</name>
                     </name>
                 </data>
             </str-tunarray-element>
@@ -88,7 +88,7 @@
             <str-tunarray-element str-tunarray-key="11">
                 <data>
                     <name>
-                        <name>Integral ON</name>
+                        <name>Batt low failsafe flag</name>
                     </name>
                 </data>
             </str-tunarray-element>
@@ -109,7 +109,7 @@
             <str-tunarray-element str-tunarray-key="14">
                 <data>
                     <name>
-                        <name>Integral OFF</name>
+                        <name>No name</name>
                     </name>
                 </data>
             </str-tunarray-element>
