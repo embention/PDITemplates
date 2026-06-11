@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v007008_v1x"
-  xmlns:ver="http://www.embention.com/schema/v007008_v1x" xmlns:core="http://www.embention.com/schema/cfg007008">
-  <import  namespace="http://www.embention.com/schema/cfg007008" schemaLocation="cfg007008.xsd"/>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/v008004_v1x"
+  xmlns:ver="http://www.embention.com/schema/v008004_v1x" xmlns:core="http://www.embention.com/schema/cfg008004">
+  <import  namespace="http://www.embention.com/schema/cfg008004" schemaLocation="cfg008004.xsd"/>
 
   <!-- Simple Type -->
   <simpleType name="data-enum-satmgr-type">
@@ -64,7 +64,7 @@
 
   <simpleType name="data-enum-flytocmd">
     <restriction base="core:data-enum-identifiable">
-      <pattern value="0|1|2|3"/>
+      <pattern value="0|1"/>
     </restriction>
   </simpleType>
 
@@ -194,12 +194,6 @@
       <element minOccurs="0" name="entry-stp1filt" type="ver:entry-stp1filt"></element>
       <element minOccurs="0" name="entry-stp2filt" type="ver:entry-stp2filt"></element>
       <element minOccurs="0" name="entry-qinffilt" type="ver:entry-qinffilt"></element>
-      <element minOccurs="0" name="entry-mag0filt" type="ver:entry-mag0filt"></element>
-      <element minOccurs="0" name="entry-mag2filt" type="ver:entry-mag2filt"></element>
-      <element minOccurs="0" name="entry-mag3filt" type="ver:entry-mag3filt"></element>
-      <element minOccurs="0" name="entry-mag4filt" type="ver:entry-mag4filt"></element>
-      <element minOccurs="0" name="entry-mag5filt" type="ver:entry-mag5filt"></element>
-      <element minOccurs="0" name="entry-mag6filt" type="ver:entry-mag6filt"></element>
       <element minOccurs="0" name="entry-xpecap" type="ver:entry-xpecap"></element>
       <element minOccurs="0" name="entry-ecap" type="ver:entry-ecap"></element>
       <element minOccurs="0" name="entry-imu1" type="ver:entry-imu1"></element>
@@ -299,9 +293,7 @@
       <element minOccurs="0" name="entry-calacc3"  type="ver:entry-calacc3"></element>
       <element minOccurs="0" name="entry-calgyr3"  type="ver:entry-calgyr3"></element>
       <element minOccurs="0" name="entry-calrm3100"  type="ver:entry-calrm3100"></element>
-      <element minOccurs="0" name="entry-magrm3100filt" type="ver:entry-magrm3100filt"></element>
       <element minOccurs="0" name="entry-calmagRes"  type="ver:entry-calmagRes"></element>
-      <element minOccurs="0" name="entry-magResfilt" type="ver:entry-magResfilt"></element>
       <element minOccurs="0" name="entry-blklib00" type="ver:entry-blklib00"></element>
       <element minOccurs="0" name="entry-blklib01" type="ver:entry-blklib01"></element>
       <element minOccurs="0" name="entry-blklib02" type="ver:entry-blklib02"></element>
@@ -449,7 +441,7 @@
         <sequence>
           <element name="id" type="short" fixed="294"></element>
           <element name="filename" type="string"
-                   fixed="oprvar_def.bin"></element>
+            fixed="oprvar_def.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-rrefs"></element>
         </sequence>
@@ -504,7 +496,7 @@
         <sequence>
           <element name="id" type="short" fixed="11"></element>
           <element name="filename" type="string"
-                   fixed="init_pos.bin"></element>
+            fixed="init_pos.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-geo-feature"></element>
         </sequence>
@@ -558,7 +550,7 @@
         <sequence>
           <element name="id" type="short" fixed="16"></element>
           <element name="filename" type="string"
-                   fixed="aes_tables.bin"></element>
+            fixed="aes_tables.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-aes_tables"></element>
         </sequence>
@@ -1208,7 +1200,7 @@
         <sequence>
           <element name="id" type="short" fixed="85"></element>
           <element name="filename" type="string"
-                   fixed="cyphal_trig.bin"></element>
+            fixed="cyphal_trig.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="core:data-uarray"></element>
         </sequence>
@@ -1409,19 +1401,6 @@
       </restriction>
     </complexContent>
   </complexType>
-  <complexType name="entry-mag0filt">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="99"></element>
-          <element name="filename" type="string"
-            fixed="mag0filt.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="core:data-dev-common"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
   <complexType name="entry-xpecap">
     <complexContent>
       <restriction base="core:entry">
@@ -1563,19 +1542,6 @@
             fixed="varmag.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-xvarsens3D"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-  <complexType name="entry-mag2filt">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="124"></element>
-          <element name="filename" type="string"
-            fixed="mag2filt.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="core:data-dev-common"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -1957,7 +1923,7 @@
         <sequence>
           <element name="id" type="short" fixed="149"></element>
           <element name="filename" type="string"
-                   fixed="mxplane.bin"></element>
+            fixed="mxplane.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-meta-mvxmap"></element>
         </sequence>
@@ -2196,7 +2162,7 @@
         <sequence>
           <element name="id" type="short" fixed="173"></element>
           <element name="filename" type="string"
-                   fixed="metagnss.bin"></element>
+            fixed="metagnss.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-metagnss"></element>
         </sequence>
@@ -2227,20 +2193,6 @@
             fixed="gyrocal.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="core:data-parameter-cal-3D-8x"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
-  <complexType name="entry-mag3filt">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="253"></element>
-          <element name="filename" type="string"
-            fixed="mag3filt.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="core:data-dev-common"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -2301,20 +2253,6 @@
     </complexContent>
   </complexType>
 
-  <complexType name="entry-mag4filt">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="262"></element>
-          <element name="filename" type="string"
-            fixed="mag4filt.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="core:data-dev-common"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
   <complexType name="entry-calmag4">
     <complexContent>
       <restriction base="core:entry">
@@ -2329,20 +2267,6 @@
     </complexContent>
   </complexType>
 
-  <complexType name="entry-mag5filt">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="268"></element>
-          <element name="filename" type="string"
-            fixed="mag5filt.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="core:data-dev-common"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
   <complexType name="entry-calmag5">
     <complexContent>
       <restriction base="core:entry">
@@ -2352,20 +2276,6 @@
             fixed="calmag5.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="core:data-calibration"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
-  <complexType name="entry-mag6filt">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="355"></element>
-          <element name="filename" type="string"
-            fixed="mag6filt.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="core:data-dev-common"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -2642,7 +2552,7 @@
         <sequence>
           <element name="id" type="short" fixed="334"></element>
           <element name="filename" type="string"
-                   fixed="compiled_block0_io.bin"></element>
+            fixed="compiled_block0_io.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-compiled-block-io"></element>
         </sequence>
@@ -2656,7 +2566,7 @@
         <sequence>
           <element name="id" type="short" fixed="335"></element>
           <element name="filename" type="string"
-                   fixed="compiled_block0_exe.bin"></element>
+            fixed="compiled_block0_exe.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-compiled-block-exe"></element>
         </sequence>
@@ -2670,7 +2580,7 @@
         <sequence>
           <element name="id" type="short" fixed="336"></element>
           <element name="filename" type="string"
-                   fixed="compiled_block1_exe.bin"></element>
+            fixed="compiled_block1_exe.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-compiled-block-exe"></element>
         </sequence>
@@ -2684,7 +2594,7 @@
         <sequence>
           <element name="id" type="short" fixed="337"></element>
           <element name="filename" type="string"
-                   fixed="compiled_block2_exe.bin"></element>
+            fixed="compiled_block2_exe.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-compiled-block-exe"></element>
         </sequence>
@@ -2698,7 +2608,7 @@
         <sequence>
           <element name="id" type="short" fixed="338"></element>
           <element name="filename" type="string"
-                   fixed="compiled_block3_exe.bin"></element>
+            fixed="compiled_block3_exe.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-compiled-block-exe"></element>
         </sequence>
@@ -2827,20 +2737,6 @@
     </complexContent>
   </complexType>
 
-  <complexType name="entry-magrm3100filt">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="366"></element>
-          <element name="filename" type="string"  fixed="mag7filt.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="core:data-dev-common"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
-
   <complexType name="entry-calmagRes">
     <complexContent>
       <restriction base="core:entry">
@@ -2854,14 +2750,14 @@
     </complexContent>
   </complexType>
 
-  <complexType name="entry-magResfilt">
+  <complexType name="entry-blocks-cio-hi">
     <complexContent>
       <restriction base="core:entry">
         <sequence>
-          <element name="id" type="short" fixed="368"></element>
-          <element name="filename" type="string"  fixed="magResfilt.bin"></element>
+          <element name="id" type="short" fixed="389"></element>
+          <element name="filename" type="string" fixed="blocks_cio_hi.bin"></element>
           <element name="version" type="core:data-version"></element>
-          <element name="data" type="core:data-dev-common"></element>
+          <element name="data" type="ver:data-blocks-cio-hi"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -3323,19 +3219,6 @@
     </complexContent>
   </complexType>
 
-  <complexType name="entry-blocks-cio-hi">
-    <complexContent>
-      <restriction base="core:entry">
-        <sequence>
-          <element name="id" type="short" fixed="433"></element>
-          <element name="filename" type="string" fixed="blocks_cio_hi.bin"></element>
-          <element name="version" type="core:data-version"></element>
-          <element name="data" type="ver:data-blocks-cio-hi"></element>
-        </sequence>
-      </restriction>
-    </complexContent>
-  </complexType>
-
   <complexType name="entry-mblocks-cio-hi">
     <complexContent>
       <restriction base="core:entry">
@@ -3383,7 +3266,7 @@
         <sequence>
           <element name="id" type="short" fixed="377"></element>
           <element name="filename" type="string"
-                   fixed="stg_subsystem.bin"></element>
+            fixed="stg_subsystem.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-subsystem"></element>
         </sequence>
@@ -3392,11 +3275,11 @@
   </complexType>
 
   <complexType name="data-datalink">
-  <sequence>
-    <element name="period" type="core:str-realfloat32"/>
-    <element name="BIT_mode" type="core:str-uinteger8"/>
-    <element name="dl_info" type="core:data-stg-first-var2-array"/>
-  </sequence>
+    <sequence>
+      <element name="period" type="core:str-realfloat32"/>
+      <element name="BIT_mode" type="core:str-uinteger8"/>
+      <element name="dl_info" type="core:data-stg-first-var2-array"/>
+    </sequence>
   </complexType>
 
   <complexType name="entry-data-link-cfg">
@@ -3405,7 +3288,7 @@
         <sequence>
           <element name="id" type="short" fixed="378"></element>
           <element name="filename" type="string"
-                   fixed="stg_data_link.bin"></element>
+            fixed="stg_data_link.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-datalink"></element>
         </sequence>
@@ -4086,9 +3969,6 @@
   <complexType name="data-suite-fusion">
     <sequence>
       <element name="sel" type="ver:data-sensor-fusion-selection"></element>
-      <element name="tau_v" type="core:str-realfloat32"></element>
-      <element name="tau_s2" type="core:str-realfloat32"></element>
-      <element name="variances" type="ver:data-sensors-fusion"></element>
     </sequence>
   </complexType>
 
@@ -4270,7 +4150,7 @@
         <sequence>
           <element name="id" type="short" fixed="394"></element>
           <element name="filename" type="string"
-                   fixed="network_config.bin"></element>
+            fixed="network_config.bin"></element>
           <element name="version" type="core:data-version"></element>
           <element name="data" type="ver:data-network-config"></element>
         </sequence>
@@ -4636,33 +4516,6 @@
                         <simpleType>
                           <restriction base="ver:data-enum-flytocmd">
                             <enumeration value="1"/>
-                          </restriction>
-                        </simpleType>
-                      </element>
-                      <element name="flyto_idx" type="core:str-uinteger16"/>
-                    </sequence>
-                  </complexType>
-                </element>
-                <element name="no-flytocmd-reset">
-                  <complexType>
-                    <sequence>
-                      <element name="hasflyto">
-                        <simpleType>
-                          <restriction base="ver:data-enum-flytocmd">
-                            <enumeration value="2"/>
-                          </restriction>
-                        </simpleType>
-                      </element>
-                    </sequence>
-                  </complexType>
-                </element>
-                <element name="flytocmd-reset">
-                  <complexType>
-                    <sequence>
-                      <element name="hasflyto">
-                        <simpleType>
-                          <restriction base="ver:data-enum-flytocmd">
-                            <enumeration value="3"/>
                           </restriction>
                         </simpleType>
                       </element>
@@ -5422,6 +5275,37 @@
                       <extension base="core:str-metaext">
                         <sequence>
                           <element name="selected" type="core:str-uinteger16"/>
+                        </sequence>
+                      </extension>
+                    </complexContent>
+                  </complexType>
+                </element>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="acset-cmd-fastlog">
+            <complexType>
+              <sequence>
+                <element name="type">
+                  <simpleType>
+                    <restriction base="core:data-enum-action-type">
+                      <enumeration value="0"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="idCfg">
+                  <simpleType>
+                    <restriction base="core:data-enum-configid">
+                      <pattern value="180"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="str">
+                  <complexType>
+                    <complexContent>
+                      <extension base="core:str-metaext">
+                        <sequence>
+                          <element name="command" type="core:str-uinteger16"/>
                         </sequence>
                       </extension>
                     </complexContent>
@@ -6586,10 +6470,10 @@
   </complexType>
 
   <complexType name="data-pm-geocage">
-      <sequence>
-        <element name="geoIdx" type="ver:data-geocage-idx"/>
-        <element name="geoDist" type="ver:data-geocage-dist"/>
-      </sequence>
+    <sequence>
+      <element name="geoIdx" type="ver:data-geocage-idx"/>
+      <element name="geoDist" type="ver:data-geocage-dist"/>
+    </sequence>
   </complexType>
 
   <complexType name="data-geocage-idx">
@@ -7054,11 +6938,31 @@
     </sequence>
   </complexType>
 
+  <complexType name="data-foperation-single">
+    <complexContent>
+      <restriction base="core:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="1">
+            <complexType>
+              <complexContent>
+                <restriction base="core:str-tunarray-element">
+                  <sequence>
+                    <element name="data" type="ver:data-llhcompressed"/>
+                  </sequence>
+                </restriction>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
   <complexType name="data-foperation">
     <complexContent>
       <restriction base="core:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="51">
             <complexType>
               <complexContent>
                 <restriction base="core:str-tunarray-element">
@@ -7107,7 +7011,7 @@
   <complexType name="data-fmgr">
     <sequence>
       <element name="genericOp" type="ver:data-foperation"/>
-      <element name="specifiedOp" type="ver:data-foperation"/>
+      <element name="specifiedOp" type="ver:data-foperation-single"/>
       <element name="fid-groups" type="ver:data-fid-groups"/>
     </sequence>
   </complexType>
@@ -7436,7 +7340,7 @@
     <sequence>
       <element name="height" type="core:data-vref"></element>
       <element name="current-pressure" type="ver:data-choice-current-pressure"></element>
-      <element name="calibration-temperature" type="core:str-realfloat32"></element>
+      <element name="calibration-temperature" type="core:data-vref"></element>
     </sequence>
   </complexType>
 
@@ -7468,7 +7372,7 @@
                     </restriction>
                   </simpleType>
                 </element>
-                <element name="calibration-pressure" type="core:str-realfloat32"/>
+                <element name="calibration-pressure" type="core:data-vref"/>
               </sequence>
             </complexType>
           </element>
@@ -9391,7 +9295,7 @@
                     </restriction>
                   </simpleType>
                 </element>
-                <element name="r64varid" type="core:data-enum-r64varid"></element>
+                <element name="id" type="core:data-r64varid"></element>
               </sequence>
             </complexType>
           </element>
@@ -9655,6 +9559,111 @@
             </complexType>
           </element>
 
+          <element name="mag_lis3mdl">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="204"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-mag-lis3mdl"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="mag_rm3100">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="205"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-mag-rm3100"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="mag_lis3mdl_ext">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="206"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-mag-lis3mdl-ext"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="mag_hscdtd_ext">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="207"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-mag-hscdtd-ext"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="mag_mmc5883_ext">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="208"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-mag-mmc5883-ext"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="mag_rm3100_ext">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="209"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-mag-rm3100-ext"></element>
+              </sequence>
+            </complexType>
+          </element>
+
+          <element name="mag_mmc5883">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="210"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-mag-mmc5883"></element>
+              </sequence>
+            </complexType>
+          </element>
+
           <element name="func-r64xr64" type="core:data-block-func-r64xr64"/>
           <element name="func-2r64xr64" type="core:data-block-func-2r64xr64"/>
           <element name="func-2u16xu16" type="core:data-block-func-2u16xu16"/>
@@ -9707,10 +9716,40 @@
             </complexType>
           </element>
 
+          <element name="vision-pnav-iacg">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="130"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-vision-pnav-iacg"></element>
+              </sequence>
+            </complexType>
+          </element>
+
           <element name="btou" type="core:data-block-btou"/>
           <element name="utob" type="core:data-block-utob"/>
           <element name="bitmask-to-u16" type="core:data-block-bitmask-to-u16"/>
           <element name="u16-to-bitmask" type="core:data-block-u16-to-bitmask"/>
+
+          <element name="senoat">
+            <complexType>
+              <sequence>
+                <element name="block-type">
+                  <simpleType>
+                    <restriction base="core:data-enum-block-type">
+                      <enumeration value="135"/>
+                    </restriction>
+                  </simpleType>
+                </element>
+                <element name="data" type="ver:data-block-senoat"></element>
+              </sequence>
+            </complexType>
+          </element>
 
           <element name="dypr2pqr">
             <complexType>
@@ -10052,13 +10091,17 @@
       <element name="spd" type="core:data-pin-addr-opt"/>
       <element name="hvar" type="core:data-pin-addr-opt"/>
       <element name="vvar" type="core:data-pin-addr-opt"/>
+      <element name="mode_2d" type="core:data-pin-addr-opt"/>
+      <element name="alt_2d" type="core:data-pin-addr-opt"/>
       <element name="flyto" type="ver:data-flytocmd"/>
+      <element name="force_track_reset" type="core:str-bool16"/>
       <element name="a_brake" type="core:str-realfloat32"/>
       <element name="spdcmd" type="ver:data-spdcmd"/>
       <element name="arclim" type="ver:data-arclim"/>
       <element name="hpid" type="ver:data-guid-pid"/>
       <element name="vpid" type="ver:data-guid-pid"/>
       <element name="prj" type="core:str-uinteger16"/>
+      <element name="alt_2d_type" type="core:data-enum-identifiable"/>
     </sequence>
   </complexType>
 
@@ -10109,12 +10152,19 @@
     </restriction>
   </simpleType>
 
+  <simpleType name="data-enum-out-yawing-type">
+    <restriction base="core:data-enum-identifiable">
+      <pattern value="0|1"/>
+    </restriction>
+  </simpleType>
+
   <complexType name="data-block-yawing">
     <sequence>
       <element name="offset" type="core:data-pin-addr-opt"/>
       <element name="ref" type="ver:data-enum-ref-yawing-type"/>
       <element name="is_ratelim" type="core:str-bool16"/>
       <element name="ratelim" type="core:str-realfloat32"/>
+      <element name="out" type="ver:data-enum-out-yawing-type"/>
     </sequence>
   </complexType>
 
@@ -10709,6 +10759,7 @@
   <complexType name="data-fstrt">
     <sequence>
       <element name="periode" type="core:str-realfloat32"/>
+      <element name="enable" type="core:data-enum-bvarid"/>
       <element name="fields" type="core:data-fieldset-tm-array"/>
     </sequence>
   </complexType>
@@ -12083,6 +12134,13 @@
     </sequence>
   </complexType>
 
+  <complexType name="data-block-senoat">
+    <sequence>
+      <element name="enable" type="core:data-pin-addr-opt"/>
+      <element name="input" type="core:data-pin-addr"/>
+    </sequence>
+  </complexType>
+
 
   <complexType name="data-block-readekfpos">
     <sequence>
@@ -12117,6 +12175,26 @@
     <sequence>
       <element name="in_wind" type="core:data-pin-addr-opt"/>
       <element name="runway-id" type="core:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-vision-pnav-iacg">
+    <sequence>
+      <element name="chi_dot_LOS_b"   type="core:data-pin-addr"/>
+      <element name="gamma_dot_LOS_b" type="core:data-pin-addr"/>
+      <element name="iacg_enable"     type="core:data-pin-addr-opt"/>
+      <element name="chi_LOS_b"       type="core:data-pin-addr-opt"/>
+      <element name="gamma_LOS_b"     type="core:data-pin-addr-opt"/>
+      <element name="tgo"             type="core:data-pin-addr-opt"/>
+      <element name="speed_d"         type="core:data-pin-addr-opt"/>
+      <element name="n"               type="core:str-realfloat32"/>
+      <element name="fpa_lim"         type="core:str-realfloat32"/>
+      <element name="chi_imp_d"       type="core:str-realfloat32"/>
+      <element name="gamma_imp_d"     type="core:str-realfloat32"/>
+      <element name="k_bias"          type="core:str-realfloat32"/>
+      <element name="tau_phase"       type="core:str-realfloat32"/>
+      <element name="theta_dot_lim"   type="core:str-realfloat32"/>
+      <element name="psi_dot_lim"     type="core:str-realfloat32"/>
     </sequence>
   </complexType>
 
@@ -12320,6 +12398,48 @@
       <element name="device" type="core:data-imu-adis16505-3"/>
       <element name="acc_filters" type="ver:data-filter-3d-array"/>
       <element name="gyr_filters" type="ver:data-filter-3d-array"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-mag-lis3mdl">
+    <sequence>
+      <element name="mag_cfg" type="core:data-dev-common"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-mag-rm3100">
+    <sequence>
+      <element name="mag_cfg" type="core:data-dev-common"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-mag-lis3mdl-ext">
+    <sequence>
+      <element name="mag_cfg" type="core:data-dev-common"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-mag-hscdtd-ext">
+    <sequence>
+      <element name="mag_cfg" type="core:data-dev-common"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-mag-mmc5883-ext">
+    <sequence>
+      <element name="mag_cfg" type="core:data-dev-common"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-mag-rm3100-ext">
+    <sequence>
+      <element name="mag_cfg" type="core:data-dev-common"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="data-block-mag-mmc5883">
+    <sequence>
+      <element name="mag_cfg" type="core:data-dev-common"/>
     </sequence>
   </complexType>
 

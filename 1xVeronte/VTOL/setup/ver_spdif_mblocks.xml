@@ -2,9 +2,9 @@
     <id>174</id>
     <filename>mblocks.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>57</revision>
+        <major>8</major>
+        <minor>4</minor>
+        <revision>6</revision>
     </version>
     <data>
         <map>
@@ -1206,7 +1206,7 @@
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>731</x-pos>
-                <y-pos>59</y-pos>
+                <y-pos>57</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>575</x-pos>
@@ -1225,7 +1225,7 @@
                 <y-pos>782</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>744</x-pos>
+                <x-pos>743</x-pos>
                 <y-pos>619</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -3746,5 +3746,6 @@
             <width>100</width>
             <height>100</height>
         </snap-settings>
+        <comments/>
     </data>
 </entry-mblocks>
