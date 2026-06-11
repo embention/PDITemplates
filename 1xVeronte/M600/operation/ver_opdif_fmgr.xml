@@ -7,22 +7,8 @@
         <revision>29</revision>
     </version>
     <data>
-        <genericOp>
-            <str-tunarray-element str-tunarray-key="2">
-                <data>
-                    <lon>-6983831</lon>
-                    <lat>383829372</lat>
-                    <alt>300560</alt>
-                </data>
-            </str-tunarray-element>
-        </genericOp>
+        <genericOp/>
         <specifiedOp/>
-        <fid-groups>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <str-tunarray-element>45058</str-tunarray-element>
-                </data>
-            </str-tunarray-element>
-        </fid-groups>
+        <fid-groups/>
     </data>
 </entry-fmgr>

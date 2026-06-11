@@ -331,7 +331,7 @@
                 <id>3119</id>
                 <value>
                     <description>
-                        <name>NIS M6</name>
+                        <name>NIS 5</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -345,7 +345,7 @@
                 <id>3120</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 6</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -663,7 +663,7 @@
                 <id>3114</id>
                 <value>
                     <description>
-                        <name>NIS M1</name>
+                        <name>NIS 0</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -676,7 +676,7 @@
                 <id>3115</id>
                 <value>
                     <description>
-                        <name>NIS M2</name>
+                        <name>NIS 1</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -689,7 +689,7 @@
                 <id>3116</id>
                 <value>
                     <description>
-                        <name>NIS M3</name>
+                        <name>NIS 2</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -702,7 +702,7 @@
                 <id>3117</id>
                 <value>
                     <description>
-                        <name>NIS M4</name>
+                        <name>NIS 3</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -715,7 +715,7 @@
                 <id>3118</id>
                 <value>
                     <description>
-                        <name>NIS M5</name>
+                        <name>NIS 4</name>
                     </description>
                     <unit>
                         <no-exist-unit>

@@ -6,9 +6,5 @@
         <minor>2</minor>
         <revision>29</revision>
     </version>
-    <data>
-        <str-tunarray-element str-tunarray-key="0">
-            <data>0</data>
-        </str-tunarray-element>
-    </data>
+    <data/>
 </entry-flyto-setup-map>
