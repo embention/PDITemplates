@@ -4430,6 +4430,19 @@
                             </data>
                         </rvarset>
                     </str-tunarray-element>
+                    <str-tunarray-element>
+                        <mult_rvarset>
+                            <block-type>18</block-type>
+                            <data>
+                                <input>
+                                    <block-addr>28</block-addr>
+                                    <out-addr>1</out-addr>
+                                </input>
+                                <rvarid>3114</rvarid>
+                                <n>6</n>
+                            </data>
+                        </mult_rvarset>
+                    </str-tunarray-element>
                 </blocks>
             </str-tunarray-element>
             <str-tunarray-element>
