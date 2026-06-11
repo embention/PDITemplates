@@ -4,18 +4,10 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
-        <genericOp>
-            <str-tunarray-element str-tunarray-key="0">
-                <data>
-                    <lon>-6976130</lon>
-                    <lat>383828606</lat>
-                    <alt>331210</alt>
-                </data>
-            </str-tunarray-element>
-        </genericOp>
+        <genericOp/>
         <specifiedOp/>
         <fid-groups/>
     </data>

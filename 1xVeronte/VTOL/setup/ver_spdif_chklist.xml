@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -158,6 +158,19 @@
         <str-tunarray-element str-tunarray-key="10">
             <data>
                 <other>
+                    <size>26</size>
+                    <task>0</task>
+                    <name>Pitot tube installed</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="11">
+            <data>
+                <other>
                     <size>22</size>
                     <task>0</task>
                     <name>Trim Stick Check</name>
@@ -168,7 +181,7 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="11">
+        <str-tunarray-element str-tunarray-key="12">
             <data>
                 <other>
                     <size>38</size>
@@ -181,14 +194,27 @@
                 </other>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="12">
+        <str-tunarray-element str-tunarray-key="13">
+            <data>
+                <other>
+                    <size>28</size>
+                    <task>0</task>
+                    <name>Control Surfaces Check</name>
+                    <phase>20</phase>
+                    <obliged>0</obliged>
+                    <showonlyfirst>0</showonlyfirst>
+                    <params/>
+                </other>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="14">
             <data>
                 <other>
                     <size>22</size>
                     <task>0</task>
                     <name>Review EKF State</name>
                     <phase>20</phase>
-                    <obliged>0</obliged>
+                    <obliged>1</obliged>
                     <showonlyfirst>0</showonlyfirst>
                     <params/>
                 </other>

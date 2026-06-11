@@ -4,16 +4,32 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <str-tunarray-element>
             <fields>
                 <str-tunarray-element>
                     <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>134</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <bit>
+                            <type>3</type>
+                            <id>1</id>
+                        </bit>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
                         <real-float32>
                             <type>0</type>
-                            <id>210</id>
+                            <id>1510</id>
                             <scale>1.0</scale>
                         </real-float32>
                     </data-fieldset>
@@ -22,29 +38,13 @@
                     <data-fieldset>
                         <real-float32>
                             <type>0</type>
-                            <id>208</id>
+                            <id>1610</id>
                             <scale>1.0</scale>
                         </real-float32>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <bit>
-                            <type>3</type>
-                            <id>1209</id>
-                        </bit>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <bit>
-                            <type>3</type>
-                            <id>106</id>
-                        </bit>
                     </data-fieldset>
                 </str-tunarray-element>
             </fields>
-            <enable>1</enable>
+            <enable>0</enable>
             <periode>0.1</periode>
             <address>
                 <uav>2</uav>

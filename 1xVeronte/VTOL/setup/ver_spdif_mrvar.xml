@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <map>
@@ -29,9 +29,10 @@
                         <name>Left Elevon</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>205</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -107,9 +108,10 @@
                         <name>Right Elevon</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>205</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -510,12 +512,13 @@
                 <id>3118</id>
                 <value>
                     <description>
-                        <name>Control mix</name>
+                        <name>Control mix 1</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -642,7 +645,7 @@
                 <id>3129</id>
                 <value>
                     <description>
-                        <name>FW Ground Speed</name>
+                        <name/>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -694,12 +697,13 @@
                 <id>3133</id>
                 <value>
                     <description>
-                        <name>Control mix max</name>
+                        <name>Control mix 1 max</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -707,12 +711,13 @@
                 <id>3134</id>
                 <value>
                     <description>
-                        <name>Control mix min</name>
+                        <name>Control mix 1 min</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1338,12 +1343,13 @@
                 <id>3181</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Yaw to home</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>202</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1351,12 +1357,13 @@
                 <id>3182</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Energy Control Stall Speed</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>56</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1364,12 +1371,13 @@
                 <id>3183</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>GNSS1 acc for OPS</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>5</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1377,12 +1385,13 @@
                 <id>3184</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>GNSS2 acc for OPS</name>
                     </description>
                     <unit>
-                        <no-exist-unit>
-                            <exist>0</exist>
-                        </no-exist-unit>
+                        <exist-unit>
+                            <exist>1</exist>
+                            <id>5</id>
+                        </exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>
@@ -1390,7 +1399,7 @@
                 <id>3185</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 0</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1417,7 +1426,7 @@
                 <id>3189</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 4</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1430,7 +1439,7 @@
                 <id>3190</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 5</name>
                     </description>
                     <unit>
                         <no-exist-unit>
@@ -1735,6 +1744,58 @@
                 <value>
                     <description>
                         <name>Left Asymmetrical Deflection Before Servo Saturation</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3186</id>
+                <value>
+                    <description>
+                        <name>NIS 1</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3187</id>
+                <value>
+                    <description>
+                        <name>NIS 2</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3188</id>
+                <value>
+                    <description>
+                        <name>NIS 3</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3191</id>
+                <value>
+                    <description>
+                        <name>NIS 6</name>
                     </description>
                     <unit>
                         <no-exist-unit>

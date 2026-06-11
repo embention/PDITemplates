@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <map>
@@ -15,15 +15,6 @@
                     <id>3110</id>
                     <entry>
                         <xvar>propRPM1</xvar>
-                        <v2xScale>1.0</v2xScale>
-                        <v2xOffset>0.0</v2xOffset>
-                    </entry>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <type>0</type>
-                    <id>3113</id>
-                    <entry>
-                        <xvar>propRPM4</xvar>
                         <v2xScale>1.0</v2xScale>
                         <v2xOffset>0.0</v2xOffset>
                     </entry>
@@ -69,6 +60,15 @@
                     <id>3112</id>
                     <entry>
                         <xvar>propRPM3</xvar>
+                        <v2xScale>1.0</v2xScale>
+                        <v2xOffset>0.0</v2xOffset>
+                    </entry>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <type>0</type>
+                    <id>3113</id>
+                    <entry>
+                        <xvar>propRPM4</xvar>
                         <v2xScale>1.0</v2xScale>
                         <v2xOffset>0.0</v2xOffset>
                     </entry>

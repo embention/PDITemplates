@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <runways>
@@ -15,8 +15,8 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6978303</lon>
-                                    <lat>383837475</lat>
+                                    <lon>-6989300</lon>
+                                    <lat>383823434</lat>
                                     <alt>332180</alt>
                                 </pos>
                             </wrt-choice-abs>

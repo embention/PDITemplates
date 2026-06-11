@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <map>
@@ -43,6 +43,13 @@
                     <order>5</order>
                 </data>
             </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <name>TRN to CRU</name>
+                    <group>1</group>
+                    <order>6</order>
+                </data>
+            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="6">
                 <data>
                     <name>LND Button</name>
@@ -78,20 +85,6 @@
                     <order>3</order>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="11">
-                <data>
-                    <name>Pause Mission</name>
-                    <group>4</group>
-                    <order>1</order>
-                </data>
-            </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="12">
-                <data>
-                    <name>Resume Mission</name>
-                    <group>4</group>
-                    <order>0</order>
-                </data>
-            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="13">
                 <data>
                     <name>RTH Button</name>
@@ -103,12 +96,19 @@
                 <data>
                     <name>Go to cruise</name>
                     <group>4</group>
-                    <order>2</order>
+                    <order>0</order>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="15">
+                <data>
+                    <name>GNSS loss to HLD</name>
+                    <group>3</group>
+                    <order>3</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="16">
                 <data>
-                    <name>Auto Atmosphere/DEM Cal</name>
+                    <name>Auto DEM Cal</name>
                     <group>6</group>
                     <order>0</order>
                 </data>
@@ -124,7 +124,7 @@
                 <data>
                     <name>Execute RTH distance</name>
                     <group>4</group>
-                    <order>3</order>
+                    <order>1</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="19">
@@ -183,13 +183,6 @@
                     <order>5</order>
                 </data>
             </str-tunarray-element>
-            <str-tunarray-element str-tunarray-key="30">
-                <data>
-                    <name>RTH to LND Link Off</name>
-                    <group>1</group>
-                    <order>5</order>
-                </data>
-            </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="31">
                 <data>
                     <name>KNB Button</name>
@@ -222,7 +215,7 @@
                 <data>
                     <name>Loiter in RTH</name>
                     <group>4</group>
-                    <order>4</order>
+                    <order>2</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="36">
@@ -234,9 +227,9 @@
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="37">
                 <data>
-                    <name>RTH to LND Link Ok</name>
+                    <name>RTH to LND</name>
                     <group>1</group>
-                    <order>6</order>
+                    <order>5</order>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="38">

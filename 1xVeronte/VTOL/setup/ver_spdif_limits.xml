@@ -4,7 +4,7 @@
     <version>
         <major>7</major>
         <minor>8</minor>
-        <revision>13</revision>
+        <revision>57</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -937,7 +937,7 @@
                 <value>
                     <vref-kval>
                         <type>65534</type>
-                        <kval>21.7</kval>
+                        <kval>21.0</kval>
                     </vref-kval>
                 </value>
             </data>
@@ -1176,6 +1176,23 @@
                     <vref-kval>
                         <type>65534</type>
                         <kval>2.0</kval>
+                    </vref-kval>
+                </value>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="69">
+            <data>
+                <variable>
+                    <vref-var>
+                        <type>0</type>
+                        <id>3118</id>
+                    </vref-var>
+                </variable>
+                <type>0</type>
+                <value>
+                    <vref-kval>
+                        <type>65534</type>
+                        <kval>0.99</kval>
                     </vref-kval>
                 </value>
             </data>
