@@ -212,7 +212,7 @@
                 <id>3106</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>Wind Velocity - Norm</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -331,7 +331,7 @@
                 <id>3119</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 3</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -345,7 +345,7 @@
                 <id>3120</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 4</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -359,7 +359,7 @@
                 <id>3121</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 5</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -373,7 +373,7 @@
                 <id>3122</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 6</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -684,6 +684,45 @@
                             <exist>1</exist>
                             <id>56</id>
                         </exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3116</id>
+                <value>
+                    <description>
+                        <name>NIS 0</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3117</id>
+                <value>
+                    <description>
+                        <name>NIS 1</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3118</id>
+                <value>
+                    <description>
+                        <name>NIS 2</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
                     </unit>
                 </value>
             </str-tunarray-element>

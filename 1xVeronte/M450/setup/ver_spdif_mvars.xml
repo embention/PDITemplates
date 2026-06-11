@@ -77,7 +77,32 @@
             </str-tunarray-element>
             <str-tunarray-element>
                 <idType>7</idType>
-                <var-name-array/>
+                <var-name-array>
+                    <str-tunarray-element str-tunarray-key="0">
+                        <data>
+                            <name>RTH Points</name>
+                            <mandatory>0</mandatory>
+                            <color>
+                                <r>255</r>
+                                <g>204</g>
+                                <b>102</b>
+                                <a>255</a>
+                            </color>
+                            <has-icon>
+                                <has-icon-y>
+                                    <hasIcon>1</hasIcon>
+                                    <color>
+                                        <r>255</r>
+                                        <g>255</g>
+                                        <b>255</b>
+                                        <a>153</a>
+                                    </color>
+                                    <icon>53</icon>
+                                </has-icon-y>
+                            </has-icon>
+                        </data>
+                    </str-tunarray-element>
+                </var-name-array>
             </str-tunarray-element>
         </map>
     </data>
