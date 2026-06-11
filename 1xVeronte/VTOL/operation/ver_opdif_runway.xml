@@ -2,9 +2,9 @@
     <id>29</id>
     <filename>runway.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>57</revision>
+        <major>8</major>
+        <minor>4</minor>
+        <revision>6</revision>
     </version>
     <data>
         <runways>
@@ -15,8 +15,8 @@
                             <wrt-choice-abs>
                                 <wrt>65535</wrt>
                                 <pos>
-                                    <lon>-6989300</lon>
-                                    <lat>383823434</lat>
+                                    <lon>-6989386</lon>
+                                    <lat>383830668</lat>
                                     <alt>332180</alt>
                                 </pos>
                             </wrt-choice-abs>
@@ -47,7 +47,7 @@
                             </wrt-choice-abs>
                         </wrt-choice>
                     </fend>
-                    <preferred>1</preferred>
+                    <preferred>0</preferred>
                     <margin-ratio>0.0</margin-ratio>
                     <margin-reverse-ratio>0.0</margin-reverse-ratio>
                 </runway>

@@ -2,9 +2,9 @@
     <id>83</id>
     <filename>actions.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>57</revision>
+        <major>8</major>
+        <minor>4</minor>
+        <revision>6</revision>
     </version>
     <data>
         <action-array>
@@ -250,7 +250,12 @@
                                         <time>3.0</time>
                                     </use_current_pressure>
                                 </current-pressure>
-                                <calibration-temperature>288.16</calibration-temperature>
+                                <calibration-temperature>
+                                    <vref-kval>
+                                        <type>65534</type>
+                                        <kval>288.16</kval>
+                                    </vref-kval>
+                                </calibration-temperature>
                             </ussa76>
                         </str>
                     </acset-ussa76-cmd>

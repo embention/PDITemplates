@@ -1,10 +1,10 @@
 <entry-blocks-cio-hi>
-    <id>433</id>
+    <id>389</id>
     <filename>blocks_cio_hi.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>57</revision>
+        <major>8</major>
+        <minor>4</minor>
+        <revision>6</revision>
     </version>
     <data>
         <blocks>
@@ -32,7 +32,7 @@
                                         <center-freq>
                                             <vref-kval>
                                                 <type>65534</type>
-                                                <kval>22.5</kval>
+                                                <kval>20.5</kval>
                                             </vref-kval>
                                         </center-freq>
                                         <bandwidth>1.0</bandwidth>
@@ -56,7 +56,7 @@
                                         <center-freq>
                                             <vref-kval>
                                                 <type>65534</type>
-                                                <kval>22.5</kval>
+                                                <kval>20.5</kval>
                                             </vref-kval>
                                         </center-freq>
                                         <bandwidth>2.0</bandwidth>
@@ -96,7 +96,7 @@
                                         <center-freq>
                                             <vref-kval>
                                                 <type>65534</type>
-                                                <kval>22.5</kval>
+                                                <kval>20.5</kval>
                                             </vref-kval>
                                         </center-freq>
                                         <bandwidth>1.0</bandwidth>
@@ -120,7 +120,7 @@
                                         <center-freq>
                                             <vref-kval>
                                                 <type>65534</type>
-                                                <kval>22.5</kval>
+                                                <kval>20.5</kval>
                                             </vref-kval>
                                         </center-freq>
                                         <bandwidth>2.0</bandwidth>

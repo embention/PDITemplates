@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/cfg007008"
-  xmlns:cfg="http://www.embention.com/schema/cfg007008">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.embention.com/schema/cfg008004"
+  xmlns:cfg="http://www.embention.com/schema/cfg008004">
   <simpleType name="str-uinteger16">
     <restriction base="unsignedShort"></restriction>
   </simpleType>
@@ -111,7 +111,7 @@
         <sequence>
           <element name="id" type="short" fixed="24"></element>
           <element name="filename" type="string"
-                   fixed="can-terminators.bin"></element>
+            fixed="can-terminators.bin"></element>
           <element name="version" type="cfg:data-version"></element>
           <element name="data" minOccurs="0" type="cfg:can-terminators"></element>
         </sequence>
@@ -209,7 +209,7 @@
         <sequence>
           <element name="id" type="short" fixed="41"></element>
           <element name="filename" type="string"
-                   fixed="can_fd_a.bin"></element>
+            fixed="can_fd_a.bin"></element>
           <element name="version" type="cfg:data-version"></element>
           <element name="data" type="cfg:data-can-fd"></element>
         </sequence>
@@ -738,7 +738,7 @@
     </sequence>
   </complexType>
 
-    <complexType name="data-router">
+  <complexType name="data-router">
     <sequence>
       <element name="tables" type="cfg:data-router-tables"></element>
       <element name="ttl" type="cfg:str-uinteger16"></element>
@@ -997,6 +997,16 @@
     <restriction base="cfg:data-enum-identifiable"/>
   </simpleType>
 
+  <!-- Wrapper around any reference to a Real64 variable id. The single child
+       'r64varid' is uint16 on the wire, but the named element makes every
+       Real64 variable reference locatable via XPath ('.//r64varid'),
+       which simplifies future R64VarId remap migrations. -->
+  <complexType name="data-r64varid">
+    <sequence>
+      <element name="r64varid" type="cfg:data-enum-r64varid"/>
+    </sequence>
+  </complexType>
+
   <complexType name="data-gpio">
     <sequence>
       <element name="gpio-pwm000" type="cfg:data-gpio-entry"></element>
@@ -1169,9 +1179,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-            <!-- 1x maximum is 64 and CEX2 maximum is 100, so leave the maximum in order to not duplicate all entries and this value
-            should be properly controlled by builder -->
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="100" type="cfg:data-fmset-consumer-mset-entry"></element>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fmset-consumer-mset-entry"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -2082,7 +2090,7 @@
                     </restriction>
                   </simpleType>
                 </element>
-                <element name="id" type="cfg:str-uinteger16"/>
+                <element name="id" type="cfg:data-r64varid"/>
                 <element name="scale" type="cfg:str-realfloat64"/>
               </sequence>
             </complexType>
@@ -3426,15 +3434,16 @@
   <complexType name="data-fstr">
     <sequence>
       <element name="period" type="cfg:str-realfloat32"/>
+      <element name="enable" type="cfg:data-enum-bvarid"/>
       <element name="fields" type="cfg:data-fieldset-tm-array"/>
     </sequence>
   </complexType>
-  
+
   <complexType name="data-fmset-can-array-cex">
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="8" type="cfg:data-fmset-can-cex">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fmset-can-cex">
           </element>
         </sequence>
       </restriction>
@@ -3445,7 +3454,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="160" type="cfg:data-fmset-can-cex2">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="1280" type="cfg:data-fmset-can-cex">
           </element>
         </sequence>
       </restriction>
@@ -3461,42 +3470,22 @@
     </sequence>
   </complexType>
 
-    <complexType name="data-fmset-can-cex2">
-        <sequence>
-            <element name="fields" type="cfg:data-fieldset-array-can-cex2"/>
-            <element name="endianness" type="cfg:data-enum-endianness"></element>
-            <element name="time" type="cfg:str-realfloat32"/>
-            <element name="offset" type="cfg:str-realfloat32"></element>
-        </sequence>
-    </complexType>
-
   <complexType name="data-fieldset-array-can-cex">
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fieldset">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="64" type="cfg:data-fieldset">
           </element>
         </sequence>
       </restriction>
     </complexContent>
   </complexType>
 
-    <complexType name="data-fieldset-array-can-cex2">
-        <complexContent>
-            <restriction base="cfg:str-tunarray">
-                <sequence>
-                    <element name="str-tunarray-element" minOccurs="0" maxOccurs="1280" type="cfg:data-fieldset">
-                    </element>
-                </sequence>
-            </restriction>
-        </complexContent>
-    </complexType>
-  
   <complexType name="data-fmset-array-cex">
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="10" type="cfg:data-fmset-cex">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fmset-cex">
           </element>
         </sequence>
       </restriction>
@@ -3527,7 +3516,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="32" type="cfg:data-fieldset">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="20" type="cfg:data-fieldset">
           </element>
         </sequence>
       </restriction>
@@ -3547,7 +3536,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="1000" type="cfg:data-fieldset">
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="100" type="cfg:data-fieldset">
           </element>
         </sequence>
       </restriction>
@@ -3660,7 +3649,7 @@
 
   <complexType name="data-can-producer-cex2">
     <sequence>
-      <element name="data-fcan-producer-tx-ini" type="cfg:data-fmsgcan-producer-cex2"></element>
+      <element name="data-fcan-producer-tx-ini" type="cfg:data-fmsgcan-producer-cex-1"></element>
       <element name="data-fcan-producer-tx" type="cfg:data-fmsgcan-producer-cex2"></element>
     </sequence>
   </complexType>
@@ -3691,7 +3680,7 @@
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
-          <element name="str-tunarray-element" minOccurs="0" maxOccurs="40"
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="160"
             type="cfg:data-fmsgcanp"></element>
         </sequence>
       </restriction>
@@ -4214,12 +4203,19 @@
     </sequence>
   </complexType>
 
+  <simpleType name="str-pid-aw-mode">
+    <restriction base="cfg:str-uinteger16">
+      <pattern value="0|1|2"/>
+    </restriction>
+  </simpleType>
+
   <complexType name="data-pid-integral">
     <sequence>
       <element name="enable" type="cfg:str-bool16"/>
       <element name="errorLimir" type="cfg:str-realfloat32"/>
       <element name="type" type="cfg:str-uinteger16"/>
       <element name="tau" type="cfg:str-realfloat32"/>
+      <element name="awMode" type="cfg:str-pid-aw-mode"/>
     </sequence>
   </complexType>
 
@@ -4332,7 +4328,7 @@
         <sequence>
           <element name="id" type="short" fixed="174"></element>
           <element name="filename" type="string"
-                   fixed="mblocks.bin"></element>
+            fixed="mblocks.bin"></element>
           <element name="version" type="cfg:data-version"></element>
           <element name="data" type="cfg:data-mblocks"></element>
         </sequence>
@@ -4346,6 +4342,7 @@
         <sequence>
           <element name="map" type="cfg:data-meta-blocks"/>
           <element name="snap-settings" minOccurs="0" type="cfg:data-meta-snap-settings"/>
+          <element name="comments" minOccurs="0" type="cfg:data-meta-comments"/>
         </sequence>
       </restriction>
     </complexContent>
@@ -4359,12 +4356,51 @@
     </sequence>
   </complexType>
 
+  <complexType name="data-meta-comments">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535"
+                   type="cfg:data-meta-comment"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-meta-comment">
+    <sequence>
+      <element name="text" type="cfg:str-string"/>
+      <element name="program" type="cfg:str-uinteger16"/>
+      <element name="library" type="cfg:str-uinteger16"/>
+      <element name="path" type="cfg:comment-path"/>
+      <element name="position" type="cfg:data-meta-block"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="comment-path">
+    <complexContent>
+      <restriction base="cfg:str-tunarray">
+        <sequence>
+          <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535"
+                   type="cfg:data-meta-comment-path"/>
+        </sequence>
+      </restriction>
+    </complexContent>
+  </complexType>
+
+  <complexType name="data-meta-comment-path">
+    <sequence>
+      <element name="block" type="cfg:str-uinteger16"/>
+      <element name="case" type="cfg:str-uinteger16"/>
+    </sequence>
+  </complexType>
+
   <complexType name="data-meta-blocks">
     <complexContent>
       <restriction base="cfg:str-tunarray">
         <sequence>
           <element name="str-tunarray-element" minOccurs="0" maxOccurs="65535"
-                   type="cfg:data-meta-block"></element>
+            type="cfg:data-meta-block"></element>
         </sequence>
       </restriction>
     </complexContent>
@@ -4383,7 +4419,7 @@
         <sequence>
           <element name="id" type="short" fixed="143"></element>
           <element name="filename" type="string"
-                   fixed="mstep.bin"></element>
+            fixed="mstep.bin"></element>
           <element name="version" type="cfg:data-version"></element>
           <element name="data" type="cfg:data-mstep"></element>
         </sequence>
@@ -4406,13 +4442,13 @@
       <restriction base="cfg:str-tunarray">
         <sequence>
           <element name="str-tunarray-element"
-                   minOccurs="0" maxOccurs="65535">
+            minOccurs="0" maxOccurs="65535">
             <complexType>
               <complexContent>
                 <restriction base="cfg:str-tunarray-element">
                   <sequence>
                     <element name="data"
-                             type="cfg:data-metaname-entry">
+                      type="cfg:data-metaname-entry">
                     </element>
                   </sequence>
                 </restriction>
@@ -4490,7 +4526,7 @@
   <complexType name="data-block-r64varset-elems">
     <sequence>
       <element name="input" type="cfg:data-pin-addr"/>
-      <element name="r64varid" type="cfg:data-enum-r64varid"/>
+      <element name="id" type="cfg:data-r64varid"/>
     </sequence>
   </complexType>
 

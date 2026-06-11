@@ -2,9 +2,9 @@
     <id>51</id>
     <filename>status.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>57</revision>
+        <major>8</major>
+        <minor>4</minor>
+        <revision>6</revision>
     </version>
     <data>
         <vcp_tx_enabled>1</vcp_tx_enabled>

@@ -2,9 +2,9 @@
     <id>432</id>
     <filename>blocks.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>57</revision>
+        <major>8</major>
+        <minor>4</minor>
+        <revision>6</revision>
     </version>
     <data>
         <programs>
@@ -281,6 +281,7 @@
                                                                                             <errorLimir>1000.0</errorLimir>
                                                                                             <type>0</type>
                                                                                             <tau>1.0</tau>
+                                                                                            <awMode>0</awMode>
                                                                                         </integral>
                                                                                     </pid>
                                                                                     <limits>
@@ -412,6 +413,7 @@
                                                                                             <errorLimir>1000.0</errorLimir>
                                                                                             <type>0</type>
                                                                                             <tau>1.0</tau>
+                                                                                            <awMode>0</awMode>
                                                                                         </integral>
                                                                                     </pid>
                                                                                     <limits>
@@ -582,6 +584,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -899,6 +902,7 @@
                                                                                             <errorLimir>1000.0</errorLimir>
                                                                                             <type>0</type>
                                                                                             <tau>1.0</tau>
+                                                                                            <awMode>0</awMode>
                                                                                         </integral>
                                                                                     </pid>
                                                                                     <limits>
@@ -1262,6 +1266,7 @@
                                                                                                                     <errorLimir>1000.0</errorLimir>
                                                                                                                     <type>0</type>
                                                                                                                     <tau>1.0</tau>
+                                                                                                                    <awMode>0</awMode>
                                                                                                                 </integral>
                                                                                                             </pid>
                                                                                                             <limits>
@@ -1442,6 +1447,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -1905,6 +1911,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -2111,6 +2118,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -2677,6 +2685,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -3451,6 +3460,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -3908,6 +3918,7 @@
                                                                                             <errorLimir>1000.0</errorLimir>
                                                                                             <type>0</type>
                                                                                             <tau>1.0</tau>
+                                                                                            <awMode>0</awMode>
                                                                                         </integral>
                                                                                     </pid>
                                                                                     <limits>
@@ -4229,6 +4240,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -5058,6 +5070,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -5209,6 +5222,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -5318,10 +5332,10 @@
                                                         <pid-static-cmd>
                                                             <opin>0</opin>
                                                             <pid>
-                                                                <Kp>1.2</Kp>
+                                                                <Kp>1.0</Kp>
                                                                 <Kd>0.0</Kd>
                                                                 <taud>0.03</taud>
-                                                                <Ki>0.25</Ki>
+                                                                <Ki>0.20833333</Ki>
                                                                 <Ta_1>1.0</Ta_1>
                                                                 <uf>0.0</uf>
                                                                 <imax>0.2</imax>
@@ -5332,6 +5346,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -5528,6 +5543,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -5724,6 +5740,7 @@
                                                                     <errorLimir>1000.0</errorLimir>
                                                                     <type>0</type>
                                                                     <tau>1.0</tau>
+                                                                    <awMode>0</awMode>
                                                                 </integral>
                                                             </pid>
                                                             <limits>
@@ -12354,6 +12371,16 @@
                                                                                             <connected>0</connected>
                                                                                         </is-not-connected>
                                                                                     </vvar>
+                                                                                    <mode_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </mode_2d>
+                                                                                    <alt_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </alt_2d>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
                                                                                             <no-flytocmd>
@@ -12361,6 +12388,7 @@
                                                                                             </no-flytocmd>
                                                                                         </flytocmd-choice>
                                                                                     </flyto>
+                                                                                    <force_track_reset>0</force_track_reset>
                                                                                     <a_brake>1.0</a_brake>
                                                                                     <spdcmd>
                                                                                         <overwrite_route>1</overwrite_route>
@@ -12400,6 +12428,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </pid>
                                                                                             </pid-selection>
@@ -12438,6 +12467,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </pid>
                                                                                             </pid-selection>
@@ -12458,6 +12488,7 @@
                                                                                         </limits>
                                                                                     </vpid>
                                                                                     <prj>0</prj>
+                                                                                    <alt_2d_type>3</alt_2d_type>
                                                                                 </gcfg>
                                                                                 <vtol>
                                                                                     <vtol-type-choice>
@@ -12495,6 +12526,7 @@
                                                                                 <ref>0</ref>
                                                                                 <is_ratelim>1</is_ratelim>
                                                                                 <ratelim>0.6</ratelim>
+                                                                                <out>0</out>
                                                                             </data>
                                                                         </yawing>
                                                                     </str-tunarray-element>
@@ -12535,6 +12567,16 @@
                                                                                             <connected>0</connected>
                                                                                         </is-not-connected>
                                                                                     </vvar>
+                                                                                    <mode_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </mode_2d>
+                                                                                    <alt_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </alt_2d>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
                                                                                             <no-flytocmd>
@@ -12542,6 +12584,7 @@
                                                                                             </no-flytocmd>
                                                                                         </flytocmd-choice>
                                                                                     </flyto>
+                                                                                    <force_track_reset>0</force_track_reset>
                                                                                     <a_brake>0.7</a_brake>
                                                                                     <spdcmd>
                                                                                         <overwrite_route>1</overwrite_route>
@@ -12587,6 +12630,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </pid>
                                                                                             </pid-selection>
@@ -12625,6 +12669,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </pid>
                                                                                             </pid-selection>
@@ -12645,6 +12690,7 @@
                                                                                         </limits>
                                                                                     </vpid>
                                                                                     <prj>0</prj>
+                                                                                    <alt_2d_type>3</alt_2d_type>
                                                                                 </gcfg>
                                                                                 <vtol>
                                                                                     <vtol-type-choice>
@@ -12682,6 +12728,7 @@
                                                                                 <ref>0</ref>
                                                                                 <is_ratelim>1</is_ratelim>
                                                                                 <ratelim>0.6</ratelim>
+                                                                                <out>0</out>
                                                                             </data>
                                                                         </yawing>
                                                                     </str-tunarray-element>
@@ -12845,6 +12892,16 @@
                                                                                             <connected>0</connected>
                                                                                         </is-not-connected>
                                                                                     </vvar>
+                                                                                    <mode_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </mode_2d>
+                                                                                    <alt_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </alt_2d>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
                                                                                             <no-flytocmd>
@@ -12852,6 +12909,7 @@
                                                                                             </no-flytocmd>
                                                                                         </flytocmd-choice>
                                                                                     </flyto>
+                                                                                    <force_track_reset>0</force_track_reset>
                                                                                     <a_brake>1.0</a_brake>
                                                                                     <spdcmd>
                                                                                         <overwrite_route>1</overwrite_route>
@@ -12897,6 +12955,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </pid>
                                                                                             </pid-selection>
@@ -12935,6 +12994,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </pid>
                                                                                             </pid-selection>
@@ -12955,6 +13015,7 @@
                                                                                         </limits>
                                                                                     </vpid>
                                                                                     <prj>0</prj>
+                                                                                    <alt_2d_type>3</alt_2d_type>
                                                                                 </gcfg>
                                                                             </data>
                                                                         </cruise>
@@ -12971,6 +13032,7 @@
                                                                                 <ref>0</ref>
                                                                                 <is_ratelim>1</is_ratelim>
                                                                                 <ratelim>0.6</ratelim>
+                                                                                <out>0</out>
                                                                             </data>
                                                                         </yawing>
                                                                     </str-tunarray-element>
@@ -13031,6 +13093,16 @@
                                                                                             </pin>
                                                                                         </is-connected>
                                                                                     </vvar>
+                                                                                    <mode_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </mode_2d>
+                                                                                    <alt_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </alt_2d>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
                                                                                             <no-flytocmd>
@@ -13038,6 +13110,7 @@
                                                                                             </no-flytocmd>
                                                                                         </flytocmd-choice>
                                                                                     </flyto>
+                                                                                    <force_track_reset>0</force_track_reset>
                                                                                     <a_brake>2.0</a_brake>
                                                                                     <spdcmd>
                                                                                         <overwrite_route>1</overwrite_route>
@@ -13118,6 +13191,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </tsched>
                                                                                             </tsched-selection>
@@ -13156,6 +13230,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </pid>
                                                                                             </pid-selection>
@@ -13176,6 +13251,7 @@
                                                                                         </limits>
                                                                                     </vpid>
                                                                                     <prj>2</prj>
+                                                                                    <alt_2d_type>3</alt_2d_type>
                                                                                 </gcfg>
                                                                             </data>
                                                                         </cruise>
@@ -13196,6 +13272,7 @@
                                                                                 <ref>2</ref>
                                                                                 <is_ratelim>1</is_ratelim>
                                                                                 <ratelim>0.6</ratelim>
+                                                                                <out>0</out>
                                                                             </data>
                                                                         </yawing>
                                                                     </str-tunarray-element>
@@ -13356,6 +13433,16 @@
                                                                                                                     </pin>
                                                                                                                 </is-connected>
                                                                                                             </vvar>
+                                                                                                            <mode_2d>
+                                                                                                                <is-not-connected>
+                                                                                                                    <connected>0</connected>
+                                                                                                                </is-not-connected>
+                                                                                                            </mode_2d>
+                                                                                                            <alt_2d>
+                                                                                                                <is-not-connected>
+                                                                                                                    <connected>0</connected>
+                                                                                                                </is-not-connected>
+                                                                                                            </alt_2d>
                                                                                                             <flyto>
                                                                                                                 <flytocmd-choice>
                                                                                                                     <no-flytocmd>
@@ -13363,6 +13450,7 @@
                                                                                                                     </no-flytocmd>
                                                                                                                 </flytocmd-choice>
                                                                                                             </flyto>
+                                                                                                            <force_track_reset>0</force_track_reset>
                                                                                                             <a_brake>2.0</a_brake>
                                                                                                             <spdcmd>
                                                                                                                 <overwrite_route>0</overwrite_route>
@@ -13443,6 +13531,7 @@
                                                                                                                                 <errorLimir>1000.0</errorLimir>
                                                                                                                                 <type>0</type>
                                                                                                                                 <tau>1.0</tau>
+                                                                                                                                <awMode>0</awMode>
                                                                                                                             </integral>
                                                                                                                         </tsched>
                                                                                                                     </tsched-selection>
@@ -13481,6 +13570,7 @@
                                                                                                                                 <errorLimir>1000.0</errorLimir>
                                                                                                                                 <type>0</type>
                                                                                                                                 <tau>1.0</tau>
+                                                                                                                                <awMode>0</awMode>
                                                                                                                             </integral>
                                                                                                                         </pid>
                                                                                                                     </pid-selection>
@@ -13501,6 +13591,7 @@
                                                                                                                 </limits>
                                                                                                             </vpid>
                                                                                                             <prj>2</prj>
+                                                                                                            <alt_2d_type>3</alt_2d_type>
                                                                                                         </gcfg>
                                                                                                         <landing>
                                                                                                             <rwid>0</rwid>
@@ -13625,6 +13716,7 @@
                                                                                                         <ref>2</ref>
                                                                                                         <is_ratelim>1</is_ratelim>
                                                                                                         <ratelim>0.6</ratelim>
+                                                                                                        <out>0</out>
                                                                                                     </data>
                                                                                                 </yawing>
                                                                                             </str-tunarray-element>
@@ -13691,6 +13783,16 @@
                                                                                                                     </pin>
                                                                                                                 </is-connected>
                                                                                                             </vvar>
+                                                                                                            <mode_2d>
+                                                                                                                <is-not-connected>
+                                                                                                                    <connected>0</connected>
+                                                                                                                </is-not-connected>
+                                                                                                            </mode_2d>
+                                                                                                            <alt_2d>
+                                                                                                                <is-not-connected>
+                                                                                                                    <connected>0</connected>
+                                                                                                                </is-not-connected>
+                                                                                                            </alt_2d>
                                                                                                             <flyto>
                                                                                                                 <flytocmd-choice>
                                                                                                                     <no-flytocmd>
@@ -13698,6 +13800,7 @@
                                                                                                                     </no-flytocmd>
                                                                                                                 </flytocmd-choice>
                                                                                                             </flyto>
+                                                                                                            <force_track_reset>0</force_track_reset>
                                                                                                             <a_brake>1.0</a_brake>
                                                                                                             <spdcmd>
                                                                                                                 <overwrite_route>1</overwrite_route>
@@ -13784,6 +13887,7 @@
                                                                                                                                 <errorLimir>1000.0</errorLimir>
                                                                                                                                 <type>0</type>
                                                                                                                                 <tau>1.0</tau>
+                                                                                                                                <awMode>0</awMode>
                                                                                                                             </integral>
                                                                                                                         </tsched>
                                                                                                                     </tsched-selection>
@@ -13863,6 +13967,7 @@
                                                                                                                                 <errorLimir>1000.0</errorLimir>
                                                                                                                                 <type>0</type>
                                                                                                                                 <tau>1.0</tau>
+                                                                                                                                <awMode>0</awMode>
                                                                                                                             </integral>
                                                                                                                         </tsched>
                                                                                                                     </tsched-selection>
@@ -13883,6 +13988,7 @@
                                                                                                                 </limits>
                                                                                                             </vpid>
                                                                                                             <prj>0</prj>
+                                                                                                            <alt_2d_type>3</alt_2d_type>
                                                                                                         </gcfg>
                                                                                                         <rendezvous>
                                                                                                             <rzvs_docking>
@@ -13986,6 +14092,7 @@
                                                                                                                                 <ref>2</ref>
                                                                                                                                 <is_ratelim>1</is_ratelim>
                                                                                                                                 <ratelim>0.6</ratelim>
+                                                                                                                                <out>0</out>
                                                                                                                             </data>
                                                                                                                         </yawing>
                                                                                                                     </str-tunarray-element>
@@ -14003,6 +14110,7 @@
                                                                                                                                 <ref>0</ref>
                                                                                                                                 <is_ratelim>1</is_ratelim>
                                                                                                                                 <ratelim>0.6</ratelim>
+                                                                                                                                <out>0</out>
                                                                                                                             </data>
                                                                                                                         </yawing>
                                                                                                                     </str-tunarray-element>
@@ -14088,6 +14196,16 @@
                                                                                             </pin>
                                                                                         </is-connected>
                                                                                     </vvar>
+                                                                                    <mode_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </mode_2d>
+                                                                                    <alt_2d>
+                                                                                        <is-not-connected>
+                                                                                            <connected>0</connected>
+                                                                                        </is-not-connected>
+                                                                                    </alt_2d>
                                                                                     <flyto>
                                                                                         <flytocmd-choice>
                                                                                             <no-flytocmd>
@@ -14095,6 +14213,7 @@
                                                                                             </no-flytocmd>
                                                                                         </flytocmd-choice>
                                                                                     </flyto>
+                                                                                    <force_track_reset>0</force_track_reset>
                                                                                     <a_brake>5.0</a_brake>
                                                                                     <spdcmd>
                                                                                         <overwrite_route>1</overwrite_route>
@@ -14175,6 +14294,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </tsched>
                                                                                             </tsched-selection>
@@ -14213,6 +14333,7 @@
                                                                                                         <errorLimir>1000.0</errorLimir>
                                                                                                         <type>0</type>
                                                                                                         <tau>1.0</tau>
+                                                                                                        <awMode>0</awMode>
                                                                                                     </integral>
                                                                                                 </pid>
                                                                                             </pid-selection>
@@ -14233,6 +14354,7 @@
                                                                                         </limits>
                                                                                     </vpid>
                                                                                     <prj>2</prj>
+                                                                                    <alt_2d_type>3</alt_2d_type>
                                                                                 </gcfg>
                                                                                 <climb>
                                                                                     <rwid>0</rwid>
@@ -14299,6 +14421,7 @@
                                                                                 <ref>2</ref>
                                                                                 <is_ratelim>1</is_ratelim>
                                                                                 <ratelim>0.6</ratelim>
+                                                                                <out>0</out>
                                                                             </data>
                                                                         </yawing>
                                                                     </str-tunarray-element>
@@ -15401,6 +15524,7 @@
                                                                                             <errorLimir>1000.0</errorLimir>
                                                                                             <type>0</type>
                                                                                             <tau>1.0</tau>
+                                                                                            <awMode>0</awMode>
                                                                                         </integral>
                                                                                     </pid>
                                                                                     <limits>
