@@ -509,8 +509,8 @@
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>0</x-pos>
-                <y-pos>0</y-pos>
+                <x-pos>79</x-pos>
+                <y-pos>21</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>698</x-pos>
@@ -569,12 +569,12 @@
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>0</x-pos>
-                <y-pos>0</y-pos>
+                <x-pos>5</x-pos>
+                <y-pos>38</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>100</x-pos>
-                <y-pos>0</y-pos>
+                <y-pos>7</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>1182</x-pos>
@@ -873,7 +873,7 @@
                 <y-pos>4</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>100</x-pos>
+                <x-pos>0</x-pos>
                 <y-pos>200</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
@@ -885,8 +885,8 @@
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>100</x-pos>
-                <y-pos>100</y-pos>
+                <x-pos>27</x-pos>
+                <y-pos>195</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>33</x-pos>
@@ -917,8 +917,8 @@
                 <y-pos>100</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>100</x-pos>
-                <y-pos>100</y-pos>
+                <x-pos>0</x-pos>
+                <y-pos>196</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>200</x-pos>
@@ -942,7 +942,7 @@
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
-                <y-pos>300</y-pos>
+                <y-pos>302</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>0</x-pos>
@@ -957,40 +957,40 @@
                 <y-pos>100</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>200</x-pos>
-                <y-pos>100</y-pos>
+                <x-pos>236</x-pos>
+                <y-pos>235</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>300</x-pos>
-                <y-pos>100</y-pos>
+                <x-pos>318</x-pos>
+                <y-pos>149</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>500</x-pos>
-                <y-pos>200</y-pos>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <x-pos>100</x-pos>
-                <y-pos>0</y-pos>
+                <x-pos>512</x-pos>
+                <y-pos>195</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
                 <x-pos>100</x-pos>
-                <y-pos>300</y-pos>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <x-pos>300</x-pos>
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>500</x-pos>
+                <x-pos>117</x-pos>
+                <y-pos>304</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>324</x-pos>
                 <y-pos>0</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>300</x-pos>
+                <x-pos>518</x-pos>
+                <y-pos>48</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>315</x-pos>
                 <y-pos>300</y-pos>
             </str-tunarray-element>
             <str-tunarray-element>
-                <x-pos>500</x-pos>
-                <y-pos>300</y-pos>
+                <x-pos>502</x-pos>
+                <y-pos>333</y-pos>
             </str-tunarray-element>
         </map>
         <snap-settings>

@@ -869,6 +869,33 @@
                 <data-fieldset>
                     <real-float32>
                         <type>0</type>
+                        <id>313</id>
+                        <scale>1.0</scale>
+                    </real-float32>
+                </data-fieldset>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <data-fieldset>
+                    <real-float32>
+                        <type>0</type>
+                        <id>314</id>
+                        <scale>1.0</scale>
+                    </real-float32>
+                </data-fieldset>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <data-fieldset>
+                    <real-float32>
+                        <type>0</type>
+                        <id>315</id>
+                        <scale>1.0</scale>
+                    </real-float32>
+                </data-fieldset>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <data-fieldset>
+                    <real-float32>
+                        <type>0</type>
                         <id>1504</id>
                         <scale>1.0</scale>
                     </real-float32>
@@ -1042,69 +1069,6 @@
                     <real-float32>
                         <type>0</type>
                         <id>1053</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3116</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3117</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3118</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3119</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3120</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3121</id>
-                        <scale>1.0</scale>
-                    </real-float32>
-                </data-fieldset>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <data-fieldset>
-                    <real-float32>
-                        <type>0</type>
-                        <id>3122</id>
                         <scale>1.0</scale>
                     </real-float32>
                 </data-fieldset>
