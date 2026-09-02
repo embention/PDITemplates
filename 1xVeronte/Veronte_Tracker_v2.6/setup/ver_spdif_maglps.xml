@@ -3,20 +3,20 @@
     <filename>maglps.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <sensor0>
-            <a00>0.0</a00>
-            <a10>-1.0</a10>
+            <a00>1.0</a00>
+            <a10>0.0</a10>
             <a20>0.0</a20>
             <a01>0.0</a01>
-            <a11>0.0</a11>
-            <a21>1.0</a21>
-            <a02>-1.0</a02>
+            <a11>1.0</a11>
+            <a21>0.0</a21>
+            <a02>0.0</a02>
             <a12>0.0</a12>
-            <a22>0.0</a22>
+            <a22>1.0</a22>
         </sensor0>
         <sensor1>
             <a00>1.0</a00>

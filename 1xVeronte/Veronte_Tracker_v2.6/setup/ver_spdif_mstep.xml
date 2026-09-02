@@ -3,29 +3,49 @@
     <filename>mstep.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <map>
             <str-tunarray-element str-tunarray-key="0">
                 <data>
-                    <string>Battery</string>
+                    <string>Trim Step</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="1">
                 <data>
-                    <string>Objects of interest</string>
+                    <string>Battery</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="2">
                 <data>
-                    <string>Joints</string>
+                    <string>Trim Step tilt</string>
                 </data>
             </str-tunarray-element>
             <str-tunarray-element str-tunarray-key="3">
                 <data>
+                    <string>SENSORS</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="4">
+                <data>
+                    <string>Objects of interest</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="5">
+                <data>
+                    <string>Joints</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="6">
+                <data>
                     <string>Navigation</string>
+                </data>
+            </str-tunarray-element>
+            <str-tunarray-element str-tunarray-key="7">
+                <data>
+                    <string>Manual Mode First Step</string>
                 </data>
             </str-tunarray-element>
         </map>

@@ -3,8 +3,8 @@
     <filename>mbit.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <map>
@@ -30,18 +30,6 @@
                 <id>1201</id>
                 <description>
                     <name>Test Enable</name>
-                </description>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <id>1202</id>
-                <description>
-                    <name>Track Test Point</name>
-                </description>
-            </str-tunarray-element>
-            <str-tunarray-element>
-                <id>1205</id>
-                <description>
-                    <name>Start Joint 0</name>
                 </description>
             </str-tunarray-element>
         </map>

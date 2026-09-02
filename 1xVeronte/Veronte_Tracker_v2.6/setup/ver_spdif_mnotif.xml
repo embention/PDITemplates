@@ -3,8 +3,8 @@
     <filename>mnotif.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <map>
@@ -14,7 +14,7 @@
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>4</bit>
-                <state>2</state>
+                <state>0</state>
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>6</bit>
@@ -62,31 +62,31 @@
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>7</bit>
-                <state>5</state>
+                <state>0</state>
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>8</bit>
-                <state>5</state>
+                <state>0</state>
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>9</bit>
-                <state>5</state>
+                <state>0</state>
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>10</bit>
-                <state>5</state>
+                <state>0</state>
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>16</bit>
-                <state>5</state>
+                <state>0</state>
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>17</bit>
-                <state>5</state>
+                <state>0</state>
             </str-tunarray-element>
             <str-tunarray-element>
                 <bit>117</bit>
-                <state>5</state>
+                <state>0</state>
             </str-tunarray-element>
         </map>
     </data>

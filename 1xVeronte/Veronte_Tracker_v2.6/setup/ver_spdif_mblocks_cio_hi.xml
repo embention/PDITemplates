@@ -3,10 +3,20 @@
     <filename>mblocks_cio_hi.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
-        <map/>
+        <map>
+            <str-tunarray-element>
+                <x-pos>122</x-pos>
+                <y-pos>233</y-pos>
+            </str-tunarray-element>
+        </map>
+        <snap-settings>
+            <snap>0</snap>
+            <width>100</width>
+            <height>100</height>
+        </snap-settings>
     </data>
 </entry-mblocks-cio-hi>

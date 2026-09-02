@@ -3,8 +3,8 @@
     <filename>tm.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -251,7 +251,7 @@
                     <data-fieldset>
                         <real-float32>
                             <type>0</type>
-                            <id>1800</id>
+                            <id>3101</id>
                             <scale>1.0</scale>
                         </real-float32>
                     </data-fieldset>
@@ -260,7 +260,25 @@
                     <data-fieldset>
                         <real-float32>
                             <type>0</type>
-                            <id>2700</id>
+                            <id>3109</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>3108</id>
+                            <scale>1.0</scale>
+                        </real-float32>
+                    </data-fieldset>
+                </str-tunarray-element>
+                <str-tunarray-element>
+                    <data-fieldset>
+                        <real-float32>
+                            <type>0</type>
+                            <id>3110</id>
                             <scale>1.0</scale>
                         </real-float32>
                     </data-fieldset>
@@ -270,32 +288,6 @@
                         <real-float32>
                             <type>0</type>
                             <id>3126</id>
-                            <scale>1.0</scale>
-                        </real-float32>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <bit>
-                            <type>3</type>
-                            <id>1202</id>
-                        </bit>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <real-float32>
-                            <type>0</type>
-                            <id>503</id>
-                            <scale>1.0</scale>
-                        </real-float32>
-                    </data-fieldset>
-                </str-tunarray-element>
-                <str-tunarray-element>
-                    <data-fieldset>
-                        <real-float32>
-                            <type>0</type>
-                            <id>1803</id>
                             <scale>1.0</scale>
                         </real-float32>
                     </data-fieldset>
