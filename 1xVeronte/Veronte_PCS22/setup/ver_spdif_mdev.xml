@@ -1,0 +1,17 @@
+<entry-mdevice>
+    <id>147</id>
+    <filename>mdev.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>8</minor>
+        <revision>72</revision>
+    </version>
+    <data>
+        <map>
+            <cameras/>
+            <drops>
+                <drop-system-array/>
+            </drops>
+        </map>
+    </data>
+</entry-mdevice>
