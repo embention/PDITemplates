@@ -2,9 +2,9 @@
     <id>136</id>
     <filename>mrvar.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>36</revision>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
     </version>
     <data>
         <map>
@@ -331,7 +331,7 @@
                 <id>3119</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 5</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -345,7 +345,7 @@
                 <id>3120</id>
                 <value>
                     <description>
-                        <name/>
+                        <name>NIS 6</name>
                     </description>
                     <unit>
                         <exist-unit>
@@ -651,6 +651,71 @@
                 <value>
                     <description>
                         <name>Yawing Before Servo Saturation</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3114</id>
+                <value>
+                    <description>
+                        <name>NIS 0</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3115</id>
+                <value>
+                    <description>
+                        <name>NIS 1</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3116</id>
+                <value>
+                    <description>
+                        <name>NIS 2</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3117</id>
+                <value>
+                    <description>
+                        <name>NIS 3</name>
+                    </description>
+                    <unit>
+                        <no-exist-unit>
+                            <exist>0</exist>
+                        </no-exist-unit>
+                    </unit>
+                </value>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <id>3118</id>
+                <value>
+                    <description>
+                        <name>NIS 4</name>
                     </description>
                     <unit>
                         <no-exist-unit>

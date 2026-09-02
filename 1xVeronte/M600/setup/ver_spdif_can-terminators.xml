@@ -2,9 +2,9 @@
     <id>24</id>
     <filename>can-terminators.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>36</revision>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
     </version>
     <data>
         <can_a_terminator_enabled>0</can_a_terminator_enabled>

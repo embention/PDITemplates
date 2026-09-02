@@ -2,9 +2,9 @@
     <id>432</id>
     <filename>blocks.bin</filename>
     <version>
-        <major>7</major>
-        <minor>8</minor>
-        <revision>36</revision>
+        <major>8</major>
+        <minor>2</minor>
+        <revision>29</revision>
     </version>
     <data>
         <programs>
@@ -551,232 +551,6 @@
                                 <blk-switch-map>
                                     <str-tunarray-element>
                                         <in>0</in>
-                                        <out>0</out>
-                                    </str-tunarray-element>
-                                </blk-switch-map>
-                                <blk-switch-defcase>0</blk-switch-defcase>
-                                <blk-switch-common>
-                                    <inputs/>
-                                    <cases>
-                                        <str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <phase>
-                                                    <block-type>5</block-type>
-                                                    <data>
-                                                        <blk-switch-map>
-                                                            <str-tunarray-element>
-                                                                <in>0</in>
-                                                                <out>2</out>
-                                                            </str-tunarray-element>
-                                                            <str-tunarray-element>
-                                                                <in>1</in>
-                                                                <out>1</out>
-                                                            </str-tunarray-element>
-                                                            <str-tunarray-element>
-                                                                <in>3</in>
-                                                                <out>0</out>
-                                                            </str-tunarray-element>
-                                                            <str-tunarray-element>
-                                                                <in>6</in>
-                                                                <out>1</out>
-                                                            </str-tunarray-element>
-                                                            <str-tunarray-element>
-                                                                <in>7</in>
-                                                                <out>2</out>
-                                                            </str-tunarray-element>
-                                                            <str-tunarray-element>
-                                                                <in>20</in>
-                                                                <out>2</out>
-                                                            </str-tunarray-element>
-                                                        </blk-switch-map>
-                                                        <blk-switch-defcase>0</blk-switch-defcase>
-                                                        <blk-switch-common>
-                                                            <inputs/>
-                                                            <cases>
-                                                                <str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <bvarget>
-                                                                            <block-type>13</block-type>
-                                                                            <bvarid>1</bvarid>
-                                                                        </bvarget>
-                                                                    </str-tunarray-element>
-                                                                </str-tunarray-element>
-                                                                <str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <rvarget>
-                                                                            <block-type>9</block-type>
-                                                                            <rvarid>2401</rvarid>
-                                                                        </rvarget>
-                                                                    </str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <const-real>
-                                                                            <block-type>25</block-type>
-                                                                            <value>
-                                                                                <str-tunarray-element>0.4</str-tunarray-element>
-                                                                            </value>
-                                                                        </const-real>
-                                                                    </str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <bound>
-                                                                            <block-type>32</block-type>
-                                                                            <data>
-                                                                                <min>
-                                                                                    <is-connected>
-                                                                                        <connected>1</connected>
-                                                                                        <pin>
-                                                                                            <block-addr>1</block-addr>
-                                                                                            <out-addr>0</out-addr>
-                                                                                        </pin>
-                                                                                    </is-connected>
-                                                                                </min>
-                                                                                <input>
-                                                                                    <block-addr>0</block-addr>
-                                                                                    <out-addr>0</out-addr>
-                                                                                </input>
-                                                                                <max>
-                                                                                    <is-not-connected>
-                                                                                        <connected>0</connected>
-                                                                                    </is-not-connected>
-                                                                                </max>
-                                                                            </data>
-                                                                        </bound>
-                                                                    </str-tunarray-element>
-                                                                </str-tunarray-element>
-                                                                <str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <bvarget>
-                                                                            <block-type>13</block-type>
-                                                                            <bvarid>0</bvarid>
-                                                                        </bvarget>
-                                                                    </str-tunarray-element>
-                                                                </str-tunarray-element>
-                                                            </cases>
-                                                            <outs>
-                                                                <str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <block-addr>0</block-addr>
-                                                                        <out-addr>0</out-addr>
-                                                                    </str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <block-addr>2</block-addr>
-                                                                        <out-addr>1</out-addr>
-                                                                    </str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <block-addr>0</block-addr>
-                                                                        <out-addr>0</out-addr>
-                                                                    </str-tunarray-element>
-                                                                </str-tunarray-element>
-                                                            </outs>
-                                                        </blk-switch-common>
-                                                    </data>
-                                                </phase>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <ifelse>
-                                                    <block-type>3</block-type>
-                                                    <data>
-                                                        <selector>
-                                                            <block-addr>0</block-addr>
-                                                            <out-addr>0</out-addr>
-                                                        </selector>
-                                                        <blk-switch-common>
-                                                            <inputs/>
-                                                            <cases>
-                                                                <str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <phase>
-                                                                            <block-type>5</block-type>
-                                                                            <data>
-                                                                                <blk-switch-map>
-                                                                                    <str-tunarray-element>
-                                                                                        <in>0</in>
-                                                                                        <out>1</out>
-                                                                                    </str-tunarray-element>
-                                                                                    <str-tunarray-element>
-                                                                                        <in>3</in>
-                                                                                        <out>0</out>
-                                                                                    </str-tunarray-element>
-                                                                                    <str-tunarray-element>
-                                                                                        <in>7</in>
-                                                                                        <out>1</out>
-                                                                                    </str-tunarray-element>
-                                                                                    <str-tunarray-element>
-                                                                                        <in>20</in>
-                                                                                        <out>1</out>
-                                                                                    </str-tunarray-element>
-                                                                                </blk-switch-map>
-                                                                                <blk-switch-defcase>0</blk-switch-defcase>
-                                                                                <blk-switch-common>
-                                                                                    <inputs/>
-                                                                                    <cases>
-                                                                                        <str-tunarray-element/>
-                                                                                        <str-tunarray-element>
-                                                                                            <str-tunarray-element>
-                                                                                                <bvarget>
-                                                                                                    <block-type>13</block-type>
-                                                                                                    <bvarid>0</bvarid>
-                                                                                                </bvarget>
-                                                                                            </str-tunarray-element>
-                                                                                            <str-tunarray-element>
-                                                                                                <bvarset>
-                                                                                                    <block-type>14</block-type>
-                                                                                                    <data>
-                                                                                                        <input>
-                                                                                                            <block-addr>0</block-addr>
-                                                                                                            <out-addr>0</out-addr>
-                                                                                                        </input>
-                                                                                                        <bvarid>1200</bvarid>
-                                                                                                    </data>
-                                                                                                </bvarset>
-                                                                                            </str-tunarray-element>
-                                                                                        </str-tunarray-element>
-                                                                                    </cases>
-                                                                                    <outs/>
-                                                                                </blk-switch-common>
-                                                                            </data>
-                                                                        </phase>
-                                                                    </str-tunarray-element>
-                                                                </str-tunarray-element>
-                                                                <str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <bvarget>
-                                                                            <block-type>13</block-type>
-                                                                            <bvarid>1</bvarid>
-                                                                        </bvarget>
-                                                                    </str-tunarray-element>
-                                                                    <str-tunarray-element>
-                                                                        <bvarset>
-                                                                            <block-type>14</block-type>
-                                                                            <data>
-                                                                                <input>
-                                                                                    <block-addr>0</block-addr>
-                                                                                    <out-addr>0</out-addr>
-                                                                                </input>
-                                                                                <bvarid>1200</bvarid>
-                                                                            </data>
-                                                                        </bvarset>
-                                                                    </str-tunarray-element>
-                                                                </str-tunarray-element>
-                                                            </cases>
-                                                            <outs/>
-                                                        </blk-switch-common>
-                                                    </data>
-                                                </ifelse>
-                                            </str-tunarray-element>
-                                        </str-tunarray-element>
-                                    </cases>
-                                    <outs/>
-                                </blk-switch-common>
-                            </data>
-                        </phase>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <phase>
-                            <block-type>5</block-type>
-                            <data>
-                                <blk-switch-map>
-                                    <str-tunarray-element>
-                                        <in>0</in>
                                         <out>1</out>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
@@ -1002,6 +776,165 @@
                                                         <bvarid>1212</bvarid>
                                                     </data>
                                                 </bvarset>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                    </cases>
+                                    <outs/>
+                                </blk-switch-common>
+                            </data>
+                        </phase>
+                    </str-tunarray-element>
+                    <str-tunarray-element>
+                        <phase>
+                            <block-type>5</block-type>
+                            <data>
+                                <blk-switch-map>
+                                    <str-tunarray-element>
+                                        <in>0</in>
+                                        <out>1</out>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <in>1</in>
+                                        <out>2</out>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <in>3</in>
+                                        <out>0</out>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <in>6</in>
+                                        <out>2</out>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <in>7</in>
+                                        <out>1</out>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <in>20</in>
+                                        <out>1</out>
+                                    </str-tunarray-element>
+                                </blk-switch-map>
+                                <blk-switch-defcase>0</blk-switch-defcase>
+                                <blk-switch-common>
+                                    <inputs/>
+                                    <cases>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarget>
+                                                    <block-type>13</block-type>
+                                                    <bvarid>1</bvarid>
+                                                </bvarget>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarset>
+                                                    <block-type>14</block-type>
+                                                    <data>
+                                                        <input>
+                                                            <block-addr>0</block-addr>
+                                                            <out-addr>0</out-addr>
+                                                        </input>
+                                                        <bvarid>1200</bvarid>
+                                                    </data>
+                                                </bvarset>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarget>
+                                                    <block-type>13</block-type>
+                                                    <bvarid>0</bvarid>
+                                                </bvarget>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bvarset>
+                                                    <block-type>14</block-type>
+                                                    <data>
+                                                        <input>
+                                                            <block-addr>0</block-addr>
+                                                            <out-addr>0</out-addr>
+                                                        </input>
+                                                        <bvarid>1200</bvarid>
+                                                    </data>
+                                                </bvarset>
+                                            </str-tunarray-element>
+                                        </str-tunarray-element>
+                                        <str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <rvarget>
+                                                    <block-type>9</block-type>
+                                                    <rvarid>2401</rvarid>
+                                                </rvarget>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <const-real>
+                                                    <block-type>25</block-type>
+                                                    <value>
+                                                        <str-tunarray-element>0.4</str-tunarray-element>
+                                                    </value>
+                                                </const-real>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <bound>
+                                                    <block-type>32</block-type>
+                                                    <data>
+                                                        <min>
+                                                            <is-connected>
+                                                                <connected>1</connected>
+                                                                <pin>
+                                                                    <block-addr>1</block-addr>
+                                                                    <out-addr>0</out-addr>
+                                                                </pin>
+                                                            </is-connected>
+                                                        </min>
+                                                        <input>
+                                                            <block-addr>0</block-addr>
+                                                            <out-addr>0</out-addr>
+                                                        </input>
+                                                        <max>
+                                                            <is-not-connected>
+                                                                <connected>0</connected>
+                                                            </is-not-connected>
+                                                        </max>
+                                                    </data>
+                                                </bound>
+                                            </str-tunarray-element>
+                                            <str-tunarray-element>
+                                                <ifelse>
+                                                    <block-type>3</block-type>
+                                                    <data>
+                                                        <selector>
+                                                            <block-addr>2</block-addr>
+                                                            <out-addr>1</out-addr>
+                                                        </selector>
+                                                        <blk-switch-common>
+                                                            <inputs/>
+                                                            <cases>
+                                                                <str-tunarray-element/>
+                                                                <str-tunarray-element>
+                                                                    <str-tunarray-element>
+                                                                        <bvarget>
+                                                                            <block-type>13</block-type>
+                                                                            <bvarid>1</bvarid>
+                                                                        </bvarget>
+                                                                    </str-tunarray-element>
+                                                                    <str-tunarray-element>
+                                                                        <bvarset>
+                                                                            <block-type>14</block-type>
+                                                                            <data>
+                                                                                <input>
+                                                                                    <block-addr>0</block-addr>
+                                                                                    <out-addr>0</out-addr>
+                                                                                </input>
+                                                                                <bvarid>1200</bvarid>
+                                                                            </data>
+                                                                        </bvarset>
+                                                                    </str-tunarray-element>
+                                                                </str-tunarray-element>
+                                                            </cases>
+                                                            <outs/>
+                                                        </blk-switch-common>
+                                                    </data>
+                                                </ifelse>
                                             </str-tunarray-element>
                                         </str-tunarray-element>
                                     </cases>
@@ -3563,24 +3496,6 @@
                     <str-tunarray-element>
                         <rvarget>
                             <block-type>9</block-type>
-                            <rvarid>2801</rvarid>
-                        </rvarget>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarget>
-                            <block-type>9</block-type>
-                            <rvarid>2800</rvarid>
-                        </rvarget>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <uvarget>
-                            <block-type>11</block-type>
-                            <uvarid>404</uvarid>
-                        </uvarget>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarget>
-                            <block-type>9</block-type>
                             <rvarid>2906</rvarid>
                         </rvarget>
                     </str-tunarray-element>
@@ -3683,7 +3598,7 @@
                             <block-type>87</block-type>
                             <data>
                                 <in>
-                                    <block-addr>6</block-addr>
+                                    <block-addr>3</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <enable>
@@ -3705,7 +3620,7 @@
                             <block-type>88</block-type>
                             <data>
                                 <in>
-                                    <block-addr>6</block-addr>
+                                    <block-addr>3</block-addr>
                                     <out-addr>1</out-addr>
                                 </in>
                                 <enable>
@@ -3727,7 +3642,7 @@
                             <block-type>87</block-type>
                             <data>
                                 <in>
-                                    <block-addr>7</block-addr>
+                                    <block-addr>4</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <enable>
@@ -3749,7 +3664,7 @@
                             <block-type>88</block-type>
                             <data>
                                 <in>
-                                    <block-addr>7</block-addr>
+                                    <block-addr>4</block-addr>
                                     <out-addr>1</out-addr>
                                 </in>
                                 <enable>
@@ -3785,11 +3700,11 @@
                             <block-type>83</block-type>
                             <data>
                                 <in-ned>
-                                    <block-addr>12</block-addr>
+                                    <block-addr>9</block-addr>
                                     <out-addr>0</out-addr>
                                 </in-ned>
                                 <in-body>
-                                    <block-addr>13</block-addr>
+                                    <block-addr>10</block-addr>
                                     <out-addr>0</out-addr>
                                 </in-body>
                                 <enable>
@@ -3806,79 +3721,6 @@
                         </ekfmis>
                     </str-tunarray-element>
                     <str-tunarray-element>
-                        <bvarset>
-                            <block-type>14</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>14</block-addr>
-                                    <out-addr>1</out-addr>
-                                </input>
-                                <bvarid>106</bvarid>
-                            </data>
-                        </bvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <split-real-array>
-                            <block-type>7</block-type>
-                            <data>
-                                <ins>
-                                    <block-addr>13</block-addr>
-                                    <out-addr>0</out-addr>
-                                </ins>
-                                <outs>
-                                    <str-tunarray-element>
-                                        <offset>1</offset>
-                                        <size>1</size>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <offset>2</offset>
-                                        <size>1</size>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <offset>3</offset>
-                                        <size>1</size>
-                                    </str-tunarray-element>
-                                </outs>
-                            </data>
-                        </split-real-array>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarset>
-                            <block-type>10</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>16</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input>
-                                <rvarid>313</rvarid>
-                            </data>
-                        </rvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarset>
-                            <block-type>10</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>16</block-addr>
-                                    <out-addr>1</out-addr>
-                                </input>
-                                <rvarid>314</rvarid>
-                            </data>
-                        </rvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarset>
-                            <block-type>10</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>16</block-addr>
-                                    <out-addr>2</out-addr>
-                                </input>
-                                <rvarid>315</rvarid>
-                            </data>
-                        </rvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
                         <senstp>
                             <block-type>82</block-type>
                             <data>
@@ -3892,7 +3734,7 @@
                             <block-type>81</block-type>
                             <data>
                                 <in-mea>
-                                    <block-addr>20</block-addr>
+                                    <block-addr>12</block-addr>
                                     <out-addr>0</out-addr>
                                 </in-mea>
                                 <enable>
@@ -3904,7 +3746,7 @@
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>5</block-addr>
+                                            <block-addr>2</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
@@ -3913,7 +3755,7 @@
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>4</block-addr>
+                                            <block-addr>1</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
@@ -3951,7 +3793,7 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>21</block-addr>
+                                    <block-addr>13</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <rvarid>2900</rvarid>
@@ -3963,39 +3805,10 @@
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>21</block-addr>
+                                    <block-addr>13</block-addr>
                                     <out-addr>2</out-addr>
                                 </input>
                                 <rvarid>2901</rvarid>
-                            </data>
-                        </rvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <split-real-array>
-                            <block-type>7</block-type>
-                            <data>
-                                <ins>
-                                    <block-addr>20</block-addr>
-                                    <out-addr>0</out-addr>
-                                </ins>
-                                <outs>
-                                    <str-tunarray-element>
-                                        <offset>1</offset>
-                                        <size>1</size>
-                                    </str-tunarray-element>
-                                </outs>
-                            </data>
-                        </split-real-array>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarset>
-                            <block-type>10</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>24</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input>
-                                <rvarid>304</rvarid>
                             </data>
                         </rvarset>
                     </str-tunarray-element>
@@ -4014,7 +3827,7 @@
                             <block-type>95</block-type>
                             <data>
                                 <in>
-                                    <block-addr>26</block-addr>
+                                    <block-addr>16</block-addr>
                                     <out-addr>0</out-addr>
                                 </in>
                                 <enable>
@@ -4032,15 +3845,19 @@
                             <data>
                                 <ins>
                                     <str-tunarray-element>
+                                        <block-addr>5</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>6</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
+                                        <block-addr>7</block-addr>
+                                        <out-addr>0</out-addr>
+                                    </str-tunarray-element>
+                                    <str-tunarray-element>
                                         <block-addr>8</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <block-addr>9</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <block-addr>10</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
@@ -4048,15 +3865,11 @@
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
-                                        <block-addr>14</block-addr>
+                                        <block-addr>13</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                     <str-tunarray-element>
-                                        <block-addr>21</block-addr>
-                                        <out-addr>0</out-addr>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <block-addr>27</block-addr>
+                                        <block-addr>17</block-addr>
                                         <out-addr>0</out-addr>
                                     </str-tunarray-element>
                                 </ins>
@@ -4079,13 +3892,13 @@
                                     <is-connected>
                                         <connected>1</connected>
                                         <pin>
-                                            <block-addr>29</block-addr>
+                                            <block-addr>19</block-addr>
                                             <out-addr>0</out-addr>
                                         </pin>
                                     </is-connected>
                                 </min>
                                 <input>
-                                    <block-addr>3</block-addr>
+                                    <block-addr>0</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <max>
@@ -4101,7 +3914,7 @@
                             <block-type>14</block-type>
                             <data>
                                 <input>
-                                    <block-addr>30</block-addr>
+                                    <block-addr>20</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <bvarid>1220</bvarid>
@@ -4109,174 +3922,22 @@
                         </bvarset>
                     </str-tunarray-element>
                     <str-tunarray-element>
-                        <switch>
-                            <block-type>2</block-type>
+                        <senqinf>
+                            <block-type>115</block-type>
                             <data>
-                                <selector>
-                                    <block-addr>2</block-addr>
-                                    <out-addr>0</out-addr>
-                                </selector>
-                                <blk-switch-map>
-                                    <str-tunarray-element>
-                                        <in>0</in>
-                                        <out>0</out>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <in>3</in>
-                                        <out>1</out>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <in>4</in>
-                                        <out>2</out>
-                                    </str-tunarray-element>
-                                </blk-switch-map>
-                                <blk-switch-defcase>0</blk-switch-defcase>
-                                <blk-switch-common>
-                                    <inputs/>
-                                    <cases>
-                                        <str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <senqinf>
-                                                    <block-type>115</block-type>
-                                                    <data>
-                                                        <selected>0</selected>
-                                                        <e2>100.0</e2>
-                                                        <qinf-threshold>1.0</qinf-threshold>
-                                                        <qinf-under-threshold-value>1.0</qinf-under-threshold-value>
-                                                    </data>
-                                                </senqinf>
-                                            </str-tunarray-element>
-                                        </str-tunarray-element>
-                                        <str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <senqinf>
-                                                    <block-type>115</block-type>
-                                                    <data>
-                                                        <selected>3</selected>
-                                                        <e2>100.0</e2>
-                                                        <qinf-threshold>1.0</qinf-threshold>
-                                                        <qinf-under-threshold-value>1.0</qinf-under-threshold-value>
-                                                    </data>
-                                                </senqinf>
-                                            </str-tunarray-element>
-                                        </str-tunarray-element>
-                                        <str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <senqinf>
-                                                    <block-type>115</block-type>
-                                                    <data>
-                                                        <selected>4</selected>
-                                                        <e2>100.0</e2>
-                                                        <qinf-threshold>1.0</qinf-threshold>
-                                                        <qinf-under-threshold-value>1.0</qinf-under-threshold-value>
-                                                    </data>
-                                                </senqinf>
-                                            </str-tunarray-element>
-                                        </str-tunarray-element>
-                                    </cases>
-                                    <outs>
-                                        <str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>0</out-addr>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>0</out-addr>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>0</out-addr>
-                                            </str-tunarray-element>
-                                        </str-tunarray-element>
-                                        <str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>1</out-addr>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>1</out-addr>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>1</out-addr>
-                                            </str-tunarray-element>
-                                        </str-tunarray-element>
-                                        <str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>2</out-addr>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>2</out-addr>
-                                            </str-tunarray-element>
-                                            <str-tunarray-element>
-                                                <block-addr>0</block-addr>
-                                                <out-addr>2</out-addr>
-                                            </str-tunarray-element>
-                                        </str-tunarray-element>
-                                    </outs>
-                                </blk-switch-common>
+                                <selected>0</selected>
+                                <e2>100.0</e2>
+                                <qinf-threshold>1.0</qinf-threshold>
+                                <qinf-under-threshold-value>1.0</qinf-under-threshold-value>
                             </data>
-                        </switch>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <split-real-array>
-                            <block-type>7</block-type>
-                            <data>
-                                <ins>
-                                    <block-addr>32</block-addr>
-                                    <out-addr>2</out-addr>
-                                </ins>
-                                <outs>
-                                    <str-tunarray-element>
-                                        <offset>0</offset>
-                                        <size>1</size>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <offset>1</offset>
-                                        <size>1</size>
-                                    </str-tunarray-element>
-                                    <str-tunarray-element>
-                                        <offset>2</offset>
-                                        <size>1</size>
-                                    </str-tunarray-element>
-                                </outs>
-                            </data>
-                        </split-real-array>
+                        </senqinf>
                     </str-tunarray-element>
                     <str-tunarray-element>
                         <rvarset>
                             <block-type>10</block-type>
                             <data>
                                 <input>
-                                    <block-addr>32</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input>
-                                <rvarid>303</rvarid>
-                            </data>
-                        </rvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarset>
-                            <block-type>10</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>33</block-addr>
-                                    <out-addr>1</out-addr>
-                                </input>
-                                <rvarid>1</rvarid>
-                            </data>
-                        </rvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarset>
-                            <block-type>10</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>32</block-addr>
+                                    <block-addr>22</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
                                 <rvarid>0</rvarid>
@@ -4288,7 +3949,7 @@
                             <block-type>114</block-type>
                             <data>
                                 <in>
-                                    <block-addr>32</block-addr>
+                                    <block-addr>22</block-addr>
                                     <out-addr>2</out-addr>
                                 </in>
                                 <in_ak0>
@@ -4342,7 +4003,7 @@
                             <block-type>18</block-type>
                             <data>
                                 <input>
-                                    <block-addr>37</block-addr>
+                                    <block-addr>24</block-addr>
                                     <out-addr>0</out-addr>
                                 </input>
                                 <rvarid>2800</rvarid>
@@ -4355,80 +4016,13 @@
                             <block-type>18</block-type>
                             <data>
                                 <input>
-                                    <block-addr>37</block-addr>
+                                    <block-addr>18</block-addr>
                                     <out-addr>1</out-addr>
                                 </input>
-                                <rvarid>2803</rvarid>
-                                <n>9</n>
+                                <rvarid>3114</rvarid>
+                                <n>7</n>
                             </data>
                         </mult_rvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <func-r2xr1>
-                            <block-type>28</block-type>
-                            <data>
-                                <input0>
-                                    <block-addr>0</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input0>
-                                <input1>
-                                    <block-addr>1</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input1>
-                                <type>6</type>
-                            </data>
-                        </func-r2xr1>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarset>
-                            <block-type>10</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>40</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input>
-                                <rvarid>2812</rvarid>
-                            </data>
-                        </rvarset>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <build-real-array>
-                            <block-type>6</block-type>
-                            <ins>
-                                <str-tunarray-element>
-                                    <block-addr>1</block-addr>
-                                    <out-addr>0</out-addr>
-                                </str-tunarray-element>
-                                <str-tunarray-element>
-                                    <block-addr>0</block-addr>
-                                    <out-addr>0</out-addr>
-                                </str-tunarray-element>
-                            </ins>
-                        </build-real-array>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <func-rnxr1>
-                            <block-type>31</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>42</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input>
-                                <type>2</type>
-                            </data>
-                        </func-rnxr1>
-                    </str-tunarray-element>
-                    <str-tunarray-element>
-                        <rvarset>
-                            <block-type>10</block-type>
-                            <data>
-                                <input>
-                                    <block-addr>43</block-addr>
-                                    <out-addr>0</out-addr>
-                                </input>
-                                <rvarid>2813</rvarid>
-                            </data>
-                        </rvarset>
                     </str-tunarray-element>
                 </blocks>
             </str-tunarray-element>
