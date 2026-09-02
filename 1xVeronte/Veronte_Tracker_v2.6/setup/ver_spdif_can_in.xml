@@ -3,8 +3,8 @@
     <filename>can_in.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <can-in>
@@ -22,14 +22,14 @@
                 </filter_p>
             </str-tunarray-element>
             <str-tunarray-element>
-                <port>3</port>
+                <port>2</port>
                 <filter_p>
                     <filter>
                         <id>
                             <ext>0</ext>
-                            <id>381</id>
+                            <id>0</id>
                         </id>
-                        <mask>2044</mask>
+                        <mask>2047</mask>
                     </filter>
                     <both_ids>0</both_ids>
                 </filter_p>
@@ -40,9 +40,9 @@
                     <filter>
                         <id>
                             <ext>0</ext>
-                            <id>100</id>
+                            <id>0</id>
                         </id>
-                        <mask>2047</mask>
+                        <mask>0</mask>
                     </filter>
                     <both_ids>0</both_ids>
                 </filter_p>

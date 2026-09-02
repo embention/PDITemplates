@@ -3,8 +3,8 @@
     <filename>mmission.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -26,7 +26,7 @@
             <data>
                 <map>
                     <group>0</group>
-                    <order>1</order>
+                    <order>2</order>
                     <name>
                         <str-tunarray-element>84</str-tunarray-element>
                         <str-tunarray-element>114</str-tunarray-element>
@@ -44,7 +44,7 @@
             <data>
                 <map>
                     <group>0</group>
-                    <order>2</order>
+                    <order>3</order>
                     <name>
                         <str-tunarray-element>84</str-tunarray-element>
                         <str-tunarray-element>101</str-tunarray-element>
@@ -53,6 +53,22 @@
                         <str-tunarray-element>105</str-tunarray-element>
                         <str-tunarray-element>110</str-tunarray-element>
                         <str-tunarray-element>103</str-tunarray-element>
+                    </name>
+                </map>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="3">
+            <data>
+                <map>
+                    <group>0</group>
+                    <order>1</order>
+                    <name>
+                        <str-tunarray-element>77</str-tunarray-element>
+                        <str-tunarray-element>97</str-tunarray-element>
+                        <str-tunarray-element>110</str-tunarray-element>
+                        <str-tunarray-element>117</str-tunarray-element>
+                        <str-tunarray-element>97</str-tunarray-element>
+                        <str-tunarray-element>108</str-tunarray-element>
                     </name>
                 </map>
             </data>

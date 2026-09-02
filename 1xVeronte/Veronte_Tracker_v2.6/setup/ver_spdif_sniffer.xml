@@ -3,8 +3,8 @@
     <filename>sniffer.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <str-tunarray-element>
@@ -27,7 +27,7 @@
                 </str-tunarray-element>
             </fields>
             <pktmask>
-                <uav>6148</uav>
+                <uav>4294967295</uav>
             </pktmask>
             <map>
                 <str-tunarray-element str-tunarray-key="0">
@@ -45,7 +45,7 @@
                     </data>
                 </str-tunarray-element>
             </map>
-            <accept_all>0</accept_all>
+            <accept_all>1</accept_all>
             <timeout>0.0</timeout>
         </str-tunarray-element>
     </data>

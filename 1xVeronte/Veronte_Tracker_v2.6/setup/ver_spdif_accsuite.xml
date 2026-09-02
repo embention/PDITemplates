@@ -3,13 +3,13 @@
     <filename>accsuite.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <sel>
-            <use>64</use>
-            <def-sen>6</def-sen>
+            <use>8</use>
+            <def-sen>3</def-sen>
         </sel>
         <tau_v>2.0</tau_v>
         <tau_s2>20.0</tau_s2>

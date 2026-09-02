@@ -3,8 +3,8 @@
     <filename>events.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <str-tunarray-element str-tunarray-key="0">
@@ -208,26 +208,13 @@
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="22">
             <data>
-                <type>4</type>
+                <type>9</type>
                 <duration>0.0</duration>
                 <idx>65535</idx>
-                <indexes>
-                    <str-tunarray-element>100</str-tunarray-element>
-                </indexes>
+                <indexes/>
             </data>
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="23">
-            <data>
-                <type>1</type>
-                <duration>0.0</duration>
-                <idx>65535</idx>
-                <indexes>
-                    <str-tunarray-element>20</str-tunarray-element>
-                    <str-tunarray-element>0</str-tunarray-element>
-                </indexes>
-            </data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="24">
             <data>
                 <type>9</type>
                 <duration>0.0</duration>
@@ -235,14 +222,22 @@
                 <indexes/>
             </data>
         </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="25">
+        <str-tunarray-element str-tunarray-key="24">
             <data>
-                <type>5</type>
+                <type>1</type>
                 <duration>0.0</duration>
                 <idx>65535</idx>
                 <indexes>
-                    <str-tunarray-element>1201</str-tunarray-element>
+                    <str-tunarray-element>3</str-tunarray-element>
                 </indexes>
+            </data>
+        </str-tunarray-element>
+        <str-tunarray-element str-tunarray-key="25">
+            <data>
+                <type>9</type>
+                <duration>0.0</duration>
+                <idx>65535</idx>
+                <indexes/>
             </data>
         </str-tunarray-element>
         <str-tunarray-element str-tunarray-key="26">
@@ -251,52 +246,6 @@
                 <duration>0.0</duration>
                 <idx>65535</idx>
                 <indexes/>
-            </data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="27">
-            <data>
-                <type>4</type>
-                <duration>0.0</duration>
-                <idx>65535</idx>
-                <indexes>
-                    <str-tunarray-element>1201</str-tunarray-element>
-                </indexes>
-            </data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="28">
-            <data>
-                <type>9</type>
-                <duration>0.0</duration>
-                <idx>65535</idx>
-                <indexes/>
-            </data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="29">
-            <data>
-                <type>9</type>
-                <duration>0.0</duration>
-                <idx>65535</idx>
-                <indexes/>
-            </data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="30">
-            <data>
-                <type>5</type>
-                <duration>0.0</duration>
-                <idx>65535</idx>
-                <indexes>
-                    <str-tunarray-element>1202</str-tunarray-element>
-                </indexes>
-            </data>
-        </str-tunarray-element>
-        <str-tunarray-element str-tunarray-key="31">
-            <data>
-                <type>4</type>
-                <duration>0.0</duration>
-                <idx>65535</idx>
-                <indexes>
-                    <str-tunarray-element>1202</str-tunarray-element>
-                </indexes>
             </data>
         </str-tunarray-element>
     </data>

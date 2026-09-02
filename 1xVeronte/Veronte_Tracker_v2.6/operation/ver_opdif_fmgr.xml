@@ -3,11 +3,12 @@
     <filename>fmgr.bin</filename>
     <version>
         <major>7</major>
-        <minor>6</minor>
-        <revision>45</revision>
+        <minor>8</minor>
+        <revision>72</revision>
     </version>
     <data>
         <genericOp/>
         <specifiedOp/>
+        <fid-groups/>
     </data>
 </entry-fmgr>
