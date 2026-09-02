@@ -1,0 +1,17 @@
+<entry-mag3filt>
+    <id>253</id>
+    <filename>mag3filt.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>8</minor>
+        <revision>72</revision>
+    </version>
+    <data>
+        <iir_cfg>
+            <enable>0</enable>
+            <cutoff_freq>1.0</cutoff_freq>
+        </iir_cfg>
+        <max_nv_samples>20</max_nv_samples>
+        <max_delta>0.0023999999</max_delta>
+    </data>
+</entry-mag3filt>

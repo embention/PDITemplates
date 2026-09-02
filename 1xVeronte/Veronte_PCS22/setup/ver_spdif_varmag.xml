@@ -1,0 +1,31 @@
+<entry-varmag>
+    <id>123</id>
+    <filename>varmag.bin</filename>
+    <version>
+        <major>7</major>
+        <minor>8</minor>
+        <revision>72</revision>
+    </version>
+    <data>
+        <rvar0>
+            <enable>1</enable>
+            <rvar_id0>3108</rvar_id0>
+            <rvar_id1>3109</rvar_id1>
+            <rvar_id2>3110</rvar_id2>
+            <min_value>-3.4028235E38</min_value>
+            <max_value>3.4028235E38</max_value>
+            <max_delta>3.4028235E38</max_delta>
+            <max_count_nv>0</max_count_nv>
+        </rvar0>
+        <rvar1>
+            <enable>1</enable>
+            <rvar_id0>4100</rvar_id0>
+            <rvar_id1>4100</rvar_id1>
+            <rvar_id2>4100</rvar_id2>
+            <min_value>-3.4028235E38</min_value>
+            <max_value>3.4028235E38</max_value>
+            <max_delta>3.4028235E38</max_delta>
+            <max_count_nv>0</max_count_nv>
+        </rvar1>
+    </data>
+</entry-varmag>
