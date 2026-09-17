@@ -1,8 +1,8 @@
-name: "💡 [R&D] New Apps Feature"
-description: "Start the process of a new version for different products."
-title: "[item/product] [FEATURE] __feature name__"
-labels: ["Apps", "Analysis", "Comment", "Epic"]
-assignees: ["acg3", "adm5"]
+name: '💡 [R&D] New Apps Feature'
+description: 'Start the process of a new version for different products.'
+title: '[item/product] [FEATURE] __feature name__'
+labels: ['Apps', 'Analysis', 'Comment']
+assignees: ['acg3']
 body:
   - type: markdown
     attributes:
@@ -21,11 +21,45 @@ body:
         - Check targets that will be affected by this release.
         - A nested sub-issue will be created for each target.
 
+  - type: input
+    id: references
+    attributes:
+      label: References
+      placeholder: '#1234'
+    validations:
+      required: false
+
+  - type: input
+    id: item_name
+    attributes:
+      label: Item name/version
+      placeholder: 'If applicable, E.g: Veronte AP 4.8'
+    validations:
+      required: false
+
+  - type: textarea
+    id: Description
+    attributes:
+      label: 'Description'
+      description: 'I want to be ale to:'
+      placeholder: 'I want to be able to enable/disable any telemetry vector'
+
+  - type: textarea
+    id: Detailed_description
+    attributes:
+      label: 'Detailed description'
+      description: 'If needed: rationale, images, diagrams...'
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Checklist de QA
+        - Marcar target si es necesaria la verificacion de esta nueva funcionalidad por parte de QA Apps.
+        - Se creará una sub-issue anidada para esta tarea
   - type: checkboxes
     id: platforms
     attributes:
-      label: Affected platforms
-      description: "The workflow will create 2 sub-issues."
+      label: ¿Necesita QA?
+      description: 'El workflow creará 1 sub-issue.'
       options:
-        - label: "Apps"
-        - label: "QA-Apps"
+        - label: 'QA-Apps'
