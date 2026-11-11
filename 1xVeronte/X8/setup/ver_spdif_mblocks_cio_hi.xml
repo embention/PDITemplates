@@ -1,0 +1,31 @@
+<entry-mblocks-cio-hi>
+    <id>434</id>
+    <filename>mblocks_cio_hi.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>4</minor>
+        <revision>18</revision>
+    </version>
+    <data>
+        <map>
+            <str-tunarray-element>
+                <x-pos>50</x-pos>
+                <y-pos>15</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>144</x-pos>
+                <y-pos>14</y-pos>
+            </str-tunarray-element>
+            <str-tunarray-element>
+                <x-pos>50</x-pos>
+                <y-pos>65</y-pos>
+            </str-tunarray-element>
+        </map>
+        <snap-settings>
+            <snap>0</snap>
+            <width>100</width>
+            <height>100</height>
+        </snap-settings>
+        <comments/>
+    </data>
+</entry-mblocks-cio-hi>
