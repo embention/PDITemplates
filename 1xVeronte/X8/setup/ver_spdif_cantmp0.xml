@@ -1,0 +1,13 @@
+<entry-cantm-p0>
+    <id>36</id>
+    <filename>cantmp0.bin</filename>
+    <version>
+        <major>8</major>
+        <minor>4</minor>
+        <revision>18</revision>
+    </version>
+    <data>
+        <data-fcan-producer-tx-ini/>
+        <data-fcan-producer-tx/>
+    </data>
+</entry-cantm-p0>
