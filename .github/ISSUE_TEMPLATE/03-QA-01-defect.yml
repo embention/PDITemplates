@@ -49,3 +49,13 @@ body:
       placeholder: "Describe the defect, steps to reproduce, related URLs, screenshots, tracebacks, or errors"
     validations:
       required: true
+
+  - type: checkboxes
+    id: corrective_actions
+    attributes:
+      label: Corrective Actions
+      options:
+        - label: "1. Analyze HLR impact."
+        - label: "2. Review LLRs in accordance with the changes."
+        - label: "3. Review Code in accordance with the changes."
+        - label: "4. Review test cases in accordance with the changes."
