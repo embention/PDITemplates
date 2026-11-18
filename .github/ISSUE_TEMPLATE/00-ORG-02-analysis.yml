@@ -26,10 +26,31 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+        ### Description Instructions
+
+        **Analysis Scope and Objectives**
+        Describe what needs to be analysed, why it is needed and the expected outcome. Define the scope, key questions and evaluation criteria.
+
+        **Affected Processes / Procedures**
+        List affected processes, procedures and documents, with links and a brief description of the impact. State "None" if no impact is identified, or "To be assessed" if unknown.
+
+        **Notification**
+        Add a comment with @mentions of the people or teams to notify.
+
+        If the change affects the Quality Management System, or the impact is uncertain, @mention the CQO or a Quality team member.
+
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Brief description of the analysis to be performed.
+      value: |
+        #### Analysis Scope and Objectives
+
+        #### Affected Processes / Procedures
+
+        #### Notification
     validations:
       required: true
