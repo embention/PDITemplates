@@ -1,0 +1,76 @@
+name: '[CM] Support Branch Generation'
+description: Generate support branches using the checklists in P.471.
+title: '[SUPPORT] [major.minor] Branch generation'
+labels:
+- Analysis
+- Comment
+- CM
+assignees: []
+body:
+- type: markdown
+  attributes:
+    value: |-
+      ### Title Instructions
+      Replace the version tag with the version to be maintained. Keep the title brief and tags ordered from general to specific.
+
+      Example: `[SUPPORT] [10.2] Branch generation`
+
+      Related procedures:
+      - [P.062 - Create Issue](https://documentation.embention.net/062/en/latest/)
+      - [P.471 - Generation of support branches](https://documentation.embention.net/471/en/latest/index.html)
+
+      Keep the applicable checklist in Description. Keep the additional VOPS section when Veronte OPS is affected.
+      Mark FW, APPS and migration checks N/A when they do not apply to the item.
+      Assign the issue to the TPM or the person coordinating branch generation.
+- type: textarea
+  id: references
+  attributes:
+    label: References
+    description: One full URL per line for the related tasks.
+    placeholder: '- https://github.com/embention/Embention/issues/xxxxx'
+  validations:
+    required: false
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Keep the P.471 checklist that applies and identify the affected repositories.
+    value: |-
+      ## SYSTEM support branch
+      - [ ] Product requirements have been completed in `develop` or the formal certification process begins from an existing support branch.
+      - [ ] The branch name follows the pattern `support/sys/H.h-S.s`.
+      - [ ] Files related to the previous system release have been deleted in the new branch: `product-major.minor.revision_bom.json` and `product-major.minor.revision_compatible_items.json`.
+
+      ## HARDWARE support branch
+      - [ ] The hardware design has been completed in `develop`.
+      - [ ] The branch name follows the pattern `support/hw/major.minor`.
+      - [ ] Product/system requirements are updated to the latest version available in `develop` or `support/sys`.
+      - [ ] The `3d` and `hw` items are consistent with each other and correspond to the hardware version whose support branch is to be generated.
+      - [ ] Development is complete and the hardware release was published before branch creation.
+      - [ ] The branch and submodules start from the commits identified by the hardware release.
+      - [ ] The TPM has coordinated review by Avionics, 3D and HW Verification according to scope.
+      - [ ] Before next-version development in `develop`, approved changes from the previous support branch have been propagated through a pull request, preserving structure, items, pointers and traces.
+
+      ## SOFTWARE support branch
+      - [ ] Development of the new software functionality has been completed in `develop`.
+      - [ ] The TPM has determined whether `support/sw/<major.minor>` with migration or `support/sw/<major>.1` without configuration migration applies.
+      - [ ] Increment `system_ver` in `base/code/source/Sysver.cpp`.
+      - [ ] Modify `VersionType` consistently in `SystemVersion.java`.
+      - [ ] Modify `version` consistently in `vtools/build.gradle`.
+      - [ ] Rename all `.xsd` files to the new `support/sw` version.
+      - [ ] Modify the version in each `.xsd` file to be consistent with the new `support/sw` version.
+      - [ ] In the constructor of `TunMigrationMgr`, change the name or add the last migration step.
+      - [ ] Update pointers, merge changes, and repeat the process in `develop` to increment the version to the new one in development.
+
+      ## Additional actions (VOPS)
+      - [ ] Delete the content of the file `/code/gui/src/assets/CHANGELOG.md`.
+      - [ ] Increment the version in the file `/code/gui/package.json`.
+      - [ ] Change the pointer to the `core-veronte` submodule.
+      - [ ] Deploy in Amplify creating the corresponding subdomain (v[minor]-vops.embention.net).
+      - [ ] Add the new IP to Embention's internal DNS (IT).
+
+      ## DOCS support branch
+      - [ ] The branch name follows the pattern `support/sw_docs/[major.minor]` or `support/hw_docs/[major.minor]`.
+      - [ ] The previous support branch has been merged into `develop`.
+  validations:
+    required: true
