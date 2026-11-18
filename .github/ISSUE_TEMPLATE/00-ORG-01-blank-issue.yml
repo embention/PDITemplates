@@ -26,10 +26,31 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+        ### Description Instructions
+
+        **Changes / Activity Description**
+        Describe the activity or proposed change, why it is needed and the expected outcome.
+
+        **Affected Processes / Procedures**
+        List affected processes, procedures and documents, with links and a brief description of the impact. State "None" if no impact is identified, or "To be assessed" if unknown.
+
+        **Notification**
+        Add a comment with @mentions of the people or teams to notify.
+
+        If the change affects the Quality Management System, or the impact is uncertain, @mention the CQO or a Quality team member.
+
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Describe the purpose of this issue.
+      value: |
+        #### Changes / Activity Description
+
+        #### Affected Processes / Procedures
+
+        #### Notification
     validations:
       required: true
