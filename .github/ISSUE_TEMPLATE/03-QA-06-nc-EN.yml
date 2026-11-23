@@ -85,11 +85,18 @@ body:
     id: d3_containment_action
     attributes:
       label: D3. Containment Action
-      description: Description of actions to isolate the effects of the problem and prevent further impact until corrective measures can be implemented.
+      description: Describe the interim measures that prevent the problem from spreading or reaching the customer.
       value: |
-        - [ ] Management of the faulty part(s) (if applicable). Current location: <!-- Describe what was done with the part(s) -->
-        - [ ] ...
-        - [ ] Ensure that the measures produce the expected result and do not cause new problems
+        - [ ] Segregation of affected parts (if applicable). Current location:
+        - [ ] Verify that containment is effective.
+    validations:
+      required: false
+
+  - type: textarea
+    id: nc_correction
+    attributes:
+      label: Correction of the Detected NC
+      description: If applicable, state what was corrected and record or link the evidence of conformity.
     validations:
       required: false
 
@@ -111,31 +118,31 @@ body:
   - type: textarea
     id: d5_corrective_action
     attributes:
-      label: D5. Corrective Action
-      description: Description of actions that will eliminate the root cause(s) and nullify the escape point(s).
+      label: D5. Correction actions
+      description: Define actions that treat or repair the detected non-conformity but they don't eliminate the root cause.
       value: |
-        - [ ] ... <!-- Action to eliminate root cause -->
-        - [ ] ... <!-- Action to nullify escape point -->
+        - [ ] ... <!-- Action to eliminate the detected non-conformity -->
+        - [ ] ... 
     validations:
       required: false
 
   - type: textarea
-    id: d6_validate_corrective_actions
+    id: d6_approve_correction_actions
     attributes:
-      label: D6. Validate Corrective Actions
+      label: D6. Correction actions approval
       value: |
-        - [ ] Validate that the proposed actions will produce the expected result and will not cause new problems
+        - [ ] The correction actions solve the detected non-conformity
     validations:
       required: false
 
   - type: textarea
-    id: d7_preventive_action
+    id: d7_corrective_action
     attributes:
-      label: D7. Preventive Action
-      description: Description of actions to prevent the current problem, similar sporadic or systematic problems from recurring.
+      label: D7. Corrective actions
+      description: Define actions to eliminate the root cause of the non-conformity to avoid it happens again in the future.
       value: |
-        - [ ] ...
-        - [ ] Validate that the proposed actions will produce the expected result and will not cause new problems
+        - [ ] ... <!-- Action to eliminate or mitigate the root cause -->
+        - [ ] Extend the solution or update controls, if applicable.
     validations:
       required: false
 

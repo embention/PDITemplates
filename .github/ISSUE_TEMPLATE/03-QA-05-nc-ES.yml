@@ -53,10 +53,19 @@ body:
   - type: textarea
     id: d3_containment_action
     attributes:
-      label: D3. Acción de Contención
-      description: Descripción de las acciones para aislar los efectos del problema y evitar un impacto adicional hasta que se puedan implementar medidas correctivas.
+      label: D3. Acción de contención
+      description: Indica qué medidas provisionales evitan que el problema se extienda o llegue al cliente.
       value: |
-        - [ ] ...
+        - [ ] Segregación de las piezas afectadas (si aplica). Ubicación actual:
+        - [ ] Verificar que la contención funciona.
+    validations:
+      required: false
+
+  - type: textarea
+    id: nc_correction
+    attributes:
+      label: Corrección de la NC detectada
+      description: Si aplica, indica qué se corrigió y registra o enlaza la evidencia de conformidad.
     validations:
       required: false
 
@@ -76,32 +85,33 @@ body:
       required: false
 
   - type: textarea
-    id: d5_corrective_action
+    id: d5_correction_action
     attributes:
-      label: D5. Acción Correctora
-      description: descripción de las acciones que eliminarán la(s) causa(s) raíz y anularán el/los punto(s) de escape.
+      label: D5. Acciones correctoras
+      description: Define las acciones para tratar o reparar el fallo o la no conformidad ya detectada, pero que no eliminan su causa raíz.
       value: |
-        - [ ] ...
+        - [ ] ... <!-- Acción para eliminar la no conformidad detectada -->
+        - [ ] ... 
     validations:
       required: false
 
   - type: textarea
-    id: d6_validate_corrective_actions
+    id: d6_approve_correction_actions
     attributes:
-      label: D6. Validar Acciones Correctoras
+      label: D6. Aprobación de acciones correctoras
       value: |
-        - [ ] Validar que las acciones propuestas producirán el resultado esperado y no generarán nuevos problemas
+        - [ ] Las acciones correctoras solventan la no conformidad detectada
     validations:
       required: false
 
   - type: textarea
-    id: d7_preventive_action
+    id: d7_corrective_action
     attributes:
-      label: D7. Acciones Correctivas
-      description: descripción de las acciones para prevenir la recurrencia del problema actual, u otros similares esporádicos o sistemáticos.
+      label: D7. Acciones correctivas
+      description: Elimina la causa raíz de una no conformidad detectada para evitar que vuelva a ocurrir
       value: |
-        - [ ] ...
-        - [ ] ...
+        - [ ] ... <!-- Acción para eliminar o mitigar la causa raíz -->
+        - [ ] Extender la solución o actualizar los controles, si aplica.
     validations:
       required: false
 
@@ -113,5 +123,4 @@ body:
         - Resumen de las acciones: ...
         - [ ] Verificar que la NC ha sido gestionada satisfactoriamente en todas sus etapas
     validations:
-    
-    
+      required: false
